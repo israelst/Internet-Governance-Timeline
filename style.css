@@ -9,3 +9,21 @@ section{
     color: #fff;
     font-family: Open Sans, Sans;
 }
+
+a {
+    background-color: #586A89;
+    border-radius: 4px;
+    color: #eee;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 1em 2em 1.2em;
+    transition: background-color 0.3s linear 0s;
+    vertical-align: middle;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #19486B;
+}
