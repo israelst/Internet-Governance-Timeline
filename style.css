@@ -1,0 +1,11 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: #b5454d;
+    padding: 4em;
+    color: #fff;
+    font-family: Open Sans, Sans;
+}
