@@ -5,7 +5,7 @@ body, html{
 }
 
 div#hero{
-    padding: 5%;
+    padding: 5% 5% 1%;
     background-color: #b5454d;
 }
 
@@ -29,7 +29,7 @@ footer strong{
 }
 
 footer{
-    margin-top: 2em;
+    margin: 3em 0 1em;
     font-size: .7em;
     color: #ccc;
 }
