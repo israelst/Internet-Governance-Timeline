@@ -42,12 +42,26 @@ section{
     font-size: .8em;
 }
 
-h1{
-    margin: 0;
+header h1{
     text-transform: uppercase;
+}
+
+h1, h2{
+    margin: 0;
     line-height: 1.3em;
     font-weight: 700;
     font-size: 3em;
+}
+
+div#timeline{
+    margin: 2em 0;
+}
+
+div#timeline h2{
+    font-variant: small-caps;
+    text-align: center;
+    margin: .5em 0;
+    color: #444;
 }
 
 header p{
@@ -77,4 +91,29 @@ a {
 
 a:hover {
     background-color: #19486B;
+}
+
+ol.months{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol.months > li{
+    height: 125px;
+    font-size: 2em;
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .1);
+    padding: .2em
+}
+
+ol.months > li:nth-child(2n+1) {
+    background-color: rgba(0, 0, 0, .04);
+}
+
+ol.months > li > *{
+    display: block;
+    margin: 0;
+    line-height: .9em;
 }
