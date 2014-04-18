@@ -55,14 +55,16 @@ h1, h2{
 }
 
 div#timeline{
-    margin: 2em 0;
+    margin: 0 0 2em 0;
 }
 
 div#timeline h2{
     font-variant: small-caps;
     text-align: center;
-    margin: .5em 0;
+    margin: 0 0 .5em 0;
+    padding: .5em 0 0 0;
     color: #444;
+    border-top: 4px solid #681D23;
 }
 
 header p{
