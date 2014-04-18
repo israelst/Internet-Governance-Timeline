@@ -9,14 +9,6 @@ div#hero{
     background-color: #b5454d;
 }
 
-div#hero > article{
-    direction: rtl;
-}
-
-div#hero > article > *{
-    direction: ltr;
-}
-
 article{
     color: #fff;
     max-width: 900px;
