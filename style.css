@@ -1,3 +1,12 @@
+/* Palette
+ *
+ * #681D23 dark red
+ * #C1BF5D olive
+ * #B5454D red
+ * #256182 blue
+ * #235068 dark blue
+*/
+
 body, html{
     margin: 0;
     padding: 0;
@@ -65,8 +74,8 @@ p{
     margin: 0 0 1.2em 0;
 }
 
-a {
-    background-color: #586A89;
+a{
+    background-color: #256182;
     border-radius: 4px;
     color: #eee;
     cursor: pointer;
@@ -82,7 +91,7 @@ a {
 }
 
 a:hover {
-    background-color: #19486B;
+    background-color: #235068;
 }
 
 ol.months{
