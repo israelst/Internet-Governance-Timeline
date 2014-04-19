@@ -2,8 +2,11 @@
 
 import csv, json
 
-f = open('data.csv')
-header = f.readline().split(',')
-reader = csv.DictReader(f, fieldnames=header)
-json_dump = json.dumps(list(reader))
-print json_dump
+def csv2json(fd):
+    header = fd.readline().split(',')
+    reader = csv.DictReader(fd, fieldnames=header)
+    json_dump = json.dumps(list(reader))
+    return json_dump
+
+if __name__ == '__main__':
+    print csv2json(open('data.csv'))
