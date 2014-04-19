@@ -921,10 +921,8 @@
 		L606.208,40"/>
 	<path fill="none" stroke="#000000" d="M577.161,42.25v-4.5 M606.208,42.25v-4.5 M577.161,24.41h29.047 M577.161,26.66v-4.5
 		 M606.208,26.66v-4.5"/>
-	<text transform="matrix(1 0 0 1 504.6963 28.166)" font-family="'Gotham-Book'" font-size="9">Dir</text>
-	<text transform="matrix(1 0 0 1 517.5479 28.166)" font-family="'Gotham-Book'" font-size="9">ect Relation</text>
-	<text transform="matrix(1 0 0 1 497.5947 45.416)" font-family="'Gotham-Book'" font-size="9">Indir</text>
-	<text transform="matrix(1 0 0 1 517.5479 45.416)" font-family="'Gotham-Book'" font-size="9">ect Relation</text>
+	<text transform="matrix(1 0 0 1 504.6963 28.166)" font-family="'Gotham-Book'" font-size="9">Direct Relation</text>
+	<text transform="matrix(1 0 0 1 497.5947 45.416)" font-family="'Gotham-Book'" font-size="9">Indirect Relation</text>
 	<path fill="none" stroke="#000000" d="M253.819,107.421V245.07 M251.569,107.421h4.5 M251.569,245.07h4.5 M198.779,107.421v183.298
 		 M196.529,107.421h4.5 M196.529,290.719h4.5 M143.74,107.421v228.947 M141.49,107.421h4.5 M141.49,336.368h4.5 M88.701,107.421
 		v320.245 M86.451,107.421h4.5 M86.451,427.666h4.5 M209.787,335.667v228.947 M207.537,335.667h4.5 M207.537,564.614h4.5
