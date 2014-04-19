@@ -8,5 +8,3 @@ def csv2json(fd):
     json_dump = json.dumps(list(reader))
     return json_dump
 
-if __name__ == '__main__':
-    print csv2json(open('data.csv'))
