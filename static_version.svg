@@ -174,30 +174,15 @@
 	<polygon fill="#B5454D" points="40.016,1156.852 60.331,1156.852 60.331,1112.902 40.016,1112.902 40.016,1156.852 	"/>
 	<text transform="matrix(0 -1 1 0 53.8916 1144.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">DEC</text>
 	<polygon fill="#B5454D" points="62.115,62.973 62.115,84.096 808.866,84.097 808.866,62.973 62.115,62.973 	"/>
-	<text transform="matrix(1 0 0 1 402.1807 77.252)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">INS</text>
-	<text transform="matrix(1 0 0 1 417.9385 77.252)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">TITUTIONS</text>
+	<text transform="matrix(1 0 0 1 402.1807 77.252)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">INSTITUTIONS</text>
 	<polygon fill="#4B314F" points="62.032,85.797 62.032,106.921 280.488,106.921 280.488,85.797 62.032,85.797 	"/>
-	<text transform="matrix(1 0 0 1 99.8838 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">UN pr</text>
-	<text transform="matrix(1 0 0 1 123.2822 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">oc</text>
-	<text transform="matrix(1 0 0 1 133.04 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">esses (</text>
-	<text transform="matrix(1 0 0 1 160.5322 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">GA/EC</text>
-	<text transform="matrix(1 0 0 1 188.4697 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">OSOC/</text>
-	<text transform="matrix(1 0 0 1 216.9775 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">CS</text>
-	<text transform="matrix(1 0 0 1 227.876 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">TD</text>
-	<text transform="matrix(1 0 0 1 239.0791 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">)</text>
+	<text transform="matrix(1 0 0 1 99.8838 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">UN processes (GA/ECOSOC/CSTD)</text>
 	<polygon fill="#B5454D" points="282.189,85.797 282.189,106.921 368.551,106.921 368.551,85.797 282.189,85.797 	"/>
-	<text transform="matrix(1 0 0 1 293.2197 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">W</text>
-	<text transform="matrix(1 0 0 1 302.04 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">SIS pr</text>
-	<text transform="matrix(1 0 0 1 325.9854 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">oc</text>
-	<text transform="matrix(1 0 0 1 335.7432 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">esses</text>
+	<text transform="matrix(1 0 0 1 293.2197 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">WSIS processes</text>
 	<polygon fill="#E55937" points="370.252,85.797 370.252,106.921 544.678,106.921 544.678,85.797 370.252,85.797 	"/>
-	<text transform="matrix(1 0 0 1 429.2275 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">ITU pr</text>
-	<text transform="matrix(1 0 0 1 454.165 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">oc</text>
-	<text transform="matrix(1 0 0 1 463.9307 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">esses</text>
+	<text transform="matrix(1 0 0 1 429.2275 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">ITU processes</text>
 	<polygon fill="#3BA66B" points="546.378,85.797 546.378,106.921 654.756,106.921 654.756,85.797 546.378,85.797 	"/>
-	<text transform="matrix(1 0 0 1 572.1885 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">IGF pr</text>
-	<text transform="matrix(1 0 0 1 597.4229 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">oc</text>
-	<text transform="matrix(1 0 0 1 607.1729 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">esses</text>
+	<text transform="matrix(1 0 0 1 572.1885 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">IGF processes</text>
 	<polygon fill="#36A8DC" points="656.457,85.797 656.457,106.921 742.819,106.921 742.819,85.797 656.457,85.797 	"/>
 	<text transform="matrix(1 0 0 1 674.501 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">ICANN/IETF</text>
 	<polygon fill="#725770" points="227.149,245.57 227.149,289.518 280.488,289.518 280.488,245.57 227.149,245.57 	"/>
