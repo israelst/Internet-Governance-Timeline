@@ -130,6 +130,10 @@ ol.months > li > *{
     font-size: .8em;
 }
 
+.event.un{
+    background-color: rgba(75, 49, 79, .7);
+}
+
 .event.wsis{
     background-color: rgba(181, 69, 77, .7);
 }
