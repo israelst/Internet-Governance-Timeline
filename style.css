@@ -133,3 +133,8 @@ ol.months > li > *{
 .event.wsis{
     background-color: rgba(181, 69, 77, .7);
 }
+
+.event.itu{
+    background-color: rgba(229, 89, 55, .7);
+}
+
