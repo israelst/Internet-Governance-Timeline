@@ -609,33 +609,15 @@
 	<text transform="matrix(1 0 0 1 585.04 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG Mtg</text>
 	<text transform="matrix(1 0 0 1 583.8916 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 21–23</text>
 	<polygon fill="#7FC0E7" points="656.457,154.271 656.457,198.219 698.787,198.219 698.787,154.271 656.457,154.271 	"/>
-	<text transform="matrix(1 0 0 1 664.751 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IE</text>
-	<text transform="matrix(1 0 0 1 671.5635 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">TF</text>
-	<text transform="matrix(1 0 0 1 680.04 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5"> </text>
-	<text transform="matrix(1 0 0 1 681.9229 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">86</text>
-	<text transform="matrix(1 0 0 1 663.8604 178.9316)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Or</text>
-	<text transform="matrix(1 0 0 1 672.3291 178.9316)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">land</text>
-	<text transform="matrix(1 0 0 1 687.0713 178.9316)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">o</text>
-	<text transform="matrix(1 0 0 1 661.9463 186.7285)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Ma</text>
-	<text transform="matrix(1 0 0 1 671.6025 186.7285)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">r </text>
-	<text transform="matrix(1 0 0 1 676.0479 186.7285)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">10</text>
-	<text transform="matrix(1 0 0 1 683.4932 186.7285)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">–1</text>
-	<text transform="matrix(1 0 0 1 689.3213 186.7285)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">5</text>
+	<text transform="matrix(1 0 0 1 664.751 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 86</text>
+	<text transform="matrix(1 0 0 1 663.8604 178.9316)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Orlando</text>
+	<text transform="matrix(1 0 0 1 661.9463 186.7285)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 10–15</text>
 	<path fill="none" stroke="#000000" d="M721.653,107.285v91.999 M719.403,107.285h4.5 M719.403,199.284h4.5 M677.622,198.72v137.648
 		 M675.372,198.72h4.5 M675.372,336.368h4.5"/>
 	<polygon fill="#7FC0E7" points="656.457,336.868 656.457,380.816 698.787,380.816 698.787,336.868 656.457,336.868 	"/>
-	<text transform="matrix(1 0 0 1 664.9775 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IE</text>
-	<text transform="matrix(1 0 0 1 671.79 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">TF</text>
-	<text transform="matrix(1 0 0 1 680.2666 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5"> 87</text>
-	<text transform="matrix(1 0 0 1 667.6729 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Be</text>
-	<text transform="matrix(1 0 0 1 676.6025 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">rlin</text>
-	<text transform="matrix(1 0 0 1 657.001 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Ju</text>
-	<text transform="matrix(1 0 0 1 664.6416 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">l </text>
-	<text transform="matrix(1 0 0 1 667.9775 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">28</text>
-	<text transform="matrix(1 0 0 1 676.0791 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">–A</text>
-	<text transform="matrix(1 0 0 1 684.4229 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">ug</text>
-	<text transform="matrix(1 0 0 1 692.5557 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5"> </text>
-	<text transform="matrix(1 0 0 1 694.3525 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">2</text>
+	<text transform="matrix(1 0 0 1 664.9775 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 87</text>
+	<text transform="matrix(1 0 0 1 667.6729 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Berlin</text>
+	<text transform="matrix(1 0 0 1 657.001 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 28–Aug 2</text>
 	<path fill="none" stroke="#000000" d="M677.622,381.316v137.648 M675.372,381.316h4.5 M675.372,518.964h4.5"/>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,1.9225" x1="264.827" y1="565.834" x2="264.827" y2="586.021"/>
@@ -651,43 +633,18 @@
 	<path fill="none" stroke="#000000" d="M251.569,700.754h4.5 M251.569,792.859h4.5 M677.622,746.508v137.648 M675.372,746.508h4.5
 		 M675.372,884.156h4.5"/>
 	<polygon fill="#7FC0E7" points="656.457,884.656 656.457,928.605 698.787,928.605 698.787,884.656 656.457,884.656 	"/>
-	<text transform="matrix(1 0 0 1 664.4307 901.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IE</text>
-	<text transform="matrix(1 0 0 1 671.2432 901.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">TF</text>
-	<text transform="matrix(1 0 0 1 679.7197 901.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5"> </text>
-	<text transform="matrix(1 0 0 1 681.6025 901.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">90</text>
-	<text transform="matrix(1 0 0 1 664.2666 909.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">To</text>
-	<text transform="matrix(1 0 0 1 672.5244 909.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ront</text>
-	<text transform="matrix(1 0 0 1 686.6572 909.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">o</text>
-	<text transform="matrix(1 0 0 1 659.915 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Ju</text>
-	<text transform="matrix(1 0 0 1 667.7432 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">ly</text>
-	<text transform="matrix(1 0 0 1 673.2744 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5"> </text>
-	<text transform="matrix(1 0 0 1 675.1494 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">20</text>
-	<text transform="matrix(1 0 0 1 684.0635 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">–2</text>
-	<text transform="matrix(1 0 0 1 691.3525 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">5</text>
+	<text transform="matrix(1 0 0 1 664.4307 901.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 90</text>
+	<text transform="matrix(1 0 0 1 664.2666 909.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Toronto</text>
+	<text transform="matrix(1 0 0 1 659.915 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">July 20–25</text>
 	<polygon fill="#7FC0E7" points="700.488,1044.432 700.488,1088.381 742.819,1088.381 742.819,1044.432 700.488,1044.432 	"/>
-	<text transform="matrix(1 0 0 1 705.8604 1061.291)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN</text>
-	<text transform="matrix(1 0 0 1 728.6494 1061.291)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5"> </text>
-	<text transform="matrix(1 0 0 1 730.5322 1061.291)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">51</text>
-	<text transform="matrix(1 0 0 1 701.165 1069.0957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Lo</text>
-	<text transform="matrix(1 0 0 1 709.665 1069.0957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">s </text>
-	<text transform="matrix(1 0 0 1 714.751 1069.0957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Angele</text>
-	<text transform="matrix(1 0 0 1 738.876 1069.0957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">s</text>
-	<text transform="matrix(1 0 0 1 706.4932 1076.8848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oc</text>
-	<text transform="matrix(1 0 0 1 716.0166 1076.8848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">t </text>
-	<text transform="matrix(1 0 0 1 720.4697 1076.8848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">12</text>
-	<text transform="matrix(1 0 0 1 726.7275 1076.8848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">–1</text>
-	<text transform="matrix(1 0 0 1 732.6104 1076.8848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">6</text>
+	<text transform="matrix(1 0 0 1 705.8604 1061.291)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 51</text>
+	<text transform="matrix(1 0 0 1 701.165 1069.0957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Los Angeles</text>
+	<text transform="matrix(1 0 0 1 706.4932 1076.8848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 12–16</text>
 	<path fill="none" stroke="#000000" d="M721.653,883.457v160.475 M719.403,883.457h4.5 M719.403,1043.932h4.5"/>
 	<polygon fill="#7FC0E7" points="657.308,1066.402 657.308,1110.352 699.639,1110.352 699.639,1066.402 657.308,1066.402 	"/>
-	<text transform="matrix(1 0 0 1 666.3369 1083.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IE</text>
-	<text transform="matrix(1 0 0 1 673.1494 1083.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">TF</text>
-	<text transform="matrix(1 0 0 1 681.6182 1083.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5"> </text>
-	<text transform="matrix(1 0 0 1 683.5088 1083.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">91</text>
+	<text transform="matrix(1 0 0 1 666.3369 1083.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 91</text>
 	<text transform="matrix(1 0 0 1 663.2432 1091.0645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Honolulu</text>
-	<text transform="matrix(1 0 0 1 663.6416 1098.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">No</text>
-	<text transform="matrix(1 0 0 1 673.0635 1098.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">v </text>
-	<text transform="matrix(1 0 0 1 678.6885 1098.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">9–</text>
-	<text transform="matrix(1 0 0 1 686.5166 1098.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">14</text>
+	<text transform="matrix(1 0 0 1 663.6416 1098.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 9–14</text>
 	<path fill="none" stroke="#000000" d="M677.622,929.105v136.797 M675.372,929.105h4.5 M675.372,1065.902h4.5"/>
 	<polygon fill="#19486B" points="794.693,17.323 794.693,31.497 808.866,31.497 808.866,17.323 794.693,17.323 	"/>
 	<polygon fill="#586A89" points="794.693,32.914 794.693,47.087 808.866,47.087 808.866,32.914 794.693,32.914 	"/>
