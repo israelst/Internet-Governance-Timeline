@@ -580,8 +580,7 @@
 	<path fill="none" stroke="#000000" d="M473.977,837.809v206.123 M471.727,837.809h4.5 M471.727,1043.932h4.5 M385.913,769.059
 		v274.873 M383.663,769.059h4.5 M383.663,1043.932h4.5"/>
 	<polygon fill="#19486B" points="744.521,85.797 744.521,106.921 808.866,106.921 808.866,85.797 744.521,85.797 	"/>
-	<text transform="matrix(1 0 0 1 762.2119 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">O</text>
-	<text transform="matrix(1 0 0 1 768.7666 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">THER</text>
+	<text transform="matrix(1 0 0 1 762.2119 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">OTHER</text>
 	<path fill="none" stroke="#000000" d="M308.433,700.932v57.689 M306.183,700.932h4.5 M306.183,758.621h4.5"/>
 	<polygon fill="#ECECF1" points="744.52,108.622 744.52,152.57 808.866,152.57 808.866,108.622 744.52,108.622 	"/>
 	<polygon fill="#ECECF1" points="744.52,154.271 744.52,198.219 808.866,198.219 808.866,154.271 744.52,154.271 	"/>
