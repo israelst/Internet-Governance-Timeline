@@ -122,57 +122,59 @@
 	<text transform="matrix(1 0 0 1 18.001 1164.2832)" font-family="'Gotham-Book'" font-size="5.5">Unless stated otherwise, all GA meetings take place in NY, while CSTD, WGEC, ITU, and WSIS meetings take place in Geneva.</text>
 	<text transform="matrix(1 0 0 1 18.001 28.9004)" fill="#B5454D" font-family="'Gotham-Bold'" font-size="14">INTERNET GOVERNANCE PROCESSES</text>
 	<text transform="matrix(1 0 0 1 18.001 44.9004)" font-family="'Gotham-Book'" font-size="14">Visualizing the playing field</text>
-	<polygon fill="#B5454D" points="18,62.973 18,106.921 60.331,106.921 60.331,62.973 18,62.973 	"/>
-	<polygon fill="#B5454D" points="18,609.062 38.315,609.062 38.315,108.622 18,108.622 18,609.062 	"/>
-	<text transform="matrix(0 -1 1 0 31.876 369.5957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">2013</text>
-	<polygon fill="#B5454D" points="40.016,152.57 60.331,152.57 60.331,108.622 40.016,108.622 40.016,152.57 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 139.7988)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">FEB</text>
 	<polygon fill="#B5454D" points="18,1156.852 38.315,1156.852 38.315,610.764 18,610.764 18,1156.852 	"/>
-	<text transform="matrix(0 -1 1 0 31.876 894.8691)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">2014</text>
-	<polygon fill="#B5454D" points="40.016,198.22 60.331,198.22 60.331,154.271 40.016,154.271 40.016,198.22 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 186.9629)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">MAR</text>
-	<polygon fill="#B5454D" points="40.016,243.869 60.331,243.869 60.331,199.92 40.016,199.92 40.016,243.869 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 231.7129)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">APR</text>
-	<polygon fill="#B5454D" points="40.016,289.518 60.331,289.518 60.331,245.569 40.016,245.569 40.016,289.518 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">MAY</text>
-	<polygon fill="#B5454D" points="40.016,335.167 60.331,335.167 60.331,291.219 40.016,291.219 40.016,335.167 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 322.6895)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JUN</text>
-	<polygon fill="#B5454D" points="40.016,380.816 60.331,380.816 60.331,336.868 40.016,336.868 40.016,380.816 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 367.5645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JUL</text>
-	<polygon fill="#B5454D" points="40.016,426.465 60.331,426.465 60.331,382.517 40.016,382.517 40.016,426.465 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 414.8613)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">AUG</text>
-	<polygon fill="#B5454D" points="40.016,472.114 60.331,472.114 60.331,428.166 40.016,428.166 40.016,472.114 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 459.0488)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">SEP</text>
-	<polygon fill="#B5454D" points="40.016,517.763 60.331,517.763 60.331,473.815 40.016,473.815 40.016,517.763 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 505.8457)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">OCT</text>
-	<polygon fill="#B5454D" points="40.016,563.413 60.331,563.413 60.331,519.464 40.016,519.464 40.016,563.413 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 551.9863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">NOV</text>
-	<polygon fill="#B5454D" points="40.016,609.062 60.331,609.062 60.331,565.113 40.016,565.113 40.016,609.062 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 596.9473)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">DEC</text>
-	<polygon fill="#B5454D" points="40.016,654.711 60.331,654.711 60.331,610.764 40.016,610.764 40.016,654.711 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 642.2754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JAN</text>
-	<polygon fill="#B5454D" points="40.016,700.359 60.331,700.359 60.331,656.412 40.016,656.412 40.016,700.359 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 687.5957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">FEB</text>
-	<polygon fill="#B5454D" points="40.016,746.008 60.331,746.008 60.331,702.061 40.016,702.061 40.016,746.008 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 734.752)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">MAR</text>
-	<polygon fill="#B5454D" points="40.016,791.658 60.331,791.658 60.331,747.709 40.016,747.709 40.016,791.658 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 779.4863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">APR</text>
-	<polygon fill="#B5454D" points="40.016,837.307 60.331,837.307 60.331,793.359 40.016,793.359 40.016,837.307 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 825.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">MAY</text>
-	<polygon fill="#B5454D" points="40.016,882.957 60.331,882.957 60.331,839.008 40.016,839.008 40.016,882.957 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 870.4785)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JUN</text>
-	<polygon fill="#B5454D" points="40.016,928.605 60.331,928.605 60.331,884.656 40.016,884.656 40.016,928.605 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 915.3457)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JUL</text>
-	<polygon fill="#B5454D" points="40.016,974.254 60.331,974.254 60.331,930.307 40.016,930.307 40.016,974.254 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 962.6504)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">AUG</text>
+	<polygon fill="#B5454D" points="18,609.062 38.315,609.062 38.315,108.622 18,108.622 18,609.062 	"/>
+	<polygon fill="#B5454D" points="18,62.973 18,106.921 60.331,106.921 60.331,62.973 18,62.973 	"/>
 	<polygon fill="#B5454D" points="40.016,1019.902 60.331,1019.902 60.331,975.955 40.016,975.955 40.016,1019.902 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 1006.8223)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">SEP</text>
 	<polygon fill="#B5454D" points="40.016,1065.551 60.331,1065.551 60.331,1021.602 40.016,1021.602 40.016,1065.551 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 1053.6426)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">OCT</text>
 	<polygon fill="#B5454D" points="40.016,1111.201 60.331,1111.201 60.331,1067.252 40.016,1067.252 40.016,1111.201 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 1099.7832)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">NOV</text>
 	<polygon fill="#B5454D" points="40.016,1156.852 60.331,1156.852 60.331,1112.902 40.016,1112.902 40.016,1156.852 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 1144.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">DEC</text>
+	<polygon fill="#B5454D" points="40.016,152.57 60.331,152.57 60.331,108.622 40.016,108.622 40.016,152.57 	"/>
+	<polygon fill="#B5454D" points="40.016,198.22 60.331,198.22 60.331,154.271 40.016,154.271 40.016,198.22 	"/>
+	<polygon fill="#B5454D" points="40.016,243.869 60.331,243.869 60.331,199.92 40.016,199.92 40.016,243.869 	"/>
+	<polygon fill="#B5454D" points="40.016,289.518 60.331,289.518 60.331,245.569 40.016,245.569 40.016,289.518 	"/>
+	<polygon fill="#B5454D" points="40.016,335.167 60.331,335.167 60.331,291.219 40.016,291.219 40.016,335.167 	"/>
+	<polygon fill="#B5454D" points="40.016,380.816 60.331,380.816 60.331,336.868 40.016,336.868 40.016,380.816 	"/>
+	<polygon fill="#B5454D" points="40.016,426.465 60.331,426.465 60.331,382.517 40.016,382.517 40.016,426.465 	"/>
+	<polygon fill="#B5454D" points="40.016,472.114 60.331,472.114 60.331,428.166 40.016,428.166 40.016,472.114 	"/>
+	<polygon fill="#B5454D" points="40.016,517.763 60.331,517.763 60.331,473.815 40.016,473.815 40.016,517.763 	"/>
+	<polygon fill="#B5454D" points="40.016,563.413 60.331,563.413 60.331,519.464 40.016,519.464 40.016,563.413 	"/>
+	<polygon fill="#B5454D" points="40.016,609.062 60.331,609.062 60.331,565.113 40.016,565.113 40.016,609.062 	"/>
+	<polygon fill="#B5454D" points="40.016,654.711 60.331,654.711 60.331,610.764 40.016,610.764 40.016,654.711 	"/>
+	<polygon fill="#B5454D" points="40.016,700.359 60.331,700.359 60.331,656.412 40.016,656.412 40.016,700.359 	"/>
+	<polygon fill="#B5454D" points="40.016,746.008 60.331,746.008 60.331,702.061 40.016,702.061 40.016,746.008 	"/>
+	<polygon fill="#B5454D" points="40.016,791.658 60.331,791.658 60.331,747.709 40.016,747.709 40.016,791.658 	"/>
+	<polygon fill="#B5454D" points="40.016,837.307 60.331,837.307 60.331,793.359 40.016,793.359 40.016,837.307 	"/>
+	<polygon fill="#B5454D" points="40.016,882.957 60.331,882.957 60.331,839.008 40.016,839.008 40.016,882.957 	"/>
+	<polygon fill="#B5454D" points="40.016,928.605 60.331,928.605 60.331,884.656 40.016,884.656 40.016,928.605 	"/>
+	<polygon fill="#B5454D" points="40.016,974.254 60.331,974.254 60.331,930.307 40.016,930.307 40.016,974.254 	"/>
+	<g fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">
+	<text transform="matrix(0 -1 1 0 31.876 369.5957)">2013</text>
+	<text transform="matrix(0 -1 1 0 31.876 894.8691)">2014</text>
+	<text transform="matrix(0 -1 1 0 53.8916 1006.8223)">SEP</text>
+	<text transform="matrix(0 -1 1 0 53.8916 1053.6426)">OCT</text>
+	<text transform="matrix(0 -1 1 0 53.8916 1099.7832)">NOV</text>
+	<text transform="matrix(0 -1 1 0 53.8916 1144.7207)">DEC</text>
+	<text transform="matrix(0 -1 1 0 53.8916 139.7988)">FEB</text>
+	<text transform="matrix(0 -1 1 0 53.8916 186.9629)">MAR</text>
+	<text transform="matrix(0 -1 1 0 53.8916 231.7129)">APR</text>
+	<text transform="matrix(0 -1 1 0 53.8916 277.7441)">MAY</text>
+	<text transform="matrix(0 -1 1 0 53.8916 322.6895)">JUN</text>
+	<text transform="matrix(0 -1 1 0 53.8916 367.5645)">JUL</text>
+	<text transform="matrix(0 -1 1 0 53.8916 414.8613)">AUG</text>
+	<text transform="matrix(0 -1 1 0 53.8916 459.0488)">SEP</text>
+	<text transform="matrix(0 -1 1 0 53.8916 505.8457)">OCT</text>
+	<text transform="matrix(0 -1 1 0 53.8916 551.9863)">NOV</text>
+	<text transform="matrix(0 -1 1 0 53.8916 596.9473)">DEC</text>
+	<text transform="matrix(0 -1 1 0 53.8916 642.2754)">JAN</text>
+	<text transform="matrix(0 -1 1 0 53.8916 687.5957)">FEB</text>
+	<text transform="matrix(0 -1 1 0 53.8916 734.752)">MAR</text>
+	<text transform="matrix(0 -1 1 0 53.8916 779.4863)">APR</text>
+	<text transform="matrix(0 -1 1 0 53.8916 825.5176)">MAY</text>
+	<text transform="matrix(0 -1 1 0 53.8916 870.4785)">JUN</text>
+	<text transform="matrix(0 -1 1 0 53.8916 915.3457)">JUL</text>
+	<text transform="matrix(0 -1 1 0 53.8916 962.6504)">AUG</text>
+	</g>
 	<polygon fill="#B5454D" points="62.115,62.973 62.115,84.096 808.866,84.097 808.866,62.973 62.115,62.973 	"/>
 	<text transform="matrix(1 0 0 1 402.1807 77.252)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">INSTITUTIONS</text>
 	<polygon fill="#4B314F" points="62.032,85.797 62.032,106.921 280.488,106.921 280.488,85.797 62.032,85.797 	"/>
