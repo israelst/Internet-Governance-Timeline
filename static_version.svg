@@ -606,15 +606,8 @@
 	<polygon fill="#ECECF1" points="744.52,1067.252 744.52,1111.201 808.866,1111.201 808.866,1067.252 744.52,1067.252 	"/>
 	<polygon fill="#ECECF1" points="744.52,1112.902 744.52,1156.852 808.866,1156.852 808.866,1112.902 744.52,1112.902 	"/>
 	<polygon fill="#80C091" points="546.396,268.394 546.396,289.518 654.331,289.518 654.331,268.394 546.396,268.394 	"/>
-	<text transform="matrix(1 0 0 1 585.04 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MA</text>
-	<text transform="matrix(1 0 0 1 595.7979 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">G </text>
-	<text transform="matrix(1 0 0 1 602.7119 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Mt</text>
-	<text transform="matrix(1 0 0 1 611.29 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">g</text>
-	<text transform="matrix(1 0 0 1 583.8916 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Ma</text>
-	<text transform="matrix(1 0 0 1 593.3604 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">y </text>
-	<text transform="matrix(1 0 0 1 599.0244 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">21</text>
-	<text transform="matrix(1 0 0 1 605.5947 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">–2</text>
-	<text transform="matrix(1 0 0 1 612.8525 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">3</text>
+	<text transform="matrix(1 0 0 1 585.04 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG Mtg</text>
+	<text transform="matrix(1 0 0 1 583.8916 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 21–23</text>
 	<polygon fill="#7FC0E7" points="656.457,154.271 656.457,198.219 698.787,198.219 698.787,154.271 656.457,154.271 	"/>
 	<text transform="matrix(1 0 0 1 664.751 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IE</text>
 	<text transform="matrix(1 0 0 1 671.5635 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">TF</text>
