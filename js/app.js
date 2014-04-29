@@ -1,24 +1,24 @@
 window.onscroll = stickElement;
-var timeline = document.getElementById('timeline');
+var timeline = document.getElementById('timeline'),
+    primary = document.querySelector('h2');
 
 window.onload = function(){
-    var it = document.querySelector('h2').cloneNode(true);
+    var it = primary.cloneNode(true);
         it.className = 'clone';
 
     timeline.appendChild(it);
 };
 
 function stickElement(){
-    var clone = document.querySelector('.clone'),
-        primary = document.querySelector('.primary');
+    var clone = document.querySelector('.clone');
 
     if(window.pageYOffset >= timeline.offsetTop) {
         primary.style.visibility = 'hidden';
-        clone.style.display = 'block';
+        clone.style.visibility = 'visible';
         clone.classList.add('stick');
     } else {
         primary.style.visibility = 'visible';
-        clone.style.display = 'none';
+        clone.style.visibility = 'hidden';
         clone.classList.remove('stick');
     }
 };
