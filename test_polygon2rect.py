@@ -1,6 +1,6 @@
 import unittest
 
-from polygon2rect import rect_points
+from polygon2rect import rect_points, extract_points
 
 class TestPolygonToRect(unittest.TestCase):
     def test_real_points(self):
@@ -11,6 +11,10 @@ class TestPolygonToRect(unittest.TestCase):
         polygon_points = "546.378,108.622 546.378,152.571 654.756,152.571 654.756,108.622 546.378,108.622 	"
         self.assertEqual(rect_points(polygon_points), (x, y, width, height))
 
+    def test_extract_points_from_polygon(self):
+        points = '18,1156.852 38.315,1156.852 38.315,610.764 18,610.764 18,1156.852 	'
+        line = '<polygon fill="#B5454D" points="{}"/>'.format(points)
+        self.assertEqual(extract_points(line), points)
 
 if __name__ == '__main__':
     unittest.main()

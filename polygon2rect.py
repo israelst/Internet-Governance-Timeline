@@ -1,3 +1,7 @@
+import re
+
+def extract_points(line):
+    return re.search(r'(points=")([^"]*)', line).group(2)
 
 def rect_points(polygon_points):
     points = [map(float, point.split(','))
