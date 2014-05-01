@@ -11,9 +11,15 @@ class TestPolygonToRect(unittest.TestCase):
         polygon_points = "546.378,108.622 546.378,152.571 654.756,152.571 654.756,108.622 546.378,108.622 	"
         self.assertEqual(rect_points(polygon_points), (x, y, width, height))
 
-    def test_extract_points_from_polygon(self):
+class TestExtractPoints(unittest.TestCase):
+    def test_with_no_spaces_in_attr_name(self):
         points = '18,1156.852 38.315,1156.852 38.315,610.764 18,610.764 18,1156.852 	'
         line = '<polygon fill="#B5454D" points="{}"/>'.format(points)
+        self.assertEqual(extract_points(line), points)
+
+    def test_with_one_spaces_in_attr_name(self):
+        points = '18,1156.852 38.315,1156.852 38.315,610.764 18,610.764 18,1156.852 	'
+        line = '<polygon fill="#B5454D" points= "{}"/>'.format(points)
         self.assertEqual(extract_points(line), points)
 
 if __name__ == '__main__':
