@@ -1,6 +1,6 @@
 import unittest
 
-from polygon2rect import rect_points, extract_points
+from polygon2rect import process_line, rect_points, extract_points
 
 class TestPolygonToRect(unittest.TestCase):
     def test_real_points(self):
@@ -34,6 +34,14 @@ class TestExtractPoints(unittest.TestCase):
         points = '18,1156.852 38.315,1156.852 38.315,610.764 18,610.764 18,1156.852 	'
         line = '<polygon fill="#B5454D" points=\'{}\'/>'.format(points)
         self.assertEqual(extract_points(line), points)
+
+class TestProcessLine(unittest.TestCase):
+    def test_with_single_quote(self):
+        line = '<polygon fill="#B5454D" points=\'18,1156.852 38.315,1156.852 38.315,610.764 18,610.764 18,1156.852 	\'/>'
+        rect = '<rect fill="#B5454D" x="18.0" y="1156.852" width="20.315" height="546.088"/>'
+
+        self.assertEqual(process_line(line), rect)
+
 
 if __name__ == '__main__':
     unittest.main()

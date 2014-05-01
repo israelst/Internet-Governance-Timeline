@@ -1,5 +1,12 @@
 import re
 
+def process_line(line):
+    values = rect_points(extract_points(line))
+    rect_pattern = 'x="{}" y="{}" width="{}" height="{}"'
+    rect_attr = rect_pattern.format(*values)
+    line = re.sub(r'points[^\d]+[^\'"]*.', rect_attr, line)
+    return line.replace('polygon', 'rect')
+
 def extract_points(line):
     results = re.search(r'points[^\d]+([^\'"]*)', line)
     return results.group(1)
