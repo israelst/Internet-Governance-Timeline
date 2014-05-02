@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="830px" height="1183px" viewBox="0 0 830 1183" enable-background="new 0 0 830 1183" xml:space="preserve">
-<g>
+<g font-family="'Gotham-Bold'">
 	<g fill="#EFF7EF">
 		<rect x="546.378" y="108.622" width="108.378" height="43.949" />
 		<rect x="546.378" y="154.271" width="108.378" height="43.949" />
@@ -129,9 +129,9 @@
 		<rect x="62.032" y="1067.252" width="218.456" height="43.948" />
 		<rect x="62.032" y="1112.902" width="218.456" height="43.948" />
 	</g>
-	<text transform="matrix(1 0 0 1 18.001 1164.2832)" font-family="'Gotham-Book'" font-size="5.5">Unless stated otherwise, all GA meetings take place in NY, while CSTD, WGEC, ITU, and WSIS meetings take place in Geneva.</text>
-	<text transform="matrix(1 0 0 1 18.001 28.9004)" fill="#B5454D" font-family="'Gotham-Bold'" font-size="14">INTERNET GOVERNANCE PROCESSES</text>
-	<text transform="matrix(1 0 0 1 18.001 44.9004)" font-family="'Gotham-Book'" font-size="14">Visualizing the playing field</text>
+	<text transform="matrix(1 0 0 1 18.001 1164.2832)" font-size="5.5">Unless stated otherwise, all GA meetings take place in NY, while CSTD, WGEC, ITU, and WSIS meetings take place in Geneva.</text>
+	<text transform="matrix(1 0 0 1 18.001 28.9004)" fill="#B5454D" font-size="14">INTERNET GOVERNANCE PROCESSES</text>
+	<text transform="matrix(1 0 0 1 18.001 44.9004)" font-size="14">Visualizing the playing field</text>
 	<g fill="#B5454D" class="row-header" >
 		<rect x="18.0" y="610.764" width="20.315" height="546.088"/>
 		<rect x="18.0" y="108.622" width="20.315" height="500.44"/>
@@ -160,7 +160,7 @@
 		<rect x="40.016" y="884.656" width="20.315" height="43.949"/>
 		<rect x="40.016" y="930.307" width="20.315" height="43.947"/>
 	</g>
-	<g fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">
+	<g fill="#FFFFFF" font-size="9">
 		<text transform="matrix(0 -1 1 0 31.876 369.5957)">2013</text>
 		<text transform="matrix(0 -1 1 0 31.876 894.8691)">2014</text>
 		<text transform="matrix(0 -1 1 0 53.8916 1006.8223)">SEP</text>
@@ -188,201 +188,201 @@
 		<text transform="matrix(0 -1 1 0 53.8916 962.6504)">AUG</text>
 	</g>
 	<rect fill="#B5454D" x="62.115" y="62.973" width="746.751" height="21.124"/>
-	<text transform="matrix(1 0 0 1 402.1807 77.252)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">INSTITUTIONS</text>
+	<text transform="matrix(1 0 0 1 402.1807 77.252)" fill="#FFFFFF" font-size="9">INSTITUTIONS</text>
 	<rect fill="#4B314F" x="62.032" y="85.797" width="218.456" height="21.124"/>
-	<text transform="matrix(1 0 0 1 99.8838 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">UN processes (GA/ECOSOC/CSTD)</text>
+	<text transform="matrix(1 0 0 1 99.8838 99.666)" fill="#FFFFFF" font-size="8">UN processes (GA/ECOSOC/CSTD)</text>
 	<rect fill="#B5454D" x="282.189" y="85.797" width="86.362" height="21.124"/>
-	<text transform="matrix(1 0 0 1 293.2197 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">WSIS processes</text>
+	<text transform="matrix(1 0 0 1 293.2197 99.666)" fill="#FFFFFF" font-size="8">WSIS processes</text>
 	<rect fill="#E55937" x="370.252" y="85.797" width="174.426" height="21.124"/>
-	<text transform="matrix(1 0 0 1 429.2275 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">ITU processes</text>
+	<text transform="matrix(1 0 0 1 429.2275 99.666)" fill="#FFFFFF" font-size="8">ITU processes</text>
 	<rect fill="#3BA66B" x="546.378" y="85.797" width="108.378" height="21.124"/>
-	<text transform="matrix(1 0 0 1 572.1885 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">IGF processes</text>
+	<text transform="matrix(1 0 0 1 572.1885 99.666)" fill="#FFFFFF" font-size="8">IGF processes</text>
 	<rect fill="#36A8DC" x="656.457" y="85.797" width="86.362" height="21.124"/>
-	<text transform="matrix(1 0 0 1 674.501 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">ICANN/IETF</text>
+	<text transform="matrix(1 0 0 1 674.501 99.666)" fill="#FFFFFF" font-size="8">ICANN/IETF</text>
 	<rect fill="#725770" x="227.149" y="245.57" width="53.339" height="43.948"/>
-	<text transform="matrix(1 0 0 1 242.9385 266.3379)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WGEC</text>
-	<text transform="matrix(1 0 0 1 236.8604 274.127)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 20–31</text>
+	<text transform="matrix(1 0 0 1 242.9385 266.3379)" fill="#FFFFFF" font-size="6.5">WGEC</text>
+	<text transform="matrix(1 0 0 1 236.8604 274.127)" fill="#FFFFFF" font-size="6.5">May 20–31</text>
 	<rect fill="#725770" x="172.11" y="291.218" width="53.339" height="43.949"/>
-	<text transform="matrix(1 0 0 1 184.9619 311.9785)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CSTD 16</text>
-	<text transform="matrix(1 0 0 1 184.4229 319.7754)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">June 3–7</text>
+	<text transform="matrix(1 0 0 1 184.9619 311.9785)" fill="#FFFFFF" font-size="6.5">CSTD 16</text>
+	<text transform="matrix(1 0 0 1 184.4229 319.7754)" fill="#FFFFFF" font-size="6.5">June 3–7</text>
 	<rect fill="#725770" x="117.071" y="336.868" width="53.338" height="43.948"/>
-	<text transform="matrix(1 0 0 1 129.0166 345.9238)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ECOSOC</text>
-	<text transform="matrix(1 0 0 1 123.7744 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Substantive</text>
-	<text transform="matrix(1 0 0 1 129.9072 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Session,</text>
-	<text transform="matrix(1 0 0 1 131.1338 369.3223)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Geneva</text>
-	<text transform="matrix(1 0 0 1 131.5635 377.127)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 1-25</text>
+	<text transform="matrix(1 0 0 1 129.0166 345.9238)" fill="#FFFFFF" font-size="6.5">ECOSOC</text>
+	<text transform="matrix(1 0 0 1 123.7744 353.7207)" fill="#FFFFFF" font-size="6.5">Substantive</text>
+	<text transform="matrix(1 0 0 1 129.9072 361.5332)" fill="#FFFFFF" font-size="6.5">Session,</text>
+	<text transform="matrix(1 0 0 1 131.1338 369.3223)" fill="#FFFFFF" font-size="6.5">Geneva</text>
+	<text transform="matrix(1 0 0 1 131.5635 377.127)" fill="#FFFFFF" font-size="6.5">Jul 1-25</text>
 	<rect fill="#4B314F" x="62.032" y="428.166" width="97.369" height="180.896"/>
-	<text transform="matrix(1 0 0 1 65.501 489.3926)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">68th UN General Assembly</text>
-	<text transform="matrix(1 0 0 1 84.0947 502.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">First Committee</text>
-	<text transform="matrix(1 0 0 1 95.0791 510.666)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(security)</text>
-	<text transform="matrix(1 0 0 1 79.1338 524.1348)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Second Committee</text>
-	<text transform="matrix(1 0 0 1 98.9229 531.9316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(WSIS)</text>
-	<text transform="matrix(1 0 0 1 82.9385 545.4004)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Third Committee</text>
-	<text transform="matrix(1 0 0 1 86.5244 553.2051)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(human rights)</text>
+	<text transform="matrix(1 0 0 1 65.501 489.3926)" fill="#FFFFFF" font-size="6.5">68th UN General Assembly</text>
+	<text transform="matrix(1 0 0 1 84.0947 502.8613)" fill="#FFFFFF" font-size="6.5">First Committee</text>
+	<text transform="matrix(1 0 0 1 95.0791 510.666)" fill="#FFFFFF" font-size="6.5">(security)</text>
+	<text transform="matrix(1 0 0 1 79.1338 524.1348)" fill="#FFFFFF" font-size="6.5">Second Committee</text>
+	<text transform="matrix(1 0 0 1 98.9229 531.9316)" fill="#FFFFFF" font-size="6.5">(WSIS)</text>
+	<text transform="matrix(1 0 0 1 82.9385 545.4004)" fill="#FFFFFF" font-size="6.5">Third Committee</text>
+	<text transform="matrix(1 0 0 1 86.5244 553.2051)" fill="#FFFFFF" font-size="6.5">(human rights)</text>
 	<rect fill="#4B314F" x="62.523" y="975.955" width="96.878" height="135.246"/>
-	<text transform="matrix(1 0 0 1 65.6729 1014.3613)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">69th UN General Assembly</text>
-	<text transform="matrix(1 0 0 1 84.3369 1027.8301)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">First Committee</text>
-	<text transform="matrix(1 0 0 1 95.3291 1035.6348)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(security)</text>
-	<text transform="matrix(1 0 0 1 79.3838 1049.1035)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Second Committee</text>
-	<text transform="matrix(1 0 0 1 99.1729 1056.9004)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(WSIS)</text>
-	<text transform="matrix(1 0 0 1 83.1807 1070.3691)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Third Committee</text>
-	<text transform="matrix(1 0 0 1 86.7666 1078.1738)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(human rights)</text>
+	<text transform="matrix(1 0 0 1 65.6729 1014.3613)" fill="#FFFFFF" font-size="6.5">69th UN General Assembly</text>
+	<text transform="matrix(1 0 0 1 84.3369 1027.8301)" fill="#FFFFFF" font-size="6.5">First Committee</text>
+	<text transform="matrix(1 0 0 1 95.3291 1035.6348)" fill="#FFFFFF" font-size="6.5">(security)</text>
+	<text transform="matrix(1 0 0 1 79.3838 1049.1035)" fill="#FFFFFF" font-size="6.5">Second Committee</text>
+	<text transform="matrix(1 0 0 1 99.1729 1056.9004)" fill="#FFFFFF" font-size="6.5">(WSIS)</text>
+	<text transform="matrix(1 0 0 1 83.1807 1070.3691)" fill="#FFFFFF" font-size="6.5">Third Committee</text>
+	<text transform="matrix(1 0 0 1 86.7666 1078.1738)" fill="#FFFFFF" font-size="6.5">(human rights)</text>
 	<rect fill="#725770" x="117.071" y="884.656" width="53.338" height="43.949"/>
-	<text transform="matrix(1 0 0 1 129.0166 897.6191)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ECOSOC</text>
-	<text transform="matrix(1 0 0 1 123.7744 905.416)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Substantive</text>
-	<text transform="matrix(1 0 0 1 124.04 913.2129)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Session, NY</text>
-	<text transform="matrix(1 0 0 1 123.626 921.0098)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
+	<text transform="matrix(1 0 0 1 129.0166 897.6191)" fill="#FFFFFF" font-size="6.5">ECOSOC</text>
+	<text transform="matrix(1 0 0 1 123.7744 905.416)" fill="#FFFFFF" font-size="6.5">Substantive</text>
+	<text transform="matrix(1 0 0 1 124.04 913.2129)" fill="#FFFFFF" font-size="6.5">Session, NY</text>
+	<text transform="matrix(1 0 0 1 123.626 921.0098)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
 	<rect fill="#725770" x="172.11" y="793.359" width="108.378" height="43.948"/>
-	<text transform="matrix(1 0 0 1 212.6963 814.1113)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CSTD 17</text>
-	<text transform="matrix(1 0 0 1 206.1729 821.9238)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
+	<text transform="matrix(1 0 0 1 212.6963 814.1113)" fill="#FFFFFF" font-size="6.5">CSTD 17</text>
+	<text transform="matrix(1 0 0 1 206.1729 821.9238)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
 	<rect fill="#725770" x="227.149" y="656.412" width="53.339" height="43.947"/>
-	<text transform="matrix(1 0 0 1 242.9385 677.1738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WGEC</text>
-	<text transform="matrix(1 0 0 1 233.7041 684.9707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
+	<text transform="matrix(1 0 0 1 242.9385 677.1738)" fill="#FFFFFF" font-size="6.5">WGEC</text>
+	<text transform="matrix(1 0 0 1 233.7041 684.9707)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
 	<rect fill="#725770" x="227.149" y="519.464" width="53.339" height="43.949"/>
-	<text transform="matrix(1 0 0 1 242.9385 540.2207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WGEC</text>
-	<text transform="matrix(1 0 0 1 240.3291 548.0176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 5–8</text>
+	<text transform="matrix(1 0 0 1 242.9385 540.2207)" fill="#FFFFFF" font-size="6.5">WGEC</text>
+	<text transform="matrix(1 0 0 1 240.3291 548.0176)" fill="#FFFFFF" font-size="6.5">Nov 5–8</text>
 	<rect fill="#725770" x="172.11" y="565.114" width="53.339" height="43.948"/>
-	<text transform="matrix(1 0 0 1 189.4697 578.0723)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CSTD</text>
-	<text transform="matrix(1 0 0 1 175.4619 585.877)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">intersessional</text>
-	<text transform="matrix(1 0 0 1 172.54 593.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Washington DC</text>
-	<text transform="matrix(1 0 0 1 185.5244 601.4707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Dec 2–4</text>
+	<text transform="matrix(1 0 0 1 189.4697 578.0723)" fill="#FFFFFF" font-size="6.5">CSTD</text>
+	<text transform="matrix(1 0 0 1 175.4619 585.877)" fill="#FFFFFF" font-size="6.5">intersessional</text>
+	<text transform="matrix(1 0 0 1 172.54 593.666)" fill="#FFFFFF" font-size="6.5">Washington DC</text>
+	<text transform="matrix(1 0 0 1 185.5244 601.4707)" fill="#FFFFFF" font-size="6.5">Dec 2–4</text>
 	<rect fill="#7FC0E7" x="700.488" y="199.92" width="42.331" height="43.949"/>
-	<text transform="matrix(1 0 0 1 704.8682 216.7754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 46</text>
-	<text transform="matrix(1 0 0 1 709.8369 224.5879)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Beijing</text>
-	<text transform="matrix(1 0 0 1 708.7041 232.3848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Apr 7–11</text>
+	<text transform="matrix(1 0 0 1 704.8682 216.7754)" fill="#FFFFFF" font-size="6.5">ICANN 46</text>
+	<text transform="matrix(1 0 0 1 709.8369 224.5879)" fill="#FFFFFF" font-size="6.5">Beijing</text>
+	<text transform="matrix(1 0 0 1 708.7041 232.3848)" fill="#FFFFFF" font-size="6.5">Apr 7–11</text>
 	<rect fill="#7FC0E7" x="700.488" y="336.868" width="42.331" height="43.948"/>
-	<text transform="matrix(1 0 0 1 705.1104 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 47</text>
-	<text transform="matrix(1 0 0 1 709.2979 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Durban</text>
-	<text transform="matrix(1 0 0 1 707.5166 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 14–18</text>
+	<text transform="matrix(1 0 0 1 705.1104 353.7207)" fill="#FFFFFF" font-size="6.5">ICANN 47</text>
+	<text transform="matrix(1 0 0 1 709.2979 361.5332)" fill="#FFFFFF" font-size="6.5">Durban</text>
+	<text transform="matrix(1 0 0 1 707.5166 369.3223)" fill="#FFFFFF" font-size="6.5">Jul 14–18</text>
 	<rect fill="#7FC0E7" x="700.488" y="519.464" width="42.331" height="43.949"/>
-	<text transform="matrix(1 0 0 1 704.9619 536.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 48</text>
-	<text transform="matrix(1 0 0 1 705.6963 544.1191)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Buenos A</text>
-	<text transform="matrix(1 0 0 1 706.3213 551.9316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 17–21</text>
+	<text transform="matrix(1 0 0 1 704.9619 536.3145)" fill="#FFFFFF" font-size="6.5">ICANN 48</text>
+	<text transform="matrix(1 0 0 1 705.6963 544.1191)" fill="#FFFFFF" font-size="6.5">Buenos A</text>
+	<text transform="matrix(1 0 0 1 706.3213 551.9316)" fill="#FFFFFF" font-size="6.5">Nov 17–21</text>
 	<rect fill="#7FC0E7" x="700.488" y="702.061" width="42.331" height="43.947"/>
-	<text transform="matrix(1 0 0 1 704.9072 718.9238)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 49</text>
-	<text transform="matrix(1 0 0 1 704.29 726.7129)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Singapore</text>
-	<text transform="matrix(1 0 0 1 704.9932 734.5176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 23–27</text>
+	<text transform="matrix(1 0 0 1 704.9072 718.9238)" fill="#FFFFFF" font-size="6.5">ICANN 49</text>
+	<text transform="matrix(1 0 0 1 704.29 726.7129)" fill="#FFFFFF" font-size="6.5">Singapore</text>
+	<text transform="matrix(1 0 0 1 704.9932 734.5176)" fill="#FFFFFF" font-size="6.5">Mar 23–27</text>
 	<rect fill="#7FC0E7" x="700.488" y="839.008" width="42.331" height="43.949"/>
-	<text transform="matrix(1 0 0 1 704.8447 855.877)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 50</text>
-	<text transform="matrix(1 0 0 1 708.79 863.6582)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">London</text>
-	<text transform="matrix(1 0 0 1 705.126 871.4707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jun 22–26</text>
+	<text transform="matrix(1 0 0 1 704.8447 855.877)" fill="#FFFFFF" font-size="6.5">ICANN 50</text>
+	<text transform="matrix(1 0 0 1 708.79 863.6582)" fill="#FFFFFF" font-size="6.5">London</text>
+	<text transform="matrix(1 0 0 1 705.126 871.4707)" fill="#FFFFFF" font-size="6.5">Jun 22–26</text>
 	<rect fill="#80C091" x="546.378" y="143.708" width="108.378" height="21.125"/>
-	<text transform="matrix(1 0 0 1 585.251 153.0645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG Mtg</text>
-	<text transform="matrix(1 0 0 1 579.1885 160.8457)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 28–Mar 1</text>
+	<text transform="matrix(1 0 0 1 585.251 153.0645)" fill="#FFFFFF" font-size="6.5">MAG Mtg</text>
+	<text transform="matrix(1 0 0 1 579.1885 160.8457)" fill="#FFFFFF" font-size="6.5">Feb 28–Mar 1</text>
 	<rect fill="#80C091" x="546.378" y="702.205" width="108.378" height="20.981"/>
-	<text transform="matrix(1 0 0 1 585.001 711.4707)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG mtg</text>
-	<text transform="matrix(1 0 0 1 580.4463 719.2832)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
+	<text transform="matrix(1 0 0 1 585.001 711.4707)" fill="#FFFFFF" font-size="6.5">MAG mtg</text>
+	<text transform="matrix(1 0 0 1 580.4463 719.2832)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
 	<rect fill="#80C091" x="546.378" y="793.359" width="108.378" height="21.123"/>
-	<text transform="matrix(1 0 0 1 585.001 802.7051)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG mtg</text>
-	<text transform="matrix(1 0 0 1 580.4463 810.5176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
+	<text transform="matrix(1 0 0 1 585.001 802.7051)" fill="#FFFFFF" font-size="6.5">MAG mtg</text>
+	<text transform="matrix(1 0 0 1 580.4463 810.5176)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
 	<rect fill="#3BA66B" x="546.378" y="1067.252" width="108.378" height="21.129"/>
-	<text transform="matrix(1 0 0 1 585.6416 1076.5957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IGF 2014</text>
-	<text transform="matrix(1 0 0 1 580.4463 1084.4004)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
+	<text transform="matrix(1 0 0 1 585.6416 1076.5957)" fill="#FFFFFF" font-size="6.5">IGF 2014</text>
+	<text transform="matrix(1 0 0 1 580.4463 1084.4004)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
 	<rect fill="#3BA66B" x="546.378" y="496.64" width="108.378" height="21.123"/>
-	<text transform="matrix(1 0 0 1 578.5244 505.9863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IGF 2013 Bali</text>
-	<text transform="matrix(1 0 0 1 584.665 513.7754)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 21–25</text>
+	<text transform="matrix(1 0 0 1 578.5244 505.9863)" fill="#FFFFFF" font-size="6.5">IGF 2013 Bali</text>
+	<text transform="matrix(1 0 0 1 584.665 513.7754)" fill="#FFFFFF" font-size="6.5">Oct 21–25</text>
 	<rect fill="#C97472" x="282.189" y="108.622" width="86.362" height="43.948"/>
-	<text transform="matrix(1 0 0 1 310.4932 125.4863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WSIS+10</text>
-	<text transform="matrix(1 0 0 1 293.5791 133.2754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Review Event Paris</text>
-	<text transform="matrix(1 0 0 1 308.54 141.0801)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 25–27</text>
+	<text transform="matrix(1 0 0 1 310.4932 125.4863)" fill="#FFFFFF" font-size="6.5">WSIS+10</text>
+	<text transform="matrix(1 0 0 1 293.5791 133.2754)" fill="#FFFFFF" font-size="6.5">Review Event Paris</text>
+	<text transform="matrix(1 0 0 1 308.54 141.0801)" fill="#FFFFFF" font-size="6.5">Feb 25–27</text>
 	<rect fill="#C97472" x="293.197" y="245.57" width="53.338" height="43.948"/>
-	<text transform="matrix(1 0 0 1 299.0166 262.4316)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WSIS Forum</text>
-	<text transform="matrix(1 0 0 1 311.9932 270.2207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">2013</text>
-	<text transform="matrix(1 0 0 1 304.2432 278.0254)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 13–17</text>
+	<text transform="matrix(1 0 0 1 299.0166 262.4316)" fill="#FFFFFF" font-size="6.5">WSIS Forum</text>
+	<text transform="matrix(1 0 0 1 311.9932 270.2207)" fill="#FFFFFF" font-size="6.5">2013</text>
+	<text transform="matrix(1 0 0 1 304.2432 278.0254)" fill="#FFFFFF" font-size="6.5">May 13–17</text>
 	<rect fill="#C97472" x="282.189" y="473.815" width="53.338" height="43.948"/>
-	<text transform="matrix(1 0 0 1 301.54 490.6816)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 286.6338 498.4785)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">First Meeting</text>
-	<text transform="matrix(1 0 0 1 296.1729 506.2754)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 7–8</text>
+	<text transform="matrix(1 0 0 1 301.54 490.6816)" fill="#FFFFFF" font-size="6.5">MPP</text>
+	<text transform="matrix(1 0 0 1 286.6338 498.4785)" fill="#FFFFFF" font-size="6.5">First Meeting</text>
+	<text transform="matrix(1 0 0 1 296.1729 506.2754)" fill="#FFFFFF" font-size="6.5">Oct 7–8</text>
 	<rect fill="#C97472" x="282.189" y="564.904" width="53.338" height="44.158"/>
-	<text transform="matrix(1 0 0 1 301.54 581.8613)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 283.165 589.6738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Second meeting</text>
-	<text transform="matrix(1 0 0 1 293.0479 597.4707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Dec 16–18</text>
+	<text transform="matrix(1 0 0 1 301.54 581.8613)" fill="#FFFFFF" font-size="6.5">MPP</text>
+	<text transform="matrix(1 0 0 1 283.165 589.6738)" fill="#FFFFFF" font-size="6.5">Second meeting</text>
+	<text transform="matrix(1 0 0 1 293.0479 597.4707)" fill="#FFFFFF" font-size="6.5">Dec 16–18</text>
 	<rect fill="#C97472" x="282.189" y="656.412" width="53.338" height="43.947"/>
-	<text transform="matrix(1 0 0 1 301.54 673.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 285.1494 681.0645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Third meeting</text>
-	<text transform="matrix(1 0 0 1 293.6416 688.877)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 17–19</text>
+	<text transform="matrix(1 0 0 1 301.54 673.2676)" fill="#FFFFFF" font-size="6.5">MPP</text>
+	<text transform="matrix(1 0 0 1 285.1494 681.0645)" fill="#FFFFFF" font-size="6.5">Third meeting</text>
+	<text transform="matrix(1 0 0 1 293.6416 688.877)" fill="#FFFFFF" font-size="6.5">Feb 17–19</text>
 	<rect fill="#B5454D" x="282.189" y="759.121" width="75.354" height="32.537"/>
-	<text transform="matrix(1 0 0 1 288.5635 770.2832)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WSIS+10 High Level </text>
-	<text transform="matrix(1 0 0 1 283.9463 778.0723)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Event, Sharm El Sheikh</text>
-	<text transform="matrix(1 0 0 1 304.5479 785.8691)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Apr 13–18</text>
+	<text transform="matrix(1 0 0 1 288.5635 770.2832)" fill="#FFFFFF" font-size="6.5">WSIS+10 High Level </text>
+	<text transform="matrix(1 0 0 1 283.9463 778.0723)" fill="#FFFFFF" font-size="6.5">Event, Sharm El Sheikh</text>
+	<text transform="matrix(1 0 0 1 304.5479 785.8691)" fill="#FFFFFF" font-size="6.5">Apr 13–18</text>
 	<rect fill="#B5454D" x="282.189" y="1112.902" width="86.362" height="43.95"/>
-	<text transform="matrix(1 0 0 1 323.1963 1138.1816)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">?</text>
+	<text transform="matrix(1 0 0 1 323.1963 1138.1816)" fill="#FFFFFF" font-size="8">?</text>
 	<rect fill="#EE8964" x="370.252" y="108.622" width="75.354" height="43.949"/>
-	<text transform="matrix(1 0 0 1 381.001 125.4863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: CIS</text>
-	<text transform="matrix(1 0 0 1 393.5635 133.2754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Chisinau</text>
-	<text transform="matrix(1 0 0 1 391.3135 141.0801)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 19–20</text>
+	<text transform="matrix(1 0 0 1 381.001 125.4863)" fill="#FFFFFF" font-size="6.5">WTDC RPM: CIS</text>
+	<text transform="matrix(1 0 0 1 393.5635 133.2754)" fill="#FFFFFF" font-size="6.5">Chisinau</text>
+	<text transform="matrix(1 0 0 1 391.3135 141.0801)" fill="#FFFFFF" font-size="6.5">Feb 19–20</text>
 	<rect fill="#EE8964" x="370.252" y="222.677" width="75.354" height="43.948"/>
-	<text transform="matrix(1 0 0 1 379.7041 239.541)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: ASP</text>
-	<text transform="matrix(1 0 0 1 386.9385 247.3301)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Phnom Penh</text>
-	<text transform="matrix(1 0 0 1 387.4619 255.1348)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Apr 3–May 2</text>
+	<text transform="matrix(1 0 0 1 379.7041 239.541)" fill="#FFFFFF" font-size="6.5">WTDC RPM: ASP</text>
+	<text transform="matrix(1 0 0 1 386.9385 247.3301)" fill="#FFFFFF" font-size="6.5">Phnom Penh</text>
+	<text transform="matrix(1 0 0 1 387.4619 255.1348)" fill="#FFFFFF" font-size="6.5">Apr 3–May 2</text>
 	<rect fill="#E55937" x="447.308" y="245.57" width="97.37" height="32.553"/>
-	<text transform="matrix(1 0 0 1 476.9385 260.6348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTPF 2013</text>
-	<text transform="matrix(1 0 0 1 480.3135 268.4316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 14-16</text>
+	<text transform="matrix(1 0 0 1 476.9385 260.6348)" fill="#FFFFFF" font-size="6.5">WTPF 2013</text>
+	<text transform="matrix(1 0 0 1 480.3135 268.4316)" fill="#FFFFFF" font-size="6.5">May 14-16</text>
 	<rect fill="#EE8964" x="502.347" y="291.219" width="42.331" height="43.948"/>
-	<text transform="matrix(1 0 0 1 517.79 308.0723)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ITU</text>
-	<text transform="matrix(1 0 0 1 505.4385 315.877)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Council ‘13</text>
-	<text transform="matrix(1 0 0 1 509.376 323.6816)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jun 11–21</text>
+	<text transform="matrix(1 0 0 1 517.79 308.0723)" fill="#FFFFFF" font-size="6.5">ITU</text>
+	<text transform="matrix(1 0 0 1 505.4385 315.877)" fill="#FFFFFF" font-size="6.5">Council ‘13</text>
+	<text transform="matrix(1 0 0 1 509.376 323.6816)" fill="#FFFFFF" font-size="6.5">Jun 11–21</text>
 	<rect fill="#EE8964" x="458.315" y="279.789" width="42.331" height="43.983"/>
-	<text transform="matrix(1 0 0 1 460.3447 296.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CWG-WSIS</text>
-	<text transform="matrix(1 0 0 1 462.4619 304.4629)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 30–31</text>
-	<text transform="matrix(1 0 0 1 464.9619 312.2676)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">/June 20</text>
+	<text transform="matrix(1 0 0 1 460.3447 296.666)" fill="#FFFFFF" font-size="6.5">CWG-WSIS</text>
+	<text transform="matrix(1 0 0 1 462.4619 304.4629)" fill="#FFFFFF" font-size="6.5">May 30–31</text>
+	<text transform="matrix(1 0 0 1 464.9619 312.2676)" fill="#FFFFFF" font-size="6.5">/June 20</text>
 	<rect fill="#EE8964" x="370.252" y="382.517" width="75.354" height="43.948"/>
-	<text transform="matrix(1 0 0 1 379.0635 399.3691)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: AMS</text>
-	<text transform="matrix(1 0 0 1 387.9385 407.1738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Montevideo</text>
-	<text transform="matrix(1 0 0 1 390.1807 414.9707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Aug 20–22</text>
+	<text transform="matrix(1 0 0 1 379.0635 399.3691)" fill="#FFFFFF" font-size="6.5">WTDC RPM: AMS</text>
+	<text transform="matrix(1 0 0 1 387.9385 407.1738)" fill="#FFFFFF" font-size="6.5">Montevideo</text>
+	<text transform="matrix(1 0 0 1 390.1807 414.9707)" fill="#FFFFFF" font-size="6.5">Aug 20–22</text>
 	<rect fill="#EE8964" x="370.252" y="473.815" width="75.354" height="21.124"/>
-	<text transform="matrix(1 0 0 1 379.1182 483.1738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: AFR</text>
-	<text transform="matrix(1 0 0 1 384.3682 490.9629)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Accra Oct 2–4</text>
+	<text transform="matrix(1 0 0 1 379.1182 483.1738)" fill="#FFFFFF" font-size="6.5">WTDC RPM: AFR</text>
+	<text transform="matrix(1 0 0 1 384.3682 490.9629)" fill="#FFFFFF" font-size="6.5">Accra Oct 2–4</text>
 	<rect fill="#EE8964" x="370.252" y="496.64" width="75.354" height="21.123"/>
-	<text transform="matrix(1 0 0 1 379.2744 505.9863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: ARB</text>
-	<text transform="matrix(1 0 0 1 376.8057 513.7754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Manama Oct 29–31</text>
+	<text transform="matrix(1 0 0 1 379.2744 505.9863)" fill="#FFFFFF" font-size="6.5">WTDC RPM: ARB</text>
+	<text transform="matrix(1 0 0 1 376.8057 513.7754)" fill="#FFFFFF" font-size="6.5">Manama Oct 29–31</text>
 	<rect fill="#EE8964" x="458.269" y="656.484" width="64.392" height="43.948"/>
-	<text transform="matrix(1 0 0 1 471.3369 677.2363)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CWG-WSIS</text>
-	<text transform="matrix(1 0 0 1 473.8525 685.0488)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 19–20</text>
+	<text transform="matrix(1 0 0 1 471.3369 677.2363)" fill="#FFFFFF" font-size="6.5">CWG-WSIS</text>
+	<text transform="matrix(1 0 0 1 473.8525 685.0488)" fill="#FFFFFF" font-size="6.5">Feb 19–20</text>
 	<rect fill="#EE8964" x="469.323" y="519.464" width="64.346" height="43.949"/>
-	<text transform="matrix(1 0 0 1 477.8838 540.2207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CWG-internet</text>
-	<text transform="matrix(1 0 0 1 486.6494 548.0176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 11–12</text>
+	<text transform="matrix(1 0 0 1 477.8838 540.2207)" fill="#FFFFFF" font-size="6.5">CWG-internet</text>
+	<text transform="matrix(1 0 0 1 486.6494 548.0176)" fill="#FFFFFF" font-size="6.5">Nov 11–12</text>
 	<rect fill="#EE8964" x="370.252" y="519.464" width="75.354" height="43.949"/>
-	<text transform="matrix(1 0 0 1 379.5088 536.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: EUR</text>
-	<text transform="matrix(1 0 0 1 392.5791 544.1191)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Belgrade</text>
-	<text transform="matrix(1 0 0 1 390.5322 551.9316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 26–28</text>
+	<text transform="matrix(1 0 0 1 379.5088 536.3145)" fill="#FFFFFF" font-size="6.5">WTDC RPM: EUR</text>
+	<text transform="matrix(1 0 0 1 392.5791 544.1191)" fill="#FFFFFF" font-size="6.5">Belgrade</text>
+	<text transform="matrix(1 0 0 1 390.5322 551.9316)" fill="#FFFFFF" font-size="6.5">Nov 26–28</text>
 	<rect fill="#EE8964" x="370.252" y="565.114" width="75.354" height="43.948"/>
-	<text transform="matrix(1 0 0 1 376.6182 585.877)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">TDAG 18th Session</text>
-	<text transform="matrix(1 0 0 1 393.2275 593.666)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Dec 11–13</text>
+	<text transform="matrix(1 0 0 1 376.6182 585.877)" fill="#FFFFFF" font-size="6.5">TDAG 18th Session</text>
+	<text transform="matrix(1 0 0 1 393.2275 593.666)" fill="#FFFFFF" font-size="6.5">Dec 11–13</text>
 	<rect fill="#E55937" x="370.252" y="736.297" width="130.394" height="32.262"/>
-	<text transform="matrix(1 0 0 1 424.5479 747.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC</text>
-	<text transform="matrix(1 0 0 1 408.3682 755.1113)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Sharm El Sheikh</text>
-	<text transform="matrix(1 0 0 1 412.7354 762.916)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 30–Apr 11</text>
+	<text transform="matrix(1 0 0 1 424.5479 747.3145)" fill="#FFFFFF" font-size="6.5">WTDC</text>
+	<text transform="matrix(1 0 0 1 408.3682 755.1113)" fill="#FFFFFF" font-size="6.5">Sharm El Sheikh</text>
+	<text transform="matrix(1 0 0 1 412.7354 762.916)" fill="#FFFFFF" font-size="6.5">Mar 30–Apr 11</text>
 	<rect fill="#E55937" x="370.252" y="1044.432" width="174.426" height="66.769"/>
-	<text transform="matrix(1 0 0 1 404.2979 1072.7051)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ITU Plenipotentiary Conference</text>
-	<text transform="matrix(1 0 0 1 447.2197 1080.502)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Busan</text>
-	<text transform="matrix(1 0 0 1 434.415 1088.2988)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 19–Nov 15</text>
+	<text transform="matrix(1 0 0 1 404.2979 1072.7051)" fill="#FFFFFF" font-size="6.5">ITU Plenipotentiary Conference</text>
+	<text transform="matrix(1 0 0 1 447.2197 1080.502)" fill="#FFFFFF" font-size="6.5">Busan</text>
+	<text transform="matrix(1 0 0 1 434.415 1088.2988)" fill="#FFFFFF" font-size="6.5">Oct 19–Nov 15</text>
 	<path fill="none" stroke="#000000" d="M644.599,290.018V496.14 M642.349,290.018h4.5 M642.349,496.14h4.5 M721.653,381.316v137.648
 		 M719.403,381.316h4.5 M719.403,518.964h4.5 M721.653,563.913v137.648 M719.403,563.913h4.5 M719.403,701.561h4.5 M721.653,746.508
 		v92 M719.403,746.508h4.5 M719.403,838.508h4.5 M600.708,518.264v183.441 M598.458,518.264h4.5 M598.458,701.705h4.5
 		 M600.708,814.982v251.77 M598.458,814.982h4.5 M598.458,1066.752h4.5 M600.708,723.686v69.174 M598.458,723.686h4.5
 		 M598.458,792.859h4.5"/>
 	<rect fill="#80C091" x="546.378" y="473.815" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 563.5479 483.1738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Arab IGF</text>
-	<text transform="matrix(1 0 0 1 566.6338 490.9629)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 1–3</text>
+	<text transform="matrix(1 0 0 1 563.5479 483.1738)" fill="#FFFFFF" font-size="6.5">Arab IGF</text>
+	<text transform="matrix(1 0 0 1 566.6338 490.9629)" fill="#FFFFFF" font-size="6.5">Oct 1–3</text>
 	<rect fill="#80C091" x="546.378" y="450.991" width="64.347" height="21.123"/>
-	<text transform="matrix(1 0 0 1 568.7354 460.3379)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">AfIGF</text>
-	<text transform="matrix(1 0 0 1 561.4619 468.1348)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Sep 24–26</text>
+	<text transform="matrix(1 0 0 1 568.7354 460.3379)" fill="#FFFFFF" font-size="6.5">AfIGF</text>
+	<text transform="matrix(1 0 0 1 561.4619 468.1348)" fill="#FFFFFF" font-size="6.5">Sep 24–26</text>
 	<rect fill="#80C091" x="546.378" y="428.166" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 566.3916 437.5098)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">APrIGF</text>
-	<text transform="matrix(1 0 0 1 565.5479 445.3145)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Sep 3–5</text>
+	<text transform="matrix(1 0 0 1 566.3916 437.5098)" fill="#FFFFFF" font-size="6.5">APrIGF</text>
+	<text transform="matrix(1 0 0 1 565.5479 445.3145)" fill="#FFFFFF" font-size="6.5">Sep 3–5</text>
 	<rect fill="#80C091" x="546.378" y="405.341" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 565.5557 414.6895)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">LACIGF</text>
-	<text transform="matrix(1 0 0 1 561.3447 422.4863)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Aug 27–29</text>
+	<text transform="matrix(1 0 0 1 565.5557 414.6895)" fill="#FFFFFF" font-size="6.5">LACIGF</text>
+	<text transform="matrix(1 0 0 1 561.3447 422.4863)" fill="#FFFFFF" font-size="6.5">Aug 27–29</text>
 	<rect fill="#80C091" x="546.378" y="382.517" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 567.9307 391.8613)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">SAIGF</text>
-	<text transform="matrix(1 0 0 1 565.3135 399.6582)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Aug 5–7</text>
+	<text transform="matrix(1 0 0 1 567.9307 391.8613)" fill="#FFFFFF" font-size="6.5">SAIGF</text>
+	<text transform="matrix(1 0 0 1 565.3135 399.6582)" fill="#FFFFFF" font-size="6.5">Aug 5–7</text>
 	<rect fill="#80C091" x="546.378" y="336.868" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 552.0557 346.2207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">West Africa IGF </text>
-	<text transform="matrix(1 0 0 1 567.0635 354.0176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 3–5</text>
+	<text transform="matrix(1 0 0 1 552.0557 346.2207)" fill="#FFFFFF" font-size="6.5">West Africa IGF </text>
+	<text transform="matrix(1 0 0 1 567.0635 354.0176)" fill="#FFFFFF" font-size="6.5">Jul 3–5</text>
 	<rect fill="#80C091" x="546.378" y="314.042" width="64.347" height="21.125"/>
-	<text transform="matrix(1 0 0 1 564.7744 323.3848)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">EuroDig</text>
-	<text transform="matrix(1 0 0 1 562.4463 331.1973)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jun 20–21</text>
+	<text transform="matrix(1 0 0 1 564.7744 323.3848)" fill="#FFFFFF" font-size="6.5">EuroDig</text>
+	<text transform="matrix(1 0 0 1 562.4463 331.1973)" fill="#FFFFFF" font-size="6.5">Jun 20–21</text>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,2.0333" x1="613.257" y1="324.605" x2="632.574" y2="324.605"/>
 	
@@ -421,7 +421,7 @@
 		 M633.59,484.376L633.59,484.376"/>
 	<path fill="none" stroke="#000000" d="M611.225,482.126v4.5 M600.567,165.333v102.561 M598.317,165.333h4.5 M598.317,267.894h4.5"
 		/>
-	<text transform="matrix(1 0 0 1 621.0947 28.166)" font-family="'Gotham-Book'" font-size="9">Important meetings</text>
+	<text transform="matrix(1 0 0 1 621.0947 28.166)" font-size="9">Important meetings</text>
 	<rect fill="#4B314F" x="715.323" y="17.323" width="14.173" height="14.174"/>
 	<rect fill="#B5454D" x="731.197" y="17.323" width="14.173" height="14.174"/>
 	<rect fill="#E55937" x="747.071" y="17.323" width="14.173" height="14.174"/>
@@ -432,15 +432,15 @@
 	<rect fill="#EE8964" x="747.071" y="32.914" width="14.173" height="14.173"/>
 	<rect fill="#80C091" x="762.945" y="32.914" width="14.173" height="14.173"/>
 	<rect fill="#7FC0E7" x="778.819" y="32.914" width="14.173" height="14.173"/>
-	<text transform="matrix(1 0 0 1 669.1807 43.7598)" font-family="'Gotham-Book'" font-size="9">Meetings</text>
+	<text transform="matrix(1 0 0 1 669.1807 43.7598)" font-size="9">Meetings</text>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,1.9365" x1="579.099" y1="40" x2="605.24" y2="40"/>
 	<path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M577.161,40L577.161,40 M606.208,40
 		L606.208,40"/>
 	<path fill="none" stroke="#000000" d="M577.161,42.25v-4.5 M606.208,42.25v-4.5 M577.161,24.41h29.047 M577.161,26.66v-4.5
 		 M606.208,26.66v-4.5"/>
-	<text transform="matrix(1 0 0 1 504.6963 28.166)" font-family="'Gotham-Book'" font-size="9">Direct Relation</text>
-	<text transform="matrix(1 0 0 1 497.5947 45.416)" font-family="'Gotham-Book'" font-size="9">Indirect Relation</text>
+	<text transform="matrix(1 0 0 1 504.6963 28.166)" font-size="9">Direct Relation</text>
+	<text transform="matrix(1 0 0 1 497.5947 45.416)" font-size="9">Indirect Relation</text>
 	<path fill="none" stroke="#000000" d="M253.819,107.421V245.07 M251.569,107.421h4.5 M251.569,245.07h4.5 M198.779,107.421v183.298
 		 M196.529,107.421h4.5 M196.529,290.719h4.5 M143.74,107.421v228.947 M141.49,107.421h4.5 M141.49,336.368h4.5 M88.701,107.421
 		v320.245 M86.451,107.421h4.5 M86.451,427.666h4.5 M209.787,335.667v228.947 M207.537,335.667h4.5 M207.537,564.614h4.5
@@ -573,15 +573,15 @@
 	<path fill="none" stroke="#000000" d="M545.896,504.952v4.5 M159.901,447.89v4.5 M721.653,244.369v91.999 M719.403,244.369h4.5
 		 M719.403,336.368h4.5 M253.819,290.018v228.946 M251.569,290.018h4.5 M251.569,518.964h4.5"/>
 	<rect fill="#7FC0E7" x="656.457" y="519.464" width="42.33" height="43.949"/>
-	<text transform="matrix(1 0 0 1 664.8291 536.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 88</text>
-	<text transform="matrix(1 0 0 1 659.7275 544.1191)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Vancouver</text>
-	<text transform="matrix(1 0 0 1 664.1572 551.9316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 3–8</text>
+	<text transform="matrix(1 0 0 1 664.8291 536.3145)" fill="#FFFFFF" font-size="6.5">IETF 88</text>
+	<text transform="matrix(1 0 0 1 659.7275 544.1191)" fill="#FFFFFF" font-size="6.5">Vancouver</text>
+	<text transform="matrix(1 0 0 1 664.1572 551.9316)" fill="#FFFFFF" font-size="6.5">Nov 3–8</text>
 	<rect fill="#7FC0E7" x="656.457" y="702.061" width="42.33" height="43.947"/>
-	<text transform="matrix(1 0 0 1 664.7666 718.9238)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 89</text>
-	<text transform="matrix(1 0 0 1 664.7666 726.7129)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">London</text>
-	<text transform="matrix(1 0 0 1 665.1885 734.5176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 2–7</text>
+	<text transform="matrix(1 0 0 1 664.7666 718.9238)" fill="#FFFFFF" font-size="6.5">IETF 89</text>
+	<text transform="matrix(1 0 0 1 664.7666 726.7129)" fill="#FFFFFF" font-size="6.5">London</text>
+	<text transform="matrix(1 0 0 1 665.1885 734.5176)" fill="#FFFFFF" font-size="6.5">Mar 2–7</text>
 	<path fill="none" stroke="#000000" d="M677.622,563.913v137.648 M675.372,563.913h4.5 M675.372,701.561h4.5"/>
-	<text transform="matrix(1 0 0 1 518.1807 1166.3457)" fill="#B5454D" font-family="'Gotham-Bold'" font-size="8">For more information visit http//bestbits.net/wp-uploads/diagram.html</text>
+	<text transform="matrix(1 0 0 1 518.1807 1166.3457)" fill="#B5454D" font-size="8">For more information visit http//bestbits.net/wp-uploads/diagram.html</text>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,2.0345" x1="457.464" y1="1113.732" x2="457.464" y2="1145.271"/>
 	
@@ -590,12 +590,12 @@
 		 M457.464,1146.291L457.464,1146.291 M369.051,1146.291L369.051,1146.291"/>
 	<path fill="none" stroke="#000000" d="M459.714,1111.701h-4.5 M369.051,1144.041v4.5"/>
 	<rect fill="#EE8964" x="458.315" y="793.359" width="86.363" height="43.95"/>
-	<text transform="matrix(1 0 0 1 477.7432 814.1113)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ITC Council 14</text>
-	<text transform="matrix(1 0 0 1 486.8135 821.9238)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 6–15</text>
+	<text transform="matrix(1 0 0 1 477.7432 814.1113)" fill="#FFFFFF" font-size="6.5">ITC Council 14</text>
+	<text transform="matrix(1 0 0 1 486.8135 821.9238)" fill="#FFFFFF" font-size="6.5">May 6–15</text>
 	<path fill="none" stroke="#000000" d="M473.977,837.809v206.123 M471.727,837.809h4.5 M471.727,1043.932h4.5 M385.913,769.059
 		v274.873 M383.663,769.059h4.5 M383.663,1043.932h4.5"/>
 	<rect fill="#19486B" x="744.521" y="85.797" width="64.345" height="21.124"/>
-	<text transform="matrix(1 0 0 1 762.2119 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">OTHER</text>
+	<text transform="matrix(1 0 0 1 762.2119 99.666)" fill="#FFFFFF" font-size="8">OTHER</text>
 	<path fill="none" stroke="#000000" d="M308.433,700.932v57.689 M306.183,700.932h4.5 M306.183,758.621h4.5"/>
 	<rect fill="#ECECF1" x="744.52" y="108.622" width="64.346" height="43.948"/>
 	<rect fill="#ECECF1" x="744.52" y="154.271" width="64.346" height="43.948"/>
@@ -621,18 +621,18 @@
 	<rect fill="#ECECF1" x="744.52" y="1067.252" width="64.346" height="43.949"/>
 	<rect fill="#ECECF1" x="744.52" y="1112.902" width="64.346" height="43.95"/>
 	<rect fill="#80C091" x="546.396" y="268.394" width="107.935" height="21.124"/>
-	<text transform="matrix(1 0 0 1 585.04 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG Mtg</text>
-	<text transform="matrix(1 0 0 1 583.8916 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 21–23</text>
+	<text transform="matrix(1 0 0 1 585.04 277.7441)" fill="#FFFFFF" font-size="6.5">MAG Mtg</text>
+	<text transform="matrix(1 0 0 1 583.8916 285.5332)" fill="#FFFFFF" font-size="6.5">May 21–23</text>
 	<rect fill="#7FC0E7" x="656.457" y="154.271" width="42.33" height="43.948"/>
-	<text transform="matrix(1 0 0 1 664.751 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 86</text>
-	<text transform="matrix(1 0 0 1 663.8604 178.9316)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Orlando</text>
-	<text transform="matrix(1 0 0 1 661.9463 186.7285)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 10–15</text>
+	<text transform="matrix(1 0 0 1 664.751 171.1348)" fill="#FFFFFF" font-size="6.5">IETF 86</text>
+	<text transform="matrix(1 0 0 1 663.8604 178.9316)" fill="#FFFFFF" font-size="6.5">Orlando</text>
+	<text transform="matrix(1 0 0 1 661.9463 186.7285)" fill="#FFFFFF" font-size="6.5">Mar 10–15</text>
 	<path fill="none" stroke="#000000" d="M721.653,107.285v91.999 M719.403,107.285h4.5 M719.403,199.284h4.5 M677.622,198.72v137.648
 		 M675.372,198.72h4.5 M675.372,336.368h4.5"/>
 	<rect fill="#7FC0E7" x="656.457" y="336.868" width="42.33" height="43.948"/>
-	<text transform="matrix(1 0 0 1 664.9775 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 87</text>
-	<text transform="matrix(1 0 0 1 667.6729 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Berlin</text>
-	<text transform="matrix(1 0 0 1 657.001 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 28–Aug 2</text>
+	<text transform="matrix(1 0 0 1 664.9775 353.7207)" fill="#FFFFFF" font-size="6.5">IETF 87</text>
+	<text transform="matrix(1 0 0 1 667.6729 361.5332)" fill="#FFFFFF" font-size="6.5">Berlin</text>
+	<text transform="matrix(1 0 0 1 657.001 369.3223)" fill="#FFFFFF" font-size="6.5">Jul 28–Aug 2</text>
 	<path fill="none" stroke="#000000" d="M677.622,381.316v137.648 M675.372,381.316h4.5 M675.372,518.964h4.5"/>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,1.9225" x1="264.827" y1="565.834" x2="264.827" y2="586.021"/>
@@ -648,18 +648,18 @@
 	<path fill="none" stroke="#000000" d="M251.569,700.754h4.5 M251.569,792.859h4.5 M677.622,746.508v137.648 M675.372,746.508h4.5
 		 M675.372,884.156h4.5"/>
 	<rect fill="#7FC0E7" x="656.457" y="884.656" width="42.33" height="43.949"/>
-	<text transform="matrix(1 0 0 1 664.4307 901.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 90</text>
-	<text transform="matrix(1 0 0 1 664.2666 909.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Toronto</text>
-	<text transform="matrix(1 0 0 1 659.915 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">July 20–25</text>
+	<text transform="matrix(1 0 0 1 664.4307 901.5176)" fill="#FFFFFF" font-size="6.5">IETF 90</text>
+	<text transform="matrix(1 0 0 1 664.2666 909.3145)" fill="#FFFFFF" font-size="6.5">Toronto</text>
+	<text transform="matrix(1 0 0 1 659.915 917.1191)" fill="#FFFFFF" font-size="6.5">July 20–25</text>
 	<rect fill="#7FC0E7" x="700.488" y="1044.432" width="42.331" height="43.949"/>
-	<text transform="matrix(1 0 0 1 705.8604 1061.291)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 51</text>
-	<text transform="matrix(1 0 0 1 701.165 1069.0957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Los Angeles</text>
-	<text transform="matrix(1 0 0 1 706.4932 1076.8848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 12–16</text>
+	<text transform="matrix(1 0 0 1 705.8604 1061.291)" fill="#FFFFFF" font-size="6.5">ICANN 51</text>
+	<text transform="matrix(1 0 0 1 701.165 1069.0957)" fill="#FFFFFF" font-size="6.5">Los Angeles</text>
+	<text transform="matrix(1 0 0 1 706.4932 1076.8848)" fill="#FFFFFF" font-size="6.5">Oct 12–16</text>
 	<path fill="none" stroke="#000000" d="M721.653,883.457v160.475 M719.403,883.457h4.5 M719.403,1043.932h4.5"/>
 	<rect fill="#7FC0E7" x="657.308" y="1066.402" width="42.331" height="43.95"/>
-	<text transform="matrix(1 0 0 1 666.3369 1083.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 91</text>
-	<text transform="matrix(1 0 0 1 663.2432 1091.0645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Honolulu</text>
-	<text transform="matrix(1 0 0 1 663.6416 1098.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 9–14</text>
+	<text transform="matrix(1 0 0 1 666.3369 1083.2676)" fill="#FFFFFF" font-size="6.5">IETF 91</text>
+	<text transform="matrix(1 0 0 1 663.2432 1091.0645)" fill="#FFFFFF" font-size="6.5">Honolulu</text>
+	<text transform="matrix(1 0 0 1 663.6416 1098.8613)" fill="#FFFFFF" font-size="6.5">Nov 9–14</text>
 	<path fill="none" stroke="#000000" d="M677.622,929.105v136.797 M675.372,929.105h4.5 M675.372,1065.902h4.5"/>
 	<rect fill="#19486B" x="794.693" y="17.323" width="14.173" height="14.174"/>
 	<rect fill="#586A89" x="794.693" y="32.914" width="14.173" height="14.173"/>
