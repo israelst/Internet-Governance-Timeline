@@ -132,32 +132,34 @@
 	<text transform="matrix(1 0 0 1 18.001 1164.2832)" font-family="'Gotham-Book'" font-size="5.5">Unless stated otherwise, all GA meetings take place in NY, while CSTD, WGEC, ITU, and WSIS meetings take place in Geneva.</text>
 	<text transform="matrix(1 0 0 1 18.001 28.9004)" fill="#B5454D" font-family="'Gotham-Bold'" font-size="14">INTERNET GOVERNANCE PROCESSES</text>
 	<text transform="matrix(1 0 0 1 18.001 44.9004)" font-family="'Gotham-Book'" font-size="14">Visualizing the playing field</text>
-	<rect fill="#B5454D" x="18.0" y="610.764" width="20.315" height="546.088"/>
-	<rect fill="#B5454D" x="18.0" y="108.622" width="20.315" height="500.44"/>
-	<rect fill="#B5454D" x="18.0" y="62.973" width="42.331" height="43.948"/>
-	<rect fill="#B5454D" x="40.016" y="975.955" width="20.315" height="43.947"/>
-	<rect fill="#B5454D" x="40.016" y="1021.602" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="1067.252" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="1112.902" width="20.315" height="43.95"/>
-	<rect fill="#B5454D" x="40.016" y="108.622" width="20.315" height="43.948"/>
-	<rect fill="#B5454D" x="40.016" y="154.271" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="199.92" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="245.569" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="291.219" width="20.315" height="43.948"/>
-	<rect fill="#B5454D" x="40.016" y="336.868" width="20.315" height="43.948"/>
-	<rect fill="#B5454D" x="40.016" y="382.517" width="20.315" height="43.948"/>
-	<rect fill="#B5454D" x="40.016" y="428.166" width="20.315" height="43.948"/>
-	<rect fill="#B5454D" x="40.016" y="473.815" width="20.315" height="43.948"/>
-	<rect fill="#B5454D" x="40.016" y="519.464" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="565.113" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="610.764" width="20.315" height="43.947"/>
-	<rect fill="#B5454D" x="40.016" y="656.412" width="20.315" height="43.947"/>
-	<rect fill="#B5454D" x="40.016" y="702.061" width="20.315" height="43.947"/>
-	<rect fill="#B5454D" x="40.016" y="747.709" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="793.359" width="20.315" height="43.948"/>
-	<rect fill="#B5454D" x="40.016" y="839.008" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="884.656" width="20.315" height="43.949"/>
-	<rect fill="#B5454D" x="40.016" y="930.307" width="20.315" height="43.947"/>
+	<g fill="#B5454D" class="row-header" >
+		<rect x="18.0" y="610.764" width="20.315" height="546.088"/>
+		<rect x="18.0" y="108.622" width="20.315" height="500.44"/>
+		<rect x="18.0" y="62.973" width="42.331" height="43.948"/>
+		<rect x="40.016" y="975.955" width="20.315" height="43.947"/>
+		<rect x="40.016" y="1021.602" width="20.315" height="43.949"/>
+		<rect x="40.016" y="1067.252" width="20.315" height="43.949"/>
+		<rect x="40.016" y="1112.902" width="20.315" height="43.95"/>
+		<rect x="40.016" y="108.622" width="20.315" height="43.948"/>
+		<rect x="40.016" y="154.271" width="20.315" height="43.949"/>
+		<rect x="40.016" y="199.92" width="20.315" height="43.949"/>
+		<rect x="40.016" y="245.569" width="20.315" height="43.949"/>
+		<rect x="40.016" y="291.219" width="20.315" height="43.948"/>
+		<rect x="40.016" y="336.868" width="20.315" height="43.948"/>
+		<rect x="40.016" y="382.517" width="20.315" height="43.948"/>
+		<rect x="40.016" y="428.166" width="20.315" height="43.948"/>
+		<rect x="40.016" y="473.815" width="20.315" height="43.948"/>
+		<rect x="40.016" y="519.464" width="20.315" height="43.949"/>
+		<rect x="40.016" y="565.113" width="20.315" height="43.949"/>
+		<rect x="40.016" y="610.764" width="20.315" height="43.947"/>
+		<rect x="40.016" y="656.412" width="20.315" height="43.947"/>
+		<rect x="40.016" y="702.061" width="20.315" height="43.947"/>
+		<rect x="40.016" y="747.709" width="20.315" height="43.949"/>
+		<rect x="40.016" y="793.359" width="20.315" height="43.948"/>
+		<rect x="40.016" y="839.008" width="20.315" height="43.949"/>
+		<rect x="40.016" y="884.656" width="20.315" height="43.949"/>
+		<rect x="40.016" y="930.307" width="20.315" height="43.947"/>
+	</g>
 	<g fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">
 		<text transform="matrix(0 -1 1 0 31.876 369.5957)">2013</text>
 		<text transform="matrix(0 -1 1 0 31.876 894.8691)">2014</text>
