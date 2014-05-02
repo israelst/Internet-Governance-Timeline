@@ -14,9 +14,11 @@ def extract_points(line):
 def rect_points(polygon_points):
     points = [map(float, point.split(','))
               for point in polygon_points.split()]
-    x, y = points[0]
+    x, y = min(points)
     round3 = lambda n: round(n, 3)
-    width = abs(points[2][0] - x)
-    height = abs(points[2][1] - y)
+    opposite = filter(lambda p: p[0] != x and p[1] != y, points)[0]
+    print opposite, (x, y)
+    width = opposite[0] - x
+    height = opposite[1] - y
     return tuple(map(round3, (x, y, width, height)))
 
