@@ -22,3 +22,11 @@ def rect_points(polygon_points):
     height = opposite[1] - y
     return tuple(map(round3, (x, y, width, height)))
 
+if __name__ == '__main__':
+    import fileinput
+
+    for line in fileinput.input():
+        if '<polygon' in line:
+            print process_line(line),
+        else:
+            print line,
