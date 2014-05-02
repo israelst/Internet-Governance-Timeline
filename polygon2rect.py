@@ -17,7 +17,6 @@ def rect_points(polygon_points):
     x, y = min(points)
     round3 = lambda n: round(n, 3)
     opposite = filter(lambda p: p[0] != x and p[1] != y, points)[0]
-    print opposite, (x, y)
     width = opposite[0] - x
     height = opposite[1] - y
     return tuple(map(round3, (x, y, width, height)))
