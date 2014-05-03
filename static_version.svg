@@ -205,54 +205,54 @@
 		<text transform="matrix(1 0 0 1 674.501 99.666)">ICANN/IETF</text>
 		<text transform="matrix(1 0 0 1 762.2119 99.666)">OTHER</text>
 	</g>
-	<g class="un-events">
+	<g class="un-events" fill="#FFFFFF" font-size="6.5">
 		<rect fill="#725770" x="227.149" y="245.57" width="53.339" height="43.948"/>
-		<text transform="matrix(1 0 0 1 242.9385 266.3379)" fill="#FFFFFF" font-size="6.5">WGEC</text>
-		<text transform="matrix(1 0 0 1 236.8604 274.127)" fill="#FFFFFF" font-size="6.5">May 20–31</text>
+		<text transform="matrix(1 0 0 1 242.9385 266.3379)">WGEC</text>
+		<text transform="matrix(1 0 0 1 236.8604 274.127)">May 20–31</text>
 		<rect fill="#725770" x="172.11" y="291.218" width="53.339" height="43.949"/>
-		<text transform="matrix(1 0 0 1 184.9619 311.9785)" fill="#FFFFFF" font-size="6.5">CSTD 16</text>
-		<text transform="matrix(1 0 0 1 184.4229 319.7754)" fill="#FFFFFF" font-size="6.5">June 3–7</text>
+		<text transform="matrix(1 0 0 1 184.9619 311.9785)">CSTD 16</text>
+		<text transform="matrix(1 0 0 1 184.4229 319.7754)">June 3–7</text>
 		<rect fill="#725770" x="117.071" y="336.868" width="53.338" height="43.948"/>
-		<text transform="matrix(1 0 0 1 129.0166 345.9238)" fill="#FFFFFF" font-size="6.5">ECOSOC</text>
-		<text transform="matrix(1 0 0 1 123.7744 353.7207)" fill="#FFFFFF" font-size="6.5">Substantive</text>
-		<text transform="matrix(1 0 0 1 129.9072 361.5332)" fill="#FFFFFF" font-size="6.5">Session,</text>
-		<text transform="matrix(1 0 0 1 131.1338 369.3223)" fill="#FFFFFF" font-size="6.5">Geneva</text>
-		<text transform="matrix(1 0 0 1 131.5635 377.127)" fill="#FFFFFF" font-size="6.5">Jul 1-25</text>
+		<text transform="matrix(1 0 0 1 129.0166 345.9238)">ECOSOC</text>
+		<text transform="matrix(1 0 0 1 123.7744 353.7207)">Substantive</text>
+		<text transform="matrix(1 0 0 1 129.9072 361.5332)">Session,</text>
+		<text transform="matrix(1 0 0 1 131.1338 369.3223)">Geneva</text>
+		<text transform="matrix(1 0 0 1 131.5635 377.127)" >Jul 1-25</text>
 		<rect fill="#4B314F" x="62.032" y="428.166" width="97.369" height="180.896"/>
-		<text transform="matrix(1 0 0 1 65.501 489.3926)" fill="#FFFFFF" font-size="6.5">68th UN General Assembly</text>
-		<text transform="matrix(1 0 0 1 84.0947 502.8613)" fill="#FFFFFF" font-size="6.5">First Committee</text>
-		<text transform="matrix(1 0 0 1 95.0791 510.666)" fill="#FFFFFF" font-size="6.5">(security)</text>
-		<text transform="matrix(1 0 0 1 79.1338 524.1348)" fill="#FFFFFF" font-size="6.5">Second Committee</text>
-		<text transform="matrix(1 0 0 1 98.9229 531.9316)" fill="#FFFFFF" font-size="6.5">(WSIS)</text>
-		<text transform="matrix(1 0 0 1 82.9385 545.4004)" fill="#FFFFFF" font-size="6.5">Third Committee</text>
-		<text transform="matrix(1 0 0 1 86.5244 553.2051)" fill="#FFFFFF" font-size="6.5">(human rights)</text>
+		<text transform="matrix(1 0 0 1 65.501 489.3926)">68th UN General Assembly</text>
+		<text transform="matrix(1 0 0 1 84.0947 502.8613)">First Committee</text>
+		<text transform="matrix(1 0 0 1 95.0791 510.666)">(security)</text>
+		<text transform="matrix(1 0 0 1 79.1338 524.1348)">Second Committee</text>
+		<text transform="matrix(1 0 0 1 98.9229 531.9316)">(WSIS)</text>
+		<text transform="matrix(1 0 0 1 82.9385 545.4004)">Third Committee</text>
+		<text transform="matrix(1 0 0 1 86.5244 553.2051)">(human rights)</text>
 		<rect fill="#725770" x="227.149" y="519.464" width="53.339" height="43.949"/>
-		<text transform="matrix(1 0 0 1 242.9385 540.2207)" fill="#FFFFFF" font-size="6.5">WGEC</text>
-		<text transform="matrix(1 0 0 1 240.3291 548.0176)" fill="#FFFFFF" font-size="6.5">Nov 5–8</text>
+		<text transform="matrix(1 0 0 1 242.9385 540.2207)">WGEC</text>
+		<text transform="matrix(1 0 0 1 240.3291 548.0176)">Nov 5–8</text>
 		<rect fill="#725770" x="172.11" y="565.114" width="53.339" height="43.948"/>
-		<text transform="matrix(1 0 0 1 189.4697 578.0723)" fill="#FFFFFF" font-size="6.5">CSTD</text>
-		<text transform="matrix(1 0 0 1 175.4619 585.877)" fill="#FFFFFF" font-size="6.5">intersessional</text>
-		<text transform="matrix(1 0 0 1 172.54 593.666)" fill="#FFFFFF" font-size="6.5">Washington DC</text>
-		<text transform="matrix(1 0 0 1 185.5244 601.4707)" fill="#FFFFFF" font-size="6.5">Dec 2–4</text>
+		<text transform="matrix(1 0 0 1 189.4697 578.0723)">CSTD</text>
+		<text transform="matrix(1 0 0 1 175.4619 585.877)">intersessional</text>
+		<text transform="matrix(1 0 0 1 172.54 593.666)">Washington DC</text>
+		<text transform="matrix(1 0 0 1 185.5244 601.4707)">Dec 2–4</text>
 		<rect fill="#725770" x="227.149" y="656.412" width="53.339" height="43.947"/>
-		<text transform="matrix(1 0 0 1 242.9385 677.1738)" fill="#FFFFFF" font-size="6.5">WGEC</text>
-		<text transform="matrix(1 0 0 1 233.7041 684.9707)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
+		<text transform="matrix(1 0 0 1 242.9385 677.1738)">WGEC</text>
+		<text transform="matrix(1 0 0 1 233.7041 684.9707)">(Dates TBD)</text>
 		<rect fill="#725770" x="172.11" y="793.359" width="108.378" height="43.948"/>
-		<text transform="matrix(1 0 0 1 212.6963 814.1113)" fill="#FFFFFF" font-size="6.5">CSTD 17</text>
-		<text transform="matrix(1 0 0 1 206.1729 821.9238)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
+		<text transform="matrix(1 0 0 1 212.6963 814.1113)">CSTD 17</text>
+		<text transform="matrix(1 0 0 1 206.1729 821.9238)">(Dates TBD)</text>
 		<rect fill="#725770" x="117.071" y="884.656" width="53.338" height="43.949"/>
-		<text transform="matrix(1 0 0 1 129.0166 897.6191)" fill="#FFFFFF" font-size="6.5">ECOSOC</text>
-		<text transform="matrix(1 0 0 1 123.7744 905.416)" fill="#FFFFFF" font-size="6.5">Substantive</text>
-		<text transform="matrix(1 0 0 1 124.04 913.2129)" fill="#FFFFFF" font-size="6.5">Session, NY</text>
-		<text transform="matrix(1 0 0 1 123.626 921.0098)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
+		<text transform="matrix(1 0 0 1 129.0166 897.6191)">ECOSOC</text>
+		<text transform="matrix(1 0 0 1 123.7744 905.416)">Substantive</text>
+		<text transform="matrix(1 0 0 1 124.04 913.2129)">Session, NY</text>
+		<text transform="matrix(1 0 0 1 123.626 921.0098)">(Dates TBD)</text>
 		<rect fill="#4B314F" x="62.523" y="975.955" width="96.878" height="135.246"/>
-		<text transform="matrix(1 0 0 1 65.6729 1014.3613)" fill="#FFFFFF" font-size="6.5">69th UN General Assembly</text>
-		<text transform="matrix(1 0 0 1 84.3369 1027.8301)" fill="#FFFFFF" font-size="6.5">First Committee</text>
-		<text transform="matrix(1 0 0 1 95.3291 1035.6348)" fill="#FFFFFF" font-size="6.5">(security)</text>
-		<text transform="matrix(1 0 0 1 79.3838 1049.1035)" fill="#FFFFFF" font-size="6.5">Second Committee</text>
-		<text transform="matrix(1 0 0 1 99.1729 1056.9004)" fill="#FFFFFF" font-size="6.5">(WSIS)</text>
-		<text transform="matrix(1 0 0 1 83.1807 1070.3691)" fill="#FFFFFF" font-size="6.5">Third Committee</text>
-		<text transform="matrix(1 0 0 1 86.7666 1078.1738)" fill="#FFFFFF" font-size="6.5">(human rights)</text>
+		<text transform="matrix(1 0 0 1 65.6729 1014.3613)">69th UN General Assembly</text>
+		<text transform="matrix(1 0 0 1 84.3369 1027.8301)">First Committee</text>
+		<text transform="matrix(1 0 0 1 95.3291 1035.6348)">(security)</text>
+		<text transform="matrix(1 0 0 1 79.3838 1049.1035)">Second Committee</text>
+		<text transform="matrix(1 0 0 1 99.1729 1056.9004)">(WSIS)</text>
+		<text transform="matrix(1 0 0 1 83.1807 1070.3691)">Third Committee</text>
+		<text transform="matrix(1 0 0 1 86.7666 1078.1738)">(human rights)</text>
 	</g>
 	<rect fill="#7FC0E7" x="700.488" y="199.92" width="42.331" height="43.949"/>
 	<text transform="matrix(1 0 0 1 704.8682 216.7754)" fill="#FFFFFF" font-size="6.5">ICANN 46</text>
