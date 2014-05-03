@@ -187,18 +187,24 @@
 		<text transform="matrix(0 -1 1 0 53.8916 915.3457)">JUL</text>
 		<text transform="matrix(0 -1 1 0 53.8916 962.6504)">AUG</text>
 	</g>
-	<rect fill="#B5454D" x="62.115" y="62.973" width="746.751" height="21.124"/>
-	<text transform="matrix(1 0 0 1 402.1807 77.252)" fill="#FFFFFF" font-size="9">INSTITUTIONS</text>
-	<rect fill="#4B314F" x="62.032" y="85.797" width="218.456" height="21.124"/>
-	<text transform="matrix(1 0 0 1 99.8838 99.666)" fill="#FFFFFF" font-size="8">UN processes (GA/ECOSOC/CSTD)</text>
-	<rect fill="#B5454D" x="282.189" y="85.797" width="86.362" height="21.124"/>
-	<text transform="matrix(1 0 0 1 293.2197 99.666)" fill="#FFFFFF" font-size="8">WSIS processes</text>
-	<rect fill="#E55937" x="370.252" y="85.797" width="174.426" height="21.124"/>
-	<text transform="matrix(1 0 0 1 429.2275 99.666)" fill="#FFFFFF" font-size="8">ITU processes</text>
-	<rect fill="#3BA66B" x="546.378" y="85.797" width="108.378" height="21.124"/>
-	<text transform="matrix(1 0 0 1 572.1885 99.666)" fill="#FFFFFF" font-size="8">IGF processes</text>
-	<rect fill="#36A8DC" x="656.457" y="85.797" width="86.362" height="21.124"/>
-	<text transform="matrix(1 0 0 1 674.501 99.666)" fill="#FFFFFF" font-size="8">ICANN/IETF</text>
+	<g class="col-header">
+		<rect fill="#B5454D" x="62.115" y="62.973" width="746.751" height="21.124"/>
+		<rect fill="#4B314F" x="62.032" y="85.797" width="218.456" height="21.124"/>
+		<rect fill="#B5454D" x="282.189" y="85.797" width="86.362" height="21.124"/>
+		<rect fill="#E55937" x="370.252" y="85.797" width="174.426" height="21.124"/>
+		<rect fill="#3BA66B" x="546.378" y="85.797" width="108.378" height="21.124"/>
+		<rect fill="#36A8DC" x="656.457" y="85.797" width="86.362" height="21.124"/>
+		<rect fill="#19486B" x="744.521" y="85.797" width="64.345" height="21.124"/>
+	</g>
+	<g fill="#FFFFFF" font-size="8">
+		<text transform="matrix(1 0 0 1 402.1807 77.252)" font-size="9">INSTITUTIONS</text>
+		<text transform="matrix(1 0 0 1 99.8838 99.666)">UN processes (GA/ECOSOC/CSTD)</text>
+		<text transform="matrix(1 0 0 1 293.2197 99.666)">WSIS processes</text>
+		<text transform="matrix(1 0 0 1 429.2275 99.666)">ITU processes</text>
+		<text transform="matrix(1 0 0 1 572.1885 99.666)">IGF processes</text>
+		<text transform="matrix(1 0 0 1 674.501 99.666)">ICANN/IETF</text>
+		<text transform="matrix(1 0 0 1 762.2119 99.666)">OTHER</text>
+	</g>
 	<rect fill="#725770" x="227.149" y="245.57" width="53.339" height="43.948"/>
 	<text transform="matrix(1 0 0 1 242.9385 266.3379)" fill="#FFFFFF" font-size="6.5">WGEC</text>
 	<text transform="matrix(1 0 0 1 236.8604 274.127)" fill="#FFFFFF" font-size="6.5">May 20–31</text>
@@ -594,8 +600,6 @@
 	<text transform="matrix(1 0 0 1 486.8135 821.9238)" fill="#FFFFFF" font-size="6.5">May 6–15</text>
 	<path fill="none" stroke="#000000" d="M473.977,837.809v206.123 M471.727,837.809h4.5 M471.727,1043.932h4.5 M385.913,769.059
 		v274.873 M383.663,769.059h4.5 M383.663,1043.932h4.5"/>
-	<rect fill="#19486B" x="744.521" y="85.797" width="64.345" height="21.124"/>
-	<text transform="matrix(1 0 0 1 762.2119 99.666)" fill="#FFFFFF" font-size="8">OTHER</text>
 	<path fill="none" stroke="#000000" d="M308.433,700.932v57.689 M306.183,700.932h4.5 M306.183,758.621h4.5"/>
 	<rect fill="#ECECF1" x="744.52" y="108.622" width="64.346" height="43.948"/>
 	<rect fill="#ECECF1" x="744.52" y="154.271" width="64.346" height="43.948"/>
