@@ -254,26 +254,56 @@
 		<text transform="matrix(1 0 0 1 83.1807 1070.3691)">Third Committee</text>
 		<text transform="matrix(1 0 0 1 86.7666 1078.1738)">(human rights)</text>
 	</g>
-	<rect fill="#7FC0E7" x="700.488" y="199.92" width="42.331" height="43.949"/>
-	<text transform="matrix(1 0 0 1 704.8682 216.7754)" fill="#FFFFFF" font-size="6.5">ICANN 46</text>
-	<text transform="matrix(1 0 0 1 709.8369 224.5879)" fill="#FFFFFF" font-size="6.5">Beijing</text>
-	<text transform="matrix(1 0 0 1 708.7041 232.3848)" fill="#FFFFFF" font-size="6.5">Apr 7–11</text>
-	<rect fill="#7FC0E7" x="700.488" y="336.868" width="42.331" height="43.948"/>
-	<text transform="matrix(1 0 0 1 705.1104 353.7207)" fill="#FFFFFF" font-size="6.5">ICANN 47</text>
-	<text transform="matrix(1 0 0 1 709.2979 361.5332)" fill="#FFFFFF" font-size="6.5">Durban</text>
-	<text transform="matrix(1 0 0 1 707.5166 369.3223)" fill="#FFFFFF" font-size="6.5">Jul 14–18</text>
-	<rect fill="#7FC0E7" x="700.488" y="519.464" width="42.331" height="43.949"/>
-	<text transform="matrix(1 0 0 1 704.9619 536.3145)" fill="#FFFFFF" font-size="6.5">ICANN 48</text>
-	<text transform="matrix(1 0 0 1 705.6963 544.1191)" fill="#FFFFFF" font-size="6.5">Buenos A</text>
-	<text transform="matrix(1 0 0 1 706.3213 551.9316)" fill="#FFFFFF" font-size="6.5">Nov 17–21</text>
-	<rect fill="#7FC0E7" x="700.488" y="702.061" width="42.331" height="43.947"/>
-	<text transform="matrix(1 0 0 1 704.9072 718.9238)" fill="#FFFFFF" font-size="6.5">ICANN 49</text>
-	<text transform="matrix(1 0 0 1 704.29 726.7129)" fill="#FFFFFF" font-size="6.5">Singapore</text>
-	<text transform="matrix(1 0 0 1 704.9932 734.5176)" fill="#FFFFFF" font-size="6.5">Mar 23–27</text>
-	<rect fill="#7FC0E7" x="700.488" y="839.008" width="42.331" height="43.949"/>
-	<text transform="matrix(1 0 0 1 704.8447 855.877)" fill="#FFFFFF" font-size="6.5">ICANN 50</text>
-	<text transform="matrix(1 0 0 1 708.79 863.6582)" fill="#FFFFFF" font-size="6.5">London</text>
-	<text transform="matrix(1 0 0 1 705.126 871.4707)" fill="#FFFFFF" font-size="6.5">Jun 22–26</text>
+	<g class="icann-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#7FC0E7" x="656.457" y="154.271" width="42.33" height="43.948"/>
+		<text transform="matrix(1 0 0 1 664.751 171.1348)">IETF 86</text>
+		<text transform="matrix(1 0 0 1 663.8604 178.9316)">Orlando</text>
+		<text transform="matrix(1 0 0 1 661.9463 186.7285)">Mar 10–15</text>
+		<rect fill="#7FC0E7" x="700.488" y="199.92" width="42.331" height="43.949"/>
+		<text transform="matrix(1 0 0 1 704.8682 216.7754)">ICANN 46</text>
+		<text transform="matrix(1 0 0 1 709.8369 224.5879)">Beijing</text>
+		<text transform="matrix(1 0 0 1 708.7041 232.3848)">Apr 7–11</text>
+		<rect fill="#7FC0E7" x="700.488" y="336.868" width="42.331" height="43.948"/>
+		<text transform="matrix(1 0 0 1 705.1104 353.7207)">ICANN 47</text>
+		<text transform="matrix(1 0 0 1 709.2979 361.5332)">Durban</text>
+		<text transform="matrix(1 0 0 1 707.5166 369.3223)">Jul 14–18</text>
+		<rect fill="#7FC0E7" x="656.457" y="336.868" width="42.33" height="43.948"/>
+		<text transform="matrix(1 0 0 1 664.9775 353.7207)">IETF 87</text>
+		<text transform="matrix(1 0 0 1 667.6729 361.5332)">Berlin</text>
+		<text transform="matrix(1 0 0 1 657.001 369.3223)">Jul 28–Aug 2</text>
+		<rect fill="#7FC0E7" x="656.457" y="519.464" width="42.33" height="43.949"/>
+		<text transform="matrix(1 0 0 1 664.8291 536.3145)">IETF 88</text>
+		<text transform="matrix(1 0 0 1 659.7275 544.1191)">Vancouver</text>
+		<text transform="matrix(1 0 0 1 664.1572 551.9316)">Nov 3–8</text>
+		<rect fill="#7FC0E7" x="700.488" y="519.464" width="42.331" height="43.949"/>
+		<text transform="matrix(1 0 0 1 704.9619 536.3145)">ICANN 48</text>
+		<text transform="matrix(1 0 0 1 705.6963 544.1191)">Buenos A</text>
+		<text transform="matrix(1 0 0 1 706.3213 551.9316)">Nov 17–21</text>
+		<rect fill="#7FC0E7" x="656.457" y="702.061" width="42.33" height="43.947"/>
+		<text transform="matrix(1 0 0 1 664.7666 718.9238)">IETF 89</text>
+		<text transform="matrix(1 0 0 1 664.7666 726.7129)">London</text>
+		<text transform="matrix(1 0 0 1 665.1885 734.5176)">Mar 2–7</text>
+		<rect fill="#7FC0E7" x="700.488" y="702.061" width="42.331" height="43.947"/>
+		<text transform="matrix(1 0 0 1 704.9072 718.9238)">ICANN 49</text>
+		<text transform="matrix(1 0 0 1 704.29 726.7129)">Singapore</text>
+		<text transform="matrix(1 0 0 1 704.9932 734.5176)">Mar 23–27</text>
+		<rect fill="#7FC0E7" x="700.488" y="839.008" width="42.331" height="43.949"/>
+		<text transform="matrix(1 0 0 1 704.8447 855.877)">ICANN 50</text>
+		<text transform="matrix(1 0 0 1 708.79 863.6582)">London</text>
+		<text transform="matrix(1 0 0 1 705.126 871.4707)">Jun 22–26</text>
+		<rect fill="#7FC0E7" x="656.457" y="884.656" width="42.33" height="43.949"/>
+		<text transform="matrix(1 0 0 1 664.4307 901.5176)">IETF 90</text>
+		<text transform="matrix(1 0 0 1 664.2666 909.3145)">Toronto</text>
+		<text transform="matrix(1 0 0 1 659.915 917.1191)">July 20–25</text>
+		<rect fill="#7FC0E7" x="700.488" y="1044.432" width="42.331" height="43.949"/>
+		<text transform="matrix(1 0 0 1 705.8604 1061.291)">ICANN 51</text>
+		<text transform="matrix(1 0 0 1 701.165 1069.0957)">Los Angeles</text>
+		<text transform="matrix(1 0 0 1 706.4932 1076.8848)">Oct 12–16</text>
+		<rect fill="#7FC0E7" x="657.308" y="1066.402" width="42.331" height="43.95"/>
+		<text transform="matrix(1 0 0 1 666.3369 1083.2676)">IETF 91</text>
+		<text transform="matrix(1 0 0 1 663.2432 1091.0645)">Honolulu</text>
+		<text transform="matrix(1 0 0 1 663.6416 1098.8613)">Nov 9–14</text>
+	</g>
 	<rect fill="#80C091" x="546.378" y="143.708" width="108.378" height="21.125"/>
 	<text transform="matrix(1 0 0 1 585.251 153.0645)" fill="#FFFFFF" font-size="6.5">MAG Mtg</text>
 	<text transform="matrix(1 0 0 1 579.1885 160.8457)" fill="#FFFFFF" font-size="6.5">Feb 28–Mar 1</text>
@@ -580,14 +610,6 @@
 		 M537.791,507.202L537.791,507.202 M537.791,450.14L537.791,450.14 M159.901,450.14L159.901,450.14"/>
 	<path fill="none" stroke="#000000" d="M545.896,504.952v4.5 M159.901,447.89v4.5 M721.653,244.369v91.999 M719.403,244.369h4.5
 		 M719.403,336.368h4.5 M253.819,290.018v228.946 M251.569,290.018h4.5 M251.569,518.964h4.5"/>
-	<rect fill="#7FC0E7" x="656.457" y="519.464" width="42.33" height="43.949"/>
-	<text transform="matrix(1 0 0 1 664.8291 536.3145)" fill="#FFFFFF" font-size="6.5">IETF 88</text>
-	<text transform="matrix(1 0 0 1 659.7275 544.1191)" fill="#FFFFFF" font-size="6.5">Vancouver</text>
-	<text transform="matrix(1 0 0 1 664.1572 551.9316)" fill="#FFFFFF" font-size="6.5">Nov 3–8</text>
-	<rect fill="#7FC0E7" x="656.457" y="702.061" width="42.33" height="43.947"/>
-	<text transform="matrix(1 0 0 1 664.7666 718.9238)" fill="#FFFFFF" font-size="6.5">IETF 89</text>
-	<text transform="matrix(1 0 0 1 664.7666 726.7129)" fill="#FFFFFF" font-size="6.5">London</text>
-	<text transform="matrix(1 0 0 1 665.1885 734.5176)" fill="#FFFFFF" font-size="6.5">Mar 2–7</text>
 	<path fill="none" stroke="#000000" d="M677.622,563.913v137.648 M675.372,563.913h4.5 M675.372,701.561h4.5"/>
 	<text transform="matrix(1 0 0 1 518.1807 1166.3457)" fill="#B5454D" font-size="8">For more information visit http//bestbits.net/wp-uploads/diagram.html</text>
 	
@@ -629,16 +651,8 @@
 	<rect fill="#80C091" x="546.396" y="268.394" width="107.935" height="21.124"/>
 	<text transform="matrix(1 0 0 1 585.04 277.7441)" fill="#FFFFFF" font-size="6.5">MAG Mtg</text>
 	<text transform="matrix(1 0 0 1 583.8916 285.5332)" fill="#FFFFFF" font-size="6.5">May 21–23</text>
-	<rect fill="#7FC0E7" x="656.457" y="154.271" width="42.33" height="43.948"/>
-	<text transform="matrix(1 0 0 1 664.751 171.1348)" fill="#FFFFFF" font-size="6.5">IETF 86</text>
-	<text transform="matrix(1 0 0 1 663.8604 178.9316)" fill="#FFFFFF" font-size="6.5">Orlando</text>
-	<text transform="matrix(1 0 0 1 661.9463 186.7285)" fill="#FFFFFF" font-size="6.5">Mar 10–15</text>
 	<path fill="none" stroke="#000000" d="M721.653,107.285v91.999 M719.403,107.285h4.5 M719.403,199.284h4.5 M677.622,198.72v137.648
 		 M675.372,198.72h4.5 M675.372,336.368h4.5"/>
-	<rect fill="#7FC0E7" x="656.457" y="336.868" width="42.33" height="43.948"/>
-	<text transform="matrix(1 0 0 1 664.9775 353.7207)" fill="#FFFFFF" font-size="6.5">IETF 87</text>
-	<text transform="matrix(1 0 0 1 667.6729 361.5332)" fill="#FFFFFF" font-size="6.5">Berlin</text>
-	<text transform="matrix(1 0 0 1 657.001 369.3223)" fill="#FFFFFF" font-size="6.5">Jul 28–Aug 2</text>
 	<path fill="none" stroke="#000000" d="M677.622,381.316v137.648 M675.372,381.316h4.5 M675.372,518.964h4.5"/>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,1.9225" x1="264.827" y1="565.834" x2="264.827" y2="586.021"/>
@@ -653,19 +667,7 @@
 		 M253.819,792.859L253.819,792.859"/>
 	<path fill="none" stroke="#000000" d="M251.569,700.754h4.5 M251.569,792.859h4.5 M677.622,746.508v137.648 M675.372,746.508h4.5
 		 M675.372,884.156h4.5"/>
-	<rect fill="#7FC0E7" x="656.457" y="884.656" width="42.33" height="43.949"/>
-	<text transform="matrix(1 0 0 1 664.4307 901.5176)" fill="#FFFFFF" font-size="6.5">IETF 90</text>
-	<text transform="matrix(1 0 0 1 664.2666 909.3145)" fill="#FFFFFF" font-size="6.5">Toronto</text>
-	<text transform="matrix(1 0 0 1 659.915 917.1191)" fill="#FFFFFF" font-size="6.5">July 20–25</text>
-	<rect fill="#7FC0E7" x="700.488" y="1044.432" width="42.331" height="43.949"/>
-	<text transform="matrix(1 0 0 1 705.8604 1061.291)" fill="#FFFFFF" font-size="6.5">ICANN 51</text>
-	<text transform="matrix(1 0 0 1 701.165 1069.0957)" fill="#FFFFFF" font-size="6.5">Los Angeles</text>
-	<text transform="matrix(1 0 0 1 706.4932 1076.8848)" fill="#FFFFFF" font-size="6.5">Oct 12–16</text>
 	<path fill="none" stroke="#000000" d="M721.653,883.457v160.475 M719.403,883.457h4.5 M719.403,1043.932h4.5"/>
-	<rect fill="#7FC0E7" x="657.308" y="1066.402" width="42.331" height="43.95"/>
-	<text transform="matrix(1 0 0 1 666.3369 1083.2676)" fill="#FFFFFF" font-size="6.5">IETF 91</text>
-	<text transform="matrix(1 0 0 1 663.2432 1091.0645)" fill="#FFFFFF" font-size="6.5">Honolulu</text>
-	<text transform="matrix(1 0 0 1 663.6416 1098.8613)" fill="#FFFFFF" font-size="6.5">Nov 9–14</text>
 	<path fill="none" stroke="#000000" d="M677.622,929.105v136.797 M675.372,929.105h4.5 M675.372,1065.902h4.5"/>
 	<rect fill="#19486B" x="794.693" y="17.323" width="14.173" height="14.174"/>
 	<rect fill="#586A89" x="794.693" y="32.914" width="14.173" height="14.173"/>
