@@ -282,6 +282,61 @@
 		<rect fill="#B5454D" x="282.189" y="1112.902" width="86.362" height="43.95"/>
 		<text transform="matrix(1 0 0 1 323.1963 1138.1816)">?</text>
 	</g>
+	<g class="itu-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#EE8964" x="370.252" y="108.622" width="75.354" height="43.949"/>
+		<text transform="matrix(1 0 0 1 381.001 125.4863)">WTDC RPM: CIS</text>
+		<text transform="matrix(1 0 0 1 393.5635 133.2754)">Chisinau</text>
+		<text transform="matrix(1 0 0 1 391.3135 141.0801)">Feb 19–20</text>
+		<rect fill="#EE8964" x="370.252" y="222.677" width="75.354" height="43.948"/>
+		<text transform="matrix(1 0 0 1 379.7041 239.541)">WTDC RPM: ASP</text>
+		<text transform="matrix(1 0 0 1 386.9385 247.3301)">Phnom Penh</text>
+		<text transform="matrix(1 0 0 1 387.4619 255.1348)">Apr 3–May 2</text>
+		<rect fill="#E55937" x="447.308" y="245.57" width="97.37" height="32.553"/>
+		<text transform="matrix(1 0 0 1 476.9385 260.6348)">WTPF 2013</text>
+		<text transform="matrix(1 0 0 1 480.3135 268.4316)">May 14-16</text>
+		<rect fill="#EE8964" x="458.315" y="279.789" width="42.331" height="43.983"/>
+		<text transform="matrix(1 0 0 1 460.3447 296.666)">CWG-WSIS</text>
+		<text transform="matrix(1 0 0 1 462.4619 304.4629)">May 30–31</text>
+		<text transform="matrix(1 0 0 1 464.9619 312.2676)">/June 20</text>
+		<rect fill="#EE8964" x="502.347" y="291.219" width="42.331" height="43.948"/>
+		<text transform="matrix(1 0 0 1 517.79 308.0723)">ITU</text>
+		<text transform="matrix(1 0 0 1 505.4385 315.877)">Council ‘13</text>
+		<text transform="matrix(1 0 0 1 509.376 323.6816)">Jun 11–21</text>
+		<rect fill="#EE8964" x="370.252" y="382.517" width="75.354" height="43.948"/>
+		<text transform="matrix(1 0 0 1 379.0635 399.3691)">WTDC RPM: AMS</text>
+		<text transform="matrix(1 0 0 1 387.9385 407.1738)">Montevideo</text>
+		<text transform="matrix(1 0 0 1 390.1807 414.9707)">Aug 20–22</text>
+		<rect fill="#EE8964" x="370.252" y="473.815" width="75.354" height="21.124"/>
+		<text transform="matrix(1 0 0 1 379.1182 483.1738)">WTDC RPM: AFR</text>
+		<text transform="matrix(1 0 0 1 384.3682 490.9629)">Accra Oct 2–4</text>
+		<rect fill="#EE8964" x="370.252" y="496.64" width="75.354" height="21.123"/>
+		<text transform="matrix(1 0 0 1 379.2744 505.9863)">WTDC RPM: ARB</text>
+		<text transform="matrix(1 0 0 1 376.8057 513.7754)">Manama Oct 29–31</text>
+		<rect fill="#EE8964" x="469.323" y="519.464" width="64.346" height="43.949"/>
+		<text transform="matrix(1 0 0 1 477.8838 540.2207)">CWG-internet</text>
+		<text transform="matrix(1 0 0 1 486.6494 548.0176)">Nov 11–12</text>
+		<rect fill="#EE8964" x="370.252" y="519.464" width="75.354" height="43.949"/>
+		<text transform="matrix(1 0 0 1 379.5088 536.3145)">WTDC RPM: EUR</text>
+		<text transform="matrix(1 0 0 1 392.5791 544.1191)">Belgrade</text>
+		<text transform="matrix(1 0 0 1 390.5322 551.9316)">Nov 26–28</text>
+		<rect fill="#EE8964" x="370.252" y="565.114" width="75.354" height="43.948"/>
+		<text transform="matrix(1 0 0 1 376.6182 585.877)">TDAG 18th Session</text>
+		<text transform="matrix(1 0 0 1 393.2275 593.666)">Dec 11–13</text>
+		<rect fill="#EE8964" x="458.269" y="656.484" width="64.392" height="43.948"/>
+		<text transform="matrix(1 0 0 1 471.3369 677.2363)">CWG-WSIS</text>
+		<text transform="matrix(1 0 0 1 473.8525 685.0488)">Feb 19–20</text>
+		<rect fill="#E55937" x="370.252" y="736.297" width="130.394" height="32.262"/>
+		<text transform="matrix(1 0 0 1 424.5479 747.3145)">WTDC</text>
+		<text transform="matrix(1 0 0 1 408.3682 755.1113)">Sharm El Sheikh</text>
+		<text transform="matrix(1 0 0 1 412.7354 762.916)">Mar 30–Apr 11</text>
+		<rect fill="#EE8964" x="458.315" y="793.359" width="86.363" height="43.95"/>
+		<text transform="matrix(1 0 0 1 477.7432 814.1113)">ITC Council 14</text>
+		<text transform="matrix(1 0 0 1 486.8135 821.9238)">May 6–15</text>
+		<rect fill="#E55937" x="370.252" y="1044.432" width="174.426" height="66.769"/>
+		<text transform="matrix(1 0 0 1 404.2979 1072.7051)">ITU Plenipotentiary Conference</text>
+		<text transform="matrix(1 0 0 1 447.2197 1080.502)">Busan</text>
+		<text transform="matrix(1 0 0 1 434.415 1088.2988)">Oct 19–Nov 15</text>
+	</g>
 	<g class="igf-events" fill="#FFFFFF" font-size="6.5">
 		<rect fill="#80C091" x="546.378" y="143.708" width="108.378" height="21.125"/>
 		<text transform="matrix(1 0 0 1 585.251 153.0645)">MAG Mtg</text>
@@ -373,56 +428,6 @@
 		<text transform="matrix(1 0 0 1 663.2432 1091.0645)">Honolulu</text>
 		<text transform="matrix(1 0 0 1 663.6416 1098.8613)">Nov 9–14</text>
 	</g>
-	<rect fill="#EE8964" x="370.252" y="108.622" width="75.354" height="43.949"/>
-	<text transform="matrix(1 0 0 1 381.001 125.4863)" fill="#FFFFFF" font-size="6.5">WTDC RPM: CIS</text>
-	<text transform="matrix(1 0 0 1 393.5635 133.2754)" fill="#FFFFFF" font-size="6.5">Chisinau</text>
-	<text transform="matrix(1 0 0 1 391.3135 141.0801)" fill="#FFFFFF" font-size="6.5">Feb 19–20</text>
-	<rect fill="#EE8964" x="370.252" y="222.677" width="75.354" height="43.948"/>
-	<text transform="matrix(1 0 0 1 379.7041 239.541)" fill="#FFFFFF" font-size="6.5">WTDC RPM: ASP</text>
-	<text transform="matrix(1 0 0 1 386.9385 247.3301)" fill="#FFFFFF" font-size="6.5">Phnom Penh</text>
-	<text transform="matrix(1 0 0 1 387.4619 255.1348)" fill="#FFFFFF" font-size="6.5">Apr 3–May 2</text>
-	<rect fill="#E55937" x="447.308" y="245.57" width="97.37" height="32.553"/>
-	<text transform="matrix(1 0 0 1 476.9385 260.6348)" fill="#FFFFFF" font-size="6.5">WTPF 2013</text>
-	<text transform="matrix(1 0 0 1 480.3135 268.4316)" fill="#FFFFFF" font-size="6.5">May 14-16</text>
-	<rect fill="#EE8964" x="502.347" y="291.219" width="42.331" height="43.948"/>
-	<text transform="matrix(1 0 0 1 517.79 308.0723)" fill="#FFFFFF" font-size="6.5">ITU</text>
-	<text transform="matrix(1 0 0 1 505.4385 315.877)" fill="#FFFFFF" font-size="6.5">Council ‘13</text>
-	<text transform="matrix(1 0 0 1 509.376 323.6816)" fill="#FFFFFF" font-size="6.5">Jun 11–21</text>
-	<rect fill="#EE8964" x="458.315" y="279.789" width="42.331" height="43.983"/>
-	<text transform="matrix(1 0 0 1 460.3447 296.666)" fill="#FFFFFF" font-size="6.5">CWG-WSIS</text>
-	<text transform="matrix(1 0 0 1 462.4619 304.4629)" fill="#FFFFFF" font-size="6.5">May 30–31</text>
-	<text transform="matrix(1 0 0 1 464.9619 312.2676)" fill="#FFFFFF" font-size="6.5">/June 20</text>
-	<rect fill="#EE8964" x="370.252" y="382.517" width="75.354" height="43.948"/>
-	<text transform="matrix(1 0 0 1 379.0635 399.3691)" fill="#FFFFFF" font-size="6.5">WTDC RPM: AMS</text>
-	<text transform="matrix(1 0 0 1 387.9385 407.1738)" fill="#FFFFFF" font-size="6.5">Montevideo</text>
-	<text transform="matrix(1 0 0 1 390.1807 414.9707)" fill="#FFFFFF" font-size="6.5">Aug 20–22</text>
-	<rect fill="#EE8964" x="370.252" y="473.815" width="75.354" height="21.124"/>
-	<text transform="matrix(1 0 0 1 379.1182 483.1738)" fill="#FFFFFF" font-size="6.5">WTDC RPM: AFR</text>
-	<text transform="matrix(1 0 0 1 384.3682 490.9629)" fill="#FFFFFF" font-size="6.5">Accra Oct 2–4</text>
-	<rect fill="#EE8964" x="370.252" y="496.64" width="75.354" height="21.123"/>
-	<text transform="matrix(1 0 0 1 379.2744 505.9863)" fill="#FFFFFF" font-size="6.5">WTDC RPM: ARB</text>
-	<text transform="matrix(1 0 0 1 376.8057 513.7754)" fill="#FFFFFF" font-size="6.5">Manama Oct 29–31</text>
-	<rect fill="#EE8964" x="458.269" y="656.484" width="64.392" height="43.948"/>
-	<text transform="matrix(1 0 0 1 471.3369 677.2363)" fill="#FFFFFF" font-size="6.5">CWG-WSIS</text>
-	<text transform="matrix(1 0 0 1 473.8525 685.0488)" fill="#FFFFFF" font-size="6.5">Feb 19–20</text>
-	<rect fill="#EE8964" x="469.323" y="519.464" width="64.346" height="43.949"/>
-	<text transform="matrix(1 0 0 1 477.8838 540.2207)" fill="#FFFFFF" font-size="6.5">CWG-internet</text>
-	<text transform="matrix(1 0 0 1 486.6494 548.0176)" fill="#FFFFFF" font-size="6.5">Nov 11–12</text>
-	<rect fill="#EE8964" x="370.252" y="519.464" width="75.354" height="43.949"/>
-	<text transform="matrix(1 0 0 1 379.5088 536.3145)" fill="#FFFFFF" font-size="6.5">WTDC RPM: EUR</text>
-	<text transform="matrix(1 0 0 1 392.5791 544.1191)" fill="#FFFFFF" font-size="6.5">Belgrade</text>
-	<text transform="matrix(1 0 0 1 390.5322 551.9316)" fill="#FFFFFF" font-size="6.5">Nov 26–28</text>
-	<rect fill="#EE8964" x="370.252" y="565.114" width="75.354" height="43.948"/>
-	<text transform="matrix(1 0 0 1 376.6182 585.877)" fill="#FFFFFF" font-size="6.5">TDAG 18th Session</text>
-	<text transform="matrix(1 0 0 1 393.2275 593.666)" fill="#FFFFFF" font-size="6.5">Dec 11–13</text>
-	<rect fill="#E55937" x="370.252" y="736.297" width="130.394" height="32.262"/>
-	<text transform="matrix(1 0 0 1 424.5479 747.3145)" fill="#FFFFFF" font-size="6.5">WTDC</text>
-	<text transform="matrix(1 0 0 1 408.3682 755.1113)" fill="#FFFFFF" font-size="6.5">Sharm El Sheikh</text>
-	<text transform="matrix(1 0 0 1 412.7354 762.916)" fill="#FFFFFF" font-size="6.5">Mar 30–Apr 11</text>
-	<rect fill="#E55937" x="370.252" y="1044.432" width="174.426" height="66.769"/>
-	<text transform="matrix(1 0 0 1 404.2979 1072.7051)" fill="#FFFFFF" font-size="6.5">ITU Plenipotentiary Conference</text>
-	<text transform="matrix(1 0 0 1 447.2197 1080.502)" fill="#FFFFFF" font-size="6.5">Busan</text>
-	<text transform="matrix(1 0 0 1 434.415 1088.2988)" fill="#FFFFFF" font-size="6.5">Oct 19–Nov 15</text>
 	<path fill="none" stroke="#000000" d="M644.599,290.018V496.14 M642.349,290.018h4.5 M642.349,496.14h4.5 M721.653,381.316v137.648
 		 M719.403,381.316h4.5 M719.403,518.964h4.5 M721.653,563.913v137.648 M719.403,563.913h4.5 M719.403,701.561h4.5 M721.653,746.508
 		v92 M719.403,746.508h4.5 M719.403,838.508h4.5 M600.708,518.264v183.441 M598.458,518.264h4.5 M598.458,701.705h4.5
@@ -626,9 +631,6 @@
 	<path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M457.464,1111.701L457.464,1111.701
 		 M457.464,1146.291L457.464,1146.291 M369.051,1146.291L369.051,1146.291"/>
 	<path fill="none" stroke="#000000" d="M459.714,1111.701h-4.5 M369.051,1144.041v4.5"/>
-	<rect fill="#EE8964" x="458.315" y="793.359" width="86.363" height="43.95"/>
-	<text transform="matrix(1 0 0 1 477.7432 814.1113)" fill="#FFFFFF" font-size="6.5">ITC Council 14</text>
-	<text transform="matrix(1 0 0 1 486.8135 821.9238)" fill="#FFFFFF" font-size="6.5">May 6–15</text>
 	<path fill="none" stroke="#000000" d="M473.977,837.809v206.123 M471.727,837.809h4.5 M471.727,1043.932h4.5 M385.913,769.059
 		v274.873 M383.663,769.059h4.5 M383.663,1043.932h4.5"/>
 	<path fill="none" stroke="#000000" d="M308.433,700.932v57.689 M306.183,700.932h4.5 M306.183,758.621h4.5"/>
