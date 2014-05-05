@@ -3,372 +3,436 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="830px" height="1183px" viewBox="0 0 830 1183" enable-background="new 0 0 830 1183" xml:space="preserve">
-<g>
-	<polygon fill="#EFF7EF" points="546.378,108.622 546.378,152.571 654.756,152.571 654.756,108.622 546.378,108.622 	"/>
-	<polygon fill="#EFF7EF" points="546.378,154.271 546.378,198.22 654.756,198.22 654.756,154.271 546.378,154.271 	"/>
-	<polygon fill="#EFF7EF" points="546.378,199.92 546.378,243.869 654.756,243.869 654.756,199.92 546.378,199.92 	"/>
-	<polygon fill="#EFF7EF" points="546.378,245.57 546.378,289.518 654.756,289.518 654.756,245.57 546.378,245.57 	"/>
-	<polygon fill="#EFF7EF" points="546.378,291.219 546.378,335.167 654.756,335.167 654.756,291.219 546.378,291.219 	"/>
-	<polygon fill="#EFF7EF" points="546.378,336.868 546.378,380.816 654.756,380.816 654.756,336.868 546.378,336.868 	"/>
-	<polygon fill="#EFF7EF" points="546.378,382.517 546.378,426.465 654.756,426.465 654.756,382.517 546.378,382.517 	"/>
-	<polygon fill="#EFF7EF" points="546.378,428.166 546.378,472.114 654.756,472.114 654.756,428.166 546.378,428.166 	"/>
-	<polygon fill="#EFF7EF" points="546.378,473.815 546.378,517.764 654.756,517.764 654.756,473.815 546.378,473.815 	"/>
-	<polygon fill="#EFF7EF" points="546.378,519.464 546.378,563.413 654.756,563.413 654.756,519.464 546.378,519.464 	"/>
-	<polygon fill="#EFF7EF" points="546.378,565.114 546.378,609.062 654.756,609.062 654.756,565.114 546.378,565.114 	"/>
-	<polygon fill="#EFF7EF" points="546.378,610.764 546.378,654.711 654.756,654.711 654.756,610.764 546.378,610.764 	"/>
-	<polygon fill="#EFF7EF" points="546.378,656.412 546.378,700.359 654.756,700.359 654.756,656.412 546.378,656.412 	"/>
-	<polygon fill="#EFF7EF" points="546.378,702.061 546.378,746.008 654.756,746.008 654.756,702.061 546.378,702.061 	"/>
-	<polygon fill="#EFF7EF" points="546.378,747.709 546.378,791.658 654.756,791.658 654.756,747.709 546.378,747.709 	"/>
-	<polygon fill="#EFF7EF" points="546.378,793.359 546.378,837.307 654.756,837.307 654.756,793.359 546.378,793.359 	"/>
-	<polygon fill="#EFF7EF" points="546.378,839.008 546.378,882.957 654.756,882.957 654.756,839.008 546.378,839.008 	"/>
-	<polygon fill="#EFF7EF" points="546.378,884.656 546.378,928.605 654.756,928.605 654.756,884.656 546.378,884.656 	"/>
-	<polygon fill="#EFF7EF" points="546.378,930.307 546.378,974.254 654.756,974.254 654.756,930.307 546.378,930.307 	"/>
-	<polygon fill="#EFF7EF" points="546.378,975.955 546.378,1019.902 654.756,1019.902 654.756,975.955 546.378,975.955 	"/>
-	<polygon fill="#EFF7EF" points="546.378,1021.602 546.378,1065.551 654.756,1065.551 654.756,1021.602 546.378,1021.602 	"/>
-	<polygon fill="#EFF7EF" points="546.378,1067.252 546.378,1111.201 654.756,1111.201 654.756,1067.252 546.378,1067.252 	"/>
-	<polygon fill="#EFF7EF" points="546.378,1112.902 546.378,1156.852 654.756,1156.852 654.756,1112.902 546.378,1112.902 	"/>
-	<polygon fill="#EEF6FC" points="656.457,108.622 656.457,152.57 742.819,152.57 742.819,108.622 656.457,108.622 	"/>
-	<polygon fill="#EEF6FC" points="656.457,154.271 656.457,198.219 742.819,198.219 742.819,154.271 656.457,154.271 	"/>
-	<polygon fill="#EEF6FC" points="656.457,199.92 656.457,243.869 742.819,243.869 742.819,199.92 656.457,199.92 	"/>
-	<polygon fill="#EEF6FC" points="656.457,245.57 656.457,289.518 742.819,289.518 742.819,245.57 656.457,245.57 	"/>
-	<polygon fill="#EEF6FC" points="656.457,291.219 656.457,335.167 742.819,335.167 742.819,291.219 656.457,291.219 	"/>
-	<polygon fill="#EEF6FC" points="656.457,336.868 656.457,380.816 742.819,380.816 742.819,336.868 656.457,336.868 	"/>
-	<polygon fill="#EEF6FC" points="656.457,382.517 656.457,426.465 742.819,426.465 742.819,382.517 656.457,382.517 	"/>
-	<polygon fill="#EEF6FC" points="656.457,428.166 656.457,472.114 742.819,472.114 742.819,428.166 656.457,428.166 	"/>
-	<polygon fill="#EEF6FC" points="656.457,473.815 656.457,517.763 742.819,517.763 742.819,473.815 656.457,473.815 	"/>
-	<polygon fill="#EEF6FC" points="656.457,519.464 656.457,563.413 742.819,563.413 742.819,519.464 656.457,519.464 	"/>
-	<polygon fill="#EEF6FC" points="656.457,565.114 656.457,609.062 742.819,609.062 742.819,565.114 656.457,565.114 	"/>
-	<polygon fill="#EEF6FC" points="656.457,610.764 656.457,654.711 742.819,654.711 742.819,610.764 656.457,610.764 	"/>
-	<polygon fill="#EEF6FC" points="656.457,656.412 656.457,700.359 742.819,700.359 742.819,656.412 656.457,656.412 	"/>
-	<polygon fill="#EEF6FC" points="656.457,702.061 656.457,746.008 742.819,746.008 742.819,702.061 656.457,702.061 	"/>
-	<polygon fill="#EEF6FC" points="656.457,747.709 656.457,791.658 742.819,791.658 742.819,747.709 656.457,747.709 	"/>
-	<polygon fill="#EEF6FC" points="656.457,793.359 656.457,837.307 742.819,837.307 742.819,793.359 656.457,793.359 	"/>
-	<polygon fill="#EEF6FC" points="656.457,839.008 656.457,882.957 742.819,882.957 742.819,839.008 656.457,839.008 	"/>
-	<polygon fill="#EEF6FC" points="656.457,884.656 656.457,928.605 742.819,928.605 742.819,884.656 656.457,884.656 	"/>
-	<polygon fill="#EEF6FC" points="656.457,930.307 656.457,974.254 742.819,974.254 742.819,930.307 656.457,930.307 	"/>
-	<polygon fill="#EEF6FC" points="656.457,975.955 656.457,1019.902 742.819,1019.902 742.819,975.955 656.457,975.955 	"/>
-	<polygon fill="#EEF6FC" points="656.457,1021.602 656.457,1065.551 742.819,1065.551 742.819,1021.602 656.457,1021.602 	"/>
-	<polygon fill="#EEF6FC" points="656.457,1067.252 656.457,1111.201 742.819,1111.201 742.819,1067.252 656.457,1067.252 	"/>
-	<polygon fill="#EEF6FC" points="656.457,1112.902 656.457,1156.852 742.819,1156.852 742.819,1112.902 656.457,1112.902 	"/>
-	<polygon fill="#FEEFE5" points="371.055,108.622 371.055,152.571 545.48,152.571 545.48,108.622 371.055,108.622 	"/>
-	<polygon fill="#FEEFE5" points="371.055,154.271 371.055,198.219 545.48,198.219 545.48,154.271 371.055,154.271 	"/>
-	<polygon fill="#FEEFE5" points="371.055,199.92 371.055,243.869 545.48,243.869 545.48,199.92 371.055,199.92 	"/>
-	<polygon fill="#FEEFE5" points="371.055,245.57 371.055,289.518 545.48,289.518 545.48,245.57 371.055,245.57 	"/>
-	<polygon fill="#FEEFE5" points="371.055,291.219 371.055,335.167 545.48,335.167 545.48,291.219 371.055,291.219 	"/>
-	<polygon fill="#FEEFE5" points="371.055,336.868 371.055,380.816 545.48,380.816 545.48,336.868 371.055,336.868 	"/>
-	<polygon fill="#FEEFE5" points="371.055,382.517 371.055,426.465 545.48,426.465 545.48,382.517 371.055,382.517 	"/>
-	<polygon fill="#FEEFE5" points="371.055,428.166 371.055,472.114 545.48,472.114 545.48,428.166 371.055,428.166 	"/>
-	<polygon fill="#FEEFE5" points="371.055,473.815 371.055,517.763 545.48,517.763 545.48,473.815 371.055,473.815 	"/>
-	<polygon fill="#FEEFE5" points="371.055,519.464 371.055,563.413 545.48,563.413 545.48,519.464 371.055,519.464 	"/>
-	<polygon fill="#FEEFE5" points="371.055,565.114 371.055,609.062 545.48,609.062 545.48,565.114 371.055,565.114 	"/>
-	<polygon fill="#FEEFE5" points="371.055,610.764 371.055,654.711 545.48,654.711 545.48,610.764 371.055,610.764 	"/>
-	<polygon fill="#FEEFE5" points="371.055,656.412 371.055,700.359 545.48,700.359 545.48,656.412 371.055,656.412 	"/>
-	<polygon fill="#FEEFE5" points="371.055,702.061 371.055,746.008 545.48,746.008 545.48,702.061 371.055,702.061 	"/>
-	<polygon fill="#FEEFE5" points="371.055,747.709 371.055,791.658 545.48,791.658 545.48,747.709 371.055,747.709 	"/>
-	<polygon fill="#FEEFE5" points="371.055,793.359 371.055,837.307 545.48,837.307 545.48,793.359 371.055,793.359 	"/>
-	<polygon fill="#FEEFE5" points="371.055,839.008 371.055,882.957 545.48,882.957 545.48,839.008 371.055,839.008 	"/>
-	<polygon fill="#FEEFE5" points="371.055,884.656 371.055,928.605 545.48,928.605 545.48,884.656 371.055,884.656 	"/>
-	<polygon fill="#FEEFE5" points="371.055,930.307 371.055,974.254 545.48,974.254 545.48,930.307 371.055,930.307 	"/>
-	<polygon fill="#FEEFE5" points="371.055,975.955 371.055,1019.902 545.48,1019.902 545.48,975.955 371.055,975.955 	"/>
-	<polygon fill="#FEEFE5" points="371.055,1021.602 371.055,1065.551 545.48,1065.551 545.48,1021.602 371.055,1021.602 	"/>
-	<polygon fill="#FEEFE5" points="371.055,1067.252 371.055,1111.201 545.48,1111.201 545.48,1067.252 371.055,1067.252 	"/>
-	<polygon fill="#FEEFE5" points="371.055,1112.902 371.055,1156.852 545.48,1156.852 545.48,1112.902 371.055,1112.902 	"/>
-	<polygon fill="#F8E9E6" points="282.189,108.622 282.189,152.571 368.551,152.571 368.551,108.622 282.189,108.622 	"/>
-	<polygon fill="#F8E9E6" points="282.189,154.271 282.189,198.22 368.551,198.22 368.551,154.271 282.189,154.271 	"/>
-	<polygon fill="#F8E9E6" points="282.189,199.92 282.189,243.869 368.551,243.869 368.551,199.92 282.189,199.92 	"/>
-	<polygon fill="#F8E9E6" points="282.189,245.57 282.189,289.518 368.551,289.518 368.551,245.57 282.189,245.57 	"/>
-	<polygon fill="#F8E9E6" points="282.189,291.219 282.189,335.167 368.551,335.167 368.551,291.219 282.189,291.219 	"/>
-	<polygon fill="#F8E9E6" points="282.189,336.868 282.189,380.816 368.551,380.816 368.551,336.868 282.189,336.868 	"/>
-	<polygon fill="#F8E9E6" points="282.189,382.517 282.189,426.465 368.551,426.465 368.551,382.517 282.189,382.517 	"/>
-	<polygon fill="#F8E9E6" points="282.189,428.166 282.189,472.114 368.551,472.114 368.551,428.166 282.189,428.166 	"/>
-	<polygon fill="#F8E9E6" points="282.189,473.815 282.189,517.764 368.551,517.764 368.551,473.815 282.189,473.815 	"/>
-	<polygon fill="#F8E9E6" points="282.189,519.464 282.189,563.413 368.551,563.413 368.551,519.464 282.189,519.464 	"/>
-	<polygon fill="#F8E9E6" points="282.189,565.114 282.189,609.062 368.551,609.062 368.551,565.114 282.189,565.114 	"/>
-	<polygon fill="#F8E9E6" points="282.189,610.764 282.189,654.711 368.551,654.711 368.551,610.764 282.189,610.764 	"/>
-	<polygon fill="#F8E9E6" points="282.189,656.412 282.189,700.359 368.551,700.359 368.551,656.412 282.189,656.412 	"/>
-	<polygon fill="#F8E9E6" points="282.189,702.061 282.189,746.008 368.551,746.008 368.551,702.061 282.189,702.061 	"/>
-	<polygon fill="#F8E9E6" points="282.189,747.709 282.189,791.658 368.551,791.658 368.551,747.709 282.189,747.709 	"/>
-	<polygon fill="#F8E9E6" points="282.189,793.359 282.189,837.307 368.551,837.307 368.551,793.359 282.189,793.359 	"/>
-	<polygon fill="#F8E9E6" points="282.189,839.008 282.189,882.957 368.551,882.957 368.551,839.008 282.189,839.008 	"/>
-	<polygon fill="#F8E9E6" points="282.189,884.656 282.189,928.605 368.551,928.605 368.551,884.656 282.189,884.656 	"/>
-	<polygon fill="#F8E9E6" points="282.189,930.307 282.189,974.254 368.551,974.254 368.551,930.307 282.189,930.307 	"/>
-	<polygon fill="#F8E9E6" points="282.189,975.955 282.189,1019.902 368.551,1019.902 368.551,975.955 282.189,975.955 	"/>
-	<polygon fill="#F8E9E6" points="282.189,1021.602 282.189,1065.551 368.551,1065.551 368.551,1021.602 282.189,1021.602 	"/>
-	<polygon fill="#F8E9E6" points="282.189,1067.252 282.189,1111.201 368.551,1111.201 368.551,1067.252 282.189,1067.252 	"/>
-	<polygon fill="#F8E9E6" points="282.189,1112.902 282.189,1156.852 368.551,1156.852 368.551,1112.902 282.189,1112.902 	"/>
-	<polygon fill="#E6DFE5" points="62.032,108.622 62.032,152.571 280.488,152.571 280.488,108.622 62.032,108.622 	"/>
-	<polygon fill="#E6DFE5" points="62.032,154.271 62.032,198.22 280.488,198.22 280.488,154.271 62.032,154.271 	"/>
-	<polygon fill="#E6DFE5" points="62.032,199.92 62.032,243.869 280.488,243.869 280.488,199.92 62.032,199.92 	"/>
-	<polygon fill="#E6DFE5" points="62.032,245.57 62.032,289.518 280.488,289.518 280.488,245.57 62.032,245.57 	"/>
-	<polygon fill="#E6DFE5" points="62.032,291.219 62.032,335.167 280.488,335.167 280.488,291.219 62.032,291.219 	"/>
-	<polygon fill="#E6DFE5" points="62.032,336.868 62.032,380.816 280.488,380.816 280.488,336.868 62.032,336.868 	"/>
-	<polygon fill="#E6DFE5" points="62.032,382.517 62.032,426.465 280.488,426.465 280.488,382.517 62.032,382.517 	"/>
-	<polygon fill="#E6DFE5" points="62.032,428.166 62.032,472.114 280.488,472.114 280.488,428.166 62.032,428.166 	"/>
-	<polygon fill="#E6DFE5" points="62.032,473.815 62.032,517.764 280.488,517.764 280.488,473.815 62.032,473.815 	"/>
-	<polygon fill="#E6DFE5" points="62.032,519.464 62.032,563.413 280.488,563.413 280.488,519.464 62.032,519.464 	"/>
-	<polygon fill="#E6DFE5" points="62.032,565.114 62.032,609.062 280.488,609.062 280.488,565.114 62.032,565.114 	"/>
-	<polygon fill="#E6DFE5" points="62.032,610.762 62.032,654.711 280.488,654.711 280.488,610.762 62.032,610.762 	"/>
-	<polygon fill="#E6DFE5" points="62.032,656.412 62.032,700.359 280.488,700.359 280.488,656.412 62.032,656.412 	"/>
-	<polygon fill="#E6DFE5" points="62.032,702.061 62.032,746.008 280.488,746.008 280.488,702.061 62.032,702.061 	"/>
-	<polygon fill="#E6DFE5" points="62.032,747.709 62.032,791.658 280.488,791.658 280.488,747.709 62.032,747.709 	"/>
-	<polygon fill="#E6DFE5" points="62.032,793.359 62.032,837.309 280.488,837.309 280.488,793.359 62.032,793.359 	"/>
-	<polygon fill="#E6DFE5" points="62.032,839.008 62.032,882.957 280.488,882.957 280.488,839.008 62.032,839.008 	"/>
-	<polygon fill="#E6DFE5" points="62.032,884.656 62.032,928.605 280.488,928.605 280.488,884.656 62.032,884.656 	"/>
-	<polygon fill="#E6DFE5" points="62.032,930.307 62.032,974.254 280.488,974.254 280.488,930.307 62.032,930.307 	"/>
-	<polygon fill="#E6DFE5" points="62.032,975.955 62.032,1019.902 280.488,1019.902 280.488,975.955 62.032,975.955 	"/>
-	<polygon fill="#E6DFE5" points="62.032,1021.602 62.032,1065.551 280.488,1065.551 280.488,1021.602 62.032,1021.602 	"/>
-	<polygon fill="#E6DFE5" points="62.032,1067.252 62.032,1111.201 280.488,1111.201 280.488,1067.252 62.032,1067.252 	"/>
-	<polygon fill="#E6DFE5" points="62.032,1112.902 62.032,1156.852 280.488,1156.852 280.488,1112.902 62.032,1112.902 	"/>
-	<text transform="matrix(1 0 0 1 18.001 1164.2832)" font-family="'Gotham-Book'" font-size="5.5">Unless stated otherwise, all GA meetings take place in NY, while CSTD, WGEC, ITU, and WSIS meetings take place in Geneva.</text>
-	<text transform="matrix(1 0 0 1 18.001 28.9004)" fill="#B5454D" font-family="'Gotham-Bold'" font-size="14">INTERNET GOVERNANCE PROCESSES</text>
-	<text transform="matrix(1 0 0 1 18.001 44.9004)" font-family="'Gotham-Book'" font-size="14">Visualizing the playing field</text>
-	<polygon fill="#B5454D" points="18,62.973 18,106.921 60.331,106.921 60.331,62.973 18,62.973 	"/>
-	<polygon fill="#B5454D" points="18,609.062 38.315,609.062 38.315,108.622 18,108.622 18,609.062 	"/>
-	<text transform="matrix(0 -1 1 0 31.876 369.5957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">2013</text>
-	<polygon fill="#B5454D" points="40.016,152.57 60.331,152.57 60.331,108.622 40.016,108.622 40.016,152.57 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 139.7988)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">FEB</text>
-	<polygon fill="#B5454D" points="18,1156.852 38.315,1156.852 38.315,610.764 18,610.764 18,1156.852 	"/>
-	<text transform="matrix(0 -1 1 0 31.876 894.8691)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">2014</text>
-	<polygon fill="#B5454D" points="40.016,198.22 60.331,198.22 60.331,154.271 40.016,154.271 40.016,198.22 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 186.9629)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">MAR</text>
-	<polygon fill="#B5454D" points="40.016,243.869 60.331,243.869 60.331,199.92 40.016,199.92 40.016,243.869 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 231.7129)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">APR</text>
-	<polygon fill="#B5454D" points="40.016,289.518 60.331,289.518 60.331,245.569 40.016,245.569 40.016,289.518 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">MAY</text>
-	<polygon fill="#B5454D" points="40.016,335.167 60.331,335.167 60.331,291.219 40.016,291.219 40.016,335.167 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 322.6895)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JUN</text>
-	<polygon fill="#B5454D" points="40.016,380.816 60.331,380.816 60.331,336.868 40.016,336.868 40.016,380.816 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 367.5645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JUL</text>
-	<polygon fill="#B5454D" points="40.016,426.465 60.331,426.465 60.331,382.517 40.016,382.517 40.016,426.465 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 414.8613)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">AUG</text>
-	<polygon fill="#B5454D" points="40.016,472.114 60.331,472.114 60.331,428.166 40.016,428.166 40.016,472.114 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 459.0488)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">SEP</text>
-	<polygon fill="#B5454D" points="40.016,517.763 60.331,517.763 60.331,473.815 40.016,473.815 40.016,517.763 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 505.8457)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">OCT</text>
-	<polygon fill="#B5454D" points="40.016,563.413 60.331,563.413 60.331,519.464 40.016,519.464 40.016,563.413 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 551.9863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">NOV</text>
-	<polygon fill="#B5454D" points="40.016,609.062 60.331,609.062 60.331,565.113 40.016,565.113 40.016,609.062 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 596.9473)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">DEC</text>
-	<polygon fill="#B5454D" points="40.016,654.711 60.331,654.711 60.331,610.764 40.016,610.764 40.016,654.711 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 642.2754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JAN</text>
-	<polygon fill="#B5454D" points="40.016,700.359 60.331,700.359 60.331,656.412 40.016,656.412 40.016,700.359 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 687.5957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">FEB</text>
-	<polygon fill="#B5454D" points="40.016,746.008 60.331,746.008 60.331,702.061 40.016,702.061 40.016,746.008 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 734.752)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">MAR</text>
-	<polygon fill="#B5454D" points="40.016,791.658 60.331,791.658 60.331,747.709 40.016,747.709 40.016,791.658 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 779.4863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">APR</text>
-	<polygon fill="#B5454D" points="40.016,837.307 60.331,837.307 60.331,793.359 40.016,793.359 40.016,837.307 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 825.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">MAY</text>
-	<polygon fill="#B5454D" points="40.016,882.957 60.331,882.957 60.331,839.008 40.016,839.008 40.016,882.957 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 870.4785)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JUN</text>
-	<polygon fill="#B5454D" points="40.016,928.605 60.331,928.605 60.331,884.656 40.016,884.656 40.016,928.605 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 915.3457)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">JUL</text>
-	<polygon fill="#B5454D" points="40.016,974.254 60.331,974.254 60.331,930.307 40.016,930.307 40.016,974.254 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 962.6504)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">AUG</text>
-	<polygon fill="#B5454D" points="40.016,1019.902 60.331,1019.902 60.331,975.955 40.016,975.955 40.016,1019.902 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 1006.8223)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">SEP</text>
-	<polygon fill="#B5454D" points="40.016,1065.551 60.331,1065.551 60.331,1021.602 40.016,1021.602 40.016,1065.551 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 1053.6426)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">OCT</text>
-	<polygon fill="#B5454D" points="40.016,1111.201 60.331,1111.201 60.331,1067.252 40.016,1067.252 40.016,1111.201 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 1099.7832)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">NOV</text>
-	<polygon fill="#B5454D" points="40.016,1156.852 60.331,1156.852 60.331,1112.902 40.016,1112.902 40.016,1156.852 	"/>
-	<text transform="matrix(0 -1 1 0 53.8916 1144.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">DEC</text>
-	<polygon fill="#B5454D" points="62.115,62.973 62.115,84.096 808.866,84.097 808.866,62.973 62.115,62.973 	"/>
-	<text transform="matrix(1 0 0 1 402.1807 77.252)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="9">INSTITUTIONS</text>
-	<polygon fill="#4B314F" points="62.032,85.797 62.032,106.921 280.488,106.921 280.488,85.797 62.032,85.797 	"/>
-	<text transform="matrix(1 0 0 1 99.8838 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">UN processes (GA/ECOSOC/CSTD)</text>
-	<polygon fill="#B5454D" points="282.189,85.797 282.189,106.921 368.551,106.921 368.551,85.797 282.189,85.797 	"/>
-	<text transform="matrix(1 0 0 1 293.2197 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">WSIS processes</text>
-	<polygon fill="#E55937" points="370.252,85.797 370.252,106.921 544.678,106.921 544.678,85.797 370.252,85.797 	"/>
-	<text transform="matrix(1 0 0 1 429.2275 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">ITU processes</text>
-	<polygon fill="#3BA66B" points="546.378,85.797 546.378,106.921 654.756,106.921 654.756,85.797 546.378,85.797 	"/>
-	<text transform="matrix(1 0 0 1 572.1885 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">IGF processes</text>
-	<polygon fill="#36A8DC" points="656.457,85.797 656.457,106.921 742.819,106.921 742.819,85.797 656.457,85.797 	"/>
-	<text transform="matrix(1 0 0 1 674.501 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">ICANN/IETF</text>
-	<polygon fill="#725770" points="227.149,245.57 227.149,289.518 280.488,289.518 280.488,245.57 227.149,245.57 	"/>
-	<text transform="matrix(1 0 0 1 242.9385 266.3379)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WGEC</text>
-	<text transform="matrix(1 0 0 1 236.8604 274.127)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 20–31</text>
-	<polygon fill="#725770" points="172.11,291.218 172.11,335.167 225.449,335.167 225.449,291.218 172.11,291.218 	"/>
-	<text transform="matrix(1 0 0 1 184.9619 311.9785)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CSTD 16</text>
-	<text transform="matrix(1 0 0 1 184.4229 319.7754)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">June 3–7</text>
-	<polygon fill="#725770" points="117.071,336.868 117.071,380.816 170.409,380.816 170.409,336.868 117.071,336.868 	"/>
-	<text transform="matrix(1 0 0 1 129.0166 345.9238)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ECOSOC</text>
-	<text transform="matrix(1 0 0 1 123.7744 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Substantive</text>
-	<text transform="matrix(1 0 0 1 129.9072 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Session,</text>
-	<text transform="matrix(1 0 0 1 131.1338 369.3223)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Geneva</text>
-	<text transform="matrix(1 0 0 1 131.5635 377.127)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 1-25</text>
-	<polygon fill="#4B314F" points="62.032,428.166 62.032,609.062 159.401,609.062 159.401,428.166 62.032,428.166 	"/>
-	<text transform="matrix(1 0 0 1 65.501 489.3926)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">68th UN General Assembly</text>
-	<text transform="matrix(1 0 0 1 84.0947 502.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">First Committee</text>
-	<text transform="matrix(1 0 0 1 95.0791 510.666)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(security)</text>
-	<text transform="matrix(1 0 0 1 79.1338 524.1348)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Second Committee</text>
-	<text transform="matrix(1 0 0 1 98.9229 531.9316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(WSIS)</text>
-	<text transform="matrix(1 0 0 1 82.9385 545.4004)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Third Committee</text>
-	<text transform="matrix(1 0 0 1 86.5244 553.2051)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(human rights)</text>
-	<polygon fill="#4B314F" points="62.523,975.955 62.523,1111.201 159.401,1111.201 159.401,975.955 62.523,975.955 	"/>
-	<text transform="matrix(1 0 0 1 65.6729 1014.3613)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">69th UN General Assembly</text>
-	<text transform="matrix(1 0 0 1 84.3369 1027.8301)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">First Committee</text>
-	<text transform="matrix(1 0 0 1 95.3291 1035.6348)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(security)</text>
-	<text transform="matrix(1 0 0 1 79.3838 1049.1035)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Second Committee</text>
-	<text transform="matrix(1 0 0 1 99.1729 1056.9004)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(WSIS)</text>
-	<text transform="matrix(1 0 0 1 83.1807 1070.3691)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Third Committee</text>
-	<text transform="matrix(1 0 0 1 86.7666 1078.1738)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(human rights)</text>
-	<polygon fill="#725770" points="117.071,884.656 117.071,928.605 170.409,928.605 170.409,884.656 117.071,884.656 	"/>
-	<text transform="matrix(1 0 0 1 129.0166 897.6191)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ECOSOC</text>
-	<text transform="matrix(1 0 0 1 123.7744 905.416)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Substantive</text>
-	<text transform="matrix(1 0 0 1 124.04 913.2129)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Session, NY</text>
-	<text transform="matrix(1 0 0 1 123.626 921.0098)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
-	<polygon fill="#725770" points="172.11,793.359 172.11,837.307 280.488,837.307 280.488,793.359 172.11,793.359 	"/>
-	<text transform="matrix(1 0 0 1 212.6963 814.1113)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CSTD 17</text>
-	<text transform="matrix(1 0 0 1 206.1729 821.9238)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
-	<polygon fill="#725770" points="227.149,656.412 227.149,700.359 280.488,700.359 280.488,656.412 227.149,656.412 	"/>
-	<text transform="matrix(1 0 0 1 242.9385 677.1738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WGEC</text>
-	<text transform="matrix(1 0 0 1 233.7041 684.9707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
-	<polygon fill="#725770" points="227.149,519.464 227.149,563.413 280.488,563.413 280.488,519.464 227.149,519.464 	"/>
-	<text transform="matrix(1 0 0 1 242.9385 540.2207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WGEC</text>
-	<text transform="matrix(1 0 0 1 240.3291 548.0176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 5–8</text>
-	<polygon fill="#725770" points="172.11,565.114 172.11,609.062 225.449,609.062 225.449,565.114 172.11,565.114 	"/>
-	<text transform="matrix(1 0 0 1 189.4697 578.0723)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CSTD</text>
-	<text transform="matrix(1 0 0 1 175.4619 585.877)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">intersessional</text>
-	<text transform="matrix(1 0 0 1 172.54 593.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Washington DC</text>
-	<text transform="matrix(1 0 0 1 185.5244 601.4707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Dec 2–4</text>
-	<polygon fill="#7FC0E7" points="700.488,199.92 700.488,243.869 742.819,243.869 742.819,199.92 700.488,199.92 	"/>
-	<text transform="matrix(1 0 0 1 704.8682 216.7754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 46</text>
-	<text transform="matrix(1 0 0 1 709.8369 224.5879)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Beijing</text>
-	<text transform="matrix(1 0 0 1 708.7041 232.3848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Apr 7–11</text>
-	<polygon fill="#7FC0E7" points="700.488,336.868 700.488,380.816 742.819,380.816 742.819,336.868 700.488,336.868 	"/>
-	<text transform="matrix(1 0 0 1 705.1104 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 47</text>
-	<text transform="matrix(1 0 0 1 709.2979 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Durban</text>
-	<text transform="matrix(1 0 0 1 707.5166 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 14–18</text>
-	<polygon fill="#7FC0E7" points="700.488,519.464 700.488,563.413 742.819,563.413 742.819,519.464 700.488,519.464 	"/>
-	<text transform="matrix(1 0 0 1 704.9619 536.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 48</text>
-	<text transform="matrix(1 0 0 1 705.6963 544.1191)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Buenos A</text>
-	<text transform="matrix(1 0 0 1 706.3213 551.9316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 17–21</text>
-	<polygon fill="#7FC0E7" points="700.488,702.061 700.488,746.008 742.819,746.008 742.819,702.061 700.488,702.061 	"/>
-	<text transform="matrix(1 0 0 1 704.9072 718.9238)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 49</text>
-	<text transform="matrix(1 0 0 1 704.29 726.7129)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Singapore</text>
-	<text transform="matrix(1 0 0 1 704.9932 734.5176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 23–27</text>
-	<polygon fill="#7FC0E7" points="700.488,839.008 700.488,882.957 742.819,882.957 742.819,839.008 700.488,839.008 	"/>
-	<text transform="matrix(1 0 0 1 704.8447 855.877)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 50</text>
-	<text transform="matrix(1 0 0 1 708.79 863.6582)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">London</text>
-	<text transform="matrix(1 0 0 1 705.126 871.4707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jun 22–26</text>
-	<polygon fill="#80C091" points="546.378,143.708 546.378,164.833 654.756,164.833 654.756,143.708 546.378,143.708 	"/>
-	<text transform="matrix(1 0 0 1 585.251 153.0645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG Mtg</text>
-	<text transform="matrix(1 0 0 1 579.1885 160.8457)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 28–Mar 1</text>
-	<polygon fill="#80C091" points="546.378,702.205 546.378,723.186 654.756,723.186 654.756,702.205 546.378,702.205 	"/>
-	<text transform="matrix(1 0 0 1 585.001 711.4707)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG mtg</text>
-	<text transform="matrix(1 0 0 1 580.4463 719.2832)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
-	<polygon fill="#80C091" points="546.378,793.359 546.378,814.482 654.756,814.482 654.756,793.359 546.378,793.359 	"/>
-	<text transform="matrix(1 0 0 1 585.001 802.7051)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG mtg</text>
-	<text transform="matrix(1 0 0 1 580.4463 810.5176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
-	<polygon fill="#3BA66B" points="546.378,1067.252 546.378,1088.381 654.756,1088.381 654.756,1067.252 546.378,1067.252 	"/>
-	<text transform="matrix(1 0 0 1 585.6416 1076.5957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IGF 2014</text>
-	<text transform="matrix(1 0 0 1 580.4463 1084.4004)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">(Dates TBD)</text>
-	<polygon fill="#3BA66B" points="546.378,496.64 546.378,517.763 654.756,517.763 654.756,496.64 546.378,496.64 	"/>
-	<text transform="matrix(1 0 0 1 578.5244 505.9863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IGF 2013 Bali</text>
-	<text transform="matrix(1 0 0 1 584.665 513.7754)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 21–25</text>
-	<polygon fill="#C97472" points="282.189,108.622 282.189,152.57 368.551,152.57 368.551,108.622 282.189,108.622 	"/>
-	<text transform="matrix(1 0 0 1 310.4932 125.4863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WSIS+10</text>
-	<text transform="matrix(1 0 0 1 293.5791 133.2754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Review Event Paris</text>
-	<text transform="matrix(1 0 0 1 308.54 141.0801)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 25–27</text>
-	<polygon fill="#C97472" points="293.197,245.57 293.197,289.518 346.535,289.518 346.535,245.57 293.197,245.57 	"/>
-	<text transform="matrix(1 0 0 1 299.0166 262.4316)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WSIS Forum</text>
-	<text transform="matrix(1 0 0 1 311.9932 270.2207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">2013</text>
-	<text transform="matrix(1 0 0 1 304.2432 278.0254)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 13–17</text>
-	<polygon fill="#C97472" points="282.189,473.815 282.189,517.763 335.527,517.763 335.527,473.815 282.189,473.815 	"/>
-	<text transform="matrix(1 0 0 1 301.54 490.6816)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 286.6338 498.4785)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">First Meeting</text>
-	<text transform="matrix(1 0 0 1 296.1729 506.2754)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 7–8</text>
-	<polygon fill="#C97472" points="282.189,564.904 282.189,609.062 335.527,609.062 335.527,564.904 282.189,564.904 	"/>
-	<text transform="matrix(1 0 0 1 301.54 581.8613)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 283.165 589.6738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Second meeting</text>
-	<text transform="matrix(1 0 0 1 293.0479 597.4707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Dec 16–18</text>
-	<polygon fill="#C97472" points="282.189,656.412 282.189,700.359 335.527,700.359 335.527,656.412 282.189,656.412 	"/>
-	<text transform="matrix(1 0 0 1 301.54 673.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 285.1494 681.0645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Third meeting</text>
-	<text transform="matrix(1 0 0 1 293.6416 688.877)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 17–19</text>
-	<polygon fill="#B5454D" points="282.189,759.121 282.189,791.658 357.543,791.658 357.543,759.121 282.189,759.121 	"/>
-	<text transform="matrix(1 0 0 1 288.5635 770.2832)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WSIS+10 High Level </text>
-	<text transform="matrix(1 0 0 1 283.9463 778.0723)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Event, Sharm El Sheikh</text>
-	<text transform="matrix(1 0 0 1 304.5479 785.8691)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Apr 13–18</text>
-	<polygon fill="#B5454D" points="282.189,1112.902 282.189,1156.852 368.551,1156.852 368.551,1112.902 282.189,1112.902 	"/>
-	<text transform="matrix(1 0 0 1 323.1963 1138.1816)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">?</text>
-	<polygon fill="#EE8964" points="370.252,108.622 370.252,152.571 445.606,152.571 445.606,108.622 370.252,108.622 	"/>
-	<text transform="matrix(1 0 0 1 381.001 125.4863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: CIS</text>
-	<text transform="matrix(1 0 0 1 393.5635 133.2754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Chisinau</text>
-	<text transform="matrix(1 0 0 1 391.3135 141.0801)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 19–20</text>
-	<polygon fill="#EE8964" points="370.252,222.677 370.252,266.625 445.606,266.625 445.606,222.677 370.252,222.677 	"/>
-	<text transform="matrix(1 0 0 1 379.7041 239.541)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: ASP</text>
-	<text transform="matrix(1 0 0 1 386.9385 247.3301)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Phnom Penh</text>
-	<text transform="matrix(1 0 0 1 387.4619 255.1348)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Apr 3–May 2</text>
-	<polygon fill="#E55937" points="447.308,245.57 447.308,278.123 544.678,278.123 544.678,245.57 447.308,245.57 	"/>
-	<text transform="matrix(1 0 0 1 476.9385 260.6348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTPF 2013</text>
-	<text transform="matrix(1 0 0 1 480.3135 268.4316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 14-16</text>
-	<polygon fill="#EE8964" points="502.347,291.219 502.347,335.167 544.678,335.167 544.678,291.219 502.347,291.219 	"/>
-	<text transform="matrix(1 0 0 1 517.79 308.0723)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ITU</text>
-	<text transform="matrix(1 0 0 1 505.4385 315.877)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Council ‘13</text>
-	<text transform="matrix(1 0 0 1 509.376 323.6816)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jun 11–21</text>
-	<polygon fill="#EE8964" points="458.315,279.789 458.315,323.772 500.646,323.772 500.646,279.789 458.315,279.789 	"/>
-	<text transform="matrix(1 0 0 1 460.3447 296.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CWG-WSIS</text>
-	<text transform="matrix(1 0 0 1 462.4619 304.4629)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 30–31</text>
-	<text transform="matrix(1 0 0 1 464.9619 312.2676)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">/June 20</text>
-	<polygon fill="#EE8964" points="370.252,382.517 370.252,426.465 445.606,426.465 445.606,382.517 370.252,382.517 	"/>
-	<text transform="matrix(1 0 0 1 379.0635 399.3691)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: AMS</text>
-	<text transform="matrix(1 0 0 1 387.9385 407.1738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Montevideo</text>
-	<text transform="matrix(1 0 0 1 390.1807 414.9707)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Aug 20–22</text>
-	<polygon fill="#EE8964" points="370.252,473.815 370.252,494.939 445.606,494.939 445.606,473.815 370.252,473.815 	"/>
-	<text transform="matrix(1 0 0 1 379.1182 483.1738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: AFR</text>
-	<text transform="matrix(1 0 0 1 384.3682 490.9629)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Accra Oct 2–4</text>
-	<polygon fill="#EE8964" points="370.252,496.64 370.252,517.763 445.606,517.763 445.606,496.64 370.252,496.64 	"/>
-	<text transform="matrix(1 0 0 1 379.2744 505.9863)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: ARB</text>
-	<text transform="matrix(1 0 0 1 376.8057 513.7754)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Manama Oct 29–31</text>
-	<polygon fill="#EE8964" points="458.269,656.484 458.269,700.432 522.661,700.432 522.661,656.484 458.269,656.484 	"/>
-	<text transform="matrix(1 0 0 1 471.3369 677.2363)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CWG-WSIS</text>
-	<text transform="matrix(1 0 0 1 473.8525 685.0488)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Feb 19–20</text>
-	<polygon fill="#EE8964" points="469.323,519.464 469.323,563.413 533.669,563.413 533.669,519.464 469.323,519.464 	"/>
-	<text transform="matrix(1 0 0 1 477.8838 540.2207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">CWG-internet</text>
-	<text transform="matrix(1 0 0 1 486.6494 548.0176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 11–12</text>
-	<polygon fill="#EE8964" points="370.252,519.464 370.252,563.413 445.606,563.413 445.606,519.464 370.252,519.464 	"/>
-	<text transform="matrix(1 0 0 1 379.5088 536.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC RPM: EUR</text>
-	<text transform="matrix(1 0 0 1 392.5791 544.1191)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Belgrade</text>
-	<text transform="matrix(1 0 0 1 390.5322 551.9316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 26–28</text>
-	<polygon fill="#EE8964" points="370.252,565.114 370.252,609.062 445.606,609.062 445.606,565.114 370.252,565.114 	"/>
-	<text transform="matrix(1 0 0 1 376.6182 585.877)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">TDAG 18th Session</text>
-	<text transform="matrix(1 0 0 1 393.2275 593.666)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Dec 11–13</text>
-	<polygon fill="#E55937" points="370.252,736.297 370.252,768.559 500.646,768.559 500.646,736.297 370.252,736.297 	"/>
-	<text transform="matrix(1 0 0 1 424.5479 747.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">WTDC</text>
-	<text transform="matrix(1 0 0 1 408.3682 755.1113)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Sharm El Sheikh</text>
-	<text transform="matrix(1 0 0 1 412.7354 762.916)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 30–Apr 11</text>
-	<polygon fill="#E55937" points="370.252,1044.432 370.252,1111.201 544.678,1111.201 544.678,1044.432 370.252,1044.432 	"/>
-	<text transform="matrix(1 0 0 1 404.2979 1072.7051)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ITU Plenipotentiary Conference</text>
-	<text transform="matrix(1 0 0 1 447.2197 1080.502)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Busan</text>
-	<text transform="matrix(1 0 0 1 434.415 1088.2988)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 19–Nov 15</text>
+<g font-family="'Gotham-Bold'">
+	<g fill="#EFF7EF">
+		<rect x="546.378" y="108.622" width="108.378" height="43.949" />
+		<rect x="546.378" y="154.271" width="108.378" height="43.949" />
+		<rect x="546.378" y="199.92" width="108.378" height="43.949" />
+		<rect x="546.378" y="245.57" width="108.378" height="43.949" />
+		<rect x="546.378" y="291.219" width="108.378" height="43.949" />
+		<rect x="546.378" y="336.868" width="108.378" height="43.949" />
+		<rect x="546.378" y="382.517" width="108.378" height="43.949" />
+		<rect x="546.378" y="428.166" width="108.378" height="43.949" />
+		<rect x="546.378" y="473.815" width="108.378" height="43.949" />
+		<rect x="546.378" y="519.464" width="108.378" height="43.949" />
+		<rect x="546.378" y="565.114" width="108.378" height="43.949" />
+		<rect x="546.378" y="610.764" width="108.378" height="43.949" />
+		<rect x="546.378" y="656.412" width="108.378" height="43.949" />
+		<rect x="546.378" y="702.061" width="108.378" height="43.949" />
+		<rect x="546.378" y="747.709" width="108.378" height="43.949" />
+		<rect x="546.378" y="793.359" width="108.378" height="43.949" />
+		<rect x="546.378" y="839.008" width="108.378" height="43.949" />
+		<rect x="546.378" y="884.656" width="108.378" height="43.949" />
+		<rect x="546.378" y="930.307" width="108.378" height="43.949" />
+		<rect x="546.378" y="975.955" width="108.378" height="43.949" />
+		<rect x="546.378" y="1021.602" width="108.378" height="43.949" />
+		<rect x="546.378" y="1067.252" width="108.378" height="43.949" />
+		<rect x="546.378" y="1112.902" width="108.378" height="43.949" />
+	</g>
+	<g fill="#EEF6FC">
+		<rect x="656.457" y="108.622" width="86.362" height="43.948" />
+		<rect x="656.457" y="154.271" width="86.362" height="43.948" />
+		<rect x="656.457" y="199.92" width="86.362" height="43.948" />
+		<rect x="656.457" y="245.57" width="86.362" height="43.948" />
+		<rect x="656.457" y="291.219" width="86.362" height="43.948" />
+		<rect x="656.457" y="336.868" width="86.362" height="43.948" />
+		<rect x="656.457" y="382.517" width="86.362" height="43.948" />
+		<rect x="656.457" y="428.166" width="86.362" height="43.948" />
+		<rect x="656.457" y="473.815" width="86.362" height="43.948" />
+		<rect x="656.457" y="519.464" width="86.362" height="43.948" />
+		<rect x="656.457" y="565.114" width="86.362" height="43.948" />
+		<rect x="656.457" y="610.764" width="86.362" height="43.948" />
+		<rect x="656.457" y="656.412" width="86.362" height="43.948" />
+		<rect x="656.457" y="702.061" width="86.362" height="43.948" />
+		<rect x="656.457" y="747.709" width="86.362" height="43.948" />
+		<rect x="656.457" y="793.359" width="86.362" height="43.948" />
+		<rect x="656.457" y="839.008" width="86.362" height="43.948" />
+		<rect x="656.457" y="884.656" width="86.362" height="43.948" />
+		<rect x="656.457" y="930.307" width="86.362" height="43.948" />
+		<rect x="656.457" y="975.955" width="86.362" height="43.948" />
+		<rect x="656.457" y="1021.602" width="86.362" height="43.948" />
+		<rect x="656.457" y="1067.252" width="86.362" height="43.948" />
+		<rect x="656.457" y="1112.902" width="86.362" height="43.948" />
+	</g>
+	<g fill="#FEEFE5">
+		<rect x="371.055" y="108.622" width="174.475" height="43.948" />
+		<rect x="371.055" y="154.271" width="174.475" height="43.948" />
+		<rect x="371.055" y="199.92" width="174.475" height="43.948" />
+		<rect x="371.055" y="245.57" width="174.475" height="43.948" />
+		<rect x="371.055" y="291.219" width="174.475" height="43.948" />
+		<rect x="371.055" y="336.868" width="174.475" height="43.948" />
+		<rect x="371.055" y="382.517" width="174.475" height="43.948" />
+		<rect x="371.055" y="428.166" width="174.475" height="43.948" />
+		<rect x="371.055" y="473.815" width="174.475" height="43.948" />
+		<rect x="371.055" y="519.464" width="174.475" height="43.948" />
+		<rect x="371.055" y="565.114" width="174.475" height="43.948" />
+		<rect x="371.055" y="610.764" width="174.475" height="43.948" />
+		<rect x="371.055" y="656.412" width="174.475" height="43.948" />
+		<rect x="371.055" y="702.061" width="174.475" height="43.948" />
+		<rect x="371.055" y="747.709" width="174.475" height="43.948" />
+		<rect x="371.055" y="793.359" width="174.475" height="43.948" />
+		<rect x="371.055" y="839.008" width="174.475" height="43.948" />
+		<rect x="371.055" y="884.656" width="174.475" height="43.948" />
+		<rect x="371.055" y="930.307" width="174.475" height="43.948" />
+		<rect x="371.055" y="975.955" width="174.475" height="43.948" />
+		<rect x="371.055" y="1021.602" width="174.475" height="43.948" />
+		<rect x="371.055" y="1067.252" width="174.475" height="43.948" />
+		<rect x="371.055" y="1112.902" width="174.475" height="43.948" />
+	</g>
+	<g fill="#F8E9E6">
+		<rect x="282.189" y="108.622"  width="86.362" height="43.948" />
+		<rect x="282.189" y="154.271" width="86.362" height="43.948" />
+		<rect x="282.189" y="199.92" width="86.362" height="43.948" />
+		<rect x="282.189" y="245.57" width="86.362" height="43.948" />
+		<rect x="282.189" y="291.219" width="86.362" height="43.948" />
+		<rect x="282.189" y="336.868" width="86.362" height="43.948" />
+		<rect x="282.189" y="382.517" width="86.362" height="43.948" />
+		<rect x="282.189" y="428.166" width="86.362" height="43.948" />
+		<rect x="282.189" y="473.815" width="86.362" height="43.948" />
+		<rect x="282.189" y="519.464" width="86.362" height="43.948" />
+		<rect x="282.189" y="565.114" width="86.362" height="43.948" />
+		<rect x="282.189" y="610.764" width="86.362" height="43.948" />
+		<rect x="282.189" y="656.412" width="86.362" height="43.948" />
+		<rect x="282.189" y="702.061" width="86.362" height="43.948" />
+		<rect x="282.189" y="747.709" width="86.362" height="43.948" />
+		<rect x="282.189" y="793.359" width="86.362" height="43.948" />
+		<rect x="282.189" y="839.008" width="86.362" height="43.948" />
+		<rect x="282.189" y="884.656" width="86.362" height="43.948" />
+		<rect x="282.189" y="930.307" width="86.362" height="43.948" />
+		<rect x="282.189" y="975.955" width="86.362" height="43.948" />
+		<rect x="282.189" y="1021.602" width="86.362" height="43.948" />
+		<rect x="282.189" y="1067.252" width="86.362" height="43.948" />
+		<rect x="282.189" y="1112.902" width="86.362" height="43.948" />
+	</g>
+	<g fill="#E6DFE5">
+		<rect x="62.032" y="108.622" width="218.456" height="43.948" />
+		<rect x="62.032" y="154.271" width="218.456" height="43.948" />
+		<rect x="62.032" y="199.92" width="218.456" height="43.948" />
+		<rect x="62.032" y="245.57" width="218.456" height="43.948" />
+		<rect x="62.032" y="291.219" width="218.456" height="43.948" />
+		<rect x="62.032" y="336.868" width="218.456" height="43.948" />
+		<rect x="62.032" y="382.517" width="218.456" height="43.948" />
+		<rect x="62.032" y="428.166" width="218.456" height="43.948" />
+		<rect x="62.032" y="473.815" width="218.456" height="43.948" />
+		<rect x="62.032" y="519.464" width="218.456" height="43.948" />
+		<rect x="62.032" y="565.114" width="218.456" height="43.948" />
+		<rect x="62.032" y="610.762" width="218.456" height="43.948" />
+		<rect x="62.032" y="656.412" width="218.456" height="43.948" />
+		<rect x="62.032" y="702.061" width="218.456" height="43.948" />
+		<rect x="62.032" y="747.709" width="218.456" height="43.948" />
+		<rect x="62.032" y="793.359" width="218.456" height="43.948" />
+		<rect x="62.032" y="839.008" width="218.456" height="43.948" />
+		<rect x="62.032" y="884.656" width="218.456" height="43.948" />
+		<rect x="62.032" y="930.307" width="218.456" height="43.948" />
+		<rect x="62.032" y="975.955" width="218.456" height="43.948" />
+		<rect x="62.032" y="1021.602" width="218.456" height="43.948" />
+		<rect x="62.032" y="1067.252" width="218.456" height="43.948" />
+		<rect x="62.032" y="1112.902" width="218.456" height="43.948" />
+	</g>
+	<text transform="matrix(1 0 0 1 18.001 1164.2832)" font-size="5.5">Unless stated otherwise, all GA meetings take place in NY, while CSTD, WGEC, ITU, and WSIS meetings take place in Geneva.</text>
+	<text transform="matrix(1 0 0 1 18.001 28.9004)" fill="#B5454D" font-size="14">INTERNET GOVERNANCE PROCESSES</text>
+	<text transform="matrix(1 0 0 1 18.001 44.9004)" font-size="14">Visualizing the playing field</text>
+	<g fill="#B5454D" class="row-header" >
+		<rect x="18.0" y="610.764" width="20.315" height="546.088"/>
+		<rect x="18.0" y="108.622" width="20.315" height="500.44"/>
+		<rect x="18.0" y="62.973" width="42.331" height="43.948"/>
+		<rect x="40.016" y="975.955" width="20.315" height="43.947"/>
+		<rect x="40.016" y="1021.602" width="20.315" height="43.949"/>
+		<rect x="40.016" y="1067.252" width="20.315" height="43.949"/>
+		<rect x="40.016" y="1112.902" width="20.315" height="43.95"/>
+		<rect x="40.016" y="108.622" width="20.315" height="43.948"/>
+		<rect x="40.016" y="154.271" width="20.315" height="43.949"/>
+		<rect x="40.016" y="199.92" width="20.315" height="43.949"/>
+		<rect x="40.016" y="245.569" width="20.315" height="43.949"/>
+		<rect x="40.016" y="291.219" width="20.315" height="43.948"/>
+		<rect x="40.016" y="336.868" width="20.315" height="43.948"/>
+		<rect x="40.016" y="382.517" width="20.315" height="43.948"/>
+		<rect x="40.016" y="428.166" width="20.315" height="43.948"/>
+		<rect x="40.016" y="473.815" width="20.315" height="43.948"/>
+		<rect x="40.016" y="519.464" width="20.315" height="43.949"/>
+		<rect x="40.016" y="565.113" width="20.315" height="43.949"/>
+		<rect x="40.016" y="610.764" width="20.315" height="43.947"/>
+		<rect x="40.016" y="656.412" width="20.315" height="43.947"/>
+		<rect x="40.016" y="702.061" width="20.315" height="43.947"/>
+		<rect x="40.016" y="747.709" width="20.315" height="43.949"/>
+		<rect x="40.016" y="793.359" width="20.315" height="43.948"/>
+		<rect x="40.016" y="839.008" width="20.315" height="43.949"/>
+		<rect x="40.016" y="884.656" width="20.315" height="43.949"/>
+		<rect x="40.016" y="930.307" width="20.315" height="43.947"/>
+	</g>
+	<g fill="#FFFFFF" font-size="9">
+		<text transform="matrix(0 -1 1 0 31.876 369.5957)">2013</text>
+		<text transform="matrix(0 -1 1 0 31.876 894.8691)">2014</text>
+		<text transform="matrix(0 -1 1 0 53.8916 1006.8223)">SEP</text>
+		<text transform="matrix(0 -1 1 0 53.8916 1053.6426)">OCT</text>
+		<text transform="matrix(0 -1 1 0 53.8916 1099.7832)">NOV</text>
+		<text transform="matrix(0 -1 1 0 53.8916 1144.7207)">DEC</text>
+		<text transform="matrix(0 -1 1 0 53.8916 139.7988)">FEB</text>
+		<text transform="matrix(0 -1 1 0 53.8916 186.9629)">MAR</text>
+		<text transform="matrix(0 -1 1 0 53.8916 231.7129)">APR</text>
+		<text transform="matrix(0 -1 1 0 53.8916 277.7441)">MAY</text>
+		<text transform="matrix(0 -1 1 0 53.8916 322.6895)">JUN</text>
+		<text transform="matrix(0 -1 1 0 53.8916 367.5645)">JUL</text>
+		<text transform="matrix(0 -1 1 0 53.8916 414.8613)">AUG</text>
+		<text transform="matrix(0 -1 1 0 53.8916 459.0488)">SEP</text>
+		<text transform="matrix(0 -1 1 0 53.8916 505.8457)">OCT</text>
+		<text transform="matrix(0 -1 1 0 53.8916 551.9863)">NOV</text>
+		<text transform="matrix(0 -1 1 0 53.8916 596.9473)">DEC</text>
+		<text transform="matrix(0 -1 1 0 53.8916 642.2754)">JAN</text>
+		<text transform="matrix(0 -1 1 0 53.8916 687.5957)">FEB</text>
+		<text transform="matrix(0 -1 1 0 53.8916 734.752)">MAR</text>
+		<text transform="matrix(0 -1 1 0 53.8916 779.4863)">APR</text>
+		<text transform="matrix(0 -1 1 0 53.8916 825.5176)">MAY</text>
+		<text transform="matrix(0 -1 1 0 53.8916 870.4785)">JUN</text>
+		<text transform="matrix(0 -1 1 0 53.8916 915.3457)">JUL</text>
+		<text transform="matrix(0 -1 1 0 53.8916 962.6504)">AUG</text>
+	</g>
+	<g class="col-header">
+		<rect fill="#B5454D" x="62.115" y="62.973" width="746.751" height="21.124"/>
+		<rect fill="#4B314F" x="62.032" y="85.797" width="218.456" height="21.124"/>
+		<rect fill="#B5454D" x="282.189" y="85.797" width="86.362" height="21.124"/>
+		<rect fill="#E55937" x="370.252" y="85.797" width="174.426" height="21.124"/>
+		<rect fill="#3BA66B" x="546.378" y="85.797" width="108.378" height="21.124"/>
+		<rect fill="#36A8DC" x="656.457" y="85.797" width="86.362" height="21.124"/>
+		<rect fill="#19486B" x="744.521" y="85.797" width="64.345" height="21.124"/>
+	</g>
+	<g fill="#FFFFFF" font-size="8">
+		<text transform="matrix(1 0 0 1 402.1807 77.252)" font-size="9">INSTITUTIONS</text>
+		<text transform="matrix(1 0 0 1 99.8838 99.666)">UN processes (GA/ECOSOC/CSTD)</text>
+		<text transform="matrix(1 0 0 1 293.2197 99.666)">WSIS processes</text>
+		<text transform="matrix(1 0 0 1 429.2275 99.666)">ITU processes</text>
+		<text transform="matrix(1 0 0 1 572.1885 99.666)">IGF processes</text>
+		<text transform="matrix(1 0 0 1 674.501 99.666)">ICANN/IETF</text>
+		<text transform="matrix(1 0 0 1 762.2119 99.666)">OTHER</text>
+	</g>
+	<g class="un-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#725770" x="227.149" y="245.57" width="53.339" height="43.948"/>
+		<text transform="matrix(1 0 0 1 242.9385 266.3379)">WGEC</text>
+		<text transform="matrix(1 0 0 1 236.8604 274.127)">May 20–31</text>
+		<rect fill="#725770" x="172.11" y="291.218" width="53.339" height="43.949"/>
+		<text transform="matrix(1 0 0 1 184.9619 311.9785)">CSTD 16</text>
+		<text transform="matrix(1 0 0 1 184.4229 319.7754)">June 3–7</text>
+		<rect fill="#725770" x="117.071" y="336.868" width="53.338" height="43.948"/>
+		<text transform="matrix(1 0 0 1 129.0166 345.9238)">ECOSOC</text>
+		<text transform="matrix(1 0 0 1 123.7744 353.7207)">Substantive</text>
+		<text transform="matrix(1 0 0 1 129.9072 361.5332)">Session,</text>
+		<text transform="matrix(1 0 0 1 131.1338 369.3223)">Geneva</text>
+		<text transform="matrix(1 0 0 1 131.5635 377.127)" >Jul 1-25</text>
+		<rect fill="#4B314F" x="62.032" y="428.166" width="97.369" height="180.896"/>
+		<text transform="matrix(1 0 0 1 65.501 489.3926)">68th UN General Assembly</text>
+		<text transform="matrix(1 0 0 1 84.0947 502.8613)">First Committee</text>
+		<text transform="matrix(1 0 0 1 95.0791 510.666)">(security)</text>
+		<text transform="matrix(1 0 0 1 79.1338 524.1348)">Second Committee</text>
+		<text transform="matrix(1 0 0 1 98.9229 531.9316)">(WSIS)</text>
+		<text transform="matrix(1 0 0 1 82.9385 545.4004)">Third Committee</text>
+		<text transform="matrix(1 0 0 1 86.5244 553.2051)">(human rights)</text>
+		<rect fill="#725770" x="227.149" y="519.464" width="53.339" height="43.949"/>
+		<text transform="matrix(1 0 0 1 242.9385 540.2207)">WGEC</text>
+		<text transform="matrix(1 0 0 1 240.3291 548.0176)">Nov 5–8</text>
+		<rect fill="#725770" x="172.11" y="565.114" width="53.339" height="43.948"/>
+		<text transform="matrix(1 0 0 1 189.4697 578.0723)">CSTD</text>
+		<text transform="matrix(1 0 0 1 175.4619 585.877)">intersessional</text>
+		<text transform="matrix(1 0 0 1 172.54 593.666)">Washington DC</text>
+		<text transform="matrix(1 0 0 1 185.5244 601.4707)">Dec 2–4</text>
+		<rect fill="#725770" x="227.149" y="656.412" width="53.339" height="43.947"/>
+		<text transform="matrix(1 0 0 1 242.9385 677.1738)">WGEC</text>
+		<text transform="matrix(1 0 0 1 233.7041 684.9707)">(Dates TBD)</text>
+		<rect fill="#725770" x="172.11" y="793.359" width="108.378" height="43.948"/>
+		<text transform="matrix(1 0 0 1 212.6963 814.1113)">CSTD 17</text>
+		<text transform="matrix(1 0 0 1 206.1729 821.9238)">(Dates TBD)</text>
+		<rect fill="#725770" x="117.071" y="884.656" width="53.338" height="43.949"/>
+		<text transform="matrix(1 0 0 1 129.0166 897.6191)">ECOSOC</text>
+		<text transform="matrix(1 0 0 1 123.7744 905.416)">Substantive</text>
+		<text transform="matrix(1 0 0 1 124.04 913.2129)">Session, NY</text>
+		<text transform="matrix(1 0 0 1 123.626 921.0098)">(Dates TBD)</text>
+		<rect fill="#4B314F" x="62.523" y="975.955" width="96.878" height="135.246"/>
+		<text transform="matrix(1 0 0 1 65.6729 1014.3613)">69th UN General Assembly</text>
+		<text transform="matrix(1 0 0 1 84.3369 1027.8301)">First Committee</text>
+		<text transform="matrix(1 0 0 1 95.3291 1035.6348)">(security)</text>
+		<text transform="matrix(1 0 0 1 79.3838 1049.1035)">Second Committee</text>
+		<text transform="matrix(1 0 0 1 99.1729 1056.9004)">(WSIS)</text>
+		<text transform="matrix(1 0 0 1 83.1807 1070.3691)">Third Committee</text>
+		<text transform="matrix(1 0 0 1 86.7666 1078.1738)">(human rights)</text>
+	</g>
+	<g class="wsis-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#C97472" x="282.189" y="108.622" width="86.362" height="43.948"/>
+		<text transform="matrix(1 0 0 1 310.4932 125.4863)">WSIS+10</text>
+		<text transform="matrix(1 0 0 1 293.5791 133.2754)">Review Event Paris</text>
+		<text transform="matrix(1 0 0 1 308.54 141.0801)">Feb 25–27</text>
+		<rect fill="#C97472" x="293.197" y="245.57" width="53.338" height="43.948"/>
+		<text transform="matrix(1 0 0 1 299.0166 262.4316)">WSIS Forum</text>
+		<text transform="matrix(1 0 0 1 311.9932 270.2207)">2013</text>
+		<text transform="matrix(1 0 0 1 304.2432 278.0254)">May 13–17</text>
+		<rect fill="#C97472" x="282.189" y="473.815" width="53.338" height="43.948"/>
+		<text transform="matrix(1 0 0 1 301.54 490.6816)">MPP</text>
+		<text transform="matrix(1 0 0 1 286.6338 498.4785)">First Meeting</text>
+		<text transform="matrix(1 0 0 1 296.1729 506.2754)">Oct 7–8</text>
+		<rect fill="#C97472" x="282.189" y="564.904" width="53.338" height="44.158"/>
+		<text transform="matrix(1 0 0 1 301.54 581.8613)">MPP</text>
+		<text transform="matrix(1 0 0 1 283.165 589.6738)">Second meeting</text>
+		<text transform="matrix(1 0 0 1 293.0479 597.4707)">Dec 16–18</text>
+		<rect fill="#C97472" x="282.189" y="656.412" width="53.338" height="43.947"/>
+		<text transform="matrix(1 0 0 1 301.54 673.2676)">MPP</text>
+		<text transform="matrix(1 0 0 1 285.1494 681.0645)">Third meeting</text>
+		<text transform="matrix(1 0 0 1 293.6416 688.877)">Feb 17–19</text>
+		<rect fill="#B5454D" x="282.189" y="759.121" width="75.354" height="32.537"/>
+		<text transform="matrix(1 0 0 1 288.5635 770.2832)">WSIS+10 High Level </text>
+		<text transform="matrix(1 0 0 1 283.9463 778.0723)">Event, Sharm El Sheikh</text>
+		<text transform="matrix(1 0 0 1 304.5479 785.8691)">Apr 13–18</text>
+		<rect fill="#B5454D" x="282.189" y="1112.902" width="86.362" height="43.95"/>
+		<text transform="matrix(1 0 0 1 323.1963 1138.1816)">?</text>
+	</g>
+	<g class="itu-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#EE8964" x="370.252" y="108.622" width="75.354" height="43.949"/>
+		<text transform="matrix(1 0 0 1 381.001 125.4863)">WTDC RPM: CIS</text>
+		<text transform="matrix(1 0 0 1 393.5635 133.2754)">Chisinau</text>
+		<text transform="matrix(1 0 0 1 391.3135 141.0801)">Feb 19–20</text>
+		<rect fill="#EE8964" x="370.252" y="222.677" width="75.354" height="43.948"/>
+		<text transform="matrix(1 0 0 1 379.7041 239.541)">WTDC RPM: ASP</text>
+		<text transform="matrix(1 0 0 1 386.9385 247.3301)">Phnom Penh</text>
+		<text transform="matrix(1 0 0 1 387.4619 255.1348)">Apr 3–May 2</text>
+		<rect fill="#E55937" x="447.308" y="245.57" width="97.37" height="32.553"/>
+		<text transform="matrix(1 0 0 1 476.9385 260.6348)">WTPF 2013</text>
+		<text transform="matrix(1 0 0 1 480.3135 268.4316)">May 14-16</text>
+		<rect fill="#EE8964" x="458.315" y="279.789" width="42.331" height="43.983"/>
+		<text transform="matrix(1 0 0 1 460.3447 296.666)">CWG-WSIS</text>
+		<text transform="matrix(1 0 0 1 462.4619 304.4629)">May 30–31</text>
+		<text transform="matrix(1 0 0 1 464.9619 312.2676)">/June 20</text>
+		<rect fill="#EE8964" x="502.347" y="291.219" width="42.331" height="43.948"/>
+		<text transform="matrix(1 0 0 1 517.79 308.0723)">ITU</text>
+		<text transform="matrix(1 0 0 1 505.4385 315.877)">Council ‘13</text>
+		<text transform="matrix(1 0 0 1 509.376 323.6816)">Jun 11–21</text>
+		<rect fill="#EE8964" x="370.252" y="382.517" width="75.354" height="43.948"/>
+		<text transform="matrix(1 0 0 1 379.0635 399.3691)">WTDC RPM: AMS</text>
+		<text transform="matrix(1 0 0 1 387.9385 407.1738)">Montevideo</text>
+		<text transform="matrix(1 0 0 1 390.1807 414.9707)">Aug 20–22</text>
+		<rect fill="#EE8964" x="370.252" y="473.815" width="75.354" height="21.124"/>
+		<text transform="matrix(1 0 0 1 379.1182 483.1738)">WTDC RPM: AFR</text>
+		<text transform="matrix(1 0 0 1 384.3682 490.9629)">Accra Oct 2–4</text>
+		<rect fill="#EE8964" x="370.252" y="496.64" width="75.354" height="21.123"/>
+		<text transform="matrix(1 0 0 1 379.2744 505.9863)">WTDC RPM: ARB</text>
+		<text transform="matrix(1 0 0 1 376.8057 513.7754)">Manama Oct 29–31</text>
+		<rect fill="#EE8964" x="469.323" y="519.464" width="64.346" height="43.949"/>
+		<text transform="matrix(1 0 0 1 477.8838 540.2207)">CWG-internet</text>
+		<text transform="matrix(1 0 0 1 486.6494 548.0176)">Nov 11–12</text>
+		<rect fill="#EE8964" x="370.252" y="519.464" width="75.354" height="43.949"/>
+		<text transform="matrix(1 0 0 1 379.5088 536.3145)">WTDC RPM: EUR</text>
+		<text transform="matrix(1 0 0 1 392.5791 544.1191)">Belgrade</text>
+		<text transform="matrix(1 0 0 1 390.5322 551.9316)">Nov 26–28</text>
+		<rect fill="#EE8964" x="370.252" y="565.114" width="75.354" height="43.948"/>
+		<text transform="matrix(1 0 0 1 376.6182 585.877)">TDAG 18th Session</text>
+		<text transform="matrix(1 0 0 1 393.2275 593.666)">Dec 11–13</text>
+		<rect fill="#EE8964" x="458.269" y="656.484" width="64.392" height="43.948"/>
+		<text transform="matrix(1 0 0 1 471.3369 677.2363)">CWG-WSIS</text>
+		<text transform="matrix(1 0 0 1 473.8525 685.0488)">Feb 19–20</text>
+		<rect fill="#E55937" x="370.252" y="736.297" width="130.394" height="32.262"/>
+		<text transform="matrix(1 0 0 1 424.5479 747.3145)">WTDC</text>
+		<text transform="matrix(1 0 0 1 408.3682 755.1113)">Sharm El Sheikh</text>
+		<text transform="matrix(1 0 0 1 412.7354 762.916)">Mar 30–Apr 11</text>
+		<rect fill="#EE8964" x="458.315" y="793.359" width="86.363" height="43.95"/>
+		<text transform="matrix(1 0 0 1 477.7432 814.1113)">ITC Council 14</text>
+		<text transform="matrix(1 0 0 1 486.8135 821.9238)">May 6–15</text>
+		<rect fill="#E55937" x="370.252" y="1044.432" width="174.426" height="66.769"/>
+		<text transform="matrix(1 0 0 1 404.2979 1072.7051)">ITU Plenipotentiary Conference</text>
+		<text transform="matrix(1 0 0 1 447.2197 1080.502)">Busan</text>
+		<text transform="matrix(1 0 0 1 434.415 1088.2988)">Oct 19–Nov 15</text>
+	</g>
+	<g class="igf-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#80C091" x="546.378" y="143.708" width="108.378" height="21.125"/>
+		<text transform="matrix(1 0 0 1 585.251 153.0645)">MAG Mtg</text>
+		<text transform="matrix(1 0 0 1 579.1885 160.8457)">Feb 28–Mar 1</text>
+		<rect fill="#80C091" x="546.396" y="268.394" width="107.935" height="21.124"/>
+		<text transform="matrix(1 0 0 1 585.04 277.7441)">MAG Mtg</text>
+		<text transform="matrix(1 0 0 1 583.8916 285.5332)">May 21–23</text>
+		<rect fill="#80C091" x="546.378" y="314.042" width="64.347" height="21.125"/>
+		<text transform="matrix(1 0 0 1 564.7744 323.3848)">EuroDig</text>
+		<text transform="matrix(1 0 0 1 562.4463 331.1973)">Jun 20–21</text>
+		<rect fill="#80C091" x="546.378" y="336.868" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 552.0557 346.2207)">West Africa IGF </text>
+		<text transform="matrix(1 0 0 1 567.0635 354.0176)">Jul 3–5</text>
+		<rect fill="#80C091" x="546.378" y="382.517" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 567.9307 391.8613)">SAIGF</text>
+		<text transform="matrix(1 0 0 1 565.3135 399.6582)">Aug 5–7</text>
+		<rect fill="#80C091" x="546.378" y="405.341" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 565.5557 414.6895)">LACIGF</text>
+		<text transform="matrix(1 0 0 1 561.3447 422.4863)">Aug 27–29</text>
+		<rect fill="#80C091" x="546.378" y="428.166" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 566.3916 437.5098)">APrIGF</text>
+		<text transform="matrix(1 0 0 1 565.5479 445.3145)">Sep 3–5</text>
+		<rect fill="#80C091" x="546.378" y="450.991" width="64.347" height="21.123"/>
+		<text transform="matrix(1 0 0 1 568.7354 460.3379)">AfIGF</text>
+		<text transform="matrix(1 0 0 1 561.4619 468.1348)">Sep 24–26</text>
+		<rect fill="#80C091" x="546.378" y="473.815" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 563.5479 483.1738)">Arab IGF</text>
+		<text transform="matrix(1 0 0 1 566.6338 490.9629)">Oct 1–3</text>
+		<rect fill="#3BA66B" x="546.378" y="496.64" width="108.378" height="21.123"/>
+		<text transform="matrix(1 0 0 1 578.5244 505.9863)">IGF 2013 Bali</text>
+		<text transform="matrix(1 0 0 1 584.665 513.7754)">Oct 21–25</text>
+		<rect fill="#80C091" x="546.378" y="702.205" width="108.378" height="20.981"/>
+		<text transform="matrix(1 0 0 1 585.001 711.4707)">MAG mtg</text>
+		<text transform="matrix(1 0 0 1 580.4463 719.2832)">(Dates TBD)</text>
+		<rect fill="#80C091" x="546.378" y="793.359" width="108.378" height="21.123"/>
+		<text transform="matrix(1 0 0 1 585.001 802.7051)">MAG mtg</text>
+		<text transform="matrix(1 0 0 1 580.4463 810.5176)">(Dates TBD)</text>
+		<rect fill="#3BA66B" x="546.378" y="1067.252" width="108.378" height="21.129"/>
+		<text transform="matrix(1 0 0 1 585.6416 1076.5957)">IGF 2014</text>
+		<text transform="matrix(1 0 0 1 580.4463 1084.4004)">(Dates TBD)</text>
+	</g>
+	<g class="icann-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#7FC0E7" x="656.457" y="154.271" width="42.33" height="43.948"/>
+		<text transform="matrix(1 0 0 1 664.751 171.1348)">IETF 86</text>
+		<text transform="matrix(1 0 0 1 663.8604 178.9316)">Orlando</text>
+		<text transform="matrix(1 0 0 1 661.9463 186.7285)">Mar 10–15</text>
+		<rect fill="#7FC0E7" x="700.488" y="199.92" width="42.331" height="43.949"/>
+		<text transform="matrix(1 0 0 1 704.8682 216.7754)">ICANN 46</text>
+		<text transform="matrix(1 0 0 1 709.8369 224.5879)">Beijing</text>
+		<text transform="matrix(1 0 0 1 708.7041 232.3848)">Apr 7–11</text>
+		<rect fill="#7FC0E7" x="700.488" y="336.868" width="42.331" height="43.948"/>
+		<text transform="matrix(1 0 0 1 705.1104 353.7207)">ICANN 47</text>
+		<text transform="matrix(1 0 0 1 709.2979 361.5332)">Durban</text>
+		<text transform="matrix(1 0 0 1 707.5166 369.3223)">Jul 14–18</text>
+		<rect fill="#7FC0E7" x="656.457" y="336.868" width="42.33" height="43.948"/>
+		<text transform="matrix(1 0 0 1 664.9775 353.7207)">IETF 87</text>
+		<text transform="matrix(1 0 0 1 667.6729 361.5332)">Berlin</text>
+		<text transform="matrix(1 0 0 1 657.001 369.3223)">Jul 28–Aug 2</text>
+		<rect fill="#7FC0E7" x="656.457" y="519.464" width="42.33" height="43.949"/>
+		<text transform="matrix(1 0 0 1 664.8291 536.3145)">IETF 88</text>
+		<text transform="matrix(1 0 0 1 659.7275 544.1191)">Vancouver</text>
+		<text transform="matrix(1 0 0 1 664.1572 551.9316)">Nov 3–8</text>
+		<rect fill="#7FC0E7" x="700.488" y="519.464" width="42.331" height="43.949"/>
+		<text transform="matrix(1 0 0 1 704.9619 536.3145)">ICANN 48</text>
+		<text transform="matrix(1 0 0 1 705.6963 544.1191)">Buenos A</text>
+		<text transform="matrix(1 0 0 1 706.3213 551.9316)">Nov 17–21</text>
+		<rect fill="#7FC0E7" x="656.457" y="702.061" width="42.33" height="43.947"/>
+		<text transform="matrix(1 0 0 1 664.7666 718.9238)">IETF 89</text>
+		<text transform="matrix(1 0 0 1 664.7666 726.7129)">London</text>
+		<text transform="matrix(1 0 0 1 665.1885 734.5176)">Mar 2–7</text>
+		<rect fill="#7FC0E7" x="700.488" y="702.061" width="42.331" height="43.947"/>
+		<text transform="matrix(1 0 0 1 704.9072 718.9238)">ICANN 49</text>
+		<text transform="matrix(1 0 0 1 704.29 726.7129)">Singapore</text>
+		<text transform="matrix(1 0 0 1 704.9932 734.5176)">Mar 23–27</text>
+		<rect fill="#7FC0E7" x="700.488" y="839.008" width="42.331" height="43.949"/>
+		<text transform="matrix(1 0 0 1 704.8447 855.877)">ICANN 50</text>
+		<text transform="matrix(1 0 0 1 708.79 863.6582)">London</text>
+		<text transform="matrix(1 0 0 1 705.126 871.4707)">Jun 22–26</text>
+		<rect fill="#7FC0E7" x="656.457" y="884.656" width="42.33" height="43.949"/>
+		<text transform="matrix(1 0 0 1 664.4307 901.5176)">IETF 90</text>
+		<text transform="matrix(1 0 0 1 664.2666 909.3145)">Toronto</text>
+		<text transform="matrix(1 0 0 1 659.915 917.1191)">July 20–25</text>
+		<rect fill="#7FC0E7" x="700.488" y="1044.432" width="42.331" height="43.949"/>
+		<text transform="matrix(1 0 0 1 705.8604 1061.291)">ICANN 51</text>
+		<text transform="matrix(1 0 0 1 701.165 1069.0957)">Los Angeles</text>
+		<text transform="matrix(1 0 0 1 706.4932 1076.8848)">Oct 12–16</text>
+		<rect fill="#7FC0E7" x="657.308" y="1066.402" width="42.331" height="43.95"/>
+		<text transform="matrix(1 0 0 1 666.3369 1083.2676)">IETF 91</text>
+		<text transform="matrix(1 0 0 1 663.2432 1091.0645)">Honolulu</text>
+		<text transform="matrix(1 0 0 1 663.6416 1098.8613)">Nov 9–14</text>
+	</g>
 	<path fill="none" stroke="#000000" d="M644.599,290.018V496.14 M642.349,290.018h4.5 M642.349,496.14h4.5 M721.653,381.316v137.648
 		 M719.403,381.316h4.5 M719.403,518.964h4.5 M721.653,563.913v137.648 M719.403,563.913h4.5 M719.403,701.561h4.5 M721.653,746.508
 		v92 M719.403,746.508h4.5 M719.403,838.508h4.5 M600.708,518.264v183.441 M598.458,518.264h4.5 M598.458,701.705h4.5
 		 M600.708,814.982v251.77 M598.458,814.982h4.5 M598.458,1066.752h4.5 M600.708,723.686v69.174 M598.458,723.686h4.5
 		 M598.458,792.859h4.5"/>
-	<polygon fill="#80C091" points="546.378,473.815 546.378,494.939 610.725,494.939 610.725,473.815 546.378,473.815 	"/>
-	<text transform="matrix(1 0 0 1 563.5479 483.1738)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Arab IGF</text>
-	<text transform="matrix(1 0 0 1 566.6338 490.9629)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 1–3</text>
-	<polygon fill="#80C091" points="546.378,450.991 546.378,472.114 610.725,472.114 610.725,450.991 546.378,450.991 	"/>
-	<text transform="matrix(1 0 0 1 568.7354 460.3379)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">AfIGF</text>
-	<text transform="matrix(1 0 0 1 561.4619 468.1348)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Sep 24–26</text>
-	<polygon fill="#80C091" points="546.378,428.166 546.378,449.29 610.725,449.29 610.725,428.166 546.378,428.166 	"/>
-	<text transform="matrix(1 0 0 1 566.3916 437.5098)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">APrIGF</text>
-	<text transform="matrix(1 0 0 1 565.5479 445.3145)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Sep 3–5</text>
-	<polygon fill="#80C091" points="546.378,405.341 546.378,426.465 610.725,426.465 610.725,405.341 546.378,405.341 	"/>
-	<text transform="matrix(1 0 0 1 565.5557 414.6895)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">LACIGF</text>
-	<text transform="matrix(1 0 0 1 561.3447 422.4863)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Aug 27–29</text>
-	<polygon fill="#80C091" points="546.378,382.517 546.378,403.641 610.725,403.641 610.725,382.517 546.378,382.517 	"/>
-	<text transform="matrix(1 0 0 1 567.9307 391.8613)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">SAIGF</text>
-	<text transform="matrix(1 0 0 1 565.3135 399.6582)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Aug 5–7</text>
-	<polygon fill="#80C091" points="546.378,336.868 546.378,357.992 610.725,357.992 610.725,336.868 546.378,336.868 	"/>
-	<text transform="matrix(1 0 0 1 552.0557 346.2207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">West Africa IGF </text>
-	<text transform="matrix(1 0 0 1 567.0635 354.0176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 3–5</text>
-	<polygon fill="#80C091" points="546.378,314.042 546.378,335.167 610.725,335.167 610.725,314.042 546.378,314.042 	"/>
-	<text transform="matrix(1 0 0 1 564.7744 323.3848)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">EuroDig</text>
-	<text transform="matrix(1 0 0 1 562.4463 331.1973)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jun 20–21</text>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,2.0333" x1="613.257" y1="324.605" x2="632.574" y2="324.605"/>
 	
@@ -407,26 +471,26 @@
 		 M633.59,484.376L633.59,484.376"/>
 	<path fill="none" stroke="#000000" d="M611.225,482.126v4.5 M600.567,165.333v102.561 M598.317,165.333h4.5 M598.317,267.894h4.5"
 		/>
-	<text transform="matrix(1 0 0 1 621.0947 28.166)" font-family="'Gotham-Book'" font-size="9">Important meetings</text>
-	<polygon fill="#4B314F" points="715.323,17.323 715.323,31.497 729.496,31.497 729.496,17.323 715.323,17.323 	"/>
-	<polygon fill="#B5454D" points="731.197,17.323 731.197,31.497 745.37,31.497 745.37,17.323 731.197,17.323 	"/>
-	<polygon fill="#E55937" points="747.071,17.323 747.071,31.497 761.244,31.497 761.244,17.323 747.071,17.323 	"/>
-	<polygon fill="#3BA66B" points="762.945,17.323 762.945,31.497 777.118,31.497 777.118,17.323 762.945,17.323 	"/>
-	<polygon fill="#36A8DC" points="778.819,17.323 778.819,31.497 792.992,31.497 792.992,17.323 778.819,17.323 	"/>
-	<polygon fill="#725770" points="715.323,32.914 715.323,47.087 729.496,47.087 729.496,32.914 715.323,32.914 	"/>
-	<polygon fill="#C97472" points="731.197,32.914 731.197,47.087 745.37,47.087 745.37,32.914 731.197,32.914 	"/>
-	<polygon fill="#EE8964" points="747.071,32.914 747.071,47.087 761.244,47.087 761.244,32.914 747.071,32.914 	"/>
-	<polygon fill="#80C091" points="762.945,32.914 762.945,47.087 777.118,47.087 777.118,32.914 762.945,32.914 	"/>
-	<polygon fill="#7FC0E7" points="778.819,32.914 778.819,47.087 792.992,47.087 792.992,32.914 778.819,32.914 	"/>
-	<text transform="matrix(1 0 0 1 669.1807 43.7598)" font-family="'Gotham-Book'" font-size="9">Meetings</text>
+	<text transform="matrix(1 0 0 1 621.0947 28.166)" font-size="9">Important meetings</text>
+	<rect fill="#4B314F" x="715.323" y="17.323" width="14.173" height="14.174"/>
+	<rect fill="#B5454D" x="731.197" y="17.323" width="14.173" height="14.174"/>
+	<rect fill="#E55937" x="747.071" y="17.323" width="14.173" height="14.174"/>
+	<rect fill="#3BA66B" x="762.945" y="17.323" width="14.173" height="14.174"/>
+	<rect fill="#36A8DC" x="778.819" y="17.323" width="14.173" height="14.174"/>
+	<rect fill="#725770" x="715.323" y="32.914" width="14.173" height="14.173"/>
+	<rect fill="#C97472" x="731.197" y="32.914" width="14.173" height="14.173"/>
+	<rect fill="#EE8964" x="747.071" y="32.914" width="14.173" height="14.173"/>
+	<rect fill="#80C091" x="762.945" y="32.914" width="14.173" height="14.173"/>
+	<rect fill="#7FC0E7" x="778.819" y="32.914" width="14.173" height="14.173"/>
+	<text transform="matrix(1 0 0 1 669.1807 43.7598)" font-size="9">Meetings</text>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,1.9365" x1="579.099" y1="40" x2="605.24" y2="40"/>
 	<path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M577.161,40L577.161,40 M606.208,40
 		L606.208,40"/>
 	<path fill="none" stroke="#000000" d="M577.161,42.25v-4.5 M606.208,42.25v-4.5 M577.161,24.41h29.047 M577.161,26.66v-4.5
 		 M606.208,26.66v-4.5"/>
-	<text transform="matrix(1 0 0 1 504.6963 28.166)" font-family="'Gotham-Book'" font-size="9">Direct Relation</text>
-	<text transform="matrix(1 0 0 1 497.5947 45.416)" font-family="'Gotham-Book'" font-size="9">Indirect Relation</text>
+	<text transform="matrix(1 0 0 1 504.6963 28.166)" font-size="9">Direct Relation</text>
+	<text transform="matrix(1 0 0 1 497.5947 45.416)" font-size="9">Indirect Relation</text>
 	<path fill="none" stroke="#000000" d="M253.819,107.421V245.07 M251.569,107.421h4.5 M251.569,245.07h4.5 M198.779,107.421v183.298
 		 M196.529,107.421h4.5 M196.529,290.719h4.5 M143.74,107.421v228.947 M141.49,107.421h4.5 M141.49,336.368h4.5 M88.701,107.421
 		v320.245 M86.451,107.421h4.5 M86.451,427.666h4.5 M209.787,335.667v228.947 M207.537,335.667h4.5 M207.537,564.614h4.5
@@ -558,16 +622,8 @@
 		 M537.791,507.202L537.791,507.202 M537.791,450.14L537.791,450.14 M159.901,450.14L159.901,450.14"/>
 	<path fill="none" stroke="#000000" d="M545.896,504.952v4.5 M159.901,447.89v4.5 M721.653,244.369v91.999 M719.403,244.369h4.5
 		 M719.403,336.368h4.5 M253.819,290.018v228.946 M251.569,290.018h4.5 M251.569,518.964h4.5"/>
-	<polygon fill="#7FC0E7" points="656.457,519.464 656.457,563.413 698.787,563.413 698.787,519.464 656.457,519.464 	"/>
-	<text transform="matrix(1 0 0 1 664.8291 536.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 88</text>
-	<text transform="matrix(1 0 0 1 659.7275 544.1191)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Vancouver</text>
-	<text transform="matrix(1 0 0 1 664.1572 551.9316)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 3–8</text>
-	<polygon fill="#7FC0E7" points="656.457,702.061 656.457,746.008 698.787,746.008 698.787,702.061 656.457,702.061 	"/>
-	<text transform="matrix(1 0 0 1 664.7666 718.9238)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 89</text>
-	<text transform="matrix(1 0 0 1 664.7666 726.7129)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">London</text>
-	<text transform="matrix(1 0 0 1 665.1885 734.5176)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 2–7</text>
 	<path fill="none" stroke="#000000" d="M677.622,563.913v137.648 M675.372,563.913h4.5 M675.372,701.561h4.5"/>
-	<text transform="matrix(1 0 0 1 518.1807 1166.3457)" fill="#B5454D" font-family="'Gotham-Bold'" font-size="8">For more information visit http//bestbits.net/wp-uploads/diagram.html</text>
+	<text transform="matrix(1 0 0 1 518.1807 1166.3457)" fill="#B5454D" font-size="8">For more information visit http//bestbits.net/wp-uploads/diagram.html</text>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,2.0345" x1="457.464" y1="1113.732" x2="457.464" y2="1145.271"/>
 	
@@ -575,50 +631,34 @@
 	<path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M457.464,1111.701L457.464,1111.701
 		 M457.464,1146.291L457.464,1146.291 M369.051,1146.291L369.051,1146.291"/>
 	<path fill="none" stroke="#000000" d="M459.714,1111.701h-4.5 M369.051,1144.041v4.5"/>
-	<polygon fill="#EE8964" points="458.315,793.359 458.315,837.309 544.678,837.309 544.678,793.359 458.315,793.359 	"/>
-	<text transform="matrix(1 0 0 1 477.7432 814.1113)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ITC Council 14</text>
-	<text transform="matrix(1 0 0 1 486.8135 821.9238)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 6–15</text>
 	<path fill="none" stroke="#000000" d="M473.977,837.809v206.123 M471.727,837.809h4.5 M471.727,1043.932h4.5 M385.913,769.059
 		v274.873 M383.663,769.059h4.5 M383.663,1043.932h4.5"/>
-	<polygon fill="#19486B" points="744.521,85.797 744.521,106.921 808.866,106.921 808.866,85.797 744.521,85.797 	"/>
-	<text transform="matrix(1 0 0 1 762.2119 99.666)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="8">OTHER</text>
 	<path fill="none" stroke="#000000" d="M308.433,700.932v57.689 M306.183,700.932h4.5 M306.183,758.621h4.5"/>
-	<polygon fill="#ECECF1" points="744.52,108.622 744.52,152.57 808.866,152.57 808.866,108.622 744.52,108.622 	"/>
-	<polygon fill="#ECECF1" points="744.52,154.271 744.52,198.219 808.866,198.219 808.866,154.271 744.52,154.271 	"/>
-	<polygon fill="#ECECF1" points="744.52,199.92 744.52,243.869 808.866,243.869 808.866,199.92 744.52,199.92 	"/>
-	<polygon fill="#ECECF1" points="744.52,245.57 744.52,289.518 808.866,289.518 808.866,245.57 744.52,245.57 	"/>
-	<polygon fill="#ECECF1" points="744.52,291.219 744.52,335.167 808.866,335.167 808.866,291.219 744.52,291.219 	"/>
-	<polygon fill="#ECECF1" points="744.52,336.868 744.52,380.816 808.866,380.816 808.866,336.868 744.52,336.868 	"/>
-	<polygon fill="#ECECF1" points="744.52,382.517 744.52,426.465 808.866,426.465 808.866,382.517 744.52,382.517 	"/>
-	<polygon fill="#ECECF1" points="744.52,428.166 744.52,472.114 808.866,472.114 808.866,428.166 744.52,428.166 	"/>
-	<polygon fill="#ECECF1" points="744.52,473.815 744.52,517.763 808.866,517.763 808.866,473.815 744.52,473.815 	"/>
-	<polygon fill="#ECECF1" points="744.52,519.464 744.52,563.413 808.866,563.413 808.866,519.464 744.52,519.464 	"/>
-	<polygon fill="#ECECF1" points="744.52,565.114 744.52,609.062 808.866,609.062 808.866,565.114 744.52,565.114 	"/>
-	<polygon fill="#ECECF1" points="744.52,610.764 744.52,654.711 808.866,654.711 808.866,610.764 744.52,610.764 	"/>
-	<polygon fill="#ECECF1" points="744.52,656.412 744.52,700.359 808.866,700.359 808.866,656.412 744.52,656.412 	"/>
-	<polygon fill="#ECECF1" points="744.52,702.061 744.52,746.008 808.866,746.008 808.866,702.061 744.52,702.061 	"/>
-	<polygon fill="#ECECF1" points="744.52,747.709 744.52,791.658 808.866,791.658 808.866,747.709 744.52,747.709 	"/>
-	<polygon fill="#ECECF1" points="744.52,793.359 744.52,837.307 808.866,837.307 808.866,793.359 744.52,793.359 	"/>
-	<polygon fill="#ECECF1" points="744.52,839.008 744.52,882.957 808.866,882.957 808.866,839.008 744.52,839.008 	"/>
-	<polygon fill="#ECECF1" points="744.52,884.656 744.52,928.605 808.866,928.605 808.866,884.656 744.52,884.656 	"/>
-	<polygon fill="#ECECF1" points="744.52,930.307 744.52,974.254 808.866,974.254 808.866,930.307 744.52,930.307 	"/>
-	<polygon fill="#ECECF1" points="744.52,975.955 744.52,1019.902 808.866,1019.902 808.866,975.955 744.52,975.955 	"/>
-	<polygon fill="#ECECF1" points="744.52,1021.602 744.52,1065.551 808.866,1065.551 808.866,1021.602 744.52,1021.602 	"/>
-	<polygon fill="#ECECF1" points="744.52,1067.252 744.52,1111.201 808.866,1111.201 808.866,1067.252 744.52,1067.252 	"/>
-	<polygon fill="#ECECF1" points="744.52,1112.902 744.52,1156.852 808.866,1156.852 808.866,1112.902 744.52,1112.902 	"/>
-	<polygon fill="#80C091" points="546.396,268.394 546.396,289.518 654.331,289.518 654.331,268.394 546.396,268.394 	"/>
-	<text transform="matrix(1 0 0 1 585.04 277.7441)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">MAG Mtg</text>
-	<text transform="matrix(1 0 0 1 583.8916 285.5332)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">May 21–23</text>
-	<polygon fill="#7FC0E7" points="656.457,154.271 656.457,198.219 698.787,198.219 698.787,154.271 656.457,154.271 	"/>
-	<text transform="matrix(1 0 0 1 664.751 171.1348)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 86</text>
-	<text transform="matrix(1 0 0 1 663.8604 178.9316)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Orlando</text>
-	<text transform="matrix(1 0 0 1 661.9463 186.7285)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Mar 10–15</text>
+	<rect fill="#ECECF1" x="744.52" y="108.622" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="154.271" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="199.92" width="64.346" height="43.949"/>
+	<rect fill="#ECECF1" x="744.52" y="245.57" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="291.219" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="336.868" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="382.517" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="428.166" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="473.815" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="519.464" width="64.346" height="43.949"/>
+	<rect fill="#ECECF1" x="744.52" y="565.114" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="610.764" width="64.346" height="43.947"/>
+	<rect fill="#ECECF1" x="744.52" y="656.412" width="64.346" height="43.947"/>
+	<rect fill="#ECECF1" x="744.52" y="702.061" width="64.346" height="43.947"/>
+	<rect fill="#ECECF1" x="744.52" y="747.709" width="64.346" height="43.949"/>
+	<rect fill="#ECECF1" x="744.52" y="793.359" width="64.346" height="43.948"/>
+	<rect fill="#ECECF1" x="744.52" y="839.008" width="64.346" height="43.949"/>
+	<rect fill="#ECECF1" x="744.52" y="884.656" width="64.346" height="43.949"/>
+	<rect fill="#ECECF1" x="744.52" y="930.307" width="64.346" height="43.947"/>
+	<rect fill="#ECECF1" x="744.52" y="975.955" width="64.346" height="43.947"/>
+	<rect fill="#ECECF1" x="744.52" y="1021.602" width="64.346" height="43.949"/>
+	<rect fill="#ECECF1" x="744.52" y="1067.252" width="64.346" height="43.949"/>
+	<rect fill="#ECECF1" x="744.52" y="1112.902" width="64.346" height="43.95"/>
 	<path fill="none" stroke="#000000" d="M721.653,107.285v91.999 M719.403,107.285h4.5 M719.403,199.284h4.5 M677.622,198.72v137.648
 		 M675.372,198.72h4.5 M675.372,336.368h4.5"/>
-	<polygon fill="#7FC0E7" points="656.457,336.868 656.457,380.816 698.787,380.816 698.787,336.868 656.457,336.868 	"/>
-	<text transform="matrix(1 0 0 1 664.9775 353.7207)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 87</text>
-	<text transform="matrix(1 0 0 1 667.6729 361.5332)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Berlin</text>
-	<text transform="matrix(1 0 0 1 657.001 369.3223)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Jul 28–Aug 2</text>
 	<path fill="none" stroke="#000000" d="M677.622,381.316v137.648 M675.372,381.316h4.5 M675.372,518.964h4.5"/>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,1.9225" x1="264.827" y1="565.834" x2="264.827" y2="586.021"/>
@@ -633,22 +673,10 @@
 		 M253.819,792.859L253.819,792.859"/>
 	<path fill="none" stroke="#000000" d="M251.569,700.754h4.5 M251.569,792.859h4.5 M677.622,746.508v137.648 M675.372,746.508h4.5
 		 M675.372,884.156h4.5"/>
-	<polygon fill="#7FC0E7" points="656.457,884.656 656.457,928.605 698.787,928.605 698.787,884.656 656.457,884.656 	"/>
-	<text transform="matrix(1 0 0 1 664.4307 901.5176)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 90</text>
-	<text transform="matrix(1 0 0 1 664.2666 909.3145)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Toronto</text>
-	<text transform="matrix(1 0 0 1 659.915 917.1191)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">July 20–25</text>
-	<polygon fill="#7FC0E7" points="700.488,1044.432 700.488,1088.381 742.819,1088.381 742.819,1044.432 700.488,1044.432 	"/>
-	<text transform="matrix(1 0 0 1 705.8604 1061.291)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">ICANN 51</text>
-	<text transform="matrix(1 0 0 1 701.165 1069.0957)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Los Angeles</text>
-	<text transform="matrix(1 0 0 1 706.4932 1076.8848)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Oct 12–16</text>
 	<path fill="none" stroke="#000000" d="M721.653,883.457v160.475 M719.403,883.457h4.5 M719.403,1043.932h4.5"/>
-	<polygon fill="#7FC0E7" points="657.308,1066.402 657.308,1110.352 699.639,1110.352 699.639,1066.402 657.308,1066.402 	"/>
-	<text transform="matrix(1 0 0 1 666.3369 1083.2676)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">IETF 91</text>
-	<text transform="matrix(1 0 0 1 663.2432 1091.0645)" fill="#FFFFFF" font-family="'Gotham-Bold'" font-size="6.5">Honolulu</text>
-	<text transform="matrix(1 0 0 1 663.6416 1098.8613)" fill="#FFFFFF" font-family="'Gotham-Book'" font-size="6.5">Nov 9–14</text>
 	<path fill="none" stroke="#000000" d="M677.622,929.105v136.797 M675.372,929.105h4.5 M675.372,1065.902h4.5"/>
-	<polygon fill="#19486B" points="794.693,17.323 794.693,31.497 808.866,31.497 808.866,17.323 794.693,17.323 	"/>
-	<polygon fill="#586A89" points="794.693,32.914 794.693,47.087 808.866,47.087 808.866,32.914 794.693,32.914 	"/>
+	<rect fill="#19486B" x="794.693" y="17.323" width="14.173" height="14.174"/>
+	<rect fill="#586A89" x="794.693" y="32.914" width="14.173" height="14.173"/>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,2.0015" x1="286.842" y1="155.072" x2="286.842" y2="472.314"/>
 	<path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M286.842,153.07L286.842,153.07
