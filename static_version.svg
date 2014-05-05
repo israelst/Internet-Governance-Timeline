@@ -254,6 +254,34 @@
 		<text transform="matrix(1 0 0 1 83.1807 1070.3691)">Third Committee</text>
 		<text transform="matrix(1 0 0 1 86.7666 1078.1738)">(human rights)</text>
 	</g>
+	<g class="wsis-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#C97472" x="282.189" y="108.622" width="86.362" height="43.948"/>
+		<text transform="matrix(1 0 0 1 310.4932 125.4863)">WSIS+10</text>
+		<text transform="matrix(1 0 0 1 293.5791 133.2754)">Review Event Paris</text>
+		<text transform="matrix(1 0 0 1 308.54 141.0801)">Feb 25–27</text>
+		<rect fill="#C97472" x="293.197" y="245.57" width="53.338" height="43.948"/>
+		<text transform="matrix(1 0 0 1 299.0166 262.4316)">WSIS Forum</text>
+		<text transform="matrix(1 0 0 1 311.9932 270.2207)">2013</text>
+		<text transform="matrix(1 0 0 1 304.2432 278.0254)">May 13–17</text>
+		<rect fill="#C97472" x="282.189" y="473.815" width="53.338" height="43.948"/>
+		<text transform="matrix(1 0 0 1 301.54 490.6816)">MPP</text>
+		<text transform="matrix(1 0 0 1 286.6338 498.4785)">First Meeting</text>
+		<text transform="matrix(1 0 0 1 296.1729 506.2754)">Oct 7–8</text>
+		<rect fill="#C97472" x="282.189" y="564.904" width="53.338" height="44.158"/>
+		<text transform="matrix(1 0 0 1 301.54 581.8613)">MPP</text>
+		<text transform="matrix(1 0 0 1 283.165 589.6738)">Second meeting</text>
+		<text transform="matrix(1 0 0 1 293.0479 597.4707)">Dec 16–18</text>
+		<rect fill="#C97472" x="282.189" y="656.412" width="53.338" height="43.947"/>
+		<text transform="matrix(1 0 0 1 301.54 673.2676)">MPP</text>
+		<text transform="matrix(1 0 0 1 285.1494 681.0645)">Third meeting</text>
+		<text transform="matrix(1 0 0 1 293.6416 688.877)">Feb 17–19</text>
+		<rect fill="#B5454D" x="282.189" y="759.121" width="75.354" height="32.537"/>
+		<text transform="matrix(1 0 0 1 288.5635 770.2832)">WSIS+10 High Level </text>
+		<text transform="matrix(1 0 0 1 283.9463 778.0723)">Event, Sharm El Sheikh</text>
+		<text transform="matrix(1 0 0 1 304.5479 785.8691)">Apr 13–18</text>
+		<rect fill="#B5454D" x="282.189" y="1112.902" width="86.362" height="43.95"/>
+		<text transform="matrix(1 0 0 1 323.1963 1138.1816)">?</text>
+	</g>
 	<g class="igf-events" fill="#FFFFFF" font-size="6.5">
 		<rect fill="#80C091" x="546.378" y="143.708" width="108.378" height="21.125"/>
 		<text transform="matrix(1 0 0 1 585.251 153.0645)">MAG Mtg</text>
@@ -345,32 +373,6 @@
 		<text transform="matrix(1 0 0 1 663.2432 1091.0645)">Honolulu</text>
 		<text transform="matrix(1 0 0 1 663.6416 1098.8613)">Nov 9–14</text>
 	</g>
-	<rect fill="#C97472" x="282.189" y="108.622" width="86.362" height="43.948"/>
-	<text transform="matrix(1 0 0 1 310.4932 125.4863)" fill="#FFFFFF" font-size="6.5">WSIS+10</text>
-	<text transform="matrix(1 0 0 1 293.5791 133.2754)" fill="#FFFFFF" font-size="6.5">Review Event Paris</text>
-	<text transform="matrix(1 0 0 1 308.54 141.0801)" fill="#FFFFFF" font-size="6.5">Feb 25–27</text>
-	<rect fill="#C97472" x="293.197" y="245.57" width="53.338" height="43.948"/>
-	<text transform="matrix(1 0 0 1 299.0166 262.4316)" fill="#FFFFFF" font-size="6.5">WSIS Forum</text>
-	<text transform="matrix(1 0 0 1 311.9932 270.2207)" fill="#FFFFFF" font-size="6.5">2013</text>
-	<text transform="matrix(1 0 0 1 304.2432 278.0254)" fill="#FFFFFF" font-size="6.5">May 13–17</text>
-	<rect fill="#C97472" x="282.189" y="473.815" width="53.338" height="43.948"/>
-	<text transform="matrix(1 0 0 1 301.54 490.6816)" fill="#FFFFFF" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 286.6338 498.4785)" fill="#FFFFFF" font-size="6.5">First Meeting</text>
-	<text transform="matrix(1 0 0 1 296.1729 506.2754)" fill="#FFFFFF" font-size="6.5">Oct 7–8</text>
-	<rect fill="#C97472" x="282.189" y="564.904" width="53.338" height="44.158"/>
-	<text transform="matrix(1 0 0 1 301.54 581.8613)" fill="#FFFFFF" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 283.165 589.6738)" fill="#FFFFFF" font-size="6.5">Second meeting</text>
-	<text transform="matrix(1 0 0 1 293.0479 597.4707)" fill="#FFFFFF" font-size="6.5">Dec 16–18</text>
-	<rect fill="#C97472" x="282.189" y="656.412" width="53.338" height="43.947"/>
-	<text transform="matrix(1 0 0 1 301.54 673.2676)" fill="#FFFFFF" font-size="6.5">MPP</text>
-	<text transform="matrix(1 0 0 1 285.1494 681.0645)" fill="#FFFFFF" font-size="6.5">Third meeting</text>
-	<text transform="matrix(1 0 0 1 293.6416 688.877)" fill="#FFFFFF" font-size="6.5">Feb 17–19</text>
-	<rect fill="#B5454D" x="282.189" y="759.121" width="75.354" height="32.537"/>
-	<text transform="matrix(1 0 0 1 288.5635 770.2832)" fill="#FFFFFF" font-size="6.5">WSIS+10 High Level </text>
-	<text transform="matrix(1 0 0 1 283.9463 778.0723)" fill="#FFFFFF" font-size="6.5">Event, Sharm El Sheikh</text>
-	<text transform="matrix(1 0 0 1 304.5479 785.8691)" fill="#FFFFFF" font-size="6.5">Apr 13–18</text>
-	<rect fill="#B5454D" x="282.189" y="1112.902" width="86.362" height="43.95"/>
-	<text transform="matrix(1 0 0 1 323.1963 1138.1816)" fill="#FFFFFF" font-size="8">?</text>
 	<rect fill="#EE8964" x="370.252" y="108.622" width="75.354" height="43.949"/>
 	<text transform="matrix(1 0 0 1 381.001 125.4863)" fill="#FFFFFF" font-size="6.5">WTDC RPM: CIS</text>
 	<text transform="matrix(1 0 0 1 393.5635 133.2754)" fill="#FFFFFF" font-size="6.5">Chisinau</text>
