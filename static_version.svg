@@ -254,6 +254,47 @@
 		<text transform="matrix(1 0 0 1 83.1807 1070.3691)">Third Committee</text>
 		<text transform="matrix(1 0 0 1 86.7666 1078.1738)">(human rights)</text>
 	</g>
+	<g class="igf-events" fill="#FFFFFF" font-size="6.5">
+		<rect fill="#80C091" x="546.378" y="143.708" width="108.378" height="21.125"/>
+		<text transform="matrix(1 0 0 1 585.251 153.0645)">MAG Mtg</text>
+		<text transform="matrix(1 0 0 1 579.1885 160.8457)">Feb 28–Mar 1</text>
+		<rect fill="#80C091" x="546.396" y="268.394" width="107.935" height="21.124"/>
+		<text transform="matrix(1 0 0 1 585.04 277.7441)">MAG Mtg</text>
+		<text transform="matrix(1 0 0 1 583.8916 285.5332)">May 21–23</text>
+		<rect fill="#80C091" x="546.378" y="314.042" width="64.347" height="21.125"/>
+		<text transform="matrix(1 0 0 1 564.7744 323.3848)">EuroDig</text>
+		<text transform="matrix(1 0 0 1 562.4463 331.1973)">Jun 20–21</text>
+		<rect fill="#80C091" x="546.378" y="336.868" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 552.0557 346.2207)">West Africa IGF </text>
+		<text transform="matrix(1 0 0 1 567.0635 354.0176)">Jul 3–5</text>
+		<rect fill="#80C091" x="546.378" y="382.517" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 567.9307 391.8613)">SAIGF</text>
+		<text transform="matrix(1 0 0 1 565.3135 399.6582)">Aug 5–7</text>
+		<rect fill="#80C091" x="546.378" y="405.341" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 565.5557 414.6895)">LACIGF</text>
+		<text transform="matrix(1 0 0 1 561.3447 422.4863)">Aug 27–29</text>
+		<rect fill="#80C091" x="546.378" y="428.166" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 566.3916 437.5098)">APrIGF</text>
+		<text transform="matrix(1 0 0 1 565.5479 445.3145)">Sep 3–5</text>
+		<rect fill="#80C091" x="546.378" y="450.991" width="64.347" height="21.123"/>
+		<text transform="matrix(1 0 0 1 568.7354 460.3379)">AfIGF</text>
+		<text transform="matrix(1 0 0 1 561.4619 468.1348)">Sep 24–26</text>
+		<rect fill="#80C091" x="546.378" y="473.815" width="64.347" height="21.124"/>
+		<text transform="matrix(1 0 0 1 563.5479 483.1738)">Arab IGF</text>
+		<text transform="matrix(1 0 0 1 566.6338 490.9629)">Oct 1–3</text>
+		<rect fill="#3BA66B" x="546.378" y="496.64" width="108.378" height="21.123"/>
+		<text transform="matrix(1 0 0 1 578.5244 505.9863)">IGF 2013 Bali</text>
+		<text transform="matrix(1 0 0 1 584.665 513.7754)">Oct 21–25</text>
+		<rect fill="#80C091" x="546.378" y="702.205" width="108.378" height="20.981"/>
+		<text transform="matrix(1 0 0 1 585.001 711.4707)">MAG mtg</text>
+		<text transform="matrix(1 0 0 1 580.4463 719.2832)">(Dates TBD)</text>
+		<rect fill="#80C091" x="546.378" y="793.359" width="108.378" height="21.123"/>
+		<text transform="matrix(1 0 0 1 585.001 802.7051)">MAG mtg</text>
+		<text transform="matrix(1 0 0 1 580.4463 810.5176)">(Dates TBD)</text>
+		<rect fill="#3BA66B" x="546.378" y="1067.252" width="108.378" height="21.129"/>
+		<text transform="matrix(1 0 0 1 585.6416 1076.5957)">IGF 2014</text>
+		<text transform="matrix(1 0 0 1 580.4463 1084.4004)">(Dates TBD)</text>
+	</g>
 	<g class="icann-events" fill="#FFFFFF" font-size="6.5">
 		<rect fill="#7FC0E7" x="656.457" y="154.271" width="42.33" height="43.948"/>
 		<text transform="matrix(1 0 0 1 664.751 171.1348)">IETF 86</text>
@@ -304,21 +345,6 @@
 		<text transform="matrix(1 0 0 1 663.2432 1091.0645)">Honolulu</text>
 		<text transform="matrix(1 0 0 1 663.6416 1098.8613)">Nov 9–14</text>
 	</g>
-	<rect fill="#80C091" x="546.378" y="143.708" width="108.378" height="21.125"/>
-	<text transform="matrix(1 0 0 1 585.251 153.0645)" fill="#FFFFFF" font-size="6.5">MAG Mtg</text>
-	<text transform="matrix(1 0 0 1 579.1885 160.8457)" fill="#FFFFFF" font-size="6.5">Feb 28–Mar 1</text>
-	<rect fill="#80C091" x="546.378" y="702.205" width="108.378" height="20.981"/>
-	<text transform="matrix(1 0 0 1 585.001 711.4707)" fill="#FFFFFF" font-size="6.5">MAG mtg</text>
-	<text transform="matrix(1 0 0 1 580.4463 719.2832)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
-	<rect fill="#80C091" x="546.378" y="793.359" width="108.378" height="21.123"/>
-	<text transform="matrix(1 0 0 1 585.001 802.7051)" fill="#FFFFFF" font-size="6.5">MAG mtg</text>
-	<text transform="matrix(1 0 0 1 580.4463 810.5176)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
-	<rect fill="#3BA66B" x="546.378" y="1067.252" width="108.378" height="21.129"/>
-	<text transform="matrix(1 0 0 1 585.6416 1076.5957)" fill="#FFFFFF" font-size="6.5">IGF 2014</text>
-	<text transform="matrix(1 0 0 1 580.4463 1084.4004)" fill="#FFFFFF" font-size="6.5">(Dates TBD)</text>
-	<rect fill="#3BA66B" x="546.378" y="496.64" width="108.378" height="21.123"/>
-	<text transform="matrix(1 0 0 1 578.5244 505.9863)" fill="#FFFFFF" font-size="6.5">IGF 2013 Bali</text>
-	<text transform="matrix(1 0 0 1 584.665 513.7754)" fill="#FFFFFF" font-size="6.5">Oct 21–25</text>
 	<rect fill="#C97472" x="282.189" y="108.622" width="86.362" height="43.948"/>
 	<text transform="matrix(1 0 0 1 310.4932 125.4863)" fill="#FFFFFF" font-size="6.5">WSIS+10</text>
 	<text transform="matrix(1 0 0 1 293.5791 133.2754)" fill="#FFFFFF" font-size="6.5">Review Event Paris</text>
@@ -400,27 +426,6 @@
 		v92 M719.403,746.508h4.5 M719.403,838.508h4.5 M600.708,518.264v183.441 M598.458,518.264h4.5 M598.458,701.705h4.5
 		 M600.708,814.982v251.77 M598.458,814.982h4.5 M598.458,1066.752h4.5 M600.708,723.686v69.174 M598.458,723.686h4.5
 		 M598.458,792.859h4.5"/>
-	<rect fill="#80C091" x="546.378" y="473.815" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 563.5479 483.1738)" fill="#FFFFFF" font-size="6.5">Arab IGF</text>
-	<text transform="matrix(1 0 0 1 566.6338 490.9629)" fill="#FFFFFF" font-size="6.5">Oct 1–3</text>
-	<rect fill="#80C091" x="546.378" y="450.991" width="64.347" height="21.123"/>
-	<text transform="matrix(1 0 0 1 568.7354 460.3379)" fill="#FFFFFF" font-size="6.5">AfIGF</text>
-	<text transform="matrix(1 0 0 1 561.4619 468.1348)" fill="#FFFFFF" font-size="6.5">Sep 24–26</text>
-	<rect fill="#80C091" x="546.378" y="428.166" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 566.3916 437.5098)" fill="#FFFFFF" font-size="6.5">APrIGF</text>
-	<text transform="matrix(1 0 0 1 565.5479 445.3145)" fill="#FFFFFF" font-size="6.5">Sep 3–5</text>
-	<rect fill="#80C091" x="546.378" y="405.341" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 565.5557 414.6895)" fill="#FFFFFF" font-size="6.5">LACIGF</text>
-	<text transform="matrix(1 0 0 1 561.3447 422.4863)" fill="#FFFFFF" font-size="6.5">Aug 27–29</text>
-	<rect fill="#80C091" x="546.378" y="382.517" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 567.9307 391.8613)" fill="#FFFFFF" font-size="6.5">SAIGF</text>
-	<text transform="matrix(1 0 0 1 565.3135 399.6582)" fill="#FFFFFF" font-size="6.5">Aug 5–7</text>
-	<rect fill="#80C091" x="546.378" y="336.868" width="64.347" height="21.124"/>
-	<text transform="matrix(1 0 0 1 552.0557 346.2207)" fill="#FFFFFF" font-size="6.5">West Africa IGF </text>
-	<text transform="matrix(1 0 0 1 567.0635 354.0176)" fill="#FFFFFF" font-size="6.5">Jul 3–5</text>
-	<rect fill="#80C091" x="546.378" y="314.042" width="64.347" height="21.125"/>
-	<text transform="matrix(1 0 0 1 564.7744 323.3848)" fill="#FFFFFF" font-size="6.5">EuroDig</text>
-	<text transform="matrix(1 0 0 1 562.4463 331.1973)" fill="#FFFFFF" font-size="6.5">Jun 20–21</text>
 	
 		<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,2.0333" x1="613.257" y1="324.605" x2="632.574" y2="324.605"/>
 	
@@ -648,9 +653,6 @@
 	<rect fill="#ECECF1" x="744.52" y="1021.602" width="64.346" height="43.949"/>
 	<rect fill="#ECECF1" x="744.52" y="1067.252" width="64.346" height="43.949"/>
 	<rect fill="#ECECF1" x="744.52" y="1112.902" width="64.346" height="43.95"/>
-	<rect fill="#80C091" x="546.396" y="268.394" width="107.935" height="21.124"/>
-	<text transform="matrix(1 0 0 1 585.04 277.7441)" fill="#FFFFFF" font-size="6.5">MAG Mtg</text>
-	<text transform="matrix(1 0 0 1 583.8916 285.5332)" fill="#FFFFFF" font-size="6.5">May 21–23</text>
 	<path fill="none" stroke="#000000" d="M721.653,107.285v91.999 M719.403,107.285h4.5 M719.403,199.284h4.5 M677.622,198.72v137.648
 		 M675.372,198.72h4.5 M675.372,336.368h4.5"/>
 	<path fill="none" stroke="#000000" d="M677.622,381.316v137.648 M675.372,381.316h4.5 M675.372,518.964h4.5"/>
