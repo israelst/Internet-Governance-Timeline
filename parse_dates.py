@@ -19,5 +19,11 @@ class Test(unittest.TestCase):
         dateRange = (date(2013, 2, 17), date(2013, 2, 19))
         self.assertEqual(parse_date('Feb 17-19', 2013), dateRange)
 
+    def test_one_month_with_spaces_between_values(self):
+        dateRange = (date(2013, 12, 16), date(2013, 12, 18))
+        self.assertEqual(parse_date('Dec 16 -18', 2013), dateRange)
+        self.assertEqual(parse_date('Dec 16- 18', 2013), dateRange)
+        self.assertEqual(parse_date('Dec  16 - 18 ', 2013), dateRange)
+
 if __name__ == '__main__':
     unittest.main()
