@@ -9,7 +9,7 @@ def tokenize(dates):
 def month_number(month_word):
     return datetime.strptime(month_word, '%b').month
 
-def parse_date(dates, year):
+def parse(dates, year):
     tokens = tokenize(dates)
     from_month = month_number(tokens[0])
     from_day = int(tokens[1])
@@ -28,21 +28,21 @@ def parse_date(dates, year):
 class Test(unittest.TestCase):
     def test_one_month_with_two_days_with_one_digit(self):
         dateRange = (date(2013, 10, 7), date(2013, 10, 8))
-        self.assertEqual(parse_date('Oct 7-8', 2013), dateRange)
+        self.assertEqual(parse('Oct 7-8', 2013), dateRange)
 
     def test_one_month_with_two_days_with_two_digits(self):
         dateRange = (date(2013, 2, 17), date(2013, 2, 19))
-        self.assertEqual(parse_date('Feb 17-19', 2013), dateRange)
+        self.assertEqual(parse('Feb 17-19', 2013), dateRange)
 
     def test_one_month_with_spaces_between_values(self):
         dateRange = (date(2013, 12, 16), date(2013, 12, 18))
-        self.assertEqual(parse_date('Dec 16 -18', 2013), dateRange)
-        self.assertEqual(parse_date('Dec 16- 18', 2013), dateRange)
-        self.assertEqual(parse_date('Dec  16 - 18 ', 2013), dateRange)
+        self.assertEqual(parse('Dec 16 -18', 2013), dateRange)
+        self.assertEqual(parse('Dec 16- 18', 2013), dateRange)
+        self.assertEqual(parse('Dec  16 - 18 ', 2013), dateRange)
 
     def test_dates_across_two_months(self):
         dateRange = (date(2013, 4, 3), date(2013, 5, 2))
-        self.assertEqual(parse_date('Apr 3-May 2', 2013), dateRange)
+        self.assertEqual(parse('Apr 3-May 2', 2013), dateRange)
 
 if __name__ == '__main__':
     unittest.main()
