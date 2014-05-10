@@ -4,7 +4,14 @@ from datetime import date, datetime
 
 
 def tokenize(dates):
-    return filter(None, re.split(r'[\s-]', dates))
+    number = '0123456789'
+    d = ''
+    for i, char in enumerate(dates):
+        if i > 0 and char in number and dates[i-1] not in number:
+            d += ' '
+        d += char
+
+    return filter(None, re.split(r'[\s-]', d))
 
 def month_number(month_word):
     return datetime.strptime(month_word, '%b').month
@@ -44,6 +51,10 @@ class TestAcrossMonths(unittest.TestCase):
     def test_well_formed(self):
         dateRange = (date(2013, 4, 3), date(2013, 5, 2))
         self.assertEqual(parse('Apr 3-May 2', 2013), dateRange)
+
+    def test_without_spaces_between_month_and_day(self):
+        dateRange = (date(2013, 10, 19), date(2013, 11, 15))
+        self.assertEqual(parse('Oct 19-Nov15', 2013), dateRange)
 
 if __name__ == '__main__':
     unittest.main()
