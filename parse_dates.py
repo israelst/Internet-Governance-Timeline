@@ -3,11 +3,21 @@ import re
 from datetime import date, datetime
 
 def parse_date(dates, year):
-    results = re.search(r'([^\d]+)(\d+)[^\d]+(\d+)', dates)
-    month, from_day, to_day = results.groups()
-    month = datetime.strptime(month.strip(), '%b').month
-    from_date = date(year, month, int(from_day))
-    to_date = date(year, month, int(to_day))
+    results = re.search(r'([^\d]+)(\d+)-([^\d]+)(\d+)', dates)
+    if results is None:
+        results = re.search(r'([^\d]+)(\d+)[^\d]+(\d+)', dates)
+    results = filter(lambda x: x != ' ', results.groups())
+    from_month = datetime.strptime(results[0].strip(), '%b').month
+    from_day = int(results[1])
+    try:
+        to_day = int(results[2])
+        to_month = from_month
+    except:
+        to_day = int(results[3])
+        to_month = datetime.strptime(results[2].strip(), '%b').month
+
+    from_date = date(year, from_month, from_day)
+    to_date = date(year, to_month, to_day)
     return (from_date, to_date)
 
 class Test(unittest.TestCase):
@@ -24,6 +34,10 @@ class Test(unittest.TestCase):
         self.assertEqual(parse_date('Dec 16 -18', 2013), dateRange)
         self.assertEqual(parse_date('Dec 16- 18', 2013), dateRange)
         self.assertEqual(parse_date('Dec  16 - 18 ', 2013), dateRange)
+
+    def test_dates_across_two_months(self):
+        dateRange = (date(2013, 4, 3), date(2013, 5, 2))
+        self.assertEqual(parse_date('Apr 3-May 2', 2013), dateRange)
 
 if __name__ == '__main__':
     unittest.main()
