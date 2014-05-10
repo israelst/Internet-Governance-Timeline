@@ -2,23 +2,28 @@ import unittest
 import re
 from datetime import date, datetime
 
+
+def tokenize(dates):
+    return filter(None, re.split(r'[\s-]', dates))
+
+def month_number(month_word):
+    return datetime.strptime(month_word, '%b').month
+
 def parse_date(dates, year):
-    results = re.search(r'([^\d]+)(\d+)-([^\d]+)(\d+)', dates)
-    if results is None:
-        results = re.search(r'([^\d]+)(\d+)[^\d]+(\d+)', dates)
-    results = filter(lambda x: x != ' ', results.groups())
-    from_month = datetime.strptime(results[0].strip(), '%b').month
-    from_day = int(results[1])
+    tokens = tokenize(dates)
+    from_month = month_number(tokens[0])
+    from_day = int(tokens[1])
     try:
-        to_day = int(results[2])
         to_month = from_month
+        to_day = int(tokens[2])
     except:
-        to_day = int(results[3])
-        to_month = datetime.strptime(results[2].strip(), '%b').month
+        to_month = month_number(tokens[2])
+        to_day = int(tokens[3])
 
     from_date = date(year, from_month, from_day)
     to_date = date(year, to_month, to_day)
     return (from_date, to_date)
+
 
 class Test(unittest.TestCase):
     def test_one_month_with_two_days_with_one_digit(self):
