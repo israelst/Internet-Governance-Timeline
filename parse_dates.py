@@ -56,5 +56,9 @@ class TestAcrossMonths(unittest.TestCase):
         dateRange = (date(2013, 10, 19), date(2013, 11, 15))
         self.assertEqual(parse('Oct 19-Nov15', 2013), dateRange)
 
+class TestExceptions(unittest.TestCase):
+    def test_well_formed(self):
+        self.assertRaises(ValueError, parse, *('tbc', 2013))
+
 if __name__ == '__main__':
     unittest.main()
