@@ -150,3 +150,15 @@ ol.months > li > *{
     background-color: rgba(229, 89, 55, .7);
 }
 
+.event.igf{
+    background-color: rgba(59, 166, 107, .7);
+}
+
+.event.icann{
+    background-color: rgba(54, 168, 220, .7);
+}
+
+.event.other{
+    background-color: rgba(25, 72, 107, .7);
+}
+
