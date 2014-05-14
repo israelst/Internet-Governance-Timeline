@@ -5,7 +5,7 @@ window.onload = function(){
     var clone = primary.cloneNode(true);
     clone.className = 'sticky';
 
-    window.onscroll = function(){
+    function sticky(){
         if(window.pageYOffset >= timeline.offsetTop) {
             primary.style.visibility = 'hidden';
             timeline.appendChild(clone);
@@ -13,6 +13,7 @@ window.onload = function(){
             primary.style.visibility = 'visible';
             timeline.removeChild(clone);
         }
-    };
-
+    }
+    sticky();
+    window.onscroll = sticky;
 };
