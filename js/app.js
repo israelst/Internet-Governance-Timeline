@@ -3,7 +3,7 @@ window.onload = function(){
         primary = document.querySelector('h2');
 
     var clone = primary.cloneNode(true);
-    clone.className = 'stick';
+    clone.className = 'sticky';
 
     window.onscroll = function(){
         if(window.pageYOffset >= timeline.offsetTop) {

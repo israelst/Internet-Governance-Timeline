@@ -54,7 +54,7 @@ h1, h2{
     font-size: 3em;
 }
 
-h2.stick {
+h2.sticky {
     position: fixed;
     top:0;
     width: 100%;
