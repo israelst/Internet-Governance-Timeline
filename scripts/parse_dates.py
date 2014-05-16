@@ -37,7 +37,8 @@ if __name__ == '__main__':
     events = json.load(open('data/data.json'))
     for event in events:
         try:
-            event['date'] = map(lambda date: date.isoformat(), parse(event['date'], int(event['year'])))
+            dates = parse(event['date'], int(event['year']))
+            event['date'] = map(lambda date: date.isoformat(), dates)
         except:
             pass
     print json.dumps(events)
