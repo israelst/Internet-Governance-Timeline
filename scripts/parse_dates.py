@@ -1,3 +1,4 @@
+# coding: utf-8
 import re
 from datetime import date, datetime
 
@@ -30,4 +31,14 @@ def parse(dates, year):
     to_date = date(year, to_month, to_day)
     return (from_date, to_date)
 
+
+if __name__ == '__main__':
+    import json
+    events = json.load(open('data/data.json'))
+    for event in events:
+        try:
+            event['date'] = map(lambda date: date.isoformat(), parse(event['date'], int(event['year'])))
+        except:
+            pass
+    print json.dumps(events)
 
