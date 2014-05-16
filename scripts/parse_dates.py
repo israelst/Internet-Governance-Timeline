@@ -39,6 +39,7 @@ if __name__ == '__main__':
         try:
             dates = parse(event['date'], int(event['year']))
             event['date'] = map(lambda date: date.isoformat(), dates)
+            event['duration'] = (dates[1] - dates[0]).days
         except:
             pass
     print json.dumps(events)
