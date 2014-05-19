@@ -19,4 +19,22 @@ window.onload = function(){
     }
     sticky();
     window.onscroll = sticky;
+
+    d3.json("data/data.json", function(data){
+        var eventsBox = d3.select('ul.events');
+        eventsBox.selectAll('li').data(data)
+        .enter().append('li').attr('class', function(d){
+            var event_classes = {
+                'WSIS process': 'wsis',
+                'ITU process': 'itu',
+                'UN process (GA/ECOSOC/CSTD)': 'un',
+                'IGF Processes': 'igf',
+                'ICANN': 'icann',
+            };
+            var event_class = event_classes[d.institutions];
+            event_class = event_class === undefined? 'other': event_class;
+            return event_class + ' event';
+        })
+        .text(function (d) { return d.event; })
+    });
 };
