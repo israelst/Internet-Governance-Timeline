@@ -6,9 +6,11 @@ window.onload = function(){
     clone.className = 'sticky';
 
     function sticky(){
-        if(window.pageYOffset >= timeline.offsetTop) {
-            primary.style.visibility = 'hidden';
-            timeline.appendChild(clone);
+        if(window.pageYOffset >= timeline.offsetTop){
+            if(primary.style.visibility != 'hidden'){
+                primary.style.visibility = 'hidden';
+                timeline.appendChild(clone);
+            }
         }else if(primary.style.visibility == 'hidden'){
             primary.style.visibility = 'visible';
             timeline.removeChild(clone);
