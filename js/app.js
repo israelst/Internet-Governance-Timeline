@@ -6,12 +6,13 @@ window.onload = function(){
     clone.className = 'sticky';
 
     function sticky(){
+        var isVisible = primary.style.visibility == 'hidden';
         if(window.pageYOffset >= timeline.offsetTop){
-            if(primary.style.visibility != 'hidden'){
+            if(!isVisible){
                 primary.style.visibility = 'hidden';
                 timeline.appendChild(clone);
             }
-        }else if(primary.style.visibility == 'hidden'){
+        }else if(isVisible){
             primary.style.visibility = 'visible';
             timeline.removeChild(clone);
         }
