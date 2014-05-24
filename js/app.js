@@ -35,6 +35,13 @@ window.onload = function(){
             event_class = event_class === undefined? 'other': event_class;
             return event_class + ' event';
         })
-        .text(function (d) { return d.event; })
+        .attr('style', function(d){
+            if(d.duration){
+                var style = 'padding: 0 2em;';
+                style += 'height: ' + d.duration * 20 + 'px';
+                return style;
+            }
+        })
+        .text(function (d) { return d.event; });
     });
 };
