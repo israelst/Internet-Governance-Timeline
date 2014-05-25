@@ -21,9 +21,12 @@ window.onload = function(){
     window.onscroll = sticky;
 
     d3.json("data/data.json", function(data){
-        var eventsBox = d3.select('ul.events');
-        eventsBox.selectAll('li').data(data)
-        .enter().append('li').attr('class', function(d){
+        d3.select('ul.events')
+        .selectAll('li')
+        .data(data)
+        .enter()
+        .append('li')
+        .attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
                 'ITU process': 'itu',
