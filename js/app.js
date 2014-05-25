@@ -22,6 +22,7 @@ window.onload = function(){
 
     d3.json("data/data.json", function(data){
         d3.select('ul.events')
+        .style('position', 'relative')
         .selectAll('li')
         .data(data)
         .enter()
@@ -39,10 +40,14 @@ window.onload = function(){
             return event_class + ' event';
         })
         .style('padding', '0 2em')
+        .style('position', 'absolute')
         .style('height', function(d){
             if(d.duration){
                 return d.duration + 'em';
             }
+        })
+        .style('top', function(d, i){
+            return i * 10 + 'px';
         })
         .text(function (d) { return d.event; });
     });
