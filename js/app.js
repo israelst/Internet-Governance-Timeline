@@ -32,7 +32,7 @@ window.onload = function(){
                 'ICANN': 'icann',
             };
             var event_class = event_classes[d.institutions];
-            event_class = event_class === undefined? 'other': event_class;
+            event_class = event_class || 'other';
             return event_class + ' event';
         })
         .attr('style', function(d){
