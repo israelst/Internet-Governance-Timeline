@@ -38,11 +38,10 @@ window.onload = function(){
             event_class = event_class || 'other';
             return event_class + ' event';
         })
-        .attr('style', function(d){
+        .style('padding', '0 2em')
+        .style('height', function(d){
             if(d.duration){
-                var style = 'padding: 0 2em;';
-                style += 'height: ' + d.duration * 20 + 'px';
-                return style;
+                return d.duration + 'em';
             }
         })
         .text(function (d) { return d.event; });
