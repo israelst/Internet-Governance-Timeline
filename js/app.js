@@ -21,6 +21,14 @@ window.onload = function(){
     window.onscroll = sticky;
 
     d3.json("data/data.json", function(data){
+        function dates(index){
+            return data.map(function(d){return new Date(d.date[index]);});
+        }
+        var minDate = d3.min(dates(0));
+        var maxDate = d3.max(dates(1));
+        var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, 1000]);
+
+
         d3.select('ul.events')
         .style('position', 'relative')
         .selectAll('li')
@@ -47,8 +55,11 @@ window.onload = function(){
             }
         })
         .style('top', function(d, i){
-            return i * 10 + 'px';
+            return timeScale(new Date(d.date[0])) + 'px';
         })
-        .text(function (d) { return d.event; });
+        .text(function (d) { return d.event; })
+            .append('div')
+            .attr('class', 'date')
+            .text(function(d){return d.date;});
     });
 };
