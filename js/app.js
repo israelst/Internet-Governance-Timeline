@@ -29,6 +29,12 @@ window.onload = function(){
         var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, 1000]);
 
 
+       var currDate = minDate;
+       while(currDate <= maxDate){
+           console.log(currDate.toLocaleFormat('%Y %B'))
+           currDate.setMonth(currDate.getMonth() + 1);
+       }
+
         d3.select('ul.events')
         .style('position', 'relative')
         .selectAll('li')
