@@ -60,7 +60,8 @@ window.onload = function(){
         var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, monthList.clientHeight]);
 
         d3.select('ul.events')
-        .style('position', 'relative')
+        .style('position', 'absolute')
+        .style('top', monthList.offsetTop + 'px')
         .selectAll('li')
         .data(data)
         .enter()
