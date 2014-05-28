@@ -26,8 +26,8 @@ window.onload = function(){
         }
         function expandDateRange(min, max){
             var dates = [];
-            min.setDate(1);
-            max.setDate(1);
+            min = new Date(min).setDate(1);
+            max = new Date(max).setDate(1);
             for(var curr = new Date(min);
                     curr <= max;
                     curr.setMonth(curr.getMonth() + 1)){
