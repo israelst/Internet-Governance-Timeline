@@ -24,16 +24,21 @@ window.onload = function(){
         function dates(index){
             return data.map(function(d){return new Date(d.date[index]);});
         }
+        function expandDateRange(min, max){
+            var dates = [];
+            for(var curr = new Date(min);
+                    curr <= max;
+                    curr.setMonth(curr.getMonth() + 1)){
+                dates.push(new Date(curr));
+            }
+            return dates;
+        }
+
         var minDate = d3.min(dates(0));
         var maxDate = d3.max(dates(1));
         var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, 1000]);
 
 
-       var currDate = minDate;
-       while(currDate <= maxDate){
-           console.log(currDate.toLocaleFormat('%Y %B'))
-           currDate.setMonth(currDate.getMonth() + 1);
-       }
 
         d3.select('ul.events')
         .style('position', 'relative')
