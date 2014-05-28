@@ -36,7 +36,6 @@ window.onload = function(){
 
         var minDate = d3.min(dates(0));
         var maxDate = d3.max(dates(1));
-        var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, 1000]);
 
         function monthAppender(container){
             return function(date){
@@ -58,6 +57,7 @@ window.onload = function(){
         var monthList = timeline.getElementsByTagName('ol')[0];
         expandDateRange(minDate, maxDate).forEach(monthAppender(monthList));
 
+        var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, monthList.clientHeight]);
 
         d3.select('ul.events')
         .style('position', 'relative')
