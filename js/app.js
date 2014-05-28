@@ -38,6 +38,25 @@ window.onload = function(){
         var maxDate = d3.max(dates(1));
         var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, 1000]);
 
+        function monthAppender(container){
+            return function(date){
+                var monthNode = document.createElement('span');
+                monthNode.className = 'month';
+                monthNode.textContent = date.toLocaleFormat('%B');
+
+                var yearNode = document.createElement('span');
+                yearNode.className = 'year';
+                yearNode.textContent = date.toLocaleFormat('%Y');
+
+                var parentNode = document.createElement('li');
+                parentNode.appendChild(yearNode);
+                parentNode.appendChild(monthNode);
+
+                container.appendChild(parentNode);
+            };
+        }
+        var monthList = timeline.getElementsByTagName('ol')[0];
+        expandDateRange(minDate, maxDate).forEach(monthAppender(monthList));
 
 
         d3.select('ul.events')
