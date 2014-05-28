@@ -87,8 +87,11 @@ window.onload = function(){
         .style('top', function(d, i){
             return timeScale(new Date(d.date[0])) + 'px';
         })
-        .text(function (d) { return d.event; })
-            .append('div')
+        .append('div')
+            .attr('class', 'name')
+            .text(function(d){return d.event;})
+        // TODO: Append div.date outside div.name
+        .append('div')
             .attr('class', 'date')
             .text(function(d){return d.date;});
     });
