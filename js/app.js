@@ -61,14 +61,15 @@ window.onload = function(){
 
         var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, monthList.clientHeight]);
 
-        d3.select('ul.events')
+        var li = d3.select('ul.events')
         .style('position', 'absolute')
         .style('top', monthList.offsetTop + 'px')
         .selectAll('li')
         .data(data)
         .enter()
-        .append('li')
-        .attr('class', function(d){
+        .append('li');
+
+        li.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
                 'ITU process': 'itu',
@@ -89,13 +90,12 @@ window.onload = function(){
         })
         .style('top', function(d, i){
             return timeScale(new Date(d.date[0])) + 'px';
-        })
-        .append('div')
-            .attr('class', 'name')
-            .text(function(d){return d.event;})
-        // TODO: Append div.date outside div.name
-        .append('div')
-            .attr('class', 'date')
-            .text(function(d){return d.date;});
+        });
+        li.append('div')
+          .attr('class', 'name')
+          .text(function(d){return d.event;});
+        li.append('div')
+          .attr('class', 'date')
+          .text(function(d){return d.date;});
     });
 };
