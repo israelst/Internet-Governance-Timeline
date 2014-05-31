@@ -129,6 +129,10 @@ ol.months > li > *{
     line-height: .9em;
 }
 
+.events{
+    margin: 0 150px;
+}
+
 .event{
     margin: 0;
     padding: 2em;
