@@ -90,6 +90,15 @@ window.onload = function(){
         })
         .style('top', function(d, i){
             return timeScale(new Date(d.date[0])) + 'px';
+        })
+        .style('left', function(d, i){
+            var atTheSameTime= data.filter(function(e){
+                return (e.date[0] >= d.date[0] &&
+                        e.date[0] <= d.date[1] &&
+                        e.code !== d.code);
+            });
+            if(atTheSameTime.length > 0)
+                return '400px';
         });
         li.append('div')
           .attr('class', 'name')
