@@ -111,7 +111,7 @@ ol.months{
 }
 
 ol.months > li{
-    height: 125px;
+    height: 250px;
     font-size: 2em;
     font-size: 2.5vw;
     font-weight: 600;
