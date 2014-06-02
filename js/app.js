@@ -21,8 +21,18 @@ window.onload = function(){
     window.onscroll = sticky;
 
     d3.json("data/data.json", function(data){
+        data = data.map(function(d){
+            try{
+                var toDate = function(date){return new Date(date);};
+                d.date = d.date.map(toDate);
+            }catch(e){
+                d.date = undefined;
+            }finally{
+                return d;
+            }
+        });
         function dates(index){
-            return data.map(function(d){return new Date(d.date[index]);});
+            return data.map(function(d){return d.date[index];});
         }
         function expandDateRange(min, max){
             var dates = [];
@@ -89,7 +99,7 @@ window.onload = function(){
             }
         })
         .style('top', function(d, i){
-            return timeScale(new Date(d.date[0])) + 'px';
+            return timeScale(d.date[0]) + 'px';
         })
         .style('left', function(d, i){
             var atTheSameTime= data.filter(function(e){
