@@ -22,6 +22,7 @@ window.onload = function(){
 
     d3.json("data/data.json", function(data){
         var dateFormat = d3.time.format("%Y-%m-%d");
+
         data = data.map(function(d){
             try{
                 d.date = d.date.map(dateFormat.parse);
@@ -56,11 +57,11 @@ window.onload = function(){
             return function(date){
                 var monthNode = document.createElement('span');
                 monthNode.className = 'month';
-                monthNode.textContent = date.toLocaleFormat('%B');
+                monthNode.textContent = d3.time.format('%B')(date);
 
                 var yearNode = document.createElement('span');
                 yearNode.className = 'year';
-                yearNode.textContent = date.toLocaleFormat('%Y');
+                yearNode.textContent = d3.time.format('%Y')(date);
 
                 var parentNode = document.createElement('li');
                 parentNode.appendChild(yearNode);
