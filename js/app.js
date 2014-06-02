@@ -21,10 +21,10 @@ window.onload = function(){
     window.onscroll = sticky;
 
     d3.json("data/data.json", function(data){
+        var dateFormat = d3.time.format("%Y-%m-%d");
         data = data.map(function(d){
             try{
-                var toDate = function(date){return new Date(date);};
-                d.date = d.date.map(toDate);
+                d.date = d.date.map(dateFormat.parse);
             }catch(e){
                 d.date = undefined;
             }finally{
@@ -118,6 +118,6 @@ window.onload = function(){
           .text(function(d){return d.event;});
         li.append('div')
           .attr('class', 'date')
-          .text(function(d){return d.date;});
+          .text(function(d){return d.date.map(dateFormat);});
     });
 };
