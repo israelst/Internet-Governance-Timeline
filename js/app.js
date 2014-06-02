@@ -53,31 +53,24 @@ window.onload = function(){
         var minDate = d3.min(dates(0));
         var maxDate = d3.max(dates(1));
 
-        function monthAppender(container){
-            return function(date){
-                var monthNode = document.createElement('span');
-                monthNode.className = 'month';
-                monthNode.textContent = d3.time.format('%B')(date);
+        var monthsList = document.querySelector('ol.months');
+        var monthsListItem = d3.select(monthsList)
+            .selectAll('li')
+            .data(expandDateRange(minDate, maxDate))
+            .enter()
+            .append('li');
+        monthsListItem.append('span')
+            .attr('class', 'month')
+            .text(function(d){return d3.time.format('%B')(d);});
+        monthsListItem.append('span')
+            .attr('class', 'year')
+            .text(function(d){return d3.time.format('%Y')(d);});
 
-                var yearNode = document.createElement('span');
-                yearNode.className = 'year';
-                yearNode.textContent = d3.time.format('%Y')(date);
-
-                var parentNode = document.createElement('li');
-                parentNode.appendChild(yearNode);
-                parentNode.appendChild(monthNode);
-
-                container.appendChild(parentNode);
-            };
-        }
-        var monthList = timeline.getElementsByTagName('ol')[0];
-        expandDateRange(minDate, maxDate).forEach(monthAppender(monthList));
-
-        var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, monthList.clientHeight]);
+        var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, monthsList.clientHeight]);
 
         var li = d3.select('ul.events')
         .style('position', 'absolute')
-        .style('top', monthList.offsetTop + 'px')
+        .style('top', monthsList.offsetTop + 'px')
         .selectAll('li')
         .data(data)
         .enter()
