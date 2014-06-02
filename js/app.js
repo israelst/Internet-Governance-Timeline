@@ -31,6 +31,9 @@ window.onload = function(){
                 return d;
             }
         });
+
+        data = data.filter(function(d){return d.date;});
+
         function dates(index){
             return data.map(function(d){return d.date[index];});
         }
