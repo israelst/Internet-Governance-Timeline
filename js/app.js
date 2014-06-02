@@ -91,9 +91,7 @@ window.onload = function(){
         .style('padding', '0 2em')
         .style('position', 'absolute')
         .style('height', function(d){
-            if(d.duration){
-                return d.duration + 'em';
-            }
+            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
         })
         .style('top', function(d, i){
             return timeScale(d.date[0]) + 'px';
