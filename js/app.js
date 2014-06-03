@@ -61,10 +61,10 @@ window.onload = function(){
             .append('li');
         monthsListItem.append('span')
             .attr('class', 'month')
-            .text(function(d){return d3.time.format('%B')(d);});
+            .text(d3.time.format('%B'));
         monthsListItem.append('span')
             .attr('class', 'year')
-            .text(function(d){return d3.time.format('%Y')(d);});
+            .text(d3.time.format('%Y'));
 
         var timeScale = d3.time.scale().domain(dateExtent).range([0, monthsList.clientHeight]);
 
