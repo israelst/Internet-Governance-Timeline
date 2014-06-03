@@ -38,6 +38,7 @@ window.onload = function(){
         function dates(index){
             return data.map(function(d){return d.date[index];});
         }
+
         function expandDateRange(min, max){
             var dates = [];
             min = new Date(min).setDate(1);
@@ -97,7 +98,7 @@ window.onload = function(){
             return timeScale(d.date[0]) + 'px';
         })
         .style('left', function(d, i){
-            var atTheSameTime= data.filter(function(e){
+            var atTheSameTime = data.filter(function(e){
                 return (e.date[0] >= d.date[0] &&
                         e.date[0] <= d.date[1] &&
                         e.code !== d.code);
