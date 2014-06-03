@@ -39,10 +39,10 @@ window.onload = function(){
             return data.map(function(d){return d.date[index];});
         }
 
-        function expandDateRange(min, max){
-            var dates = [];
-            min = new Date(min).setDate(1);
-            max = new Date(max).setDate(1);
+        function expandDateRange(dateExtent){
+            var min = new Date(dateExtent[0]).setDate(1),
+                max = new Date(dateExtent[1]).setDate(1),
+                dates = [];
             for(var curr = new Date(min);
                     curr <= max;
                     curr.setMonth(curr.getMonth() + 1)){
@@ -51,13 +51,12 @@ window.onload = function(){
             return dates;
         }
 
-        var minDate = d3.min(dates(0));
-        var maxDate = d3.max(dates(1));
+        var dateExtent = d3.extent(dates(0).concat(dates(1)));
 
         var monthsList = document.querySelector('ol.months');
         var monthsListItem = d3.select(monthsList)
             .selectAll('li')
-            .data(expandDateRange(minDate, maxDate))
+            .data(expandDateRange(dateExtent))
             .enter()
             .append('li');
         monthsListItem.append('span')
@@ -67,7 +66,7 @@ window.onload = function(){
             .attr('class', 'year')
             .text(function(d){return d3.time.format('%Y')(d);});
 
-        var timeScale = d3.time.scale().domain([minDate, maxDate]).range([0, monthsList.clientHeight]);
+        var timeScale = d3.time.scale().domain(dateExtent).range([0, monthsList.clientHeight]);
 
         var li = d3.select('ul.events')
         .style('position', 'absolute')
