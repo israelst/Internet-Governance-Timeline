@@ -116,7 +116,6 @@ ol.months > li{
     font-size: 2.5vw;
     font-weight: 600;
     color: rgba(0, 0, 0, .1);
-    padding: .2em
 }
 
 ol.months > li:nth-child(2n+1) {
@@ -125,7 +124,7 @@ ol.months > li:nth-child(2n+1) {
 
 ol.months > li > *{
     display: block;
-    margin: 0;
+    margin: .2em;
     line-height: .9em;
 }
 
