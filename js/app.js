@@ -75,6 +75,7 @@ window.onload = function(){
             };
             var event_class = event_classes[d.institutions];
             event_class = event_class || 'other';
+            event_class += d.relevance == 1? ' important': '';
             return event_class + ' event';
         })
         .style('padding', '0 2em')
