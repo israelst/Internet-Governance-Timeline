@@ -1,3 +1,9 @@
+lib:
+	mkdir -p js/lib
+
+d3: lib
+	wget "http://d3js.org/d3.v3.min.js" -O js/lib/d3.v3.min.js
+
 data:
 	mkdir -p data
 
