@@ -35,6 +35,10 @@ window.onload = function(){
 
         data = data.filter(function(d){return d.date;});
 
+        data.sort(function(d1, d2){
+            return d1.date[0] - d2.date[0];
+        });
+
         function dates(index){
             return data.map(function(d){return d.date[index];});
         }
