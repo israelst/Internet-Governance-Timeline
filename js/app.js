@@ -56,6 +56,11 @@ window.onload = function(){
         }
 
         var dateExtent = d3.extent(dates(0).concat(dates(1)));
+        dateExtent[0] = new Date(dateExtent[0]);
+        dateExtent[0].setDate(1);
+        dateExtent[1] = new Date(dateExtent[1]);
+        dateExtent[1].setDate(1);
+        dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
 
         var monthsList = document.querySelector('ol.months');
         var monthsListItem = d3.select(monthsList)
