@@ -43,18 +43,6 @@ window.onload = function(){
             return data.map(function(d){return d.date[index];});
         }
 
-        function expandDateRange(dateExtent){
-            var min = new Date(dateExtent[0]).setDate(1),
-                max = new Date(dateExtent[1]).setDate(1),
-                dates = [];
-            for(var curr = new Date(min);
-                    curr <= max;
-                    curr.setMonth(curr.getMonth() + 1)){
-                dates.push(new Date(curr));
-            }
-            return dates;
-        }
-
         var dateExtent = d3.extent(dates(0).concat(dates(1)));
         dateExtent[0] = new Date(dateExtent[0]);
         dateExtent[0].setDate(1);
@@ -65,7 +53,7 @@ window.onload = function(){
         var monthsList = document.querySelector('ol.months');
         var monthsListItem = d3.select(monthsList)
             .selectAll('li')
-            .data(expandDateRange(dateExtent))
+            .data(d3.time.months.apply(this, dateExtent))
             .enter()
             .append('li');
         monthsListItem.append('span')
