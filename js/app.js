@@ -73,6 +73,9 @@ window.onload = function(){
         .enter()
         .append('li');
 
+        var indent = 0;
+        var maxSoFar;
+
         li.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
@@ -94,13 +97,19 @@ window.onload = function(){
             return timeScale(d.date[0]) + 'px';
         })
         .style('left', function(d, i){
-            var atTheSameTime = data.filter(function(e){
-                return (e.date[0] >= d.date[0] &&
-                        e.date[0] <= d.date[1] &&
-                        e.code !== d.code);
-            });
-            if(atTheSameTime.length > 0)
-                return '400px';
+            var eventStartDate = d.date[0];
+            if(prevEvent = data[i - 1]){
+                var prevEventEndDate = prevEvent.date[1];
+                if(prevEventEndDate >= eventStartDate){
+                    indent++;
+                    maxSoFar = prevEventEndDate;
+                }
+                if(eventStartDate > maxSoFar && indent > 0){
+                    indent--;
+                    maxSoFar = d.date[1];
+                }
+                return indent * 260 + 40 + 'px';
+            }
         });
         li.append('div')
           .attr('class', 'name')
