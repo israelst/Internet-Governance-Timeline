@@ -1,25 +1,4 @@
-window.onload = function(){
-    var timeline = document.getElementById('timeline'),
-        primary = document.querySelector('h2');
-
-    var clone = primary.cloneNode(true);
-    clone.className = 'sticky';
-
-    function sticky(){
-        var isVisible = primary.style.visibility == 'hidden';
-        if(window.pageYOffset >= timeline.offsetTop){
-            if(!isVisible){
-                primary.style.visibility = 'hidden';
-                timeline.appendChild(clone);
-            }
-        }else if(isVisible){
-            primary.style.visibility = 'visible';
-            timeline.removeChild(clone);
-        }
-    }
-    sticky();
-    window.onscroll = sticky;
-
+window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
         var dateFormat = d3.time.format("%Y-%m-%d");
 
@@ -118,4 +97,5 @@ window.onload = function(){
           .attr('class', 'date')
           .text(function(d){return d.date.map(dateFormat);});
     });
-};
+}, false);
+
