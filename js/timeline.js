@@ -34,7 +34,11 @@ window.addEventListener('load', function(){
             .selectAll('li')
             .data(d3.time.months.apply(this, dateExtent))
             .enter()
-            .append('li');
+            .append('li')
+            .style('height', function(d){
+                var dayHeight = 10;
+                return (32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate()) * dayHeight + 'px';
+            });
         monthsListItem.append('span')
             .attr('class', 'month')
             .text(d3.time.format('%B'));
