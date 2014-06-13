@@ -80,7 +80,9 @@ window.addEventListener('load', function(){
             return timeScale(d.date[0]) + 'px';
         })
         .style('left', function(d, i){
-            var eventStartDate = d.date[0];
+            var offset = 40,
+                width = 240,
+                eventStartDate = d.date[0];
             if(prevEvent = data[i - 1]){
                 var prevEventEndDate = prevEvent.date[1];
                 if(prevEventEndDate >= eventStartDate){
@@ -91,7 +93,7 @@ window.addEventListener('load', function(){
                     indent--;
                     maxSoFar = d.date[1];
                 }
-                return indent * 260 + 40 + 'px';
+                return indent * width + offset + 'px';
             }
         });
         li.append('div')
