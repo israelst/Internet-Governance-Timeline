@@ -47,6 +47,9 @@ window.addEventListener('load', function(){
             .text(d3.time.format('%Y'));
 
         var timeScale = d3.time.scale().domain(dateExtent).range([0, monthsList.clientHeight]);
+        function height(d){
+            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
+        }
 
         var li = d3.select('ul.events')
         .style('position', 'absolute')
@@ -73,14 +76,15 @@ window.addEventListener('load', function(){
         })
         .style('padding', '0 2em')
         .style('position', 'absolute')
-        .style('height', function(d){
-            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
-        })
+        .style('line-height', height)
+        .style('height', height)
         .style('top', function(d, i){
             return timeScale(d.date[0]) + 'px';
         })
         .style('left', function(d, i){
-            var eventStartDate = d.date[0];
+            var offset = 40,
+                width = 240,
+                eventStartDate = d.date[0];
             if(prevEvent = data[i - 1]){
                 var prevEventEndDate = prevEvent.date[1];
                 if(prevEventEndDate >= eventStartDate){
@@ -91,15 +95,12 @@ window.addEventListener('load', function(){
                     indent--;
                     maxSoFar = d.date[1];
                 }
-                return indent * 260 + 40 + 'px';
+                return indent * width + offset + 'px';
             }
         });
         li.append('div')
           .attr('class', 'name')
           .text(function(d){return d.event;});
-        li.append('div')
-          .attr('class', 'date')
-          .text(function(d){return d.date.map(dateFormat);});
     });
 }, false);
 

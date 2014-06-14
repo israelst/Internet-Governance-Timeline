@@ -135,10 +135,16 @@ ol.months > li > *{
 .event{
     margin: 0;
     padding: 2em;
+    width: 10em;
     display: inline-block;
     text-align: center;
     color: #eee;
     font-size: .8em;
+}
+
+.event > *{
+    line-height: 1em;
+    display: inline-block;
 }
 
 .event.un{
