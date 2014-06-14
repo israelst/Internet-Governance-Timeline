@@ -99,9 +99,6 @@ window.addEventListener('load', function(){
         li.append('div')
           .attr('class', 'name')
           .text(function(d){return d.event;});
-        li.append('div')
-          .attr('class', 'date')
-          .text(function(d){return d.date.map(dateFormat);});
     });
 }, false);
 
