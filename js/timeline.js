@@ -73,6 +73,9 @@ window.addEventListener('load', function(){
         })
         .style('padding', '0 2em')
         .style('position', 'absolute')
+        .style('line-height', function(d){
+            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
+        })
         .style('height', function(d){
             return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
         })
