@@ -47,6 +47,9 @@ window.addEventListener('load', function(){
             .text(d3.time.format('%Y'));
 
         var timeScale = d3.time.scale().domain(dateExtent).range([0, monthsList.clientHeight]);
+        function height(d){
+            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
+        }
 
         var li = d3.select('ul.events')
         .style('position', 'absolute')
@@ -73,12 +76,8 @@ window.addEventListener('load', function(){
         })
         .style('padding', '0 2em')
         .style('position', 'absolute')
-        .style('line-height', function(d){
-            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
-        })
-        .style('height', function(d){
-            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
-        })
+        .style('line-height', height)
+        .style('height', height)
         .style('top', function(d, i){
             return timeScale(d.date[0]) + 'px';
         })
