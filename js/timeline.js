@@ -82,8 +82,7 @@ window.addEventListener('load', function(){
             return timeScale(d.date[0]) + 'px';
         })
         .style('left', function(d, i){
-            var offset = 40,
-                width = 240,
+            var width = 240,
                 eventStartDate = d.date[0];
             if(prevEvent = data[i - 1]){
                 var prevEventEndDate = prevEvent.date[1];
@@ -95,7 +94,7 @@ window.addEventListener('load', function(){
                     indent--;
                     maxSoFar = d.date[1];
                 }
-                return indent * width + offset + 'px';
+                return indent * width + 'px';
             }
         });
         li.append('div')
