@@ -62,8 +62,9 @@ window.addEventListener('load', function(){
             .enter()
             .append('li')
             .style('height', function(d){
-                var dayHeight = 10;
-                return (32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate()) * dayHeight + 'px';
+                var dayHeight = 1,
+                    qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
+                return qtyOfDays * dayHeight + 'px';
             });
         monthsListItem.append('span')
             .attr('class', 'month')
