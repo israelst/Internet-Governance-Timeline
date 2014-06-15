@@ -101,7 +101,7 @@ window.addEventListener('load', function(){
         .style('position', 'absolute')
         .style('line-height', height)
         .style('height', height)
-        .style('top', function(d, i){
+        .style('top', function(d){
             return timeScale(d.date[0]) + 'px';
         })
         .style('left', leftCalculator(data, 240));
