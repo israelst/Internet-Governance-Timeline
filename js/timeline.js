@@ -50,7 +50,7 @@ window.addEventListener('load', function(){
         }
 
         var dateExtent = d3.extent(dates(0).concat(dates(1)))
-                         .map(function(d){ return new Date(d)};);
+                         .map(function(d){ return new Date(d);});
         dateExtent[0].setDate(1);
         dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
         dateExtent[1].setDate(0);
