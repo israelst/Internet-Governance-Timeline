@@ -49,10 +49,9 @@ window.addEventListener('load', function(){
             return data.map(function(d){return d.date[index];});
         }
 
-        var dateExtent = d3.extent(dates(0).concat(dates(1)));
-        dateExtent[0] = new Date(dateExtent[0]);
+        var dateExtent = d3.extent(dates(0).concat(dates(1)))
+                         .map(function(d){ return new Date(d)};);
         dateExtent[0].setDate(1);
-        dateExtent[1] = new Date(dateExtent[1]);
         dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
         dateExtent[1].setDate(0);
 
