@@ -1,22 +1,29 @@
+function preprocessing(data){
+    var dateFormat = d3.time.format("%Y-%m-%d");
+
+    function byStartDate(d1, d2){
+        return d1.date[0] - d2.date[0];
+    }
+
+    function normalizeDate(d){
+        try{
+            d.date = d.date.map(dateFormat.parse);
+        }catch(e){
+            d.date = undefined;
+        }finally{
+            return d;
+        }
+    }
+
+    data = data.map(normalizeDate)
+            .filter(function(d){return d.date;})
+            .sort(byStartDate);
+    return data;
+}
+
 window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
-        var dateFormat = d3.time.format("%Y-%m-%d");
-
-        data = data.map(function(d){
-            try{
-                d.date = d.date.map(dateFormat.parse);
-            }catch(e){
-                d.date = undefined;
-            }finally{
-                return d;
-            }
-        });
-
-        data = data.filter(function(d){return d.date;});
-
-        data.sort(function(d1, d2){
-            return d1.date[0] - d2.date[0];
-        });
+        data = preprocessing(data);
 
         function dates(index){
             return data.map(function(d){return d.date[index];});
