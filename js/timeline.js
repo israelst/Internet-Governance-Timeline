@@ -21,6 +21,26 @@ function preprocessing(data){
     return data;
 }
 
+function leftCalculator(data, width){
+    var indent = 0,
+        maxSoFar;
+    return function(d, i){
+        var eventStartDate = d.date[0];
+        if(prevEvent = data[i - 1]){
+            var prevEventEndDate = prevEvent.date[1];
+            if(prevEventEndDate >= eventStartDate){
+                indent++;
+                maxSoFar = prevEventEndDate;
+            }
+            if(eventStartDate > maxSoFar && indent > 0){
+                indent--;
+                maxSoFar = d.date[1];
+            }
+        }
+        return indent * width + 'px';
+    };
+}
+
 window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
         data = preprocessing(data);
@@ -66,9 +86,6 @@ window.addEventListener('load', function(){
         .enter()
         .append('li');
 
-        var indent = 0;
-        var maxSoFar;
-
         li.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
@@ -88,22 +105,7 @@ window.addEventListener('load', function(){
         .style('top', function(d, i){
             return timeScale(d.date[0]) + 'px';
         })
-        .style('left', function(d, i){
-            var width = 240,
-                eventStartDate = d.date[0];
-            if(prevEvent = data[i - 1]){
-                var prevEventEndDate = prevEvent.date[1];
-                if(prevEventEndDate >= eventStartDate){
-                    indent++;
-                    maxSoFar = prevEventEndDate;
-                }
-                if(eventStartDate > maxSoFar && indent > 0){
-                    indent--;
-                    maxSoFar = d.date[1];
-                }
-                return indent * width + 'px';
-            }
-        });
+        .style('left', leftCalculator(data, 240));
         li.append('div')
           .attr('class', 'name')
           .text(function(d){return d.event;});
