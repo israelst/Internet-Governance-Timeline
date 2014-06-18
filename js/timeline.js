@@ -25,15 +25,13 @@ function leftCalculator(width){
     var indent = 0, prevEndDate, maxSoFar;
     return function(d, i){
         var startDate = d.date[0];
-        if(prevEndDate){
-            if(prevEndDate >= startDate){
-                indent++;
-                maxSoFar = prevEndDate;
-            }
-            if(startDate > maxSoFar && indent > 0){
-                indent--;
-                maxSoFar = d.date[1];
-            }
+        if(prevEndDate >= startDate){
+            indent++;
+            maxSoFar = prevEndDate;
+        }
+        if(startDate > maxSoFar && indent > 0){
+            indent--;
+            maxSoFar = d.date[1];
         }
         prevEndDate = d.date[1];
         return indent * width + 'px';
