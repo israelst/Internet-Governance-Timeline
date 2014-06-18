@@ -41,6 +41,22 @@ function leftCalculator(data, width){
     };
 }
 
+function monthChart(dayHeight){
+    function chart(selection){
+        selection.style('height', function(d){
+            var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
+            return qtyOfDays * dayHeight + 'px';
+        });
+        selection.append('span')
+            .attr('class', 'month')
+            .text(d3.time.format('%B'));
+        selection.append('span')
+            .attr('class', 'year')
+            .text(d3.time.format('%Y'));
+    }
+    return chart;
+}
+
 window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
         data = preprocessing(data);
@@ -55,49 +71,13 @@ window.addEventListener('load', function(){
         dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
         dateExtent[1].setDate(0);
 
-        function monthChart(dayHeight){
-            function chart(selection){
-                var li = selection.selectAll('li')
-            .data(d3.time.months.apply(this, dateExtent))
-            .enter()
-            .append('li')
-                .style('height', function(d){
-                    var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
-                    return qtyOfDays * dayHeight + 'px';
-                });
-                li.append('span')
-                    .attr('class', 'month')
-                    .text(d3.time.format('%B'));
-                li.append('span')
-                    .attr('class', 'year')
-                    .text(d3.time.format('%Y'));
-            }
-            return chart;
-        }
-        d3.select('ol.months')
-            .datum(d3.time.months.apply(this, dateExtent))
-            .call(monthChart(1))
-
-
         var monthsList = document.querySelector('ol.months');
-            /*
-        var monthsListItem = d3.select(monthsList)
+        d3.select(monthsList)
             .selectAll('li')
             .data(d3.time.months.apply(this, dateExtent))
             .enter()
             .append('li')
-            .style('height', function(d){
-                var dayHeight = 1,
-                    qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
-                return qtyOfDays * dayHeight + 'px';
-            });
-        monthsListItem.append('span')
-            .attr('class', 'month')
-            .text(d3.time.format('%B'));
-        monthsListItem.append('span')
-            .attr('class', 'year')
-            .text(d3.time.format('%Y'));
-            */
+            .call(monthChart(1));
 
         var timeScale = d3.time.scale().domain(dateExtent).range([0, monthsList.clientHeight]);
         function height(d){
