@@ -21,13 +21,13 @@ function preprocessing(data){
     return data;
 }
 
-function leftCalculator(data, width){
+function leftCalculator(width){
     var indent = 0,
+        prevEventEndDate = undefined,
         maxSoFar;
     return function(d, i){
         var eventStartDate = d.date[0];
-        if(prevEvent = data[i - 1]){
-            var prevEventEndDate = prevEvent.date[1];
+        if(prevEventEndDate){
             if(prevEventEndDate >= eventStartDate){
                 indent++;
                 maxSoFar = prevEventEndDate;
@@ -37,6 +37,7 @@ function leftCalculator(data, width){
                 maxSoFar = d.date[1];
             }
         }
+        prevEventEndDate = d.date[1];
         return indent * width + 'px';
     };
 }
@@ -111,7 +112,7 @@ window.addEventListener('load', function(){
         .style('top', function(d){
             return timeScale(d.date[0]) + 'px';
         })
-        .style('left', leftCalculator(data, 240));
+        .style('left', leftCalculator(240));
         li.append('div')
           .attr('class', 'name')
           .text(function(d){return d.event;});
