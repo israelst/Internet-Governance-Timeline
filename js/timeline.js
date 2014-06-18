@@ -22,22 +22,20 @@ function preprocessing(data){
 }
 
 function leftCalculator(width){
-    var indent = 0,
-        prevEventEndDate = undefined,
-        maxSoFar;
+    var indent = 0, prevEndDate, maxSoFar;
     return function(d, i){
-        var eventStartDate = d.date[0];
-        if(prevEventEndDate){
-            if(prevEventEndDate >= eventStartDate){
+        var startDate = d.date[0];
+        if(prevEndDate){
+            if(prevEndDate >= startDate){
                 indent++;
-                maxSoFar = prevEventEndDate;
+                maxSoFar = prevEndDate;
             }
-            if(eventStartDate > maxSoFar && indent > 0){
+            if(startDate > maxSoFar && indent > 0){
                 indent--;
                 maxSoFar = d.date[1];
             }
         }
-        prevEventEndDate = d.date[1];
+        prevEndDate = d.date[1];
         return indent * width + 'px';
     };
 }
