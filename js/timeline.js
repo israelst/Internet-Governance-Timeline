@@ -74,7 +74,7 @@ window.addEventListener('load', function(){
             .data(d3.time.months.apply(this, dateExtent))
             .enter()
             .append('li')
-            .call(monthChart(1));
+            .call(monthChart(8));
 
 
         var li = d3.select('ul.events')
