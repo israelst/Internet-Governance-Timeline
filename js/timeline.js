@@ -76,10 +76,6 @@ window.addEventListener('load', function(){
             .append('li')
             .call(monthChart(1));
 
-        var timeScale = d3.time.scale().domain(dateExtent).range([0, monthsList.clientHeight]);
-        function height(d){
-            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
-        }
 
         var li = d3.select('ul.events')
         .style('position', 'absolute')
@@ -87,8 +83,16 @@ window.addEventListener('load', function(){
         .selectAll('li')
         .data(data)
         .enter()
-        .append('li');
+        .append('li')
+        .call(timelineChart(monthsList));
 
+function timelineChart(monthsList){
+    var timeScale = d3.time.scale().domain(dateExtent).range([0, monthsList.clientHeight]);
+    function height(d){
+        return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
+    }
+
+    function chart(li, data){
         li.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
@@ -112,6 +116,10 @@ window.addEventListener('load', function(){
         li.append('div')
           .attr('class', 'name')
           .text(function(d){return d.event;});
+    }
+    return chart;
+}
+
     });
 }, false);
 
