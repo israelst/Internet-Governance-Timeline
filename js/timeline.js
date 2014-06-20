@@ -84,10 +84,14 @@ window.addEventListener('load', function(){
         .data(data)
         .enter()
         .append('li')
-        .call(timelineChart(monthsList));
+        .call(timelineChart(d3.selectAll('ol.months > li')));
 
-    function timelineChart(monthsList){
-        var timeScale = d3.time.scale().domain(dateExtent).range([0, monthsList.clientHeight]);
+    function timelineChart(monthSelection){
+        var months = monthSelection.data(),
+            dateExtent = [months[0], months[months.length - 1]],
+            totalHeight = monthSelection[0][0].parentNode.clientHeight,
+            timeScale = d3.time.scale().domain(dateExtent).range([0, totalHeight]);
+
         function height(d){
             return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
         }
