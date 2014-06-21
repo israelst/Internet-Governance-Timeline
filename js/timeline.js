@@ -117,12 +117,12 @@ window.addEventListener('load', function(){
             .call(monthChart(8));
 
 
-        var li = d3.select('ul.events')
-        .selectAll('li')
-        .data(data)
-        .enter()
-        .append('li')
-        .call(timelineChart(scale));
+        d3.select('ul.events')
+            .selectAll('li')
+            .data(data)
+            .enter()
+            .append('li')
+            .call(timelineChart(scale));
     });
 }, false);
 
