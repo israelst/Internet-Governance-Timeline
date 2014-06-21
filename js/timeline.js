@@ -54,6 +54,44 @@ function monthChart(dayHeight){
     return chart;
 }
 
+function timelineChart(monthSelection){
+    var months = monthSelection.data(),
+        dateExtent = [months[0], months[months.length - 1]],
+        totalHeight = monthSelection[0][0].parentNode.clientHeight,
+        timeScale = d3.time.scale().domain(dateExtent).range([0, totalHeight]);
+
+    function height(d){
+        return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
+    }
+
+    function chart(li, data){
+        li.attr('class', function(d){
+            var event_classes = {
+                'WSIS process': 'wsis',
+                'ITU process': 'itu',
+                'UN process (GA/ECOSOC/CSTD)': 'un',
+                'IGF Processes': 'igf',
+                'ICANN': 'icann',
+            };
+            var event_class = event_classes[d.institutions];
+            event_class = event_class || 'other';
+            return event_class + ' event';
+        })
+        .style('padding', '0 2em')
+            .style('position', 'absolute')
+            .style('line-height', height)
+            .style('height', height)
+            .style('top', function(d){
+                return timeScale(d.date[0]) + 'px';
+            })
+        .style('left', leftCalculator(240));
+        li.append('div')
+            .attr('class', 'name')
+            .text(function(d){return d.event;});
+    }
+    return chart;
+}
+
 window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
         data = preprocessing(data);
@@ -85,44 +123,6 @@ window.addEventListener('load', function(){
         .enter()
         .append('li')
         .call(timelineChart(d3.selectAll('ol.months > li')));
-
-    function timelineChart(monthSelection){
-        var months = monthSelection.data(),
-            dateExtent = [months[0], months[months.length - 1]],
-            totalHeight = monthSelection[0][0].parentNode.clientHeight,
-            timeScale = d3.time.scale().domain(dateExtent).range([0, totalHeight]);
-
-        function height(d){
-            return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
-        }
-
-        function chart(li, data){
-            li.attr('class', function(d){
-                var event_classes = {
-                    'WSIS process': 'wsis',
-                    'ITU process': 'itu',
-                    'UN process (GA/ECOSOC/CSTD)': 'un',
-                    'IGF Processes': 'igf',
-                    'ICANN': 'icann',
-                };
-                var event_class = event_classes[d.institutions];
-                event_class = event_class || 'other';
-                return event_class + ' event';
-            })
-            .style('padding', '0 2em')
-            .style('position', 'absolute')
-            .style('line-height', height)
-            .style('height', height)
-            .style('top', function(d){
-                return timeScale(d.date[0]) + 'px';
-            })
-            .style('left', leftCalculator(240));
-            li.append('div')
-              .attr('class', 'name')
-              .text(function(d){return d.event;});
-        }
-        return chart;
-    }
 
     });
 }, false);
