@@ -65,6 +65,9 @@ function timelineChart(monthSelection){
     }
 
     function chart(li){
+        d3.select(li.node().parentNode)
+            .style('position', 'absolute')
+            .style('top', monthSelection.node().offsetTop + 'px');
         li.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
@@ -116,14 +119,11 @@ window.addEventListener('load', function(){
 
 
         var li = d3.select('ul.events')
-        .style('position', 'absolute')
-        .style('top', monthsList.offsetTop + 'px')
         .selectAll('li')
         .data(data)
         .enter()
         .append('li')
         .call(timelineChart(d3.selectAll('ol.months > li')));
-
     });
 }, false);
 
