@@ -78,12 +78,12 @@ function timelineChart(monthSelection){
             return event_class + ' event';
         })
         .style('padding', '0 2em')
-            .style('position', 'absolute')
-            .style('line-height', height)
-            .style('height', height)
-            .style('top', function(d){
-                return timeScale(d.date[0]) + 'px';
-            })
+        .style('position', 'absolute')
+        .style('line-height', height)
+        .style('height', height)
+        .style('top', function(d){
+            return timeScale(d.date[0]) + 'px';
+        })
         .style('left', leftCalculator(240));
         li.append('div')
             .attr('class', 'name')
