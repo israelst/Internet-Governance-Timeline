@@ -95,27 +95,28 @@ function timelineChart(monthSelection){
     return chart;
 }
 
+function domainOfDates(data){
+    var startDates = data.map(function(d){return d.date[0];}),
+        endDates = data.map(function(d){return d.date[1];});
+
+    var dateExtent = d3.extent(startDates.concat(endDates))
+                     .map(function(d){ return new Date(d);});
+    dateExtent[0].setDate(1);
+    dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
+    dateExtent[1].setDate(0);
+    return dateExtent;
+}
+
 window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
         data = preprocessing(data);
 
-        function dates(index){
-            return data.map(function(d){return d.date[index];});
-        }
-
-        var dateExtent = d3.extent(dates(0).concat(dates(1)))
-                         .map(function(d){ return new Date(d);});
-        dateExtent[0].setDate(1);
-        dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
-        dateExtent[1].setDate(0);
-
         var scale = d3.select('ol.months')
             .selectAll('li')
-            .data(d3.time.months.apply(this, dateExtent))
+            .data(d3.time.months.apply(this, domainOfDates(data)))
             .enter()
             .append('li')
             .call(monthChart(8));
-
 
         d3.select('ul.events')
             .selectAll('li')
