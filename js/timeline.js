@@ -64,7 +64,7 @@ function timelineChart(monthSelection){
         return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
     }
 
-    function chart(li, data){
+    function chart(li){
         li.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
