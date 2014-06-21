@@ -57,7 +57,7 @@ function monthChart(dayHeight){
 function timelineChart(monthSelection){
     var months = monthSelection.data(),
         dateExtent = [months[0], months[months.length - 1]],
-        totalHeight = monthSelection[0][0].parentNode.clientHeight,
+        totalHeight = monthSelection.node().parentNode.clientHeight,
         timeScale = d3.time.scale().domain(dateExtent).range([0, totalHeight]);
 
     function height(d){
