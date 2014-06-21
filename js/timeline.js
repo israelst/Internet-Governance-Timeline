@@ -109,8 +109,7 @@ window.addEventListener('load', function(){
         dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
         dateExtent[1].setDate(0);
 
-        var monthsList = document.querySelector('ol.months');
-        d3.select(monthsList)
+        var scale = d3.select('ol.months')
             .selectAll('li')
             .data(d3.time.months.apply(this, dateExtent))
             .enter()
@@ -123,7 +122,7 @@ window.addEventListener('load', function(){
         .data(data)
         .enter()
         .append('li')
-        .call(timelineChart(d3.selectAll('ol.months > li')));
+        .call(timelineChart(scale));
     });
 }, false);
 
