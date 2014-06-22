@@ -38,19 +38,31 @@ function leftCalculator(width){
     };
 }
 
-function monthChart(dayHeight){
+function monthChart(){
+    var dayHeight, _selection;
+
     function chart(selection){
-        selection.style('height', function(d){
-            var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
-            return qtyOfDays * dayHeight + 'px';
-        });
+        _selection = selection;
         selection.append('span')
             .attr('class', 'month')
             .text(d3.time.format('%B'));
         selection.append('span')
             .attr('class', 'year')
             .text(d3.time.format('%Y'));
+        chart.dayHeight(8);
+        return chart;
     }
+
+    chart.dayHeight = function(value) {
+        if (!arguments.length) return dayHeight;
+        dayHeight = value;
+        _selection.style('height', function(d){
+            var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
+            return qtyOfDays * dayHeight + 'px';
+        });
+        return chart;
+    };
+
     return chart;
 }
 
