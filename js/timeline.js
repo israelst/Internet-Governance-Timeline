@@ -53,6 +53,10 @@ function monthChart(){
         return chart;
     }
 
+    chart.top = function() {
+        return _selection.node().parentNode.offsetTop;
+    };
+
     chart.dayHeight = function(value) {
         if (!arguments.length) return dayHeight;
         dayHeight = value;
