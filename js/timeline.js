@@ -79,20 +79,15 @@ function monthChart(){
     return chart;
 }
 
-function timelineChart(monthSelection){
-    var months = monthSelection.data(),
-        dateExtent = [months[0], months[months.length - 1]],
-        totalHeight = monthSelection.node().parentNode.clientHeight,
-        timeScale = d3.time.scale().domain(dateExtent).range([0, totalHeight]);
-
+function timelineChart(timeline){
     function height(d){
-        return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
+        return (timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 'px';
     }
 
     function chart(li){
         d3.select(li.node().parentNode)
             .style('position', 'absolute')
-            .style('top', monthSelection.node().offsetTop + 'px');
+            .style('top', timeline.top() + 'px');
         li.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
@@ -110,7 +105,7 @@ function timelineChart(monthSelection){
         .style('line-height', height)
         .style('height', height)
         .style('top', function(d){
-            return timeScale(d.date[0]) + 'px';
+            return timeline.scale(d.date[0]) + 'px';
         })
         .style('left', leftCalculator(240));
         li.append('div')
@@ -136,19 +131,20 @@ window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
         data = preprocessing(data);
 
+        var timeline = monthChart();
         var scale = d3.select('ol.months')
             .selectAll('li')
             .data(d3.time.months.apply(this, domainOfDates(data)))
             .enter()
             .append('li')
-            .call(monthChart(8));
+            .call(timeline);
 
         d3.select('ul.events')
             .selectAll('li')
             .data(data)
             .enter()
             .append('li')
-            .call(timelineChart(scale));
+            .call(timelineChart(timeline));
     });
 }, false);
 
