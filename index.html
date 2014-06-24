@@ -8,6 +8,7 @@
     <script src="js/lib/d3.v3.min.js" charset="utf-8"></script>
     <script src="js/stickyBar.js"></script>
     <script src="js/timeline.js"></script>
+    <script src="js/slider.js"></script>
 </head>
 <body>
     <div id="hero">
@@ -31,6 +32,10 @@
     </div>
     <div id="timeline">
         <h2>Timeline</h2>
+        <div>
+            Day Height: <input id="slide" type="range" min="1" max="12" value="8" />
+            <span id="chosen"></span>
+        </div>
         <ol class="months">
         </ol>
         <ul class="events"></ul>
