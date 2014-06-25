@@ -38,7 +38,7 @@ function leftCalculator(width){
     };
 }
 
-function monthChart(){
+function timelineChart(){
     var dayHeight, _selection;
 
     function chart(selection){
@@ -79,7 +79,7 @@ function monthChart(){
     return chart;
 }
 
-function timelineChart(timeline){
+function eventsChart(timeline){
     function height(d){
         return (timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 'px';
     }
@@ -131,7 +131,7 @@ window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
         data = preprocessing(data);
 
-        var timeline = monthChart();
+        var timeline = timelineChart();
         var scale = d3.select('ol.months')
             .selectAll('li')
             .data(d3.time.months.apply(this, domainOfDates(data)))
@@ -144,7 +144,7 @@ window.addEventListener('load', function(){
             .data(data)
             .enter()
             .append('li')
-            .call(timelineChart(timeline));
+            .call(eventsChart(timeline));
     });
 }, false);
 
