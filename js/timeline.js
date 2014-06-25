@@ -106,7 +106,9 @@ function eventsChart(timeline){
             .text(function(d){return d.event;});
     }
 
-    chart.timeline = function(timeline){
+    chart.timeline = function(value){
+        if (!arguments.length) return value;
+        timeline = value;
         function height(d){
             return (timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 'px';
         }
@@ -120,6 +122,7 @@ function eventsChart(timeline){
         .style('top', function(d){
             return timeline.scale(d.date[0]) + 'px';
         });
+        return chart;
     };
 
     return chart;
