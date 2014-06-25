@@ -81,12 +81,12 @@ function timelineChart(){
 }
 
 function eventsChart(timeline){
-    var _li;
+    var _selection;
 
-    function chart(li){
-        _li = li;
+    function chart(selection){
+        _selection = selection;
         chart.timeline(timeline);
-        li.attr('class', function(d){
+        selection.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
                 'ITU process': 'itu',
@@ -101,7 +101,7 @@ function eventsChart(timeline){
         .style('padding', '0 2em')
         .style('position', 'absolute')
         .style('left', leftCalculator(240));
-        li.append('div')
+        selection.append('div')
             .attr('class', 'name')
             .text(function(d){return d.event;});
     }
@@ -111,11 +111,11 @@ function eventsChart(timeline){
             return (timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 'px';
         }
 
-        d3.select(_li.node().parentNode)
+        d3.select(_selection.node().parentNode)
             .style('position', 'absolute')
             .style('top', timeline.top() + 'px');
 
-        _li.style('line-height', height)
+        _selection.style('selectionne-height', height)
         .style('height', height)
         .style('top', function(d){
             return timeline.scale(d.date[0]) + 'px';
