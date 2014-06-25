@@ -145,19 +145,24 @@ window.addEventListener('load', function(){
         data = preprocessing(data);
 
         var timeline = timelineChart();
-        var scale = d3.select('ol.months')
+        d3.select('ol.months')
             .selectAll('li')
             .data(d3.time.months.apply(this, domainOfDates(data)))
             .enter()
             .append('li')
             .call(timeline);
 
+        var events = eventsChart(timeline);
         d3.select('ul.events')
             .selectAll('li')
             .data(data)
             .enter()
             .append('li')
-            .call(eventsChart(timeline));
+            .call(events);
+
+        document.getElementById('slide').addEventListener('change', function (){
+            events.timeline(timeline.dayHeight(this.value));
+        });
     });
 }, false);
 
