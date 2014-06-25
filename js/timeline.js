@@ -52,13 +52,6 @@ function timelineChart(){
 
         chart.dayHeight(8);
 
-        var totalHeight = _selection.node().parentNode.clientHeight,
-            dates = _selection.data(),
-            extent = [new Date(dates[0]), new Date(dates[dates.length - 1])];
-        extent[1].setMonth(extent[1].getMonth() + 1);
-        extent[1].setDate(0);
-
-        chart.scale = d3.time.scale().domain(extent).range([0, totalHeight]);
         return chart;
     }
 
@@ -73,6 +66,14 @@ function timelineChart(){
             var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
             return qtyOfDays * dayHeight + 'px';
         });
+
+        var totalHeight = _selection.node().parentNode.clientHeight,
+            dates = _selection.data(),
+            extent = [new Date(dates[0]), new Date(dates[dates.length - 1])];
+        extent[1].setMonth(extent[1].getMonth() + 1);
+        extent[1].setDate(0);
+
+        chart.scale = d3.time.scale().domain(extent).range([0, totalHeight]);
         return chart;
     };
 
