@@ -81,14 +81,11 @@ function timelineChart(){
 }
 
 function eventsChart(timeline){
-    function height(d){
-        return (timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 'px';
-    }
+    var _li;
 
     function chart(li){
-        d3.select(li.node().parentNode)
-            .style('position', 'absolute')
-            .style('top', timeline.top() + 'px');
+        _li = li;
+        chart.timeline(timeline);
         li.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
@@ -103,16 +100,28 @@ function eventsChart(timeline){
         })
         .style('padding', '0 2em')
         .style('position', 'absolute')
-        .style('line-height', height)
-        .style('height', height)
-        .style('top', function(d){
-            return timeline.scale(d.date[0]) + 'px';
-        })
         .style('left', leftCalculator(240));
         li.append('div')
             .attr('class', 'name')
             .text(function(d){return d.event;});
     }
+
+    chart.timeline = function(timeline){
+        function height(d){
+            return (timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 'px';
+        }
+
+        d3.select(_li.node().parentNode)
+            .style('position', 'absolute')
+            .style('top', timeline.top() + 'px');
+
+        _li.style('line-height', height)
+        .style('height', height)
+        .style('top', function(d){
+            return timeline.scale(d.date[0]) + 'px';
+        });
+    };
+
     return chart;
 }
 
