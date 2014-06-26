@@ -117,7 +117,7 @@ function eventsChart(timeline){
             .style('position', 'absolute')
             .style('top', timeline.top() + 'px');
 
-        _selection.style('selectionne-height', height)
+        _selection.style('line-height', height)
         .style('height', height)
         .style('top', function(d){
             return timeline.scale(d.date[0]) + 'px';
