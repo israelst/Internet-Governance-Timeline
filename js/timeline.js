@@ -38,37 +38,55 @@ function leftCalculator(width){
     };
 }
 
-function monthChart(dayHeight){
+function timelineChart(){
+    var dayHeight, _selection;
+
     function chart(selection){
-        selection.style('height', function(d){
-            var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
-            return qtyOfDays * dayHeight + 'px';
-        });
+        _selection = selection;
         selection.append('span')
             .attr('class', 'month')
             .text(d3.time.format('%B'));
         selection.append('span')
             .attr('class', 'year')
             .text(d3.time.format('%Y'));
+
+        chart.dayHeight(8);
+
+        return chart;
     }
+
+    chart.top = function() {
+        return _selection.node().parentNode.offsetTop;
+    };
+
+    chart.dayHeight = function(value) {
+        if (!arguments.length) return dayHeight;
+        dayHeight = value;
+        _selection.style('height', function(d){
+            var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
+            return qtyOfDays * dayHeight + 'px';
+        });
+
+        var totalHeight = _selection.node().parentNode.clientHeight,
+            dates = _selection.data(),
+            extent = [new Date(dates[0]), new Date(dates[dates.length - 1])];
+        extent[1].setMonth(extent[1].getMonth() + 1);
+        extent[1].setDate(0);
+
+        chart.scale = d3.time.scale().domain(extent).range([0, totalHeight]);
+        return chart;
+    };
+
     return chart;
 }
 
-function timelineChart(monthSelection){
-    var months = monthSelection.data(),
-        dateExtent = [months[0], months[months.length - 1]],
-        totalHeight = monthSelection.node().parentNode.clientHeight,
-        timeScale = d3.time.scale().domain(dateExtent).range([0, totalHeight]);
+function eventsChart(timeline){
+    var _selection;
 
-    function height(d){
-        return (timeScale(d.date[1]) - timeScale(d.date[0])) + 'px';
-    }
-
-    function chart(li){
-        d3.select(li.node().parentNode)
-            .style('position', 'absolute')
-            .style('top', monthSelection.node().offsetTop + 'px');
-        li.attr('class', function(d){
+    function chart(selection){
+        _selection = selection;
+        chart.timeline(timeline);
+        selection.attr('class', function(d){
             var event_classes = {
                 'WSIS process': 'wsis',
                 'ITU process': 'itu',
@@ -82,16 +100,31 @@ function timelineChart(monthSelection){
         })
         .style('padding', '0 2em')
         .style('position', 'absolute')
-        .style('line-height', height)
-        .style('height', height)
-        .style('top', function(d){
-            return timeScale(d.date[0]) + 'px';
-        })
         .style('left', leftCalculator(240));
-        li.append('div')
+        selection.append('div')
             .attr('class', 'name')
             .text(function(d){return d.event;});
     }
+
+    chart.timeline = function(value){
+        if (!arguments.length) return value;
+        timeline = value;
+        function height(d){
+            return (timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 'px';
+        }
+
+        d3.select(_selection.node().parentNode)
+            .style('position', 'absolute')
+            .style('top', timeline.top() + 'px');
+
+        _selection.style('selectionne-height', height)
+        .style('height', height)
+        .style('top', function(d){
+            return timeline.scale(d.date[0]) + 'px';
+        });
+        return chart;
+    };
+
     return chart;
 }
 
@@ -111,19 +144,25 @@ window.addEventListener('load', function(){
     d3.json("data/data.json", function(data){
         data = preprocessing(data);
 
-        var scale = d3.select('ol.months')
+        var timeline = timelineChart();
+        d3.select('ol.months')
             .selectAll('li')
             .data(d3.time.months.apply(this, domainOfDates(data)))
             .enter()
             .append('li')
-            .call(monthChart(8));
+            .call(timeline);
 
+        var events = eventsChart(timeline);
         d3.select('ul.events')
             .selectAll('li')
             .data(data)
             .enter()
             .append('li')
-            .call(timelineChart(scale));
+            .call(events);
+
+        document.getElementById('slide').addEventListener('change', function (){
+            events.timeline(timeline.dayHeight(this.value));
+        });
     });
 }, false);
 
