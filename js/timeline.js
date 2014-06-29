@@ -109,7 +109,7 @@ function eventsChart(timeline){
         if (!arguments.length) return value;
         timeline = value;
         function height(d){
-            return (timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 'px';
+            return Math.round(timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 1 + 'px';
         }
 
         d3.select(_selection.node().parentNode)
@@ -119,7 +119,7 @@ function eventsChart(timeline){
         _selection.style('line-height', height)
         .style('height', height)
         .style('top', function(d){
-            return timeline.scale(d.date[0]) + 'px';
+            return Math.round(timeline.scale(d.date[0])) + 'px';
         });
         return chart;
     };
