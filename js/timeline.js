@@ -61,7 +61,7 @@ function timelineChart(){
 
     chart.dayHeight = function(value) {
         if (!arguments.length) return dayHeight;
-        dayHeight = value;
+        dayHeight = +value;
         _selection.style('height', function(d){
             var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
             return qtyOfDays * dayHeight + 'px';
