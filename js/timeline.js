@@ -109,7 +109,10 @@ function eventsChart(timeline){
         if (!arguments.length) return value;
         timeline = value;
         function height(d){
-            return Math.round(timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 1 + 'px';
+            var endDate = new Date(d.date[1].getFullYear(),
+                              d.date[1].getMonth(),
+                              d.date[1].getDate() + 1);
+            return Math.round(timeline.scale(endDate) - timeline.scale(d.date[0])) + 'px';
         }
 
         d3.select(_selection.node().parentNode)
@@ -138,30 +141,4 @@ function domainOfDates(data){
     dateExtent[1].setDate(0);
     return dateExtent;
 }
-
-window.addEventListener('load', function(){
-    d3.json("data/data.json", function(data){
-        data = preprocessing(data);
-
-        var timeline = timelineChart();
-        d3.select('ol.months')
-            .selectAll('li')
-            .data(d3.time.months.apply(this, domainOfDates(data)))
-            .enter()
-            .append('li')
-            .call(timeline);
-
-        var events = eventsChart(timeline);
-        d3.select('ul.events')
-            .selectAll('li')
-            .data(data)
-            .enter()
-            .append('li')
-            .call(events);
-
-        document.getElementById('slide').addEventListener('change', function (){
-            events.timeline(timeline.dayHeight(this.value));
-        });
-    });
-}, false);
 
