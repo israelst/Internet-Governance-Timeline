@@ -109,7 +109,10 @@ function eventsChart(timeline){
         if (!arguments.length) return value;
         timeline = value;
         function height(d){
-            return Math.round(timeline.scale(d.date[1]) - timeline.scale(d.date[0])) + 1 + 'px';
+            var endDate = new Date(d.date[1].getFullYear(),
+                              d.date[1].getMonth(),
+                              d.date[1].getDate() + 1);
+            return Math.round(timeline.scale(endDate) - timeline.scale(d.date[0])) + 'px';
         }
 
         d3.select(_selection.node().parentNode)

@@ -111,6 +111,8 @@ ol.months{
 }
 
 ol.months > li{
+    margin: 0;
+    padding: 0;
     height: 250px;
     font-size: 2em;
     font-size: 2.5vw;
@@ -124,7 +126,7 @@ ol.months > li:nth-child(2n+1) {
 
 ol.months > li > *{
     display: block;
-    margin: .2em;
+    margin: 0 .2em .2em;
     line-height: .9em;
 }
 
