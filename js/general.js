@@ -29,6 +29,33 @@ window.addEventListener('load', function(){
         slide.addEventListener('change', function (){
             events.timeline(timeline.dayHeight(this.value));
         });
+
+        function kind(d){
+            var event_classes = {
+                'WSIS process': 'wsis',
+                'ITU process': 'itu',
+                'UN process (GA/ECOSOC/CSTD)': 'un',
+                'IGF Processes': 'igf',
+                'ICANN': 'icann',
+            };
+            var event_class = event_classes[d];
+            event_class = event_class || 'other';
+            return event_class;
+        }
+
+        var institutions = d3.set(data.map(function(d){return d.institutions;})).values();
+        var institutionsSelection = d3.select("#institution-filter")
+            .selectAll("li")
+            .data(institutions)
+            .enter()
+            .append('li');
+        institutionsSelection.append('input')
+            .attr("type", "checkbox")
+            .attr("id", kind);
+        institutionsSelection.append('label')
+            .attr('class', kind)
+            .attr("for", kind)
+            .text(function(d){ return d;});
     });
 }, false);
 
