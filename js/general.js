@@ -18,6 +18,20 @@ window.addEventListener('load', function(){
             .append('li')
             .call(timeline);
 
+        var institutions = d3.set(data.map(function(d){return d.institutions;})).values();
+        var institutionsSelection = d3.select("#institution-filter")
+            .selectAll("li")
+            .data(institutions)
+            .enter()
+            .append('li');
+        institutionsSelection.append('input')
+            .attr("type", "checkbox")
+            .attr("id", kind);
+        institutionsSelection.append('label')
+            .attr('class', kind)
+            .attr("for", kind)
+            .text(function(d){ return d;});
+
         var events = eventsChart(timeline);
         d3.select('ul.events')
             .selectAll('li')
@@ -42,20 +56,6 @@ window.addEventListener('load', function(){
             event_class = event_class || 'other';
             return event_class;
         }
-
-        var institutions = d3.set(data.map(function(d){return d.institutions;})).values();
-        var institutionsSelection = d3.select("#institution-filter")
-            .selectAll("li")
-            .data(institutions)
-            .enter()
-            .append('li');
-        institutionsSelection.append('input')
-            .attr("type", "checkbox")
-            .attr("id", kind);
-        institutionsSelection.append('label')
-            .attr('class', kind)
-            .attr("for", kind)
-            .text(function(d){ return d;});
     });
 }, false);
 
