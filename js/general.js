@@ -26,7 +26,16 @@ window.addEventListener('load', function(){
             .append('li');
         institutionsSelection.append('input')
             .attr("type", "checkbox")
-            .attr("id", kind);
+            .attr("id", kind)
+            .on('change', function(value){
+                var checked = this.checked;
+                d3.selectAll('ul.events li').style('display', function(d){
+                    if (kind(d.institutions)==kind(value))
+                        return checked? 'block':'none';
+                    else
+                        return 'block';
+                });
+            });
         institutionsSelection.append('label')
             .attr('class', kind)
             .attr("for", kind)
