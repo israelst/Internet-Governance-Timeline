@@ -26,6 +26,7 @@ window.addEventListener('load', function(){
             .append('li');
         institutionsSelection.append('input')
             .attr("type", "checkbox")
+            .attr("checked", "checked")
             .attr("id", kind)
             .on('change', function(value){
                 var checked = this.checked;
