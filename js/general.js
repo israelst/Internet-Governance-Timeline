@@ -61,6 +61,7 @@ window.addEventListener('load', function(){
                 'UN process (GA/ECOSOC/CSTD)': 'un',
                 'IGF Processes': 'igf',
                 'ICANN': 'icann',
+                'IETF': 'ietf'
             };
             var event_class = event_classes[d];
             event_class = event_class || 'other';

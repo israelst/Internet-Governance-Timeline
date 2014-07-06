@@ -182,10 +182,11 @@ ol.months > li > *{
     background-color: rgba(59, 166, 107, 1);
 }
 
-.icann{
+.icann, .ietf{
     background-color: rgba(54, 168, 220, .7);
 }
 
+.event.ietf.important,
 .event.icann.important{
     background-color: rgba(54, 168, 220, 1);
 }
