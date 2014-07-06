@@ -143,6 +143,10 @@ ol.months > li > *{
     text-align: center;
     color: #eee;
     font-size: .8em;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
 }
 
 .event > *{

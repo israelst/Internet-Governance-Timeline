@@ -30,11 +30,11 @@ window.addEventListener('load', function(){
             .attr("id", kind)
             .on('change', function(value){
                 var checked = this.checked;
-                d3.selectAll('ul.events li').style('display', function(d){
+                d3.selectAll('ul.events li').style('opacity', function(d){
                     if(kind(d.institutions) == kind(value)){
-                        return checked? 'block':'none';
+                        return checked? '1':'0';
                     }
-                    return this.style.display;
+                    return this.style.opacity;
                 });
             });
         institutionsSelection.append('label')
