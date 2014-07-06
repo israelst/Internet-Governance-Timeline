@@ -32,7 +32,7 @@ window.addEventListener('load', function(){
                 var checked = this.checked;
                 d3.selectAll('ul.events li').style('opacity', function(d){
                     if(kind(d.institutions) == kind(value)){
-                        return checked? '1':'0';
+                        return +checked;
                     }
                     return this.style.opacity;
                 });
