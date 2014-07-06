@@ -31,10 +31,10 @@ window.addEventListener('load', function(){
             .on('change', function(value){
                 var checked = this.checked;
                 d3.selectAll('ul.events li').style('display', function(d){
-                    if (kind(d.institutions)==kind(value))
+                    if(kind(d.institutions) == kind(value)){
                         return checked? 'block':'none';
-                    else
-                        return 'block';
+                    }
+                    return this.style.display;
                 });
             });
         institutionsSelection.append('label')
