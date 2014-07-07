@@ -5,6 +5,7 @@
     <title>Internet Governace Processes - Visualizing the playing field</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href="style/base.css" rel="stylesheet" />
+    <link href="style/checkbox.css" rel="stylesheet" />
     <script src="js/lib/d3.v3.min.js" charset="utf-8"></script>
     <script src="js/stickyBar.js"></script>
     <script src="js/timeline.js"></script>
@@ -36,10 +37,8 @@
             Day Height: <input id="slide" type="range" min="1" max="12" value="8" />
             <span id="chosen"></span>
         </div>
-        <fieldset>
+        <fieldset id="institution-filter">
             <legend>Legend</legend>
-            <ul id="institution-filter">
-            </ul>
         </fieldset>
         <ol class="months">
         </ol>

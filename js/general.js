@@ -20,10 +20,10 @@ window.addEventListener('load', function(){
 
         var institutions = d3.set(data.map(function(d){return d.institutions;})).values();
         var institutionsSelection = d3.select("#institution-filter")
-            .selectAll("li")
+            .selectAll("div")
             .data(institutions)
             .enter()
-            .append('li');
+            .append('div');
         institutionsSelection.append('input')
             .attr("type", "checkbox")
             .attr("checked", "checked")
