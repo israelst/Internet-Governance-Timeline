@@ -18,11 +18,11 @@ window.addEventListener('load', function(){
 
     var svg = d3.select("body").selectAll("svg")
         .data(d3.range(2012, 2015))
-      .enter().append("svg")
+        .enter().append("svg")
         .attr("width", width)
         .attr("height", height)
         .attr("class", "RdYlGn")
-      .append("g")
+        .append("g")
         .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
 
     svg.append("text")
@@ -32,7 +32,7 @@ window.addEventListener('load', function(){
 
     var rect = svg.selectAll(".day")
         .data(function(d) { return d3.time.days(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-      .enter().append("rect")
+        .enter().append("rect")
         .attr("class", "day")
         .attr("width", cellSize)
         .attr("height", cellSize)
@@ -45,7 +45,7 @@ window.addEventListener('load', function(){
 
     svg.selectAll(".month")
         .data(function(d) { return d3.time.months(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
-      .enter().append("path")
+        .enter().append("path")
         .attr("class", "month")
         .attr("d", monthPath);
 
