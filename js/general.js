@@ -10,7 +10,7 @@ window.addEventListener('load', function(){
 
     var width = 960,
         height = 136,
-        cellSize = 17; // cell size
+        cellSize = 12;
 
     var day = d3.time.format("%w"),
         week = d3.time.format("%U"),
