@@ -16,8 +16,8 @@ window.addEventListener('load', function(){
         week = d3.time.format("%U"),
         format = d3.time.format("%Y-%m-%d");
 
-    var svg = d3.select("body").selectAll("svg")
-        .data(d3.range(2012, 2015))
+    var svg = d3.select("#calendar-view").selectAll("svg")
+        .data(d3.range(2013, 2015))
         .enter().append("svg")
         .attr("width", width)
         .attr("height", height)
