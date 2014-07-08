@@ -129,8 +129,12 @@ window.addEventListener('load', function(){
         count[d] |= 0;
         count[d]++;
     });
+
     rect.filter(function(d) { return d in count; })
-        .style("fill", function(d) { return count[d]; })
+        .style("fill", function(d) {
+            var color = d3.rgb(count[d] * 100, 20, 20);
+            return color.toString();
+        })
         .select("title");
 
     });
