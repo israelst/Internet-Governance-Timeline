@@ -122,10 +122,17 @@ window.addEventListener('load', function(){
             return event_class;
         }
 
-    var startDates = data.map(function(d){return format(d.date[0]);}),
-        endDates = data.map(function(d){return format(d.date[1]);}),
-        count = {};
-    startDates.concat(endDates).forEach(function(d){
+    var count = {};
+    data.map(function(d){
+        var dateRange = [
+            d.date[0],
+            new Date(d.date[1].getFullYear(), d.date[1].getMonth(), d.date[1].getDate() + 1)
+        ];
+        return d3.time.days.apply(this, dateRange);
+    }).reduce(function(a, b){
+        return a.concat(b);
+    }).forEach(function(d){
+        d = format(d)
         count[d] |= 0;
         count[d]++;
     });
