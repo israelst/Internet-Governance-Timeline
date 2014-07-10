@@ -21,7 +21,7 @@ window.addEventListener('load', function(){
         .enter().append("svg")
         .attr("width", width)
         .attr("height", height)
-        .attr("class", "RdYlGn")
+        .attr("class", "year")
         .append("g")
         .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
 
