@@ -8,9 +8,7 @@ window.addEventListener('load', function(){
 
     slide.onchange();
 
-    var width = 960,
-        height = 136,
-        cellSize = 12;
+    var cellSize = 10;
 
     var day = d3.time.format("%w"),
         week = d3.time.format("%U"),
@@ -19,11 +17,10 @@ window.addEventListener('load', function(){
     var svg = d3.select("#calendar-view").selectAll("svg")
         .data(d3.range(2013, 2015))
         .enter().append("svg")
-        .attr("width", width)
-        .attr("height", height)
+        .attr("viewBox", '0 0 545 70')
         .attr("class", "year")
         .append("g")
-        .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
+        .attr("transform", "translate(15, 0)");
 
     svg.append("text")
         .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
