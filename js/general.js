@@ -7,6 +7,10 @@ window.addEventListener('load', function(){
     };
 
     slide.onchange();
+
+    var calendar = calendarChart();
+    d3.select('#calendar-view').call(calendar);
+
     d3.json("data/data.json", function(data){
         data = preprocessing(data);
 
@@ -67,6 +71,9 @@ window.addEventListener('load', function(){
             event_class = event_class || 'other';
             return event_class;
         }
+
+        calendar.fillDays(data);
     });
+
 }, false);
 

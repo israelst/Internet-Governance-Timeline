@@ -1,0 +1,23 @@
+#calendar-view{
+  width: 75%;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+#calendar-view .year{
+  font: 10px sans-serif;
+  shape-rendering: crispEdges;
+  width: 100%;
+}
+
+#calendar-view .day {
+  fill: #fff;
+  stroke: #ccc;
+}
+
+#calendar-view .month {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
