@@ -1,3 +1,7 @@
+#institution-filter{
+    width: 180px;
+}
+
 #institution-filter input[type=checkbox] {display:none;}
 
 #institution-filter label{
@@ -6,16 +10,17 @@
     border-radius:4px;
     font-weight:700;
     color:#FFF;
-    font-size:.85em;
+    font-size: .75em;
     letter-spacing:2px;
     text-decoration:none;
     font-family:'PT Sans', sans-serif;
     text-align:center;
-    height:40px;
-    line-height:40px;
+    height: 2.5em;
+    line-height: 2.5em;
     cursor:pointer;
     display:block;
     margin: .3em auto;
+    padding-left: 35px;
     -webkit-transition:color 100ms ease-in;
     -moz-transition:color 100ms ease-in;
     -ms-transition:color 100ms ease-in;
