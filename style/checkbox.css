@@ -20,7 +20,7 @@
     cursor:pointer;
     display:block;
     margin: .3em auto;
-    padding-left: 35px;
+    padding: 0 10px 0 35px;
     -webkit-transition:color 100ms ease-in;
     -moz-transition:color 100ms ease-in;
     -ms-transition:color 100ms ease-in;
