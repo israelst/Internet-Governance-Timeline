@@ -1,7 +1,3 @@
-#institution-filter{
-    width: 180px;
-}
-
 #institution-filter input[type=checkbox] {display:none;}
 
 #institution-filter label{
@@ -21,6 +17,10 @@
     display:block;
     margin: .3em auto;
     padding: 0 10px 0 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
     -webkit-transition:color 100ms ease-in;
     -moz-transition:color 100ms ease-in;
     -ms-transition:color 100ms ease-in;
