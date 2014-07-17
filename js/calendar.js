@@ -74,7 +74,8 @@ function calendarChart(){
         var count = eventsByDay(data);
         daysRects.filter(function(d) { return d in count; })
             .style("fill", function(d) {
-                var color = d3.rgb(count[d] * 100, 20, 20);
+                var r = 255 - count[d] * 100,
+                    color = d3.rgb(r, 20, 20);
                 return color.toString();
             });
     };
