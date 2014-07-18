@@ -54,6 +54,14 @@ h1, h2{
     font-size: 3em;
 }
 
+#tool-bar{
+    -webkit-transition: background-color 200ms ease-in;
+    -moz-transition: background-color 200ms ease-in;
+    -ms-transition: background-color 200ms ease-in;
+    -o-transition: background-color 200ms ease-in;
+    transition: background-color 200ms ease-in;
+}
+
 .sticky {
     position: fixed;
     top:0;
