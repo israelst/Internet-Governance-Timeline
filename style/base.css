@@ -211,10 +211,6 @@ ol.months > li > *{
     background-color: rgba(25, 72, 107, 1);
 }
 
-.sticky #settings{
-    background: rgba(0, 0, 0, .2);
-}
-
 #settings{
     position: absolute;
     right: 0px;
