@@ -1,3 +1,17 @@
+function kind(d){
+    var event_classes = {
+        'WSIS process': 'wsis',
+        'ITU process': 'itu',
+        'UN process (GA/ECOSOC/CSTD)': 'un',
+        'IGF Processes': 'igf',
+        'ICANN': 'icann',
+        'IETF': 'ietf'
+    };
+    var event_class = event_classes[d];
+    event_class = event_class || 'other';
+    return event_class;
+}
+
 window.addEventListener('load', function(){
     var slide = document.getElementById('slide'),
         chosen = document.getElementById('chosen');
@@ -57,20 +71,6 @@ window.addEventListener('load', function(){
         slide.addEventListener('change', function (){
             events.timeline(timeline.dayHeight(this.value));
         });
-
-        function kind(d){
-            var event_classes = {
-                'WSIS process': 'wsis',
-                'ITU process': 'itu',
-                'UN process (GA/ECOSOC/CSTD)': 'un',
-                'IGF Processes': 'igf',
-                'ICANN': 'icann',
-                'IETF': 'ietf'
-            };
-            var event_class = event_classes[d];
-            event_class = event_class || 'other';
-            return event_class;
-        }
 
         calendar.fillDays(data);
     });

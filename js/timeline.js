@@ -85,17 +85,7 @@ function eventsChart(timeline){
         _selection = selection;
         chart.timeline(timeline);
         selection.attr('class', function(d){
-            var event_classes = {
-                'WSIS process': 'wsis',
-                'ITU process': 'itu',
-                'UN process (GA/ECOSOC/CSTD)': 'un',
-                'IGF Processes': 'igf',
-                'ICANN': 'icann',
-                'IETF': 'ietf'
-            };
-            var event_class = event_classes[d.institutions];
-            event_class = event_class || 'other';
-            return event_class + ' event';
+            return kind(d.institutions) + ' event';
         })
         .style('padding', '0 2em')
         .style('position', 'absolute')
