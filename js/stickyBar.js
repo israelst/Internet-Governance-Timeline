@@ -8,7 +8,6 @@ window.addEventListener('load', function(){
             if(!isVisible){
                 primary.className = 'sticky';
                 primary.nextElementSibling.style.marginTop = primary.clientHeight + 'px';
-                console.log(primary.nextElementSibling.style.marginTop)
             }
         }else if(isVisible){
             primary.className = '';
