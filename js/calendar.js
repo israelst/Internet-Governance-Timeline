@@ -27,7 +27,7 @@ function calendarChart(){
         }).reduce(function(a, b){
             return a.concat(b);
         }).forEach(function(d){
-            d = format(d)
+            d = format(d);
             count[d] |= 0;
             count[d]++;
         });
