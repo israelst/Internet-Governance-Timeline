@@ -54,12 +54,20 @@ h1, h2{
     font-size: 3em;
 }
 
-h2.sticky {
+#tool-bar{
+    -webkit-transition: background-color 200ms ease-in;
+    -moz-transition: background-color 200ms ease-in;
+    -ms-transition: background-color 200ms ease-in;
+    -o-transition: background-color 200ms ease-in;
+    transition: background-color 200ms ease-in;
+}
+
+.sticky {
     position: fixed;
     top:0;
     width: 100%;
-    padding-bottom: 13.0em;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .2);
+    z-index: 99;
 }
 
 div#timeline{
@@ -201,5 +209,17 @@ ol.months > li > *{
 
 .event.other.important{
     background-color: rgba(25, 72, 107, 1);
+}
+
+#settings{
+    position: absolute;
+    right: 0px;
+    width: 243px;
+    text-align: center;
+    padding: 1em 1em;
+}
+
+#settings > h2{
+    display: block;
 }
 

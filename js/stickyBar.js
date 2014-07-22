@@ -1,20 +1,18 @@
 window.addEventListener('load', function(){
-    var timeline = document.getElementById('timeline'),
-        primary = document.querySelector('h2');
-
-    var clone = primary.cloneNode(true);
-    clone.className = 'sticky';
+    var primary = document.getElementById('tool-bar'),
+        offset = primary.offsetTop;
 
     function sticky(){
-        var isVisible = primary.style.visibility == 'hidden';
-        if(window.pageYOffset >= timeline.offsetTop){
+        var isVisible = primary.className == 'sticky';
+        if(window.pageYOffset >= offset){
             if(!isVisible){
-                primary.style.visibility = 'hidden';
-                timeline.appendChild(clone);
+                primary.className = 'sticky';
+                primary.nextElementSibling.style.marginTop = primary.clientHeight + 'px';
+                console.log(primary.nextElementSibling.style.marginTop)
             }
         }else if(isVisible){
-            primary.style.visibility = 'visible';
-            timeline.removeChild(clone);
+            primary.className = '';
+            primary.nextElementSibling.style.marginTop = '0px';
         }
     }
     sticky();

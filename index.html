@@ -34,14 +34,21 @@
         </article>
     </div>
     <div id="timeline">
-        <h2>Timeline</h2>
-        <div>
-            Day Height: <input id="slide" type="range" min="1" max="12" value="8" />
-            <span id="chosen"></span>
+        <div id="tool-bar">
+            <h2>Timeline</h2>
+            <div id="settings">
+                <fieldset id="day-height">
+                    <legend>Day Height:</legend>
+                    <input id="slide" type="range" min="1" max="12" value="8" />
+                    <span id="chosen"></span>
+                </fieldset>
+                <div id="filter">
+                    <fieldset id="institution-filter">
+                        <legend>Filter</legend>
+                    </fieldset>
+                </div>
+            </div>
         </div>
-        <fieldset id="institution-filter">
-            <legend>Legend</legend>
-        </fieldset>
         <ol class="months">
         </ol>
         <div id="calendar-view"></div>
