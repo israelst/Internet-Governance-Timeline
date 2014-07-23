@@ -47,13 +47,17 @@ window.addEventListener('load', function(){
             .attr("checked", "checked")
             .attr("id", kind)
             .on('change', function(value){
+                var data = [];
                 var checked = this.checked;
                 d3.selectAll('ul.events li').style('opacity', function(d){
                     if(kind(d.institutions) == kind(value)){
                         return +checked;
                     }
+                    data.push(d);
+
                     return this.style.opacity;
                 });
+                calendar.fillDays(data);
             });
         institutionsSelection.append('label')
             .attr('class', kind)
