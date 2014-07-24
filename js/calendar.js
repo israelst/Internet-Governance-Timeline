@@ -17,21 +17,20 @@ function calendarChart(){
     }
 
     function eventsByDay(data){
-        var count = {};
-        data.map(function(d){
-            var dateRange = [
+        var dates = data.map(function(d){
+            var days = d3.time.days(
                 d.date[0],
                 new Date(d.date[1].getFullYear(), d.date[1].getMonth(), d.date[1].getDate() + 1)
-            ];
-            return d3.time.days.apply(this, dateRange);
+            );
+            return days.map(function(day){
+                return {date: day, institution: d.institutions};
+            });
         }).reduce(function(a, b){
             return a.concat(b);
-        }).forEach(function(d){
-            d = format(d);
-            count[d] |= 0;
-            count[d]++;
         });
-        return count;
+        return d3.nest()
+                .key(function(d){return format(d.date);})
+                .map(dates, d3.map);
     }
 
     function chart(selection){
@@ -71,10 +70,14 @@ function calendarChart(){
     }
 
     chart.fillDays = function (data){
-        var count = eventsByDay(data);
-        daysRects.filter(function(d) { return d in count; })
+        var datesCount = eventsByDay(data);
+        daysRects.filter(function(d) { return datesCount.has(d); })
+            .attr("class", function(d){
+                this.classList.add(kind(datesCount.get(d)[0].institution));
+                return this.classList.toString();
+            })
             .style("fill", function(d) {
-                var saturation  = 255 - (count[d] + 1) * 50,
+                var saturation  = 255 - (datesCount.get(d).length + 1) * 50,
                     color = d3.rgb(saturation, saturation, saturation);
                 return color.toString();
             });
