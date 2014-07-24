@@ -47,17 +47,10 @@ window.addEventListener('load', function(){
             .attr("checked", "checked")
             .attr("id", kind)
             .on('change', function(value){
-                var data = [];
-                var checked = this.checked;
-                d3.selectAll('ul.events li').style('opacity', function(d){
-                    if(kind(d.institutions) == kind(value)){
-                        return +checked;
-                    }
-                    data.push(d);
-
-                    return this.style.opacity;
-                });
-                calendar.fillDays(data);
+                var checked = +this.checked,
+                klass = kind(value);
+                d3.selectAll('ul.events li.event.' + klass).style('opacity', checked);
+                d3.selectAll('#calendar-view .day.' + klass).style('fill-opacity', checked);
             });
         institutionsSelection.append('label')
             .attr('class', kind)
