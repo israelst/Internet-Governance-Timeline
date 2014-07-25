@@ -13,6 +13,11 @@
 #calendar-view .day {
   fill: #fff;
   stroke: #ccc;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
 }
 
 #calendar-view .month {
