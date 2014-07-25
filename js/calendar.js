@@ -77,9 +77,9 @@ function calendarChart(){
                 return this.classList.toString();
             })
             .style("fill", function(d) {
-                var saturation  = 255 - (datesCount.get(d).length + 1) * 50,
-                    color = d3.rgb(saturation, saturation, saturation);
-                return color.toString();
+                var maxQtyOfEventsPerDay = 5,
+                    lightness = (datesCount.get(d).length + 1) / maxQtyOfEventsPerDay;
+                return d3.hsl(0, 0, lightness).toString();
             });
     };
 
