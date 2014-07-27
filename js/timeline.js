@@ -90,7 +90,11 @@ function eventsChart(timeline){
         .style('padding', '0 2em')
         .style('position', 'absolute')
         .style('left', leftCalculator(240))
-        .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));});
+        .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));})
+        .on('click', function(d){
+            console.log(d);
+            alert(d.event);
+        });
         selection.append('div')
             .attr('class', 'name')
             .text(function(d){return d.event;});
