@@ -1,13 +1,11 @@
 function preprocessing(data){
-    var dateFormat = d3.time.format("%Y-%m-%d");
-
     function byStartDate(d1, d2){
         return d1.date[0] - d2.date[0];
     }
 
     function normalizeDate(d){
         try{
-            d.date = d.date.map(dateFormat.parse);
+            d.date = d.date.map(d3.time.format("%Y-%m-%d").parse);
         }catch(e){
             d.date = undefined;
         }finally{
