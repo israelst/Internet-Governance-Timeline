@@ -81,6 +81,10 @@ function timelineChart(){
 function eventsChart(timeline){
     var _selection;
 
+    var detailBox = document.createElement('div');
+    detailBox.id = 'detail-box';
+    document.body.appendChild(detailBox);
+
     function chart(selection){
         _selection = selection;
         chart.timeline(timeline);
@@ -92,8 +96,7 @@ function eventsChart(timeline){
         .style('left', leftCalculator(240))
         .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));})
         .on('click', function(d){
-            console.log(d);
-            alert(d.event);
+            detailBox.textContent = d.event;
         });
         selection.append('div')
             .attr('class', 'name')
