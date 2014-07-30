@@ -101,7 +101,8 @@ function eventsChart(timeline){
         .on('click', function(d){
             var formatedDates = d.date.map(d3.time.format("%d %B %Y"));
             nameBox.textContent = d.event;
-            moreBox.textContent = 'From ' + formatedDates[0] + ' to ' + formatedDates[1];
+            moreBox.innerHTML = ('From ' + formatedDates[0].bold() +
+                                 ' to ' + formatedDates[1].bold());
         });
         selection.append('div')
             .attr('class', 'name')
