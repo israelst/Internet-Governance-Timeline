@@ -80,11 +80,13 @@ function eventsChart(timeline){
     var _selection;
 
     var detailBox = document.createElement('div'),
-        nameBox = document.createElement('h1');
+        nameBox = document.createElement('h1'),
+        moreBox = document.createElement('p');
     detailBox.id = 'detail-box';
     document.body
         .appendChild(detailBox)
         .appendChild(nameBox);
+    detailBox.appendChild(moreBox);
 
     function chart(selection){
         _selection = selection;
@@ -97,7 +99,9 @@ function eventsChart(timeline){
         .style('left', leftCalculator(240))
         .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));})
         .on('click', function(d){
+            var formatedDates = d.date.map(d3.time.format("%d %B %Y"));
             nameBox.textContent = d.event;
+            moreBox.textContent = 'From ' + formatedDates[0] + ' to ' + formatedDates[1];
         });
         selection.append('div')
             .attr('class', 'name')
