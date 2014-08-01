@@ -159,11 +159,17 @@ ol.months > li > *{
 }
 
 #detail-box{
+    padding: 1em;
     position: fixed;
-    bottom:0;
+    bottom: 0;
     width: 100%;
-    background: rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .8);
+    box-shadow: -12px 0px 12px -4px #000;
     z-index: 99;
+}
+
+#detail-box h1{
+    font-size: 1.5em;
 }
 
 .event > *{
