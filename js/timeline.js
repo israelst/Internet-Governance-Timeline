@@ -1,13 +1,11 @@
 function preprocessing(data){
-    var dateFormat = d3.time.format("%Y-%m-%d");
-
     function byStartDate(d1, d2){
         return d1.date[0] - d2.date[0];
     }
 
     function normalizeDate(d){
         try{
-            d.date = d.date.map(dateFormat.parse);
+            d.date = d.date.map(d3.time.format("%Y-%m-%d").parse);
         }catch(e){
             d.date = undefined;
         }finally{
@@ -81,6 +79,13 @@ function timelineChart(){
 function eventsChart(timeline){
     var _selection;
 
+    var detailBox = document.createElement('div'),
+        nameBox = document.createElement('h1'),
+        moreBox = document.createElement('p');
+    detailBox.id = 'detail-box';
+    detailBox.appendChild(nameBox);
+    detailBox.appendChild(moreBox);
+
     function chart(selection){
         _selection = selection;
         chart.timeline(timeline);
@@ -90,7 +95,16 @@ function eventsChart(timeline){
         .style('padding', '0 2em')
         .style('position', 'absolute')
         .style('left', leftCalculator(240))
-        .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));});
+        .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));})
+        .on('click', function(d){
+            var formatedDates = d.date.map(d3.time.format("%B %d, %Y"));
+            nameBox.textContent = d.event;
+            moreBox.innerHTML = ('From ' + formatedDates[0].bold() +
+                                 ' to ' + formatedDates[1].bold());
+            if(detailBox.parentNode === null){
+                document.body.appendChild(detailBox);
+            }
+        });
         selection.append('div')
             .attr('class', 'name')
             .text(function(d){return d.event;});
