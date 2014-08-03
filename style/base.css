@@ -175,6 +175,7 @@ ol.months > li > *{
 
 #detail-box p{
     font-size: 1em;
+    margin: 0;
 }
 
 .event > *{
