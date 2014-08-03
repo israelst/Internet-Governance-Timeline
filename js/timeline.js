@@ -83,9 +83,8 @@ function eventsChart(timeline){
         nameBox = document.createElement('h1'),
         moreBox = document.createElement('p');
     detailBox.id = 'detail-box';
-    detailBox
-        .appendChild(nameBox)
-        .appendChild(moreBox);
+    detailBox.appendChild(nameBox);
+    detailBox.appendChild(moreBox);
 
     function chart(selection){
         _selection = selection;
@@ -102,7 +101,7 @@ function eventsChart(timeline){
             nameBox.textContent = d.event;
             moreBox.innerHTML = ('From ' + formatedDates[0].bold() +
                                  ' to ' + formatedDates[1].bold());
-            if(detailBox.parentNode){
+            if(detailBox.parentNode === null){
                 document.body.appendChild(detailBox);
             }
         });
