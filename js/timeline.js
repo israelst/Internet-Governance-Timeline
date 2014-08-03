@@ -97,7 +97,7 @@ function eventsChart(timeline){
         .style('left', leftCalculator(240))
         .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));})
         .on('click', function(d){
-            var formatedDates = d.date.map(d3.time.format("%d %B %Y"));
+            var formatedDates = d.date.map(d3.time.format("%B %d, %Y"));
             nameBox.textContent = d.event;
             moreBox.innerHTML = ('From ' + formatedDates[0].bold() +
                                  ' to ' + formatedDates[1].bold());
