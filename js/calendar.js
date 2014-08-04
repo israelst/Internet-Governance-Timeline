@@ -73,7 +73,10 @@ function calendarChart(){
         var datesCount = eventsByDay(data);
         daysRects.filter(function(d) { return datesCount.has(d); })
             .attr("class", function(d){
-                this.classList.add(kind(datesCount.get(d)[0].institution));
+                var classes = datesCount.get(d).map(function(event){
+                    return kind(event.institution);
+                });
+                this.classList.add.apply(this.classList, classes);
                 return this.classList.toString();
             })
             .style("fill", function(d) {
