@@ -80,8 +80,8 @@ function calendarChart(){
                 return this.classList.toString();
             })
             .style("fill", function(d) {
-                var maxQtyOfEventsPerDay = 5,
-                    lightness = (datesCount.get(d).length + 1) / maxQtyOfEventsPerDay;
+                var maxQtyOfEventsPerDay = 10,
+                    lightness = 1 - (datesCount.get(d).length) / maxQtyOfEventsPerDay;
                 return d3.hsl(0, 0, lightness).toString();
             });
     };
