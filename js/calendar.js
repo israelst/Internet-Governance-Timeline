@@ -69,7 +69,10 @@ function calendarChart(){
         return chart;
     }
 
-    chart.fillDays = function (data){
+    chart.fillDays = function (data, filter){
+        if( typeof filter !== 'function'){
+            filter = function(){ return true;}
+        }
         var datesCount = eventsByDay(data);
         daysRects.filter(function(d) { return datesCount.has(d); })
             .attr("class", function(d){
@@ -81,7 +84,7 @@ function calendarChart(){
             })
             .style("fill", function(d) {
                 var maxQtyOfEventsPerDay = 10,
-                    lightness = 1 - (datesCount.get(d).length) / maxQtyOfEventsPerDay;
+                    lightness = 1 - (datesCount.get(d).filter(filter).length) / maxQtyOfEventsPerDay;
                 return d3.hsl(0, 0, lightness).toString();
             });
     };

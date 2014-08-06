@@ -29,6 +29,7 @@ window.addEventListener('load', function(){
         data = preprocessing(data);
 
         var timeline = timelineChart();
+
         d3.select('ol.months')
             .selectAll('li')
             .data(d3.time.months.apply(this, domainOfDates(data)))
@@ -48,9 +49,15 @@ window.addEventListener('load', function(){
             .attr("id", kind)
             .on('change', function(value){
                 var checked = +this.checked,
-                klass = kind(value);
+                    klass = kind(value);
                 d3.selectAll('ul.events li.event.' + klass).style('opacity', checked);
-                d3.selectAll('#calendar-view .day.' + klass).style('fill-opacity', checked);
+                calendar.fillDays(data, function(event){
+                    if(kind(event.institution) === klass){
+                        return checked;
+                    }else{
+                        return true;
+                    }
+                });
             });
         institutionsSelection.append('label')
             .attr('class', kind)
