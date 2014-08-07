@@ -37,6 +37,8 @@ window.addEventListener('load', function(){
             .append('li')
             .call(timeline);
 
+        var checkeds = {};
+
         var institutions = d3.set(data.map(function(d){return d.institutions;})).values();
         var institutionsSelection = d3.select("#institution-filter")
             .selectAll("div")
@@ -48,16 +50,12 @@ window.addEventListener('load', function(){
             .attr("checked", "checked")
             .attr("id", kind)
             .on('change', function(value){
-                var checked = +this.checked,
-                    klass = kind(value);
-                d3.selectAll('ul.events li.event.' + klass).style('opacity', checked);
+                var klass = kind(value);
+                checkeds[klass] = +this.checked;
                 calendar.fillDays(data, function(event){
-                    if(kind(event.institution) === klass){
-                        return checked;
-                    }else{
-                        return true;
-                    }
+                    return checkeds[kind(event.institution)] !== 0;
                 });
+                d3.selectAll('ul.events li.event.' + klass).style('opacity', checkeds[klass]);
             });
         institutionsSelection.append('label')
             .attr('class', kind)
