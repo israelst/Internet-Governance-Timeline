@@ -83,7 +83,7 @@ function calendarChart(){
                 return this.classList.toString();
             })
             .style("fill", function(d) {
-                var maxQtyOfEventsPerDay = 10,
+                var maxQtyOfEventsPerDay = 9,
                     lightness = 1 - (datesCount.get(d).filter(filter).length) / maxQtyOfEventsPerDay;
                 return d3.hsl(0, 0, lightness).toString();
             });
