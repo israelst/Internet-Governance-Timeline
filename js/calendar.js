@@ -17,21 +17,20 @@ function calendarChart(){
     }
 
     function eventsByDay(data){
-        var count = {};
-        data.map(function(d){
-            var dateRange = [
+        var dates = data.map(function(d){
+            var days = d3.time.days(
                 d.date[0],
                 new Date(d.date[1].getFullYear(), d.date[1].getMonth(), d.date[1].getDate() + 1)
-            ];
-            return d3.time.days.apply(this, dateRange);
+            );
+            return days.map(function(day){
+                return {date: day, institution: d.institutions};
+            });
         }).reduce(function(a, b){
             return a.concat(b);
-        }).forEach(function(d){
-            d = format(d);
-            count[d] |= 0;
-            count[d]++;
         });
-        return count;
+        return d3.nest()
+                .key(function(d){return format(d.date);})
+                .map(dates, d3.map);
     }
 
     function chart(selection){
@@ -70,13 +69,23 @@ function calendarChart(){
         return chart;
     }
 
-    chart.fillDays = function (data){
-        var count = eventsByDay(data);
-        daysRects.filter(function(d) { return d in count; })
+    chart.fillDays = function (data, filter){
+        if( typeof filter !== 'function'){
+            filter = function(){ return true;}
+        }
+        var datesCount = eventsByDay(data);
+        daysRects.filter(function(d) { return datesCount.has(d); })
+            .attr("class", function(d){
+                var classes = datesCount.get(d).map(function(event){
+                    return kind(event.institution);
+                });
+                this.classList.add.apply(this.classList, classes);
+                return this.classList.toString();
+            })
             .style("fill", function(d) {
-                var saturation  = 255 - (count[d] + 1) * 50,
-                    color = d3.rgb(saturation, saturation, saturation);
-                return color.toString();
+                var maxQtyOfEventsPerDay = 9,
+                    lightness = 1 - (datesCount.get(d).filter(filter).length) / maxQtyOfEventsPerDay;
+                return d3.hsl(0, 0, lightness).toString();
             });
     };
 

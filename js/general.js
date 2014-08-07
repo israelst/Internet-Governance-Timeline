@@ -29,12 +29,15 @@ window.addEventListener('load', function(){
         data = preprocessing(data);
 
         var timeline = timelineChart();
+
         d3.select('ol.months')
             .selectAll('li')
             .data(d3.time.months.apply(this, domainOfDates(data)))
             .enter()
             .append('li')
             .call(timeline);
+
+        var checkeds = {};
 
         var institutions = d3.set(data.map(function(d){return d.institutions;})).values();
         var institutionsSelection = d3.select("#institution-filter")
@@ -47,13 +50,12 @@ window.addEventListener('load', function(){
             .attr("checked", "checked")
             .attr("id", kind)
             .on('change', function(value){
-                var checked = this.checked;
-                d3.selectAll('ul.events li').style('opacity', function(d){
-                    if(kind(d.institutions) == kind(value)){
-                        return +checked;
-                    }
-                    return this.style.opacity;
+                var klass = kind(value);
+                checkeds[klass] = +this.checked;
+                calendar.fillDays(data, function(event){
+                    return checkeds[kind(event.institution)] !== 0;
                 });
+                d3.selectAll('ul.events li.event.' + klass).style('opacity', checkeds[klass]);
             });
         institutionsSelection.append('label')
             .attr('class', kind)
