@@ -37,10 +37,10 @@ function calendarChart(){
         var svg = selection.selectAll("svg")
             .data(d3.range(2013, 2015))
             .enter().append("svg")
-            .attr("viewBox", '0 0 545 70')
+            .attr("viewBox", '0 0 540 90')
             .attr("class", "year")
             .append("g")
-            .attr("transform", "translate(15, 0)");
+            .attr("transform", "translate(15, 5)");
 
         svg.append("text")
             .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
@@ -71,7 +71,7 @@ function calendarChart(){
 
     chart.fillDays = function (data, filter){
         if( typeof filter !== 'function'){
-            filter = function(){ return true;}
+            filter = function(){ return true;};
         }
         var datesCount = eventsByDay(data);
         daysRects.filter(function(d) { return datesCount.has(d); })
@@ -83,9 +83,9 @@ function calendarChart(){
                 return this.classList.toString();
             })
             .style("fill", function(d) {
-                var maxQtyOfEventsPerDay = 9,
+                var maxQtyOfEventsPerDay = 6,
                     lightness = 1 - (datesCount.get(d).filter(filter).length) / maxQtyOfEventsPerDay;
-                return d3.hsl(0, 0, lightness).toString();
+                return d3.hsl(70, 0.66, lightness - 0.1).toString();
             });
     };
 

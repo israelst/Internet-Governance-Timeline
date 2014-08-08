@@ -11,8 +11,8 @@
 }
 
 #calendar-view .day {
-  fill: #fff;
-  stroke: #ccc;
+  fill: #eee;
+  stroke: #fff;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
   -ms-transition: all 200ms ease-in;
