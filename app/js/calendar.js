@@ -37,7 +37,7 @@ function calendarChart(){
         var svg = selection.selectAll("svg")
             .data(d3.range(2013, 2015))
             .enter().append("svg")
-            .attr("viewBox", '0 0 540 90')
+            .attr("viewBox", '0 0 640 90')
             .attr("class", "year")
             .append("g")
             .attr("transform", "translate(15, 5)");
