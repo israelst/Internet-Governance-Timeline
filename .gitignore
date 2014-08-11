@@ -1,3 +1,4 @@
 *.pyc
 data
 js/lib
+node_modules
