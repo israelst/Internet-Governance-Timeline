@@ -4,6 +4,7 @@
   "description": "Internet Governance Timeline",
   "main": "index.js",
   "scripts": {
+    "prestart": "make lib && make app/data/data.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
