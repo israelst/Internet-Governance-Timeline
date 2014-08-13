@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding: utf-8
 import re
 from datetime import date, datetime
@@ -34,7 +35,7 @@ def parse(dates, year):
 
 if __name__ == '__main__':
     import json
-    events = json.load(open('data/data.json'))
+    events = json.load(open('app/data/data.json'))
     for event in events:
         try:
             dates = parse(event['date'], int(event['year']))
