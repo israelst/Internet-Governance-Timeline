@@ -144,18 +144,17 @@ ol.months > li > *{
 }
 
 .event{
+  display: inline-block;
   margin: 0;
   padding: 2em;
-  width: 10em;
-  display: inline-block;
-  text-align: center;
   color: #eee;
+  text-align: center;
   font-size: .8em;
   opacity: 1;
-  transition-property: opacity;
-  transition-duration: 1s;
-  transition-timing-function: ease-out;
   cursor: pointer;
+  transition-timing-function: ease-out;
+  transition-duration: 1s;
+  transition-property: opacity;
 }
 
 #detail-box{
