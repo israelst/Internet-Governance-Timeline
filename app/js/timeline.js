@@ -1,8 +1,8 @@
 var d3 = require('d3');
 
-function leftCalculator(width){
-    var indent = 0, prevEndDate, maxSoFar;
-    return function(d){
+function leftCalculator(){
+    var margin = 10, indent = 0, prevEndDate, maxSoFar;
+    return function(d, i){
         var startDate = d.date[0];
         if(prevEndDate >= startDate){
             indent++;
@@ -13,7 +13,7 @@ function leftCalculator(width){
             maxSoFar = d.date[1];
         }
         prevEndDate = d.date[1];
-        return indent * width + 'px';
+        return indent * (this.clientWidth + margin) + 'px';
     };
 }
 
@@ -73,8 +73,8 @@ exports.eventsChart = function(timeline){
         chart.timeline(timeline);
         selection.style('padding', '0 2em')
         .style('position', 'absolute')
-        .style('left', leftCalculator(240))
-        .attr('title', function(d){return d.date.map(d3.time.format('%Y-%m-%d'));})
+        .style('left', leftCalculator())
+        .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));})
         .on('click', function(d){
             var formatedDates = d.date.map(d3.time.format('%B %d, %Y'));
             nameBox.textContent = d.event;
