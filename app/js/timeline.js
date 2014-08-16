@@ -105,10 +105,13 @@ exports.eventsChart = function(timeline){
             .style('top', timeline.top() + 'px');
 
         _selection.style('line-height', height)
-        .style('height', height)
-        .style('top', function(d){
-            return Math.round(timeline.scale(d.date[0])) + 'px';
-        });
+            .style('height', height)
+            .style('width', function(d){
+                return '10%';
+            })
+            .style('top', function(d){
+                return Math.round(timeline.scale(d.date[0])) + 'px';
+            });
         return chart;
     };
 
