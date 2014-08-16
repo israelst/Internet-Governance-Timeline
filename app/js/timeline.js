@@ -47,10 +47,6 @@ exports.timelineChart = function(){
             var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
             return qtyOfDays * dayHeight + 'px';
         });
-        _selection.style('width', function(d){
-            console.log(this.clientHeight * 2 + 'px')
-            return this.clientHeight * 2 + 'px';
-        });
 
         var dates = _selection.data(),
             extent = [new Date(dates[0]), new Date(dates[0])];
