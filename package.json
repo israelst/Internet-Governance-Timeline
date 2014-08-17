@@ -4,7 +4,7 @@
   "description": "Internet Governance Timeline",
   "main": "index.js",
   "scripts": {
-    "prestart": "make d3 && make app/data/data.json && scripts/parse_dates.py > data.json && mv data.json app/data/",
+    "postinstall": "make d3 && make app/data/data.json && scripts/parse_dates.py > data.json && mv data.json app/data/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
