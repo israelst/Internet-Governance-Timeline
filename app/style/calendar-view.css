@@ -1,14 +1,11 @@
 #calendar-view{
-  width: 75%;
-  min-width: 320px;
-  max-width: 640px;
-  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 1em;
 }
 
 #calendar-view .year{
   font: 10px sans-serif;
   shape-rendering: crispEdges;
-  width: 100%;
 }
 
 #calendar-view .day{

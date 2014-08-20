@@ -25,7 +25,10 @@ exports.calendarChart = function(years){
         var svg = selection.selectAll('svg')
             .data(years)
             .enter().append('svg')
-            .attr('viewBox', '0 0 640 90')
+            .attr('viewBox', '0 0 480 64')
+            .attr('preserveAspectRatio', 'xMidYMid meet')
+            .attr('width', '100%')
+            .attr('height', '80')
             .attr('class', 'year')
             .append('g')
             .attr('transform', 'translate(15, 5)');
