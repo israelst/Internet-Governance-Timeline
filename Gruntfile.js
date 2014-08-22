@@ -20,8 +20,8 @@ module.exports = function(grunt) {
 		}
 	});
 
+	grunt.loadNpmTasks("grunt-githooks");
 	grunt.loadNpmTasks("grunt-csscomb");
 	grunt.registerTask("default", ["csscomb"]);
-	grunt.loadNpmTasks("grunt-githooks");
 
 };
