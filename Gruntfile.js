@@ -10,10 +10,18 @@ module.exports = function(grunt) {
 				src: ['app/style/**/*.css'],
 				dest: ''
 			}
+		},
+
+		// Don't need to call this, it's hooked to `npm install`
+		githooks: {
+			all: {
+				"pre-commit": "default",
+			}
 		}
 	});
 
 	grunt.loadNpmTasks("grunt-csscomb");
 	grunt.registerTask("default", ["csscomb"]);
+	grunt.loadNpmTasks("grunt-githooks");
 
 };
