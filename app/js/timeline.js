@@ -58,7 +58,9 @@ function timelineChart(){
     };
 
     chart.dayHeight = function(value) {
-        if (!arguments.length) return dayHeight;
+        if (!arguments.length){
+            return dayHeight;
+        }
         dayHeight = +value;
         _selection.style('height', function(d){
             var qtyOfDays = 32 - new Date(d.getFullYear(), d.getMonth(), 32).getDate();
@@ -111,7 +113,9 @@ function eventsChart(timeline){
     }
 
     chart.timeline = function(value){
-        if (!arguments.length) return value;
+        if (!arguments.length){
+            return value;
+        }
         timeline = value;
         function height(d){
             var endDate = new Date(d.date[1].getFullYear(),
