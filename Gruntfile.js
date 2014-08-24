@@ -1,17 +1,17 @@
 /*globals module: true */
 module.exports = function(grunt) {
-	"use strict";
+	'use strict';
 
 	grunt.initConfig({
 		jshint: {
 			options: {
-				jshintrc: ".jshintrc"
+				jshintrc: '.jshintrc'
 			},
 			src: [
-				"Gruntfile.js",
-				"app/js/**/*.js",
+				'Gruntfile.js',
+				'app/js/**/*.js',
 
-				"!app/js/lib/**/*.js" // Not Hinting on a 3rd party lib
+				'!app/js/lib/**/*.js' // Not Hinting on a 3rd party lib
 			]
 		},
 
@@ -26,15 +26,15 @@ module.exports = function(grunt) {
 		// Don't need to call this, it's hooked to `npm install`
 		githooks: {
 			all: {
-				"pre-commit": "csscomb",
+				'pre-commit': 'csscomb',
 			}
 		}
 	});
 
-	grunt.loadNpmTasks("grunt-githooks");
-	grunt.loadNpmTasks("grunt-csscomb");
-	grunt.loadNpmTasks("grunt-contrib-jshint");
+	grunt.loadNpmTasks('grunt-githooks');
+	grunt.loadNpmTasks('grunt-csscomb');
+	grunt.loadNpmTasks('grunt-contrib-jshint');
 
-	grunt.registerTask("default", ["jshint", "csscomb"]);
+	grunt.registerTask('default', ['jshint', 'csscomb']);
 
 };

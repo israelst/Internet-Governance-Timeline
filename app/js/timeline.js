@@ -5,7 +5,7 @@ function preprocessing(data){
 
     function normalizeDate(d){
         try{
-            d.date = d.date.map(d3.time.format("%Y-%m-%d").parse);
+            d.date = d.date.map(d3.time.format('%Y-%m-%d').parse);
         }catch(e){
             d.date = undefined;
         }finally{
@@ -95,9 +95,9 @@ function eventsChart(timeline){
         .style('padding', '0 2em')
         .style('position', 'absolute')
         .style('left', leftCalculator(240))
-        .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));})
+        .attr('title', function(d){return d.date.map(d3.time.format('%Y-%m-%d'));})
         .on('click', function(d){
-            var formatedDates = d.date.map(d3.time.format("%B %d, %Y"));
+            var formatedDates = d.date.map(d3.time.format('%B %d, %Y'));
             nameBox.textContent = d.event;
             moreBox.innerHTML = ('From ' + formatedDates[0].bold() +
                                  ' to ' + formatedDates[1].bold());

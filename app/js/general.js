@@ -25,7 +25,7 @@ window.addEventListener('load', function(){
     var calendar = calendarChart();
     d3.select('#calendar-view').call(calendar);
 
-    d3.json("data/data.json", function(data){
+    d3.json('data/data.json', function(data){
         data = preprocessing(data);
 
         var timeline = timelineChart();
@@ -40,15 +40,15 @@ window.addEventListener('load', function(){
         var checkeds = {};
 
         var institutions = d3.set(data.map(function(d){return d.institutions;})).values();
-        var institutionsSelection = d3.select("#institution-filter")
-            .selectAll("div")
+        var institutionsSelection = d3.select('#institution-filter')
+            .selectAll('div')
             .data(institutions)
             .enter()
             .append('div');
         institutionsSelection.append('input')
-            .attr("type", "checkbox")
-            .attr("checked", "checked")
-            .attr("id", kind)
+            .attr('type', 'checkbox')
+            .attr('checked', 'checked')
+            .attr('id', kind)
             .on('change', function(value){
                 var klass = kind(value);
                 checkeds[klass] = +this.checked;
@@ -59,7 +59,7 @@ window.addEventListener('load', function(){
             });
         institutionsSelection.append('label')
             .attr('class', kind)
-            .attr("for", kind)
+            .attr('for', kind)
             .text(function(d){ return d;});
 
         var events = eventsChart(timeline);
