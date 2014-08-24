@@ -21,7 +21,7 @@ function preprocessing(data){
 
 function leftCalculator(width){
     var indent = 0, prevEndDate, maxSoFar;
-    return function(d, i){
+    return function(d){
         var startDate = d.date[0];
         if(prevEndDate >= startDate){
             indent++;
