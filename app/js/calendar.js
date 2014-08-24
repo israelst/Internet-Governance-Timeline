@@ -47,7 +47,7 @@ function calendarChart(){
             .style('text-anchor', 'middle')
             .text(function(d) { return d; });
 
-        daysRects = svg.selectAll('.day')
+        dayRects = svg.selectAll('.day')
             .data(function(d) { return d3.time.days(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
             .enter().append('rect')
             .attr('class', 'day')
@@ -57,7 +57,7 @@ function calendarChart(){
             .attr('y', function(d) { return day(d) * cellSize; })
             .datum(format);
 
-        daysRects.append('title')
+        dayRects.append('title')
             .text(function(d) { return d; });
 
         svg.selectAll('.month')
@@ -74,7 +74,7 @@ function calendarChart(){
             filter = function(){ return true;};
         }
         var datesCount = eventsByDay(data);
-        daysRects.filter(function(d) { return datesCount.has(d); })
+        dayRects.filter(function(d) { return datesCount.has(d); })
             .attr('class', function(d){
                 var classes = datesCount.get(d).map(function(event){
                     return kind(event.institution);
