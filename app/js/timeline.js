@@ -79,9 +79,8 @@ function timelineChart(){
 }
 
 function eventsChart(timeline){
-    var _selection;
-
-    var detailBox = document.createElement('div'),
+    var _selection,
+        detailBox = document.createElement('div'),
         nameBox = document.createElement('h1'),
         moreBox = document.createElement('p');
     detailBox.id = 'detail-box';
