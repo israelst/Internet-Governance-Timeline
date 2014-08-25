@@ -12,6 +12,23 @@ function kind(d){
     return event_class;
 }
 
+function eventsByDay(data){
+    var dates = data.map(function(d){
+        var days = d3.time.days(
+            d.date[0],
+            new Date(d.date[1].getFullYear(), d.date[1].getMonth(), d.date[1].getDate() + 1)
+        );
+        return days.map(function(day){
+            return {date: day, institution: d.institutions};
+        });
+    }).reduce(function(a, b){
+        return a.concat(b);
+    });
+    return d3.nest()
+            .key(function(d){return d3.time.format('%Y-%m-%d')(d.date);})
+            .map(dates, d3.map);
+}
+
 window.addEventListener('load', function(){
     var slide = document.getElementById('slide'),
         chosen = document.getElementById('chosen');
@@ -52,7 +69,8 @@ window.addEventListener('load', function(){
             .on('change', function(value){
                 var klass = kind(value);
                 checkeds[klass] = +this.checked;
-                calendar.fillDays(data, function(event){
+                // TODO: "cache" data inside calendar
+                calendar.fillDays(eventsByDay(data), function(event){
                     return checkeds[kind(event.institution)] !== 0;
                 });
                 d3.selectAll('ul.events li.event.' + klass).style('opacity', checkeds[klass]);
@@ -74,7 +92,7 @@ window.addEventListener('load', function(){
             events.timeline(timeline.dayHeight(this.value));
         });
 
-        calendar.fillDays(data);
+        calendar.fillDays(eventsByDay(data));
     });
 
 }, false);

@@ -16,23 +16,6 @@ function calendarChart(){
              'H' + (w0 + 1) * cellSize + 'Z';
     }
 
-    function eventsByDay(data){
-        var dates = data.map(function(d){
-            var days = d3.time.days(
-                d.date[0],
-                new Date(d.date[1].getFullYear(), d.date[1].getMonth(), d.date[1].getDate() + 1)
-            );
-            return days.map(function(day){
-                return {date: day, institution: d.institutions};
-            });
-        }).reduce(function(a, b){
-            return a.concat(b);
-        });
-        return d3.nest()
-                .key(function(d){return format(d.date);})
-                .map(dates, d3.map);
-    }
-
     function chart(selection){
         var svg = selection.selectAll('svg')
             .data(d3.range(2013, 2015))
@@ -69,11 +52,10 @@ function calendarChart(){
         return chart;
     }
 
-    chart.fillDays = function (data, filter){
+    chart.fillDays = function (datesCount, filter){
         if( typeof filter !== 'function'){
             filter = function(){ return true;};
         }
-        var datesCount = eventsByDay(data);
         dayRects.filter(function(d) { return datesCount.has(d); })
             .attr('class', function(d){
                 var classes = datesCount.get(d).map(function(event){
