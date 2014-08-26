@@ -69,8 +69,7 @@ window.addEventListener('load', function(){
             .on('change', function(value){
                 var klass = kind(value);
                 checkeds[klass] = +this.checked;
-                // TODO: "cache" data inside calendar
-                calendar.fillDays(eventsByDay(data), function(event){
+                calendar.fillDays(function(event){
                     return checkeds[kind(event.institution)] !== 0;
                 });
                 d3.selectAll('ul.events li.event.' + klass).style('opacity', checkeds[klass]);
@@ -92,7 +91,7 @@ window.addEventListener('load', function(){
             events.timeline(timeline.dayHeight(this.value));
         });
 
-        calendar.fillDays(eventsByDay(data));
+        calendar.fillDays();
     });
 
 }, false);

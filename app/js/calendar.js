@@ -1,5 +1,6 @@
 function calendarChart(){
     var cellSize = 10,
+        _data = [],
         day = d3.time.format('%w'),
         week = d3.time.format('%U'),
         format = d3.time.format('%Y-%m-%d'),
@@ -52,13 +53,18 @@ function calendarChart(){
         return chart;
     }
 
-    chart.fillDays = function (datesCount, filter){
+    chart.data = function (data){
+        _data = data;
+        return chart;
+    };
+
+    chart.fillDays = function (filter){
         if( typeof filter !== 'function'){
             filter = function(){ return true;};
         }
-        dayRects.filter(function(d) { return datesCount.has(d); })
+        dayRects.filter(function(d) { return _data.has(d); })
             .attr('class', function(d){
-                var classes = datesCount.get(d).map(function(event){
+                var classes = _data.get(d).map(function(event){
                     return kind(event.institution);
                 });
                 this.classList.add.apply(this.classList, classes);
@@ -66,7 +72,7 @@ function calendarChart(){
             })
             .style('fill', function(d) {
                 var maxQtyOfEventsPerDay = 6,
-                    lightness = 1 - (datesCount.get(d).filter(filter).length) / maxQtyOfEventsPerDay;
+                    lightness = 1 - (_data.get(d).filter(filter).length) / maxQtyOfEventsPerDay;
                 if(lightness === 1){
                     return '#eee';
                 }else{
