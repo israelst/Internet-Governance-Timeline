@@ -31,19 +31,19 @@ function eventsByDay(data){
 
 window.addEventListener('load', function(){
     var slide = document.getElementById('slide'),
-        chosen = document.getElementById('chosen');
+        chosen = document.getElementById('chosen'),
+        calendar = calendarChart();
 
     slide.onchange = function (){
         chosen.textContent = this.value;
     };
-
     slide.onchange();
 
-    var calendar = calendarChart();
     d3.select('#calendar-view').call(calendar);
 
     d3.json('data/data.json', function(data){
         data = preprocessing(data);
+        calendar.data(eventsByDay(data));
 
         var timeline = timelineChart();
 
