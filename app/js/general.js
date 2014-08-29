@@ -1,3 +1,5 @@
+var d3 = require('d3');
+
 function kind(d){
     var event_classes = {
         'WSIS process': 'wsis',
