@@ -1,4 +1,4 @@
 *.pyc
 data
-app/js/lib
+app/js/build.js
 node_modules
