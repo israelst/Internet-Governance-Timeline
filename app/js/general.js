@@ -9,9 +9,7 @@ function kind(d){
         'ICANN': 'icann',
         'IETF': 'ietf'
     };
-    var event_class = event_classes[d];
-    event_class = event_class || 'other';
-    return event_class;
+    return event_classes[d] || 'other';
 }
 
 function eventsByDay(data){
