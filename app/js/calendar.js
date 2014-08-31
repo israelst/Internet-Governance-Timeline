@@ -1,4 +1,7 @@
-function calendarChart(){
+var d3 = require('d3');
+
+
+exports.calendarChart = function(){
     var cellSize = 10,
         _data = [],
         day = d3.time.format('%w'),
@@ -76,5 +79,5 @@ function calendarChart(){
 
 
     return chart;
-}
+};
 

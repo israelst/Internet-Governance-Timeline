@@ -1,4 +1,7 @@
-var d3 = require('d3');
+var d3 = require('d3'),
+    timelineChart = require('./timeline').timelineChart,
+    eventsChart = require('./timeline').eventsChart,
+    calendarChart = require('./calendar').calendarChart;
 
 function preprocessing(data){
     function byStartDate(d1, d2){

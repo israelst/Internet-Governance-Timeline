@@ -1,3 +1,4 @@
+var d3 = require('d3');
 
 function leftCalculator(width){
     var indent = 0, prevEndDate, maxSoFar;
@@ -16,7 +17,7 @@ function leftCalculator(width){
     };
 }
 
-function timelineChart(){
+exports.timelineChart = function(){
     var dayHeight, _selection;
 
     function chart(selection){
@@ -56,9 +57,9 @@ function timelineChart(){
     };
 
     return chart;
-}
+};
 
-function eventsChart(timeline){
+exports.eventsChart = function(timeline){
     var _selection,
         detailBox = document.createElement('div'),
         nameBox = document.createElement('h1'),
@@ -113,5 +114,5 @@ function eventsChart(timeline){
     };
 
     return chart;
-}
+};
 
