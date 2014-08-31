@@ -1,5 +1,38 @@
 var d3 = require('d3');
 
+function preprocessing(data){
+    function byStartDate(d1, d2){
+        return d1.date[0] - d2.date[0];
+    }
+
+    function normalizeDate(d){
+        try{
+            d.date = d.date.map(d3.time.format('%Y-%m-%d').parse);
+        }catch(e){
+            d.date = undefined;
+        }finally{
+            return d;
+        }
+    }
+
+    data = data.map(normalizeDate)
+            .filter(function(d){return d.date;})
+            .sort(byStartDate);
+    return data;
+}
+
+function domainOfDates(data){
+    var startDates = data.map(function(d){return d.date[0];}),
+        endDates = data.map(function(d){return d.date[1];});
+
+    var dateExtent = d3.extent(startDates.concat(endDates))
+                     .map(function(d){ return new Date(d);});
+    dateExtent[0].setDate(1);
+    dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
+    dateExtent[1].setDate(0);
+    return dateExtent;
+}
+
 function kind(d){
     var event_classes = {
         'WSIS process': 'wsis',
