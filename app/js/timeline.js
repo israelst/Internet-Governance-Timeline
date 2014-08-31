@@ -70,10 +70,7 @@ function eventsChart(timeline){
     function chart(selection){
         _selection = selection;
         chart.timeline(timeline);
-        selection.attr('class', function(d){
-            return kind(d.institutions) + ' event';
-        })
-        .style('padding', '0 2em')
+        selection.style('padding', '0 2em')
         .style('position', 'absolute')
         .style('left', leftCalculator(240))
         .attr('title', function(d){return d.date.map(d3.time.format('%Y-%m-%d'));})

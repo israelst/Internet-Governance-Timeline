@@ -118,6 +118,9 @@ window.addEventListener('load', function(){
             .data(data)
             .enter()
             .append('li')
+            .attr('class', function(d){
+                return kind(d.institutions) + ' event';
+            })
             .call(events);
 
         slide.addEventListener('change', function (){
