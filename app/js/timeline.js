@@ -1,23 +1,4 @@
-function preprocessing(data){
-    function byStartDate(d1, d2){
-        return d1.date[0] - d2.date[0];
-    }
-
-    function normalizeDate(d){
-        try{
-            d.date = d.date.map(d3.time.format('%Y-%m-%d').parse);
-        }catch(e){
-            d.date = undefined;
-        }finally{
-            return d;
-        }
-    }
-
-    data = data.map(normalizeDate)
-            .filter(function(d){return d.date;})
-            .sort(byStartDate);
-    return data;
-}
+var d3 = require('d3');
 
 function leftCalculator(width){
     var indent = 0, prevEndDate, maxSoFar;
@@ -36,7 +17,7 @@ function leftCalculator(width){
     };
 }
 
-function timelineChart(){
+exports.timelineChart = function(){
     var dayHeight, _selection;
 
     function chart(selection){
@@ -76,9 +57,9 @@ function timelineChart(){
     };
 
     return chart;
-}
+};
 
-function eventsChart(timeline){
+exports.eventsChart = function(timeline){
     var _selection,
         detailBox = document.createElement('div'),
         nameBox = document.createElement('h1'),
@@ -90,10 +71,7 @@ function eventsChart(timeline){
     function chart(selection){
         _selection = selection;
         chart.timeline(timeline);
-        selection.attr('class', function(d){
-            return kind(d.institutions) + ' event';
-        })
-        .style('padding', '0 2em')
+        selection.style('padding', '0 2em')
         .style('position', 'absolute')
         .style('left', leftCalculator(240))
         .attr('title', function(d){return d.date.map(d3.time.format('%Y-%m-%d'));})
@@ -136,17 +114,5 @@ function eventsChart(timeline){
     };
 
     return chart;
-}
-
-function domainOfDates(data){
-    var startDates = data.map(function(d){return d.date[0];}),
-        endDates = data.map(function(d){return d.date[1];});
-
-    var dateExtent = d3.extent(startDates.concat(endDates))
-                     .map(function(d){ return new Date(d);});
-    dateExtent[0].setDate(1);
-    dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
-    dateExtent[1].setDate(0);
-    return dateExtent;
-}
+};
 

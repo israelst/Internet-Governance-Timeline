@@ -1,4 +1,7 @@
-function calendarChart(){
+var d3 = require('d3');
+
+
+exports.calendarChart = function(){
     var cellSize = 10,
         _data = [],
         day = d3.time.format('%w'),
@@ -63,13 +66,6 @@ function calendarChart(){
             filter = function(){ return true;};
         }
         dayRects.filter(function(d) { return _data.has(d); })
-            .attr('class', function(d){
-                var classes = _data.get(d).map(function(event){
-                    return kind(event.institution);
-                });
-                this.classList.add.apply(this.classList, classes);
-                return this.classList.toString();
-            })
             .style('fill', function(d) {
                 var maxQtyOfEventsPerDay = 6,
                     lightness = 1 - (_data.get(d).filter(filter).length) / maxQtyOfEventsPerDay;
@@ -83,5 +79,5 @@ function calendarChart(){
 
 
     return chart;
-}
+};
 

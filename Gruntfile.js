@@ -3,6 +3,16 @@ module.exports = function(grunt) {
 	'use strict';
 
 	grunt.initConfig({
+		browserify: {
+			files: {
+				src: [
+					'app/js/**/*.js',
+					'!app/js/build.js',
+				],
+				dest: 'app/js/build.js',
+			}
+		},
+
 		jshint: {
 			options: {
 				jshintrc: '.jshintrc'
@@ -11,7 +21,7 @@ module.exports = function(grunt) {
 				'Gruntfile.js',
 				'app/js/**/*.js',
 
-				'!app/js/lib/**/*.js' // Not Hinting on a 3rd party lib
+				'!app/js/build.js'
 			]
 		},
 
@@ -33,6 +43,7 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-githooks');
 	grunt.loadNpmTasks('grunt-csscomb');
+	grunt.loadNpmTasks('grunt-browserify');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 
 	grunt.registerTask('default', ['jshint', 'csscomb']);
