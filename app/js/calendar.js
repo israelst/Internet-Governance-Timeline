@@ -1,7 +1,8 @@
 var d3 = require('d3');
 
 
-exports.calendarChart = function(){
+exports.calendarChart = function(years){
+    years = years || [(new Date().getFullYear())];
     var cellSize = 10,
         _data = [],
         day = d3.time.format('%w'),
@@ -22,7 +23,7 @@ exports.calendarChart = function(){
 
     function chart(selection){
         var svg = selection.selectAll('svg')
-            .data(d3.range(2013, 2015))
+            .data(years)
             .enter().append('svg')
             .attr('viewBox', '0 0 640 90')
             .attr('class', 'year')
