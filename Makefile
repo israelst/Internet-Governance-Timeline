@@ -1,9 +1,3 @@
-lib:
-	mkdir -p app/js/lib
-
-d3: lib
-	curl -sL "http://d3js.org/d3.v3.min.js" -o app/js/lib/d3.v3.min.js
-
 app/data:
 	mkdir -p app/data
 

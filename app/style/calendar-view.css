@@ -11,19 +11,18 @@
   width: 100%;
 }
 
-#calendar-view .day {
-  fill: #F1F6D5;
+#calendar-view .day{
+  fill: #f1f6d5;
   stroke: #fff;
   -webkit-transition: all 200ms ease-in;
-  -moz-transition: all 200ms ease-in;
-  -ms-transition: all 200ms ease-in;
-  -o-transition: all 200ms ease-in;
-  transition: all 200ms ease-in;
+     -moz-transition: all 200ms ease-in;
+      -ms-transition: all 200ms ease-in;
+       -o-transition: all 200ms ease-in;
+          transition: all 200ms ease-in;
 }
 
-#calendar-view .month {
+#calendar-view .month{
   fill: none;
   stroke: #000;
   stroke-width: 1px;
 }
-

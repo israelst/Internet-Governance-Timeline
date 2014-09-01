@@ -3,7 +3,7 @@ window.addEventListener('load', function(){
         offset = primary.offsetTop;
 
     function sticky(){
-        var isVisible = primary.className == 'sticky';
+        var isVisible = primary.className === 'sticky';
         if(window.pageYOffset >= offset){
             if(!isVisible){
                 primary.className = 'sticky';
