@@ -6,6 +6,7 @@
   "scripts": {
     "postinstall": "grunt githooks && npm run generate-data",
     "generate-data": "make app/data/data.json && scripts/parse_dates.py > data.json && mv data.json app/data/",
+    "start": "grunt browserify && node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
