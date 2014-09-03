@@ -4,7 +4,7 @@
   "description": "Internet Governance Timeline",
   "main": "index.js",
   "scripts": {
-    "postinstall": "grunt githooks && make d3 && npm run generate-data",
+    "postinstall": "grunt githooks && npm run generate-data",
     "generate-data": "make app/data/data.json && scripts/parse_dates.py > data.json && mv data.json app/data/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
