@@ -74,7 +74,7 @@ exports.eventsChart = function(timeline){
         selection.style('padding', '0 2em')
         .style('position', 'absolute')
         .style('left', leftCalculator())
-        .attr('title', function(d){return d.date.map(d3.time.format("%Y-%m-%d"));})
+        .attr('title', function(d){return d.date.map(d3.time.format('%Y-%m-%d'));})
         .on('click', function(d){
             var formatedDates = d.date.map(d3.time.format('%B %d, %Y'));
             nameBox.textContent = d.event;
