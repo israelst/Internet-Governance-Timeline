@@ -106,9 +106,7 @@ exports.eventsChart = function(timeline){
 
         _selection.style('line-height', height)
             .style('height', height)
-            .style('width', function(d){
-                return '10%';
-            })
+            .style('min-width', '40px')
             .style('top', function(d){
                 return Math.round(timeline.scale(d.date[0])) + 'px';
             });
