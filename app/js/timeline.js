@@ -71,6 +71,7 @@ exports.eventsChart = function(timeline){
     function chart(selection){
         _selection = selection;
         chart.timeline(timeline);
+        chart.showEventName(true);
         selection.style('padding', '0 2em')
         .style('position', 'absolute')
         .style('left', leftCalculator())
@@ -84,9 +85,17 @@ exports.eventsChart = function(timeline){
                 document.body.appendChild(detailBox);
             }
         });
-        selection.append('div')
-            .attr('class', 'name')
     }
+
+    chart.showEventName = function(showing){
+        if(showing === true){
+            _selection.append('div')
+                .attr('class', 'name')
+                .text(function(d){ return d.event;});
+        }else{
+            _selection.select('div').remove();
+        }
+    };
 
     chart.timeline = function(value){
         if (!arguments.length){
