@@ -1,19 +1,22 @@
 var d3 = require('d3');
 
 function leftCalculator(){
-    var margin = 10, indent = 0, prevEndDate, maxSoFar;
+    var prevEndDate, maxSoFar, margin = 10,
+        prevWidth = 0, prevLeft = 0, left = 0;
     return function(d){
         var startDate = d.date[0];
         if(prevEndDate >= startDate){
-            indent++;
+            left = (prevWidth + margin) + 'px';
             maxSoFar = prevEndDate;
         }
-        if(startDate > maxSoFar && indent > 0){
-            indent--;
+        if(startDate > maxSoFar){
+            left = prevLeft + 'px';
             maxSoFar = d.date[1];
         }
         prevEndDate = d.date[1];
-        return indent * (this.clientWidth + margin) + 'px';
+        prevWidth = this.clientWidth;
+        prevLeft = this.clientLeft;
+        return left;
     };
 }
 
@@ -91,6 +94,8 @@ exports.eventsChart = function(timeline){
         if(showing === true){
             _selection.append('div')
                 .attr('class', 'name')
+                .style('white-space', 'nowrap')
+                .style('left', leftCalculator())
                 .text(function(d){ return d.event;});
         }else{
             _selection.select('div').remove();
