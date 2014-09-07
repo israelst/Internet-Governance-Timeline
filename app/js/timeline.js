@@ -75,9 +75,8 @@ exports.eventsChart = function(timeline){
         _selection = selection;
         chart.timeline(timeline);
         chart.showEventName(true);
+        chart.updateLeft();
         selection.style('padding', '0 2em')
-        .style('position', 'absolute')
-        .style('left', leftCalculator())
         .attr('title', function(d){return d.date.map(d3.time.format('%Y-%m-%d'));})
         .on('click', function(d){
             var formatedDates = d.date.map(d3.time.format('%B %d, %Y'));
@@ -89,6 +88,12 @@ exports.eventsChart = function(timeline){
             }
         });
     }
+
+    chart.updateLeft = function(){
+        _selection
+            .style('position', 'absolute')
+            .style('left', leftCalculator());
+    };
 
     chart.showEventName = function(showing){
         if(showing === true){
