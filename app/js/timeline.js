@@ -95,14 +95,17 @@ exports.eventsChart = function(timeline){
     };
 
     chart.showEventName = function(showing){
+        _selection.select('div').remove();
         if(showing === true){
             _selection.append('div')
                 .attr('class', 'name')
                 .style('white-space', 'nowrap')
-                .style('left', leftCalculator())
+                .style('visibility', 'visible')
                 .text(function(d){ return d.event;});
-        }else{
-            _selection.select('div').remove();
+
+            _selection.filter(function(){
+                return this.clientHeight < 11;
+            }).select('div').style('visibility', 'hidden');
         }
     };
 
