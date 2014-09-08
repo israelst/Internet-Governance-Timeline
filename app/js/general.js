@@ -126,9 +126,11 @@ window.addEventListener('load', function(){
             })
             .call(events);
 
-        slide.addEventListener('change', function (){
+        function updateDayHeight(){
             events.timeline(timeline.dayHeight(this.value));
-        });
+        }
+        slide.addEventListener('change', updateDayHeight);
+        updateDayHeight.call(slide);
 
         calendar.fillDays();
     });

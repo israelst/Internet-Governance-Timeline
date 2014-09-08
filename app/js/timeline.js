@@ -1,19 +1,22 @@
 var d3 = require('d3');
 
-function leftCalculator(width){
-    var indent = 0, prevEndDate, maxSoFar;
+function leftCalculator(){
+    var prevEndDate, maxSoFar, margin = 10,
+        prevWidth = 0, prevLeft = 0, left = 0;
     return function(d){
         var startDate = d.date[0];
         if(prevEndDate >= startDate){
-            indent++;
+            left = (prevWidth + margin) + 'px';
             maxSoFar = prevEndDate;
         }
-        if(startDate > maxSoFar && indent > 0){
-            indent--;
+        if(startDate > maxSoFar){
+            left = prevLeft + 'px';
             maxSoFar = d.date[1];
         }
         prevEndDate = d.date[1];
-        return indent * width + 'px';
+        prevWidth = this.clientWidth;
+        prevLeft = this.clientLeft;
+        return left;
     };
 }
 
@@ -71,9 +74,8 @@ exports.eventsChart = function(timeline){
     function chart(selection){
         _selection = selection;
         chart.timeline(timeline);
+        chart.updateLeft();
         selection.style('padding', '0 2em')
-        .style('position', 'absolute')
-        .style('left', leftCalculator(240))
         .attr('title', function(d){return d.date.map(d3.time.format('%Y-%m-%d'));})
         .on('click', function(d){
             var formatedDates = d.date.map(d3.time.format('%B %d, %Y'));
@@ -84,10 +86,28 @@ exports.eventsChart = function(timeline){
                 document.body.appendChild(detailBox);
             }
         });
-        selection.append('div')
-            .attr('class', 'name')
-            .text(function(d){return d.event;});
     }
+
+    chart.updateLeft = function(){
+        _selection
+            .style('position', 'absolute')
+            .style('left', leftCalculator());
+    };
+
+    chart.showEventName = function(showing){
+        _selection.select('div').remove();
+        if(showing === true){
+            _selection.append('div')
+                .attr('class', 'name')
+                .style('white-space', 'nowrap')
+                .style('visibility', 'visible')
+                .text(function(d){ return d.event;});
+
+            _selection.filter(function(){
+                return this.clientHeight < 11;
+            }).select('div').style('visibility', 'hidden');
+        }
+    };
 
     chart.timeline = function(value){
         if (!arguments.length){
@@ -106,10 +126,11 @@ exports.eventsChart = function(timeline){
             .style('top', timeline.top() + 'px');
 
         _selection.style('line-height', height)
-        .style('height', height)
-        .style('top', function(d){
-            return Math.round(timeline.scale(d.date[0])) + 'px';
-        });
+            .style('height', height)
+            .style('top', function(d){
+                return Math.round(timeline.scale(d.date[0])) + 'px';
+            });
+        chart.showEventName(true);
         return chart;
     };
 
