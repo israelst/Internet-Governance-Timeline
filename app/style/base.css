@@ -71,7 +71,8 @@ h1, h2{
 }
 
 div#timeline{
-  margin: 0 0 2em 0;
+  padding: 0 0 2em 0;
+  background: url(linen.png);
 }
 
 div#timeline h2{
