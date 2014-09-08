@@ -74,7 +74,6 @@ exports.eventsChart = function(timeline){
     function chart(selection){
         _selection = selection;
         chart.timeline(timeline);
-        chart.showEventName(true);
         chart.updateLeft();
         selection.style('padding', '0 2em')
         .attr('title', function(d){return d.date.map(d3.time.format('%Y-%m-%d'));})
@@ -129,6 +128,7 @@ exports.eventsChart = function(timeline){
             .style('top', function(d){
                 return Math.round(timeline.scale(d.date[0])) + 'px';
             });
+        chart.showEventName(true);
         return chart;
     };
 
