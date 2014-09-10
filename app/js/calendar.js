@@ -3,7 +3,7 @@ var d3 = require('d3');
 
 exports.calendarChart = function(years){
     years = years || [(new Date().getFullYear())];
-    var cellSize = 10,
+    var cellSize = 8,
         _data = [],
         day = d3.time.format('%w'),
         week = d3.time.format('%U'),
