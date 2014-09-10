@@ -9,7 +9,7 @@
 }
 
 #calendar-view .day{
-  fill: #EEE;
+  fill: #eee;
   stroke: #fff;
   -webkit-transition: all 200ms ease-in;
      -moz-transition: all 200ms ease-in;
