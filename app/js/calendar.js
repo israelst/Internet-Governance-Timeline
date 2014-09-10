@@ -3,7 +3,7 @@ var d3 = require('d3');
 
 exports.calendarChart = function(years){
     years = years || [(new Date().getFullYear())];
-    var cellSize = 10,
+    var cellSize = 8,
         _data = [],
         day = d3.time.format('%w'),
         week = d3.time.format('%U'),
@@ -25,7 +25,10 @@ exports.calendarChart = function(years){
         var svg = selection.selectAll('svg')
             .data(years)
             .enter().append('svg')
-            .attr('viewBox', '0 0 640 90')
+            .attr('viewBox', '0 0 480 64')
+            .attr('preserveAspectRatio', 'xMidYMid meet')
+            .attr('width', '100%')
+            .attr('height', '80')
             .attr('class', 'year')
             .append('g')
             .attr('transform', 'translate(15, 5)');
