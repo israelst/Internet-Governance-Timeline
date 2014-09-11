@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "npm run generate-data",
     "generate-data": "make app/data/data.json && scripts/parse_dates.py > data.json && mv data.json app/data/",
-    "start": "grunt browserify && node server.js",
+    "start": "./node_modules/grunt-cli/bin/grunt browserify && node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,7 +30,8 @@
     "d3": "3.4.11",
     "express": "^4.8.2",
     "grunt": "^0.4.5",
-    "grunt-browserify": "^2.1.4"
+    "grunt-browserify": "^2.1.4",
+    "grunt-cli": "^0.1.13"
   },
   "devDependencies": {
     "grunt-csscomb": "^3.0.0",
