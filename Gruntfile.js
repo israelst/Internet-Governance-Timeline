@@ -33,7 +33,6 @@ module.exports = function(grunt) {
 			}
 		},
 
-		// Don't need to call this, it's hooked to `npm install`
 		githooks: {
 			all: {
 				'pre-commit': 'default',
