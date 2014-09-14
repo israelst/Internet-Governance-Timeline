@@ -22,7 +22,7 @@ exports.FamlineChart = function(){
                     }));
 
         selection
-            .attr('cx', function(d){ return x(d.date[0]);})
+            .attr('cx', function(d){ return (x(d.date[0]) + x(d.date[1]))/2;})
             .attr('cy', maxDuration)
             .attr('r', function(d){ return d.duration;});
     }
