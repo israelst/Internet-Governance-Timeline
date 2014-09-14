@@ -21,10 +21,17 @@ exports.FamlineChart = function(){
                         return d.duration;
                     }));
 
+        function cx(d){
+            return (x(d.date[0]) + x(d.date[1]))/2;
+        }
+
         selection
-            .attr('cx', function(d){ return (x(d.date[0]) + x(d.date[1]))/2;})
+            .style('fill-opacity', 0.3)
+            .attr('cx', cx)
             .attr('cy', maxDuration)
-            .attr('r', function(d){ return d.duration;});
+            .attr('r', function(d){
+                return cx(d) - x(d.date[0]);
+            });
     }
 
     return chart;
