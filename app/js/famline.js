@@ -1,16 +1,5 @@
-var d3 = require('d3');
-
-function domainOfDates(data){
-    var startDates = data.map(function(d){return d.date[0];}),
-        endDates = data.map(function(d){return d.date[1];});
-
-    var dateExtent = d3.extent(startDates.concat(endDates))
-                     .map(function(d){ return new Date(d);});
-    dateExtent[0].setDate(1);
-    dateExtent[1].setMonth(dateExtent[1].getMonth() + 1);
-    dateExtent[1].setDate(0);
-    return dateExtent;
-}
+var d3 = require('d3'),
+    domainOfDates = require('./date.js').domainOfDates;
 
 exports.FamlineChart = function(){
     function chart(selection){
