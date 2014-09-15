@@ -15,7 +15,8 @@ function domainOfDates(data){
 exports.FamlineChart = function(){
     function chart(selection){
         var extent = domainOfDates(selection.data()),
-            x = d3.time.scale().domain(extent).range([0, 500]),
+            width = selection.node().ownerSVGElement.width.baseVal.value,
+            x = d3.time.scale().domain(extent).range([0, width]),
             maxDuration = d3.max(
                     selection.data().map(function(d){
                         return d.duration;
