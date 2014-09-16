@@ -5,17 +5,17 @@ exports.FamlineChart = function(){
     var minWidth = 500;
 
     function chart(selection){
-        var extent = domainOfDates(selection.data()),
+        var data = selection.data(),
             svg = selection.node().ownerSVGElement,
             width = svg.width.baseVal.value,
-            x = d3.time.scale().domain(extent),
+            x = d3.time.scale(),
             maxDuration = d3.max(
-                    selection.data().map(function(d){
-                        return d.duration;
-                    }));
+                data.map(function(d){
+                    return d.duration;
+                }));
 
-            width = Math.max(width, minWidth);
-            x.range([0, width]);
+        width = Math.max(width, minWidth);
+        x.domain(domainOfDates(data)).range([0, width]);
 
         function cx(d){
             return (x(d.date[0]) + x(d.date[1]))/2;
