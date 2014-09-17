@@ -5,6 +5,8 @@ exports.FamlineChart = function(){
     var minWidth = 500;
 
     function chart(selection){
+        selection.enter().append('circle');
+
         var data = selection.data(),
             svg = selection.node().ownerSVGElement,
             width = svg.width.baseVal.value,

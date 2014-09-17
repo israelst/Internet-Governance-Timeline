@@ -70,15 +70,12 @@ window.addEventListener('load', function(){
     d3.json('data/data.json', function(data){
         data = preprocessing(data);
 
-        d3.select('#timeline')
-            .append('svg')
+        d3.select('#timeline').append('svg')
             .attr('id', 'famline-chart')
             .attr('width', '800')
             .attr('height', '200')
             .selectAll('circle')
             .data(data)
-            .enter()
-            .append('circle')
             .call(FamlineChart());
 
 
