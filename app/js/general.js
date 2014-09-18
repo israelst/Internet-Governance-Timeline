@@ -74,8 +74,7 @@ window.addEventListener('load', function(){
             .attr('id', 'famline-chart')
             .attr('width', '800')
             .attr('height', '200')
-            .selectAll('circle')
-            .data(data)
+            .datum(data)
             .call(FamlineChart());
 
 
