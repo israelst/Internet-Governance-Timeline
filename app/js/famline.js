@@ -7,13 +7,12 @@ exports.FamlineChart = function(){
     function chart(svg){
         var data = svg.datum(),
             width = Math.max(svg.attr('width'), minWidth),
-            x = d3.time.scale(),
             maxDuration = d3.max(
                 data.map(function(d){
                     return d.duration;
                 }));
+            x = d3.time.scale().range([0, width]).domain(domainOfDates(data));
 
-        x.domain(domainOfDates(data)).range([0, width]);
 
         function cx(d){
             return (x(d.date[0]) + x(d.date[1]))/2;
