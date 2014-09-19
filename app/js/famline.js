@@ -19,6 +19,10 @@ exports.FamlineChart = function(){
             return (x(d.date[0]) + x(d.date[1]))/2;
         }
 
+        function radius(d){
+            return cx(d) - x(d.date[0]);
+        }
+
         svg.append('g')
             .attr('class', 'all-events')
             .selectAll('circle')
@@ -28,9 +32,7 @@ exports.FamlineChart = function(){
             .style('fill-opacity', 0.3)
             .attr('cx', cx)
             .attr('cy', maxDuration)
-            .attr('r', function(d){
-                return cx(d) - x(d.date[0]);
-            });
+            .attr('r', radius);
     }
 
     return chart;
