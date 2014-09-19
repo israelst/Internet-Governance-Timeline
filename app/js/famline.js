@@ -6,7 +6,6 @@ exports.FamlineChart = function(){
 
     function chart(svg){
         var data = svg.datum(),
-            selection = svg.selectAll('circle').data(data),
             width = Math.max(svg.attr('width'), minWidth),
             x = d3.time.scale(),
             maxDuration = d3.max(
@@ -20,7 +19,11 @@ exports.FamlineChart = function(){
             return (x(d.date[0]) + x(d.date[1]))/2;
         }
 
-        selection.enter()
+        svg.append('g')
+            .attr('class', 'all-events')
+            .selectAll('circle')
+            .data(data)
+            .enter()
             .append('circle')
             .style('fill-opacity', 0.3)
             .attr('cx', cx)
