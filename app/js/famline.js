@@ -10,7 +10,7 @@ exports.FamlineChart = function(){
             x = d3.time.scale().range([0, width]).domain(domainOfDates(data)),
             biggerRadius = d3.max(data.map(radius)),
             kinds = d3.set(data.map(function(d){ return d.institutions;})).values(),
-            height = (biggerRadius * 4) * kinds.length,
+            height = (biggerRadius * 3) * kinds.length,
             y = d3.scale.ordinal().rangePoints([0, height]).domain(kinds);
 
         svg.attr('height', height);
