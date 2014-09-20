@@ -13,9 +13,6 @@ exports.FamlineChart = function(){
             height = (biggerRadius * 3) * kinds.length,
             y = d3.scale.ordinal().rangePoints([0, height]).domain(kinds);
 
-        svg.attr('height', height)
-            .attr('width', width);
-
         function cx(d){
             return (x(d.date[0]) + x(d.date[1]))/2;
         }
@@ -23,6 +20,9 @@ exports.FamlineChart = function(){
         function radius(d){
             return cx(d) - x(d.date[0]);
         }
+
+        svg.attr('height', height)
+            .attr('width', width);
 
         svg.append('g')
             .attr('class', 'all-events')
