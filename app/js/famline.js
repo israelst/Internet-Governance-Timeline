@@ -36,7 +36,7 @@ exports.FamlineChart = function(){
 
         svg.append('g')
             .attr('class', 'events-by-kind')
-            .attr('transform', 'translate(0,' + biggerRadius + ')')
+            .attr('transform', 'translate(0,' + biggerRadius * 4 + ')')
             .selectAll('circle')
             .data(data)
             .enter()
