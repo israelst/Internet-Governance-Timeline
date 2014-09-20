@@ -9,9 +9,13 @@ exports.FamlineChart = function(){
             width = Math.max(svg.attr('width'), minWidth),
             x = d3.time.scale().range([0, width]).domain(dates(data)),
             biggerRadius = d3.max(data.map(radius)),
-            kinds = d3.set(data.map(function(d){ return d.institutions;})).values(),
+            kinds = d3.set(data.map(kind)).values(),
             height = (biggerRadius * 3) * kinds.length,
             y = d3.scale.ordinal().rangePoints([0, height]).domain(kinds);
+
+        function kind(d){
+            return d.institutions;
+        }
 
         function cx(d){
             return (x(d.date[0]) + x(d.date[1]))/2;
