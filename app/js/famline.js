@@ -39,10 +39,11 @@ exports.FamlineChart = function(){
             .attr('cy', biggerRadius)
             .attr('r', radius);
 
-        svg.append('g')
+        var groupedByKind = svg.append('g')
             .attr('class', 'events-by-kind')
-            .attr('transform', 'translate(0,' + biggerRadius * 4 + ')')
-            .selectAll('circle')
+            .attr('transform', 'translate(0,' + biggerRadius * 4 + ')');
+
+        groupedByKind.selectAll('circle')
             .data(data)
             .enter()
             .append('circle')
@@ -50,6 +51,16 @@ exports.FamlineChart = function(){
             .attr('cx', cx)
             .attr('cy', function(d){ return y(d.institutions);})
             .attr('r', radius);
+
+        groupedByKind.selectAll('line')
+            .data(kinds)
+            .enter()
+            .append('line')
+            .attr('x1', 0)
+            .attr('y1', y)
+            .attr('x2', width)
+            .attr('y2', y)
+            .style('stroke', 'black' );
 
     }
 
