@@ -1,5 +1,5 @@
 var d3 = require('d3'),
-    domainOfDates = require('./date.js').domainOfDates;
+    dates = require('./date.js').domainOfDates;
 
 exports.FamlineChart = function(){
     var minWidth = 800;
@@ -7,7 +7,7 @@ exports.FamlineChart = function(){
     function chart(svg){
         var data = svg.datum(),
             width = Math.max(svg.attr('width'), minWidth),
-            x = d3.time.scale().range([0, width]).domain(domainOfDates(data)),
+            x = d3.time.scale().range([0, width]).domain(dates(data)),
             biggerRadius = d3.max(data.map(radius)),
             kinds = d3.set(data.map(function(d){ return d.institutions;})).values(),
             height = (biggerRadius * 3) * kinds.length,
