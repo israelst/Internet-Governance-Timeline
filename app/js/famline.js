@@ -60,7 +60,9 @@ exports.FamlineChart = function(){
             .attr('y1', y)
             .attr('x2', width)
             .attr('y2', y)
-            .style('stroke', 'black' );
+            .style('shape-rendering', 'crispEdges' )
+            .style('stroke-dasharray', 3)
+            .style('stroke', '#333' );
 
     }
 
