@@ -52,17 +52,29 @@ exports.FamlineChart = function(){
             .attr('cy', function(d){ return y(d.institutions);})
             .attr('r', radius);
 
-        groupedByKind.selectAll('line')
-            .data(kinds)
-            .enter()
-            .append('line')
-            .attr('x1', 0)
-            .attr('y1', y)
-            .attr('x2', width)
-            .attr('y2', y)
-            .style('shape-rendering', 'crispEdges' )
-            .style('stroke-dasharray', 3)
-            .style('stroke', '#333' );
+        var yAxis = d3.svg.axis().scale(y).orient('right')
+             .tickValues(y.domain())
+             .tickFormat(y.invert)
+             .tickSize(width)
+             .tickPadding(-5);
+
+        groupedByKind
+            .append('g')
+            .attr('class', 'axis')
+            .call(yAxis)
+            .selectAll('text')
+            .attr('y', -5)
+            .attr('dy', '.35em')
+            .style('text-transform', 'uppercase')
+            .style('text-anchor', 'end');
+
+        groupedByKind.selectAll('.domain')
+             .style('display', 'none' );
+
+        groupedByKind.selectAll('.tick line')
+             .style('shape-rendering', 'crispEdges' )
+             .style('stroke-dasharray', 3)
+             .style('stroke', '#333' );
 
     }
 
