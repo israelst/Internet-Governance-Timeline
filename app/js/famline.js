@@ -90,8 +90,8 @@ exports.FamlineChart = function(){
 
         groupedByKind.selectAll('.tick line')
              .style('shape-rendering', 'crispEdges' )
-             .style('stroke-dasharray', 3)
-             .style('stroke', '#333' );
+             .style('stroke-dasharray', 1)
+             .style('stroke', '#bbb' );
 
     }
 
