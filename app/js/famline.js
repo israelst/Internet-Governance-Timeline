@@ -8,7 +8,7 @@ function Circles(){
             width = selection.node().parentNode.width.baseVal.value,
             x = d3.time.scale().range([0, width]).domain(dates(data));
 
-        biggerRadius = d3.max(data.map(radius));
+        biggerRadius = d3.max(data, radius);
 
         function cx(d){
             return (x(d.date[0]) + x(d.date[1]))/2;
