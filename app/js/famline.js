@@ -83,7 +83,7 @@ exports.FamlineChart = function(){
         }
 
         function cy(d){
-            return y(d.institutions);
+            return y(kind(d));
         }
 
         circles.attr('cy', cy);
