@@ -87,7 +87,7 @@ exports.FamlineChart = function(){
         }
 
         circles.attr('cy', cy);
-        groupedByKind.attr('transform', 'translate(0,' + circlesChart.height() * 2 + ')');
+        groupedByKind.attr('transform', 'translate(0,' + circlesChart.height() * 3 + ')');
 
         svg.append('g')
             .attr('class', 'all-events')
