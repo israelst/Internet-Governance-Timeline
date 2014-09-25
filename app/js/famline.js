@@ -23,6 +23,7 @@ function Circles(){
             .data(data)
             .enter()
             .append('circle')
+            .style('fill', '#fff')
             .style('fill-opacity', 0.3)
             .attr('cx', cx)
             .attr('cy', biggerRadius)
@@ -96,7 +97,8 @@ exports.FamlineChart = function(){
 
         svg.attr('width', '100%')
             .attr('preserveAspectRatio', 'xMidYMid meet')
-            .attr('viewBox', '0 0 800 ' + height * 2);
+            .attr('viewBox', '0 0 800 ' + height * 2)
+            .style('background-color', '#101010');
 
     }
 
