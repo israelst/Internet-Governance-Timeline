@@ -61,16 +61,15 @@ function YAxis(scale){
         this.selectAll('.tick line')
              .style('shape-rendering', 'crispEdges' )
              .style('stroke-dasharray', 1)
+             .style('stroke-width', '1px')
              .style('stroke', '#bbb' );
     };
 }
 
 exports.FamlineChart = function(){
-    var minWidth = 800;
 
     function chart(svg){
-        var width = Math.max(svg.attr('width'), minWidth),
-            data = svg.datum(),
+        var data = svg.datum(),
             kinds = d3.set(data.map(kind)).values(),
             groupedByKind = svg.append('g').attr('class', 'events-by-kind'),
             circlesChart = Circles(),
@@ -93,10 +92,12 @@ exports.FamlineChart = function(){
             .attr('class', 'all-events')
             .call(Circles());
 
-        svg.attr('height', height * 2)
-            .attr('width', width);
+        groupedByKind.call(YAxis(y));
 
-       groupedByKind.call(YAxis(y));
+        svg.attr('width', '100%')
+            .attr('preserveAspectRatio', 'xMidYMid meet')
+            .attr('viewBox', '0 0 800 ' + height * 2);
+
     }
 
     return chart;
