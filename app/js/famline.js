@@ -67,6 +67,16 @@ function YAxis(scale){
     };
 }
 
+function Context(){
+    return function(){
+        var circles = Circles();
+        d3.select(this.node().parentNode).append('g')
+            .attr('class', 'all-events')
+            .call(circles);
+        this.attr('transform', 'translate(0,' + circles.height() * 2 + ')');
+    };
+}
+
 exports.FamlineChart = function(){
 
     function chart(svg){
@@ -87,20 +97,14 @@ exports.FamlineChart = function(){
         }
 
         circles.attr('cy', cy);
-        groupedByKind.attr('transform', 'translate(0,' + circlesChart.height() * 3 + ')');
-
-        svg.append('g')
-            .attr('class', 'all-events')
-            .call(Circles());
-
-        groupedByKind.call(YAxis(y));
-
 
         svg.style('width', '100%')
             .attr('preserveAspectRatio', 'xMidYMid meet')
             .attr('viewBox', '0 0 800 ' + height * 2)
             .style('background-color', '#101010');
 
+        groupedByKind.call(YAxis(y));
+        groupedByKind.call(Context());
     }
 
     return chart;
