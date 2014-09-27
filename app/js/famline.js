@@ -95,7 +95,8 @@ exports.FamlineChart = function(){
 
         groupedByKind.call(YAxis(y));
 
-        svg.attr('width', '100%')
+
+        svg.style('width', '100%')
             .attr('preserveAspectRatio', 'xMidYMid meet')
             .attr('viewBox', '0 0 800 ' + height * 2)
             .style('background-color', '#101010');
