@@ -103,7 +103,7 @@ exports.FamlineChart = function(){
             groupedByKind = svg.append('g').attr('class', 'events-by-kind'),
             circles = Circles(groupedByKind),
             height = (circles.height() * 1.5) * kinds.length,
-            y = d3.scale.ordinal().rangePoints([0, height]).domain(kinds);
+            y = d3.scale.ordinal().rangePoints([0, height], 1).domain(kinds);
 
         function kind(d){
             return d.institutions;
