@@ -1,9 +1,9 @@
 var d3 = require('d3'),
     dates = require('./date.js').domainOfDates;
 
-function Circles(){
-    var biggerRadius;
-    function circles(selection){
+function Circles(selection){
+    var biggerRadius, _cy, circlesSelection;
+    function circles(){
         var data = selection.datum(),
             width = selection.node().parentNode.width.baseVal.value,
             x = d3.time.scale().range([0, width]).domain(dates(data));
@@ -18,24 +18,33 @@ function Circles(){
             return cx(d) - x(d.date[0]);
         }
 
-        return selection
-            .selectAll('circle')
+        circlesSelection = selection.selectAll('circle')
             .data(data)
             .enter()
             .append('circle')
             .style('fill', '#fff')
             .style('fill-opacity', 0.3)
             .attr('cx', cx)
-            .attr('cy', biggerRadius)
+            .attr('cy', biggerRadius * 1.5)
             .attr('r', radius);
 
+        return circles;
     }
+
+    circles.cy = function(cy){
+        if (!arguments.length){
+            return _cy;
+        }
+        _cy = cy;
+        circlesSelection.attr('cy', cy);
+        return circles;
+    };
 
     circles.height = function(){
         return biggerRadius * 2;
     };
 
-    return circles;
+    return circles();
 }
 
 function YAxis(scale){
@@ -83,20 +92,17 @@ exports.FamlineChart = function(){
         var data = svg.datum(),
             kinds = d3.set(data.map(kind)).values(),
             groupedByKind = svg.append('g').attr('class', 'events-by-kind'),
-            circlesChart = Circles(),
-            circles = circlesChart(groupedByKind),
-            height = (circlesChart.height() * 1.5) * kinds.length,
+            circles = Circles(groupedByKind),
+            height = (circles.height() * 1.5) * kinds.length,
             y = d3.scale.ordinal().rangePoints([0, height]).domain(kinds);
 
         function kind(d){
             return d.institutions;
         }
 
-        function cy(d){
+        circles.cy(function (d){
             return y(kind(d));
-        }
-
-        circles.attr('cy', cy);
+        });
 
         svg.style('width', '100%')
             .attr('preserveAspectRatio', 'xMidYMid meet')
