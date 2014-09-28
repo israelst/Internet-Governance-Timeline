@@ -77,12 +77,21 @@ function YAxis(scale){
 }
 
 function Context(){
+
+    function incHeight(value){
+        var viewBox = this.attr('viewBox').split(' ').map(parseFloat);
+        viewBox[3] += value;
+        this.attr('viewBox', viewBox.join(' '));
+    }
+
     return function(){
-        var circles = Circles();
-        d3.select(this.node().parentNode).append('g')
-            .attr('class', 'all-events')
-            .call(circles);
-        this.attr('transform', 'translate(0,' + circles.height() * 2 + ')');
+        var svg = d3.select(this.node().parentNode),
+            context = svg.append('g').attr('class', 'all-events'),
+            circles = Circles(context),
+            contextHeight = circles.height() * 2; // one height as margin
+
+        this.attr('transform', 'translate(0,' + contextHeight  + ')');
+        incHeight.call(svg, contextHeight);
     };
 }
 
@@ -106,7 +115,7 @@ exports.FamlineChart = function(){
 
         svg.style('width', '100%')
             .attr('preserveAspectRatio', 'xMidYMid meet')
-            .attr('viewBox', '0 0 800 ' + height * 2)
+            .attr('viewBox', '0 0 800 ' + height)
             .style('background-color', '#101010');
 
         groupedByKind.call(YAxis(y));
