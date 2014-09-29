@@ -72,7 +72,6 @@ window.addEventListener('load', function(){
 
         d3.select('#timeline').append('svg')
             .attr('id', 'famline-chart')
-            .attr('width', '800')
             .datum(data)
             .call(FamlineChart());
 

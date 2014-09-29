@@ -96,8 +96,14 @@ function Context(){
 }
 
 exports.FamlineChart = function(){
+    var width = 800;
 
     function chart(svg){
+        svg.style('background-color', '#101010')
+            .style('width', '100%')
+            .attr('preserveAspectRatio', 'xMidYMid meet')
+            .attr('width', width);
+
         var data = svg.datum(),
             kinds = d3.set(data.map(kind)).values(),
             groupedByKind = svg.append('g').attr('class', 'events-by-kind'),
@@ -113,10 +119,7 @@ exports.FamlineChart = function(){
             return y(kind(d));
         });
 
-        svg.style('width', '100%')
-            .attr('preserveAspectRatio', 'xMidYMid meet')
-            .attr('viewBox', '0 0 800 ' + height)
-            .style('background-color', '#101010');
+        svg.attr('viewBox', ['0', '0', width, height].join(' '));
 
         groupedByKind.call(YAxis(y));
         groupedByKind.call(Context());
