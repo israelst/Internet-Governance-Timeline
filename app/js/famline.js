@@ -77,13 +77,6 @@ function YAxis(scale){
 }
 
 function Context(){
-
-    function incHeight(value){
-        var viewBox = this.attr('viewBox').split(' ').map(parseFloat);
-        viewBox[3] += value;
-        this.attr('viewBox', viewBox.join(' '));
-    }
-
     return function(){
         var svg = d3.select(this.node().parentNode),
             context = svg.append('g').attr('class', 'all-events'),
@@ -91,7 +84,7 @@ function Context(){
             contextHeight = circles.height() * 2; // one height as margin
 
         this.attr('transform', 'translate(0,' + contextHeight  + ')');
-        incHeight.call(svg, contextHeight);
+        svg.node().viewBox.baseVal.height += contextHeight;
     };
 }
 
