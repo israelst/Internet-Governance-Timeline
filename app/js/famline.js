@@ -69,12 +69,6 @@ function YAxis(scale){
 
         this.selectAll('.domain')
              .style('display', 'none' );
-
-        this.selectAll('.tick line')
-             .style('shape-rendering', 'crispEdges' )
-             .style('stroke-dasharray', 1)
-             .style('stroke-width', '1px')
-             .style('stroke', '#bbb' );
     };
 }
 
