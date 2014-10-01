@@ -61,9 +61,9 @@ function YAxis(scale){
             .call(yAxis)
             .selectAll('text')
             .attr('y', -5)
-            .attr('dy', '.35em')
-            .style('text-transform', 'uppercase')
-            .style('text-anchor', 'end');
+            .attr('dy', '.25em')
+            .style('fill', '#fff')
+            .style('font-size', '.7em');
 
         this.selectAll('.domain')
              .style('display', 'none' );
