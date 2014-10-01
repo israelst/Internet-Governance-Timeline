@@ -68,8 +68,7 @@ function YAxis(scale){
             .style('fill', '#fff')
             .style('font-size', '.7em');
 
-        this.selectAll('.domain')
-             .style('display', 'none' );
+        this.selectAll('.domain').style('display', 'none');
     };
 }
 
