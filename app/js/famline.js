@@ -51,11 +51,9 @@ function Circles(selection){
 
 function YAxis(scale){
     return function (){
-        var width = this.node().parentNode.width.baseVal.value,
-            yAxis = d3.svg.axis().scale(scale).orient('right')
+        var yAxis = d3.svg.axis().scale(scale).orient('left')
             .tickValues(scale.domain())
             .tickFormat(scale.invert)
-            .tickSize(width)
             .tickPadding(-5);
 
         this.append('g')
