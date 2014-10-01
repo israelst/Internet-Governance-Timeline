@@ -56,8 +56,11 @@ function YAxis(scale){
             .tickFormat(scale.invert)
             .tickPadding(-5);
 
+        this.select('.circles').attr('transform', 'translate(100, 0)');
+
         this.append('g')
             .attr('class', 'axis')
+            .attr('transform', 'translate(100, 0)')
             .call(yAxis)
             .selectAll('text')
             .attr('y', -5)
