@@ -18,7 +18,9 @@ function Circles(selection){
             return cx(d) - x(d.date[0]);
         }
 
-        circlesSelection = selection.selectAll('circle')
+        circlesSelection = selection.append('g')
+            .attr('class', 'circles')
+            .selectAll('circle')
             .data(data)
             .enter()
             .append('circle')
