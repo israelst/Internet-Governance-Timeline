@@ -72,6 +72,32 @@ function YAxis(scale){
     };
 }
 
+function Focus(){
+    function chart(svg){
+        var data = svg.datum(),
+            kinds = d3.set(data.map(kind)).values(),
+            groupedByKind = svg.append('g').attr('class', 'events-by-kind'),
+            circles = Circles(groupedByKind),
+            height = (circles.height() * 1.5) * kinds.length;
+
+        chart.y = d3.scale.ordinal().rangePoints([0, height], 1).domain(kinds);
+
+        function kind(d){
+            return d.institutions;
+        }
+
+        circles.cy(function (d){
+            return chart.y(kind(d));
+        });
+
+        svg.attr('viewBox', ['0', '0', svg.attr('width'), height].join(' '));
+
+        return groupedByKind;
+    }
+
+    return chart;
+}
+
 function Context(){
     return function(){
         var svg = d3.select(this.node().parentNode),
@@ -93,25 +119,10 @@ exports.FamlineChart = function(){
             .attr('preserveAspectRatio', 'xMidYMid meet')
             .attr('width', width);
 
-        var data = svg.datum(),
-            kinds = d3.set(data.map(kind)).values(),
-            groupedByKind = svg.append('g').attr('class', 'events-by-kind'),
-            circles = Circles(groupedByKind),
-            height = (circles.height() * 1.5) * kinds.length,
-            y = d3.scale.ordinal().rangePoints([0, height], 1).domain(kinds);
-
-        function kind(d){
-            return d.institutions;
-        }
-
-        circles.cy(function (d){
-            return y(kind(d));
-        });
-
-        svg.attr('viewBox', ['0', '0', width, height].join(' '));
-
-        groupedByKind.call(YAxis(y));
-        groupedByKind.call(Context());
+        var focus = Focus(),
+            groupedSelection = focus(svg);
+        groupedSelection.call(YAxis(focus.y));
+        Context().call(groupedSelection);
     }
 
     return chart;
