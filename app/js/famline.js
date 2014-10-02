@@ -111,13 +111,11 @@ function Context(){
 }
 
 exports.FamlineChart = function(){
-    var width = 800;
-
     function chart(svg){
         svg.style('background-color', '#101010')
             .style('width', '100%')
             .attr('preserveAspectRatio', 'xMidYMid meet')
-            .attr('width', width);
+            .attr('width', 800);
 
         var focus = Focus(),
             groupedSelection = focus(svg);
