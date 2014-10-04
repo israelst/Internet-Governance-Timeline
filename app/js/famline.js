@@ -11,7 +11,7 @@ function Circles(selection){
         biggerRadius = d3.max(data, radius);
 
         function cx(d){
-            return (x(d.date[0]) + x(d.date[1]))/2;
+            return d3.mean(d.date.map(x));
         }
 
         function radius(d){
