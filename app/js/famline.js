@@ -5,7 +5,7 @@ function Circles(selection){
     var biggerRadius, _cy, circlesSelection;
     function circles(){
         var data = selection.datum(),
-            width = selection.node().parentNode.width.baseVal.value,
+            width = selection.node().ownerSVGElement.width.baseVal.value,
             x = d3.time.scale().range([0, width]).domain(dates(data));
 
         biggerRadius = d3.max(data, radius);
@@ -100,8 +100,8 @@ function Focus(){
 
 function Context(){
     return function(){
-        var svg = d3.select(this.node().parentNode),
-            context = this.append('g').attr('class', 'context'),
+        var svg = d3.select(this.node().ownerSVGElement),
+            context = svg.append('g').attr('class', 'context'),
             circles = Circles(context),
             contextHeight = circles.height() * 2; // one height as margin
 
@@ -117,10 +117,10 @@ exports.FamlineChart = function(){
             .attr('preserveAspectRatio', 'xMidYMid meet')
             .attr('width', 800);
 
-        var focus = Focus(),
-            groupedSelection = focus(svg);
-        groupedSelection.call(YAxis(focus.y));
-        Context().call(groupedSelection);
+        var focus = Focus();
+        focus(svg)
+            .call(Context())
+            .call(YAxis(focus.y));
     }
 
     return chart;
