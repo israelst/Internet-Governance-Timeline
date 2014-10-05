@@ -76,7 +76,7 @@ function Focus(){
     function chart(svg){
         var data = svg.datum(),
             kinds = d3.set(data.map(kind)).values(),
-            groupedByKind = svg.append('g').attr('class', 'events-by-kind'),
+            groupedByKind = svg.append('g').attr('class', 'focus'),
             circles = Circles(groupedByKind),
             height = (circles.height() * 1.5) * kinds.length;
 
@@ -101,7 +101,7 @@ function Focus(){
 function Context(){
     return function(){
         var svg = d3.select(this.node().parentNode),
-            context = svg.append('g').attr('class', 'all-events'),
+            context = this.append('g').attr('class', 'context'),
             circles = Circles(context),
             contextHeight = circles.height() * 2; // one height as margin
 
