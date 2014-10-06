@@ -50,17 +50,26 @@ function Circles(selection){
 }
 
 function YAxis(scale){
-    return function (){
-        var yAxis = d3.svg.axis().scale(scale).orient('left')
-            .tickValues(scale.domain())
-            .tickFormat(scale.invert)
-            .tickPadding(-5);
+    function parseTraslate(transformations){
+        var values = /translate\(([\d\.]+)[\D]+([\d\.]+)+\)/.exec(transformations);
+        return values === null? [0, 0] : values.slice(1, 3);
+    }
 
-        this.select('.circles').attr('transform', 'translate(100, 0)');
+    return function (){
+        var svg = d3.select(this.node().ownerSVGElement),
+            yAxis = d3.svg.axis().scale(scale).orient('left')
+                .tickValues(scale.domain())
+                .tickFormat(scale.invert)
+                .tickPadding(-5);
+
+        svg.selectAll('.focus, .context').attr('transform', function(){
+            var values = parseTraslate(d3.select(this).attr('transform'));
+            values[0] += 100;
+            return ' translate(' + values.join(',') + ') scale(.875)';
+        });
 
         this.append('g')
             .attr('class', 'axis')
-            .attr('transform', 'translate(100, 0)')
             .call(yAxis)
             .selectAll('text')
             .attr('y', -5)
