@@ -8,6 +8,8 @@ function Circles(selection){
             width = selection.node().ownerSVGElement.width.baseVal.value,
             x = d3.time.scale().range([0, width]).domain(dates(data));
 
+        circles.x = x;
+
         biggerRadius = d3.max(data, radius);
 
         function cx(d){
@@ -100,6 +102,43 @@ function Focus(){
         });
 
         svg.attr('viewBox', ['0', '0', svg.attr('width'), height].join(' '));
+
+        var info = svg.append('g')
+                .attr('class', 'info')
+                .style('display', 'none');
+
+        info.append('line')
+            .attr('x0', 0)
+            .attr('y0', 0)
+            .attr('x1', 0)
+            .attr('y1', height)
+            .style('stroke', 'rgba(255, 255, 255 , .2)');
+
+        svg.append('rect')
+            .attr('width', circles.x.range()[1])
+            .attr('height', height)
+            .style('fill', 'none')
+            .style('pointer-events', 'all')
+            .on('mousemove', mousemove)
+            .on('mouseover', function() {
+                info.style('display', null);
+            })
+            .on('mouseout', function() {
+                info.style('display', 'none');
+            });
+
+        function mousemove(){
+            var mouse = d3.mouse(this),
+                currDate = circles.x.invert(mouse[0]),
+                date = d3.time.format('%Y-%m-%d')(currDate);
+
+            info.selectAll('text').remove();
+            info.attr('transform', 'translate(' + circles.x(currDate) + ',0)')
+                .append('text')
+                .attr('dx', '.3em')
+                .attr('dy', '1.3em')
+                .text(date);
+        }
 
         return groupedByKind;
     }
