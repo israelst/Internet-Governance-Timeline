@@ -54,7 +54,7 @@ function Circles(selection){
 function YAxis(scale){
     function parseTraslate(transformations){
         var values = /translate\(([\d\.]+)[\D]+([\d\.]+)+\)/.exec(transformations);
-        return values === null? [0, 0] : values.slice(1, 3);
+        return values === null? [0, 0] : values.slice(1, 3).map(parseFloat);
     }
 
     return function (){
