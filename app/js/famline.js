@@ -135,6 +135,8 @@ function Focus(){
             info.selectAll('text').remove();
             info.attr('transform', 'translate(' + circles.x(currDate) + ',0)')
                 .append('text')
+                .style('fill', '#eee')
+                .style('font-size', '.7em')
                 .attr('dx', '.3em')
                 .attr('dy', '1.3em')
                 .text(date);
