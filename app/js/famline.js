@@ -124,7 +124,8 @@ function Context(){
 
 function Tooltip(circles){
     return function (){
-        var info = this.append('g')
+        var format = d3.time.format('%Y-%m-%d'),
+            info = this.append('g')
                 .attr('class', 'info')
                 .style('display', 'none');
 
@@ -156,11 +157,10 @@ function Tooltip(circles){
 
         function mousemove(){
             var mouse = d3.mouse(this),
-                currDate = circles.x.invert(mouse[0]),
-                date = d3.time.format('%Y-%m-%d')(currDate);
+                date = circles.x.invert(mouse[0]);
 
-            info.attr('transform', 'translate(' + circles.x(currDate) + ',0)');
-            info.select('text').text(date);
+            info.attr('transform', 'translate(' + circles.x(date) + ',0)');
+            info.select('text').text(format(date));
         }
     };
 }
