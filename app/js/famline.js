@@ -103,7 +103,28 @@ function Focus(){
 
         svg.attr('viewBox', ['0', '0', svg.attr('width'), height].join(' '));
 
-        var info = svg.append('g')
+        svg.call(Tooltip(circles));
+        return groupedByKind;
+    }
+
+    return chart;
+}
+
+function Context(){
+    return function(){
+        var svg = d3.select(this.node().ownerSVGElement),
+            context = svg.append('g').attr('class', 'context'),
+            circles = Circles(context),
+            contextHeight = circles.height() * 2; // one height as margin
+
+        this.attr('transform', 'translate(0,' + contextHeight  + ')');
+        svg.node().viewBox.baseVal.height += contextHeight;
+    };
+}
+
+function Tooltip(circles){
+    return function (){
+        var info = this.append('g')
                 .attr('class', 'info')
                 .style('display', 'none');
 
@@ -114,7 +135,7 @@ function Focus(){
             .attr('y1', '100%')
             .style('stroke', 'rgba(255, 255, 255 , .2)');
 
-        svg.append('rect')
+        this.append('rect')
             .attr('width', circles.x.range()[1])
             .attr('height', '100%')
             .style('fill', 'none')
@@ -141,22 +162,6 @@ function Focus(){
                 .attr('dy', '1.3em')
                 .text(date);
         }
-
-        return groupedByKind;
-    }
-
-    return chart;
-}
-
-function Context(){
-    return function(){
-        var svg = d3.select(this.node().ownerSVGElement),
-            context = svg.append('g').attr('class', 'context'),
-            circles = Circles(context),
-            contextHeight = circles.height() * 2; // one height as margin
-
-        this.attr('transform', 'translate(0,' + contextHeight  + ')');
-        svg.node().viewBox.baseVal.height += contextHeight;
     };
 }
 
