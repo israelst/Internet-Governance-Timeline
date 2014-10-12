@@ -135,6 +135,12 @@ function Tooltip(circles){
             .attr('y1', '100%')
             .style('stroke', 'rgba(255, 255, 255 , .2)');
 
+        info.append('text')
+            .style('fill', '#eee')
+            .style('font-size', '.7em')
+            .attr('dx', '.3em')
+            .attr('dy', '1.3em');
+
         this.append('rect')
             .attr('width', circles.x.range()[1])
             .attr('height', '100%')
@@ -153,14 +159,8 @@ function Tooltip(circles){
                 currDate = circles.x.invert(mouse[0]),
                 date = d3.time.format('%Y-%m-%d')(currDate);
 
-            info.selectAll('text').remove();
-            info.attr('transform', 'translate(' + circles.x(currDate) + ',0)')
-                .append('text')
-                .style('fill', '#eee')
-                .style('font-size', '.7em')
-                .attr('dx', '.3em')
-                .attr('dy', '1.3em')
-                .text(date);
+            info.attr('transform', 'translate(' + circles.x(currDate) + ',0)');
+            info.select('text').text(date);
         }
     };
 }
