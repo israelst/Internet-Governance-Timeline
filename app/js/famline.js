@@ -111,12 +111,12 @@ function Focus(){
             .attr('x0', 0)
             .attr('y0', 0)
             .attr('x1', 0)
-            .attr('y1', height)
+            .attr('y1', '100%')
             .style('stroke', 'rgba(255, 255, 255 , .2)');
 
         svg.append('rect')
             .attr('width', circles.x.range()[1])
-            .attr('height', height)
+            .attr('height', '100%')
             .style('fill', 'none')
             .style('pointer-events', 'all')
             .on('mousemove', mousemove)
