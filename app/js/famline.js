@@ -52,23 +52,24 @@ function Circles(selection){
 }
 
 function YAxis(scale){
-    function parseTraslate(transformations){
-        var values = /translate\(([\d\.]+)[\D]+([\d\.]+)+\)/.exec(transformations);
-        return values === null? [0, 0] : values.slice(1, 3).map(parseFloat);
+    function rebase(newParent, nodes){
+        var childs = Array.prototype.slice.call(nodes);
+        childs.forEach(function(child){
+            newParent.appendChild(child);
+        });
     }
 
     return function (){
-        var svg = d3.select(this.node().ownerSVGElement),
+        var svg = this.node().ownerSVGElement,
+            newParent = d3.select(svg).append('g')
+                .attr('transform', 'translate(100, 0) scale(.875)')
+                .node(),
             yAxis = d3.svg.axis().scale(scale).orient('left')
                 .tickValues(scale.domain())
                 .tickFormat(scale.invert)
                 .tickPadding(-5);
 
-        svg.selectAll('.focus, .context').attr('transform', function(){
-            var values = parseTraslate(d3.select(this).attr('transform'));
-            values[0] += 100;
-            return ' translate(' + values.join(',') + ') scale(.875)';
-        });
+        rebase(newParent, svg.childNodes);
 
         this.append('g')
             .attr('class', 'axis')
