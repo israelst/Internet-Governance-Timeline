@@ -128,7 +128,12 @@ function Tooltip(circles){
         var format = d3.time.format('%Y-%m-%d'),
             info = this.append('g')
                 .attr('class', 'info')
-                .style('display', 'none');
+                .style('display', 'none'),
+            textBox = info.append('text')
+                .style('fill', '#eee')
+                .style('font-size', '.7em')
+                .attr('dx', '.3em')
+                .attr('dy', '1.3em');
 
         info.append('line')
             .attr('x0', 0)
@@ -137,18 +142,18 @@ function Tooltip(circles){
             .attr('y1', '100%')
             .style('stroke', 'rgba(255, 255, 255 , .2)');
 
-        info.append('text')
-            .style('fill', '#eee')
-            .style('font-size', '.7em')
-            .attr('dx', '.3em')
-            .attr('dy', '1.3em');
-
         this.append('rect')
             .attr('width', circles.x.range()[1])
             .attr('height', '100%')
             .style('fill', 'none')
             .style('pointer-events', 'all')
-            .on('mousemove', mousemove)
+            .on('mousemove', function (){
+                var mouse = d3.mouse(this),
+                    date = circles.x.invert(mouse[0]);
+
+                info.attr('transform', 'translate(' + circles.x(date) + ',0)');
+                textBox.text(format(date));
+            })
             .on('mouseover', function() {
                 info.style('display', null);
             })
@@ -156,13 +161,6 @@ function Tooltip(circles){
                 info.style('display', 'none');
             });
 
-        function mousemove(){
-            var mouse = d3.mouse(this),
-                date = circles.x.invert(mouse[0]);
-
-            info.attr('transform', 'translate(' + circles.x(date) + ',0)');
-            info.select('text').text(format(date));
-        }
     };
 }
 
