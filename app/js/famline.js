@@ -53,10 +53,10 @@ function Circles(selection){
 
 function YAxis(scale){
     function rebase(newParent, nodes){
-        var childs = Array.prototype.slice.call(nodes);
-        childs.forEach(function(child){
-            newParent.appendChild(child);
-        });
+        var filterParent = function(node){ return newParent !== node;},
+            childs = [].filter.call(nodes, filterParent),
+            append = document.appendChild.bind(newParent);
+        childs.forEach(append);
     }
 
     return function (){
