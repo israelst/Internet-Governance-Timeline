@@ -150,7 +150,7 @@ function Tooltip(circles){
             .style('pointer-events', 'all')
             .on('mousemove', function (){
                 var mouse = d3.mouse(this),
-                    date = circles.x.invert(mouse[0]);
+                    date = circles.x.copy().clamp(true).invert(mouse[0]);
 
                 info.attr('transform', 'translate(' + circles.x(date) + ',0)');
                 textBox.text(format(date));
