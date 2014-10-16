@@ -105,7 +105,7 @@ function Focus(){
 
         svg.attr('viewBox', ['0', '0', svg.attr('width'), height].join(' '));
 
-        svg.call(Tooltip(circles));
+        svg.call(Tooltip(circles.x));
         return groupedByKind;
     }
 
@@ -124,7 +124,8 @@ function Context(){
     };
 }
 
-function Tooltip(circles){
+function Tooltip(scale){
+    scale = scale.copy().clamp(true);
     return function (){
         var format = d3.time.format('%Y-%m-%d'),
             info = this.append('g')
@@ -144,15 +145,15 @@ function Tooltip(circles){
             .style('stroke', 'rgba(255, 255, 255 , .2)');
 
         this.append('rect')
-            .attr('width', circles.x.range()[1])
+            .attr('width', scale.range()[1])
             .attr('height', '100%')
             .style('fill', 'none')
             .style('pointer-events', 'all')
             .on('mousemove', function (){
                 var mouse = d3.mouse(this),
-                    date = circles.x.copy().clamp(true).invert(mouse[0]);
+                    date = scale.invert(mouse[0]);
 
-                info.attr('transform', 'translate(' + circles.x(date) + ',0)');
+                info.attr('transform', 'translate(' + scale(date) + ',0)');
                 textBox.text(format(date));
             })
             .on('mouseover', function() {
