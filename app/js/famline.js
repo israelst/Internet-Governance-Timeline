@@ -75,6 +75,7 @@ function YAxis(scale){
             .attr('class', 'axis')
             .call(yAxis)
             .selectAll('text')
+            .attr('x', -5)
             .attr('y', -5)
             .attr('dy', '.25em')
             .style('fill', '#fff')
