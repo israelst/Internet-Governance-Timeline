@@ -135,8 +135,7 @@ function Tooltip(scale){
             textBox = info.append('text')
                 .style('fill', '#eee')
                 .style('font-size', '.7em')
-                .attr('dx', '.5em')
-                .attr('dy', '1.3em');
+                .attr('y', 65); // TODO: this value should be calculated
 
         info.append('line')
             .attr('y1', '100%')
