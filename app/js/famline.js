@@ -134,7 +134,7 @@ function Tooltip(scale){
             textBox = info.append('text')
                 .style('fill', '#eee')
                 .style('font-size', '.7em')
-                .attr('dx', '.3em')
+                .attr('dx', '.5em')
                 .attr('dy', '1.3em');
 
         info.append('line')
@@ -151,10 +151,12 @@ function Tooltip(scale){
             .style('pointer-events', 'all')
             .on('mousemove', function (){
                 var mouse = d3.mouse(this),
-                    date = scale.invert(mouse[0]);
+                    date = scale.invert(mouse[0]),
+                    textAnchor = mouse[0] > scale.range()[1] * 0.75? 'end': 'start';
 
                 info.attr('transform', 'translate(' + scale(date) + ',0)');
-                textBox.text(format(date));
+                textBox.text(format(date))
+                    .style('text-anchor', textAnchor);
             })
             .on('mouseover', function() {
                 info.style('display', null);
