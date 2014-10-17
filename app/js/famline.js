@@ -147,9 +147,9 @@ function Tooltip(scale){
             .style('fill', 'none')
             .style('pointer-events', 'all')
             .on('mousemove', function (){
-                var mouse = d3.mouse(this),
-                    date = format(scale.invert(mouse[0])),
-                    nearTheRightBorder = mouse[0] > scale.range()[1] * 0.75;
+                var mouseX = d3.mouse(this)[0],
+                    date = format(scale.invert(mouseX)),
+                    nearTheRightBorder = mouseX > scale.range()[1] * 0.75;
 
                 if(nearTheRightBorder){
                     textBox.style('text-anchor', 'end')
@@ -159,7 +159,7 @@ function Tooltip(scale){
                         .attr('dx', '.5em');
                 }
 
-                info.attr('transform', 'translate(' + mouse[0] + ',0)');
+                info.attr('transform', 'translate(' + mouseX + ',0)');
                 textBox.text(date);
             })
             .on('mouseover', function() {
