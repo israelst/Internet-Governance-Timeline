@@ -152,11 +152,18 @@ function Tooltip(scale){
             .on('mousemove', function (){
                 var mouse = d3.mouse(this),
                     date = format(scale.invert(mouse[0])),
-                    textAnchor = mouse[0] > scale.range()[1] * 0.75? 'end': 'start';
+                    nearTheRightBorder = mouse[0] > scale.range()[1] * 0.75;
+
+                if(nearTheRightBorder){
+                    textBox.style('text-anchor', 'end')
+                        .attr('dx', '-.5em');
+                }else{
+                    textBox.style('text-anchor', 'start')
+                        .attr('dx', '.5em');
+                }
 
                 info.attr('transform', 'translate(' + mouse[0] + ',0)');
-                textBox.text(date)
-                    .style('text-anchor', textAnchor);
+                textBox.text(date);
             })
             .on('mouseover', function() {
                 info.style('display', null);
