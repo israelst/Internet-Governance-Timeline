@@ -138,9 +138,6 @@ function Tooltip(scale){
                 .attr('dy', '1.3em');
 
         info.append('line')
-            .attr('x0', 0)
-            .attr('y0', 0)
-            .attr('x1', 0)
             .attr('y1', '100%')
             .style('stroke', 'rgba(255, 255, 255 , .2)');
 
