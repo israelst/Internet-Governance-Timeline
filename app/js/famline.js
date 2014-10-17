@@ -128,6 +128,7 @@ function Tooltip(scale){
     scale = scale.copy().clamp(true);
     return function (){
         var format = d3.time.format('%Y-%m-%d'),
+            width = scale.range()[1],
             info = this.append('g')
                 .attr('class', 'info')
                 .style('display', 'none'),
@@ -142,14 +143,14 @@ function Tooltip(scale){
             .style('stroke', 'rgba(255, 255, 255 , .2)');
 
         this.append('rect')
-            .attr('width', scale.range()[1])
+            .attr('width', width)
             .attr('height', '100%')
             .style('fill', 'none')
             .style('pointer-events', 'all')
             .on('mousemove', function (){
                 var mouseX = d3.mouse(this)[0],
                     date = format(scale.invert(mouseX)),
-                    nearTheRightBorder = mouseX > scale.range()[1] * 0.75;
+                    nearTheRightBorder = mouseX > width * 0.75;
 
                 if(nearTheRightBorder){
                     textBox.style('text-anchor', 'end')
