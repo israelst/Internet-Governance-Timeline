@@ -151,11 +151,11 @@ function Tooltip(scale){
             .style('pointer-events', 'all')
             .on('mousemove', function (){
                 var mouse = d3.mouse(this),
-                    date = scale.invert(mouse[0]),
+                    date = format(scale.invert(mouse[0])),
                     textAnchor = mouse[0] > scale.range()[1] * 0.75? 'end': 'start';
 
-                info.attr('transform', 'translate(' + scale(date) + ',0)');
-                textBox.text(format(date))
+                info.attr('transform', 'translate(' + mouse[0] + ',0)');
+                textBox.text(date)
                     .style('text-anchor', textAnchor);
             })
             .on('mouseover', function() {
