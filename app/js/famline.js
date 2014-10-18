@@ -61,8 +61,10 @@ function YAxis(scale){
 
     return function (){
         var svg = this.node().ownerSVGElement,
+            factor = 0.875,
+            marginTop = (svg.viewBox.baseVal.height * (1 - factor))/2,
             newParent = d3.select(svg).append('g')
-                .attr('transform', 'translate(100, 0) scale(.875)')
+                .attr('transform', 'translate(100, ' + marginTop + ') scale(' + factor + ')')
                 .node(),
             yAxis = d3.svg.axis().scale(scale).orient('left')
                 .tickValues(scale.domain())
