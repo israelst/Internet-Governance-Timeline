@@ -96,6 +96,7 @@ function Focus(){
             height = (circles.height() * 1.5) * kinds.length;
 
         chart.y = d3.scale.ordinal().rangePoints([0, height], 1).domain(kinds);
+        chart.x = circles.x;
 
         function kind(d){
             return d.institutions;
@@ -107,7 +108,6 @@ function Focus(){
 
         svg.attr('viewBox', ['0', '0', svg.attr('width'), height].join(' '));
 
-        svg.call(Tooltip(circles.x));
         return groupedByKind;
     }
 
@@ -130,8 +130,10 @@ function Tooltip(scale){
     scale = scale.copy().clamp(true);
     return function (){
         var format = d3.time.format('%Y-%m-%d'),
+            svg = d3.select(this.node().ownerSVGElement),
+            parentNode = d3.select(this.node().parentNode),
             width = scale.range()[1],
-            info = this.append('g')
+            info = parentNode.append('g')
                 .attr('class', 'info')
                 .style('display', 'none'),
             textBox = info.append('text')
@@ -143,7 +145,7 @@ function Tooltip(scale){
             .attr('y1', '100%')
             .style('stroke', 'rgba(255, 255, 255 , .2)');
 
-        this.append('rect')
+        svg.append('rect')
             .attr('width', width)
             .attr('height', '100%')
             .style('fill', 'none')
@@ -184,6 +186,7 @@ exports.FamlineChart = function(){
         var focus = Focus();
         focus(svg)
             .call(Context())
+            .call(Tooltip(focus.x))
             .call(YAxis(focus.y));
     }
 
