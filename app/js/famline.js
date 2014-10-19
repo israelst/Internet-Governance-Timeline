@@ -8,6 +8,8 @@ function Circles(selection){
             width = selection.node().ownerSVGElement.width.baseVal.value,
             x = d3.time.scale().range([0, width]).domain(dates(data));
 
+        circles.x = x;
+
         biggerRadius = d3.max(data, radius);
 
         function cx(d){
@@ -50,28 +52,32 @@ function Circles(selection){
 }
 
 function YAxis(scale){
-    function parseTraslate(transformations){
-        var values = /translate\(([\d\.]+)[\D]+([\d\.]+)+\)/.exec(transformations);
-        return values === null? [0, 0] : values.slice(1, 3);
+    function rebase(newParent, nodes){
+        var filterParent = function(node){ return newParent !== node;},
+            childs = [].filter.call(nodes, filterParent),
+            append = document.appendChild.bind(newParent);
+        childs.forEach(append);
     }
 
     return function (){
-        var svg = d3.select(this.node().ownerSVGElement),
+        var svg = this.node().ownerSVGElement,
+            factor = 0.875,
+            marginTop = (svg.viewBox.baseVal.height * (1 - factor))/2,
+            newParent = d3.select(svg).append('g')
+                .attr('transform', 'translate(100, ' + marginTop + ') scale(' + factor + ')')
+                .node(),
             yAxis = d3.svg.axis().scale(scale).orient('left')
                 .tickValues(scale.domain())
                 .tickFormat(scale.invert)
                 .tickPadding(-5);
 
-        svg.selectAll('.focus, .context').attr('transform', function(){
-            var values = parseTraslate(d3.select(this).attr('transform'));
-            values[0] += 100;
-            return ' translate(' + values.join(',') + ') scale(.875)';
-        });
+        rebase(newParent, svg.childNodes);
 
         this.append('g')
             .attr('class', 'axis')
             .call(yAxis)
             .selectAll('text')
+            .attr('x', -5)
             .attr('y', -5)
             .attr('dy', '.25em')
             .style('fill', '#fff')
@@ -90,6 +96,7 @@ function Focus(){
             height = (circles.height() * 1.5) * kinds.length;
 
         chart.y = d3.scale.ordinal().rangePoints([0, height], 1).domain(kinds);
+        chart.x = circles.x;
 
         function kind(d){
             return d.institutions;
@@ -119,6 +126,58 @@ function Context(){
     };
 }
 
+function Tooltip(scale){
+    scale = scale.copy().clamp(true);
+    return function (){
+        var format = d3.time.format('%Y-%m-%d'),
+            svg = d3.select(this.node().ownerSVGElement),
+            parentNode = d3.select(this.node().parentNode),
+            width = scale.range()[1],
+            line = parentNode.append('line')
+                .attr('y1', '100%')
+                .style('stroke', 'rgba(255, 255, 255 , .2)')
+                .style('display', 'none'),
+            textBox = this.append('text')
+                .style('fill', '#eee')
+                .style('font-size', '.7em')
+                .style('display', 'none');
+
+
+        svg.append('rect')
+            .attr('width', width)
+            .attr('height', '100%')
+            .style('fill', 'none')
+            .style('pointer-events', 'all')
+            .on('mousemove', function (){
+                var mouseX = d3.mouse(this)[0],
+                    date = format(scale.invert(mouseX)),
+                    nearTheRightBorder = mouseX > width * 0.75;
+
+                if(nearTheRightBorder){
+                    textBox.style('text-anchor', 'end')
+                        .attr('dx', '-.5em');
+                }else{
+                    textBox.style('text-anchor', 'start')
+                        .attr('dx', '.5em');
+                }
+
+                line.attr('x1', mouseX)
+                    .attr('x2', mouseX);
+                textBox.attr('x', mouseX)
+                    .text(date);
+            })
+            .on('mouseover', function() {
+                line.style('display', null);
+                textBox.style('display', null);
+            })
+            .on('mouseout', function() {
+                line.style('display', 'none');
+                textBox.style('display', 'none');
+            });
+
+    };
+}
+
 exports.FamlineChart = function(){
     function chart(svg){
         svg.style('background-color', '#101010')
@@ -129,6 +188,7 @@ exports.FamlineChart = function(){
         var focus = Focus();
         focus(svg)
             .call(Context())
+            .call(Tooltip(focus.x))
             .call(YAxis(focus.y));
     }
 
