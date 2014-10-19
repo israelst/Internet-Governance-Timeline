@@ -133,17 +133,15 @@ function Tooltip(scale){
             svg = d3.select(this.node().ownerSVGElement),
             parentNode = d3.select(this.node().parentNode),
             width = scale.range()[1],
-            info = parentNode.append('g')
-                .attr('class', 'info')
+            line = parentNode.append('line')
+                .attr('y1', '100%')
+                .style('stroke', 'rgba(255, 255, 255 , .2)')
                 .style('display', 'none'),
-            textBox = info.append('text')
+            textBox = this.append('text')
                 .style('fill', '#eee')
                 .style('font-size', '.7em')
-                .attr('y', 65); // TODO: this value should be calculated
+                .style('display', 'none');
 
-        info.append('line')
-            .attr('y1', '100%')
-            .style('stroke', 'rgba(255, 255, 255 , .2)');
 
         svg.append('rect')
             .attr('width', width)
@@ -163,14 +161,18 @@ function Tooltip(scale){
                         .attr('dx', '.5em');
                 }
 
-                info.attr('transform', 'translate(' + mouseX + ',0)');
-                textBox.text(date);
+                line.attr('x1', mouseX)
+                    .attr('x2', mouseX);
+                textBox.attr('x', mouseX)
+                    .text(date);
             })
             .on('mouseover', function() {
-                info.style('display', null);
+                line.style('display', null);
+                textBox.style('display', null);
             })
             .on('mouseout', function() {
-                info.style('display', 'none');
+                line.style('display', 'none');
+                textBox.style('display', 'none');
             });
 
     };
