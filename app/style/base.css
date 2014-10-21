@@ -247,9 +247,9 @@ ol.months > li > *{
 }
 
 #day-height input{
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 #day-height span{
-    font-weight: bold;
+  font-weight: bold;
 }
