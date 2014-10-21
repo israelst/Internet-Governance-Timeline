@@ -33,11 +33,6 @@
         <div id="tool-bar">
             <h2>Timeline</h2>
             <div id="settings">
-                <fieldset id="day-height">
-                    <legend>Day Height:</legend>
-                    <input id="slide" type="range" min="2" max="12" value="8" />
-                    <span id="chosen"></span>
-                </fieldset>
                 <div id="filter">
                     <fieldset id="institution-filter">
                     </fieldset>
@@ -45,6 +40,10 @@
             </div>
         </div>
         <div id="calendar-view"></div>
+        <div id="day-height">
+            <label for="slide">Day Height:</label> <span id="chosen"></span>
+            <input id="slide" type="range" min="2" max="12" value="8" />
+        </div>
         <ol class="months">
         </ol>
         <ul class="events"></ul>

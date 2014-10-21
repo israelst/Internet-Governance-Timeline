@@ -241,3 +241,7 @@ ol.months > li > *{
 #settings > h2{
   display: block;
 }
+
+#day-height{
+    margin: 1em 0;
+}
