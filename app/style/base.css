@@ -243,5 +243,13 @@ ol.months > li > *{
 }
 
 #day-height{
-    margin: 1em 0;
+  margin: 1em 0;
+}
+
+#day-height input{
+    vertical-align: middle;
+}
+
+#day-height span{
+    font-weight: bold;
 }
