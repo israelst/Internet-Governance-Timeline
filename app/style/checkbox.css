@@ -1,3 +1,7 @@
+#institution-filter{
+    border: none;
+}
+
 #institution-filter input[type=checkbox]{
   display: none;
 }
