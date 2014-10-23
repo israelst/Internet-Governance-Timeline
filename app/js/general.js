@@ -5,6 +5,12 @@ var d3 = require('d3'),
     eventsChart = require('./timeline').eventsChart,
     calendarChart = require('./calendar').calendarChart;
 
+function p(field){
+    return function(d){
+        return field? d[field] : d;
+    };
+}
+
 function preprocessing(data){
     function byStartDate(d1, d2){
         return d1.date[0] - d2.date[0];
@@ -21,7 +27,7 @@ function preprocessing(data){
     }
 
     data = data.map(normalizeDate)
-            .filter(function(d){return d.date;})
+            .filter(p('date'))
             .sort(byStartDate);
     return data;
 }
@@ -83,7 +89,7 @@ window.addEventListener('load', function(){
 
         var checkeds = {};
 
-        var institutions = d3.set(data.map(function(d){return d.institutions;})).values();
+        var institutions = d3.set(data.map(p('institutions'))).values();
         var institutionsSelection = d3.select('#institution-filter')
             .selectAll('div')
             .data(institutions)
@@ -104,7 +110,7 @@ window.addEventListener('load', function(){
         institutionsSelection.append('label')
             .attr('class', kind)
             .attr('for', kind)
-            .text(function(d){ return d;});
+            .text(p());
 
         var events = eventsChart(timeline);
         d3.select('ul.events')
