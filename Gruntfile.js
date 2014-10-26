@@ -13,6 +13,14 @@ module.exports = function(grunt) {
 			}
 		},
 
+		traceur: {
+			options: {},
+			files: {
+				src: 'app/js/build.js',
+				dest: 'app/js/build.js',
+			}
+		},
+
 		jshint: {
 			options: {
 				jshintrc: '.jshintrc'
@@ -43,6 +51,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-githooks');
 	grunt.loadNpmTasks('grunt-csscomb');
 	grunt.loadNpmTasks('grunt-browserify');
+	grunt.loadNpmTasks('grunt-traceur');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 
 	grunt.registerTask('default', ['jshint', 'csscomb']);

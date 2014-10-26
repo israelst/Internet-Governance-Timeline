@@ -31,7 +31,8 @@
     "express": "^4.8.2",
     "grunt": "^0.4.5",
     "grunt-browserify": "^2.1.4",
-    "grunt-cli": "^0.1.13"
+    "grunt-cli": "^0.1.13",
+    "grunt-traceur": "^0.2.9"
   },
   "devDependencies": {
     "grunt-csscomb": "^3.0.0",
