@@ -9,4 +9,4 @@ def csv2json(fd):
     return json_dump
 
 if __name__ == '__main__':
-    print csv2json(open('app/data/data.csv'))
+    print(csv2json(open('app/data/data.csv')))
